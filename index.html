@@ -230,6 +230,41 @@ h2.sec:first-child{margin-top:2px}
   border-radius:10px;padding:9px 11px;margin-top:9px;line-height:1.65}
 .warnbox b{color:#9a3412}
 .sight .gal{margin-top:9px}
+
+/* 高德导航蓝条：点击跳转高德地图对应地点 */
+.nav{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:11px;
+  background:#1d6fe0;color:#fff;border-radius:11px;padding:11px 12px;font-size:13.5px;
+  font-weight:600;letter-spacing:.3px;text-decoration:none;line-height:1.2;
+  box-shadow:0 2px 8px rgba(29,111,224,.22);-webkit-tap-highlight-color:transparent}
+.nav .ni{font-size:15px}
+.nav .ns{opacity:.8;font-weight:400;font-size:12px}
+.nav:active{background:#1558b8;box-shadow:0 1px 4px rgba(29,111,224,.3)}
+.rows .nav{margin-top:0}
+
+/* 行程内蓝色下划线外链（点击唤起高德） */
+.lnk{color:#1d6fe0;text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:2.5px;font-weight:600}
+.lnk:active{opacity:.6}
+/* 自绘路线 / 顺序示意图（整行宽） */
+figure.map{margin:11px 0 0}
+figure.map>a{display:block;line-height:0}
+figure.map img,figure.map svg{width:100%;height:auto;display:block;border-radius:11px;
+  border:1px solid var(--line);background:#f8fafc}
+figure.map figcaption{font-size:11.5px;color:var(--mut);margin-top:5px;line-height:1.45}
+/* 子景点下拉框 */
+details.sub{margin-top:8px;border:1px solid #e6edf5;border-radius:10px;background:#fbfdff}
+details.sub>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;
+  padding:9px 11px;font-size:13px;-webkit-tap-highlight-color:transparent}
+details.sub>summary::-webkit-details-marker{display:none}
+details.sub .sn{font-weight:700;color:#0f172a}
+details.sub .st{flex:1;min-width:0;color:var(--mut);font-size:11.5px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.sub[open]>summary{border-bottom:1px solid #e6edf5}
+details.sub .cv{color:#94a3b8;font-size:11px;transition:transform .18s}
+details.sub[open] .cv{transform:rotate(180deg)}
+details.sub .sb{padding:9px 11px 11px}
+details.sub .sb .lk{margin-top:0}
+details.sub .nav{margin-top:10px}
 </style>
 </head>
 <body>
@@ -280,10 +315,10 @@ h2.sec:first-child{margin-top:2px}
         <div class="h">✈️ <b>ZH8158</b> 杭州 12:10 → 运城 14:20<span class="pill ok">已出票</span></div>
         <div class="n">¥1010 ｜ 20kg 托运 ｜ 飞行约 2h10m</div></div></div>
       <div class="tl-i"><div class="tl-t">14:40</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚕 运城机场 → 市区<span class="pill warn">无机场大巴</span></div>
+        <div class="h">🚕 <a class="lnk" data-amap data-name="运城张孝机场" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%BC%A0%E5%AD%9D%E6%9C%BA%E5%9C%BA&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城机场</a> → 市区<span class="pill warn">无机场大巴</span></div>
         <div class="n">打车 15.3 km / 约 15 分钟 / <b>¥30–36</b>；公交 56·24 路 → 运城北站方向（06:30–19:30），66 路 → 盐化二厂，能到但要绕</div></div></div>
       <div class="tl-i"><div class="tl-t">16:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏨 入住 <b>汉庭（运城槐东路店）</b><span class="pill ok">已订</span></div>
+        <div class="h">🏨 入住 <a class="lnk" data-amap data-name="汉庭酒店(运城槐东路店)" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B1%89%E5%BA%AD%E9%85%92%E5%BA%97%28%E8%BF%90%E5%9F%8E%E6%A7%90%E4%B8%9C%E8%B7%AF%E5%BA%97%29&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">汉庭（运城槐东路店）</a><span class="pill ok">已订</span></div>
         <div class="n">9/28–9/30 共 2 晚 ｜ ¥358.04 在线付 ｜ 盐湖区槐东路，近南风广场</div></div></div>
       <div class="tl-i"><div class="tl-t">全天</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">☔ 有雨：杭州毛毛雨 → 运城小雨</div>
@@ -302,7 +337,7 @@ h2.sec:first-child{margin-top:2px}
         <div class="h">🚐 一日游上门接送<span class="pill ok">已订</span></div>
         <div class="n">携程 ¥115 ｜ 2–6 人拼包车，<b>一天把运城西南片打完</b></div></div></div>
       <div class="tl-i"><div class="tl-t">全天</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">📍 解州关帝祖庙 → 永乐宫 → 广仁王庙 → 城隍庙 → 寿圣寺</div>
+        <div class="h">📍 <a class="lnk" data-amap data-name="解州关帝庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%A7%A3%E5%B7%9E%E5%85%B3%E5%B8%9D%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">解州关帝祖庙</a> → <a class="lnk" data-amap data-name="永乐宫" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B9%90%E5%AE%AB&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">永乐宫</a> → <a class="lnk" data-amap data-name="广仁王庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E5%B9%BF%E4%BB%81%E7%8E%8B%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">广仁王庙</a> → <a class="lnk" data-amap data-name="芮城城隍庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%8A%AE%E5%9F%8E%E5%9F%8E%E9%9A%8D%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">城隍庙</a> → <a class="lnk" data-amap data-name="寿圣寺" data-city="运城" href="https://uri.amap.com/search?keyword=%E5%AF%BF%E5%9C%A3%E5%AF%BA&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">寿圣寺</a></div>
         <div class="n">市区→关帝庙 23.6 km / 36 分钟（打车）；公交 14+21 路 1h44m / ¥4</div></div></div>
       <div class="tl-i"><div class="tl-t">18:00</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">回市区 · 宿汉庭槐东路店</div>
@@ -311,8 +346,8 @@ h2.sec:first-child{margin-top:2px}
     <div class="gal">
       <figure><img src="media/01_yonglegong.jpg" alt="永乐宫" loading="lazy" width="152" height="104"><figcaption>永乐宫 · 三清殿院落</figcaption></figure>
       <figure><img src="media/02_guandimiao.jpg" alt="解州关帝庙" loading="lazy" width="152" height="104"><figcaption>解州关帝庙</figcaption></figure>
-      <figure class="tall"><img src="media/xhs03_yongle_annot_01.jpg" alt="朝元图标注" loading="lazy" width="152" height="150"><figcaption>《朝元图》神仙标注</figcaption></figure>
     </div>
+    <figure class="map"><svg viewBox="0 0 360 288" role="img" aria-label="9月29日运城西南线动线示意" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="288" rx="10" fill="#f8fafc"/><rect x="12" y="12" width="336" height="28" rx="8" fill="#eef2ff" stroke="#c7d2fe"/><circle cx="30" cy="26" r="9" fill="#4f46e5"/><text x="30" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">起</text><text x="48" y="30" font-size="12.5" font-weight="600" fill="#3730a3">运城市区 · 包车上门接</text><text x="340" y="30" text-anchor="end" font-size="11" fill="#6366f1">08:00 起</text><line x1="180" y1="43" x2="180" y2="53" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 51 L180 56 L184 51 Z" fill="#94a3b8"/><rect x="12" y="56" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="70" r="9" fill="#1d6fe0"/><text x="30" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">1</text><text x="48" y="74" font-size="12.5" font-weight="600" fill="#0f172a">解州关帝庙</text><text x="340" y="74" text-anchor="end" font-size="11" fill="#64748b">武庙之祖</text><line x1="180" y1="87" x2="180" y2="97" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 95 L180 100 L184 95 Z" fill="#94a3b8"/><rect x="12" y="100" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="114" r="9" fill="#1d6fe0"/><text x="30" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">2</text><text x="48" y="118" font-size="12.5" font-weight="600" fill="#0f172a">永乐宫</text><text x="340" y="118" text-anchor="end" font-size="11" fill="#64748b">《朝元图》</text><line x1="180" y1="131" x2="180" y2="141" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 139 L180 144 L184 139 Z" fill="#94a3b8"/><rect x="12" y="144" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="158" r="9" fill="#1d6fe0"/><text x="30" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">3</text><text x="48" y="162" font-size="12.5" font-weight="600" fill="#0f172a">广仁王庙</text><text x="340" y="162" text-anchor="end" font-size="11" fill="#64748b">唐代木构</text><line x1="180" y1="175" x2="180" y2="185" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 183 L180 188 L184 183 Z" fill="#94a3b8"/><rect x="12" y="188" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="202" r="9" fill="#1d6fe0"/><text x="30" y="206" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">4</text><text x="48" y="206" font-size="12.5" font-weight="600" fill="#0f172a">城隍庙</text><text x="340" y="206" text-anchor="end" font-size="11" fill="#64748b">顺路</text><line x1="180" y1="219" x2="180" y2="229" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 227 L180 232 L184 227 Z" fill="#94a3b8"/><rect x="12" y="232" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="246" r="9" fill="#1d6fe0"/><text x="30" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">5</text><text x="48" y="250" font-size="12.5" font-weight="600" fill="#0f172a">寿圣寺</text><text x="340" y="250" text-anchor="end" font-size="11" fill="#64748b">收尾</text><text x="12" y="282" font-size="10.5" fill="#94a3b8">解州在盐湖区，永乐宫/广仁王庙/城隍庙/寿圣寺均在芮城</text></svg><figcaption>9/29 运城西南线动线（示意）</figcaption></figure>
     <div class="lk">👀 <b>重点看</b>：三清殿<b>《朝元图》</b>——286 尊神祇列队朝拜，元代壁画天花板（主像高过 2 米、700 年不褪色）。<b>室内禁拍照、需套鞋套</b>，出殿后的临摹室可拍高清摹本。广仁王庙看<b>唐代斗拱与梁架</b>，现存最早的道教木构之一。</div>
     </div>
   </details>
@@ -325,16 +360,16 @@ h2.sec:first-child{margin-top:2px}
     </div></summary>
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">09:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏛 上午机动：<b>运城博物馆</b></div>
+        <div class="h">🏛 上午机动：<a class="lnk" data-amap data-name="运城博物馆" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城博物馆</a></div>
         <div class="n">9:00–17:00，16:00 停止入馆；常规<b>周一闭馆</b>——9/30 是周三，可去</div></div></div>
       <div class="tl-i"><div class="tl-t">13:20</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚕 市区 → 运城北站</div>
+        <div class="h">🚕 市区 → <a class="lnk" data-amap data-name="运城北站" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8C%97%E7%AB%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城北站</a></div>
         <div class="n">8.5 km / 9 分钟 / 约 ¥21；公交 16·24 路直达市中心方向</div></div></div>
       <div class="tl-i"><div class="tl-t">14:21</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>G2620</b> 运城北 14:21 → 临汾西<span class="pill ok">已支付</span></div>
+        <div class="h">🚄 <b>G2620</b> <a class="lnk" data-amap data-name="运城北站" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8C%97%E7%AB%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城北</a> 14:21 → <a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西</a><span class="pill ok">已支付</span></div>
         <div class="n">二等座 07 车 05C ｜ ¥39</div></div></div>
       <div class="tl-i"><div class="tl-t">15:40</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏨 入住 <b>桔子酒店（临汾高铁西站店）</b><span class="pill ok">已订</span></div>
+        <div class="h">🏨 入住 <a class="lnk" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97%28%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97%29&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">桔子酒店（临汾高铁西站店）</a><span class="pill ok">已订</span></div>
         <div class="n">9/30–10/2 共 2 晚 ｜ ¥639.66 ｜ <b>就在临汾西站旁</b>——10/2 早 09:12 发车不用赶路</div></div></div>
     </div>
     <div class="gal">
@@ -352,18 +387,18 @@ h2.sec:first-child{margin-top:2px}
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">08:00</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🚗 临汾 → 广胜寺</div>
-        <div class="n">41.7 km / 54 分钟；或 洪洞西站 → 广胜寺 <b>直通车 ¥2（09:30 首班）</b></div></div></div>
+        <div class="n">41.7 km / 54 分钟；或 <a class="lnk" data-amap data-name="洪洞西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%B4%AA%E6%B4%9E%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">洪洞西站</a> → 广胜寺 <b>直通车 ¥2（09:30 首班）</b></div></div></div>
       <div class="tl-i"><div class="tl-t">全天</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🎟 广胜寺（上寺 + 下寺）<span class="pill warn">两笔 ¥58 待核</span></div>
+        <div class="h">🎟 <a class="lnk" data-amap data-name="广胜寺" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%B9%BF%E8%83%9C%E5%AF%BA&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">广胜寺（上寺 + 下寺）</a><span class="pill warn">两笔 ¥58 待核</span></div>
         <div class="n">携程有"一日游 ¥58"和"门票 ¥58"两笔同价订单，出发前核对是否重复下单，可退一笔</div></div></div>
       <div class="tl-i"><div class="tl-t">18:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">返回临汾 · 宿 <b>桔子酒店（临汾西站）</b></div>
+        <div class="h">返回临汾 · 宿 <a class="lnk" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97%28%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97%29&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">桔子酒店（临汾西站）</a></div>
         <div class="n">⚠️ 返程叫车能力需现场确认；这是全程唯一的接驳缺口</div></div></div>
     </div>
     <div class="gal">
       <figure><img src="media/03_guangshengsi.jpg" alt="广胜寺飞虹塔" loading="lazy" width="152" height="104"><figcaption>飞虹塔 · 通体琉璃</figcaption></figure>
-      <figure class="tall"><img src="media/xhs24_guangshengsi_route.jpg" alt="广胜寺走法" loading="lazy" width="152" height="150"><figcaption>上寺/下寺走法</figcaption></figure>
-      <figure class="tall"><img src="media/xhs25_guangshengsi_no_back.jpg" alt="广胜寺避坑" loading="lazy" width="152" height="150"><figcaption>不走回头路</figcaption></figure>
+      
+      <figure><img src="media/xhs25_guangshengsi_no_back.jpg" alt="广胜寺避坑" loading="lazy" width="152" height="150"><figcaption>飞虹塔琉璃构件（细节）</figcaption></figure>
     </div>
     <div class="lk">👀 <b>重点看</b>：<b>飞虹塔</b>——全国保存最完整的琉璃塔，外壁通体琉璃构件，绕塔一周细看佛龛与色彩层次；下寺<b>水神庙元代壁画</b>《打球图》与《大行散乐忠都秀在此作场》（中国戏曲史的孤本级证据）。上下寺有高差，穿防滑鞋。</div>
     </div>
@@ -377,18 +412,18 @@ h2.sec:first-child{margin-top:2px}
     </div></summary>
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">08:40</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">到临汾西站</div><div class="n">临汾西站离市区约 7.8 km</div></div></div>
+        <div class="h">到<a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西站</a></div><div class="n">临汾西站离市区约 7.8 km</div></div></div>
       <div class="tl-i"><div class="tl-t">09:12</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>G622</b> 临汾西 09:12 → 太原南<span class="pill ok">已改签有效</span></div>
+        <div class="h">🚄 <b>G622</b> <a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西</a> 09:12 → <a class="lnk" data-amap data-name="太原南站" data-city="太原" href="https://uri.amap.com/search?keyword=%E5%A4%AA%E5%8E%9F%E5%8D%97%E7%AB%99&amp;city=%E5%A4%AA%E5%8E%9F&amp;src=xiaocai-trip">太原南</a><span class="pill ok">已改签有效</span></div>
         <div class="n">二等座 07 车 13D ｜ ¥82（9.6 折）｜ 到太原南 10 点多</div></div></div>
       <div class="tl-i"><div class="tl-t">11:10</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>G3135</b> 太原南 11:10 → 长治东<span class="pill ok">已改签有效</span></div>
+        <div class="h">🚄 <b>G3135</b> <a class="lnk" data-amap data-name="太原南站" data-city="太原" href="https://uri.amap.com/search?keyword=%E5%A4%AA%E5%8E%9F%E5%8D%97%E7%AB%99&amp;city=%E5%A4%AA%E5%8E%9F&amp;src=xiaocai-trip">太原南</a> 11:10 → <a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东</a><span class="pill ok">已改签有效</span></div>
         <div class="n">二等座 16 车 04D ｜ ¥105 ｜ 太原南换乘约 1 小时，同站不必出站</div></div></div>
       <div class="tl-i"><div class="tl-t">13:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚕 长治东站 → 市区<span class="pill warn">站离市区约 9 km</span></div>
+        <div class="h">🚕 <a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东站</a> → 市区<span class="pill warn">站离市区约 9 km</span></div>
         <div class="n">打车 ¥22–40；站前公交约 10 条日间线 + 3 条夜间线（2026-09 新增），老长治站走 311 转 202 路</div></div></div>
       <div class="tl-i"><div class="tl-t">14:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏨 入住 <b>如家精选-长治八一广场威远门中路店</b><span class="pill ok">已订</span></div>
+        <div class="h">🏨 入住 <a class="lnk" data-amap data-name="如家精选酒店(长治八一广场威远门中路店)" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97%28%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97%29&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">如家精选-长治八一广场威远门中路店</a><span class="pill ok">已订</span></div>
         <div class="n">10/2–10/4 共 2 晚 ｜ ¥632 ｜ 威远门中路 19 号 ｜ ⚠️ 把此地址发给 10/3 跟团商家（要上门接）</div></div></div>
     </div></div>
   </details>
@@ -405,16 +440,16 @@ h2.sec:first-child{margin-top:2px}
         <div class="n">¥378 ｜ 长治市区酒店接送 ｜ 平顺方向，车程较长，带水和小食</div></div></div>
       <div class="tl-i"><div class="tl-t">全天</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">📍 浊漳河谷：中国早期木构的走廊</div>
-        <div class="n">天台庵（唐构）→ 大云院（五代壁画）→ 龙门寺（一寺跨六朝）→ 原起寺</div></div></div>
+        <div class="n"><a class="lnk" data-amap data-name="天台庵" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A4%A9%E5%8F%B0%E5%BA%B5&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">天台庵</a>（唐构）→ <a class="lnk" data-amap data-name="大云院" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E4%BA%91%E9%99%A2&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">大云院</a>（五代壁画）→ <a class="lnk" data-amap data-name="龙门寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%BE%99%E9%97%A8%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">龙门寺</a>（一寺跨六朝）→ <a class="lnk" data-amap data-name="原起寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%8E%9F%E8%B5%B7%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">原起寺</a></div></div></div>
       <div class="tl-i"><div class="tl-t">18:30</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">回长治 · 宿如家精选（威远门中路）</div>
         <div class="n">看点门槛高、讲解含金量大，建议准备好提问</div></div></div>
     </div>
     <div class="gal">
-      <figure class="tall"><img src="media/xhs20_zhuozhang_valley.jpg" alt="浊漳河谷" loading="lazy" width="152" height="150"><figcaption>浊漳河谷访古路线</figcaption></figure>
-      <figure><img src="media/04_faxingsi.jpg" alt="法兴寺" loading="lazy" width="152" height="104"><figcaption>法兴寺（长子线 · 备选）</figcaption></figure>
+<figure><img src="media/04_faxingsi.jpg" alt="法兴寺" loading="lazy" width="152" height="104"><figcaption>法兴寺（长子线 · 备选）</figcaption></figure>
       <figure><img src="media/05_chongqingsi.jpg" alt="崇庆寺" loading="lazy" width="152" height="104"><figcaption>崇庆寺（长子线 · 备选）</figcaption></figure>
     </div>
+    <figure class="map"><img src="media/xhs20_zhuozhang_valley.jpg" alt="浊漳河谷" loading="lazy"><figcaption>浊漳河谷沿线点位（手绘路线图）</figcaption></figure>
     </div>
   </details>
 
@@ -426,30 +461,29 @@ h2.sec:first-child{margin-top:2px}
     </div></summary>
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">09:30</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">到长治东站</div><div class="n">市区 → 长治东约 9 km / 打车 9 分钟</div></div></div>
+        <div class="h">到<a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东站</a></div><div class="n">市区 → 长治东约 9 km / 打车 9 分钟</div></div></div>
       <div class="tl-i"><div class="tl-t">10:01</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🚄 <b>G3845</b> 长治东 10:01 → 晋城东<span class="pill ok">已支付</span></div>
         <div class="n">二等座 04 车 09C ｜ ¥44</div></div></div>
       <div class="tl-i"><div class="tl-t">11:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚕 晋城东站 → 市区</div>
+        <div class="h">🚕 <a class="lnk" data-amap data-name="晋城东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城东站</a> → 市区</div>
         <div class="n"><b>19 路</b> → 晋城火车站、<b>55 路</b> → 人民广场；市内公交 1 元。16.1 km / 打车约 17 分钟 / ¥38</div></div></div>
       <div class="tl-i"><div class="tl-t">13:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏛 晋城博物馆<span class="pill warn">需预约</span></div>
+        <div class="h">🏛 <a class="lnk" data-amap data-name="晋城博物馆" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城博物馆</a><span class="pill warn">需预约</span></div>
         <div class="n">"晋城博物馆"公众号预约 ｜ 国庆 10/1–10/7 <b>延时 09:00–18:00（17:30 停入）</b> ｜ 夜场仅 10/1<br>看点：镇馆之宝<b>北齐昙始造像石</b>——看青莲寺前先看这里</div></div></div>
       <div class="tl-i"><div class="tl-t">17:30</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🍜 南大街 / 老城吃晚饭</div>
-        <div class="n">离博物馆不远，顺看景德桥、景忠桥</div></div></div>
+        <div class="n">离博物馆不远，顺看<a class="lnk" data-amap data-name="景德桥" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%AF%E5%BE%B7%E6%A1%A5&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">景德桥</a>、<a class="lnk" data-amap data-name="景忠桥" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%AF%E5%BF%A0%E6%A1%A5&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">景忠桥</a></div></div></div>
       <div class="tl-i"><div class="tl-t">20:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🔥 司徒小镇《千年铁魂》打铁花<span class="pill warn">需买票</span></div>
+        <div class="h">🔥 <a class="lnk" data-amap data-name="司徒小镇" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%8F%B8%E5%BE%92%E5%B0%8F%E9%95%87&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">司徒小镇</a>《千年铁魂》打铁花<span class="pill warn">需买票</span></div>
         <div class="n">4A，晋城本地人推荐榜第 1 ｜ 省级非遗打铁花（1600℃）+ 45 分钟山水实景演出 ｜ 约 <b>19:30–20:30</b> 开演，提前 0.5–2h 占座 ｜ 城区北石店镇，万达打车 15–20 分钟</div></div></div>
       <div class="tl-i"><div class="tl-t">22:00</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏨 入住 <b>华之晋酒店（晋城万达广场店）</b><span class="pill ok">已订</span></div>
+        <div class="h">🏨 入住 <a class="lnk" data-amap data-name="华之晋酒店(晋城万达广场店)" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97%28%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97%29&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">华之晋酒店（晋城万达广场店）</a><span class="pill ok">已订</span></div>
         <div class="n">10/4–10/5 1 晚 ｜ ¥321.3 ｜ 文峰路（卡马特汽车文化园西南 198 米），紧邻晋城万达广场（<b>次日跟团集合点</b>）</div></div></div>
     </div>
     <div class="gal">
       <figure><img src="media/12_jcbwg.jpg" alt="晋城博物馆" loading="lazy" width="152" height="104"><figcaption>晋城博物馆</figcaption></figure>
-      <figure class="tall"><img src="media/xhs23_jincheng_2day.jpg" alt="晋城两日" loading="lazy" width="152" height="150"><figcaption>晋城两日访古路线</figcaption></figure>
-      <figure class="tall"><img src="media/xhs22_jincheng_route.jpg" alt="晋城古建路线" loading="lazy" width="152" height="150"><figcaption>晋城古建路线</figcaption></figure>
+
     </div>
     </div>
   </details>
@@ -462,33 +496,33 @@ h2.sec:first-child{margin-top:2px}
     </div></summary>
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">07:30</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🎧 晋城万达 KFC 集合<span class="pill bad">时间待确认</span></div>
+        <div class="h">🎧 <a class="lnk" data-amap data-name="晋城万达广场" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城万达</a> KFC 集合<span class="pill bad">时间待确认</span></div>
         <div class="n">携程 ¥398 ｜ 专业古建讲师带队 ｜ <b>务必先问清集合时间</b>（决定你几点起床）</div></div></div>
       <div class="tl-i"><div class="tl-t">全天</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">📍 青莲寺 → 小南村二仙庙 → 府城玉皇庙 → 高平铁佛寺</div>
+        <div class="h">📍 <a class="lnk" data-amap data-name="青莲寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%9D%92%E8%8E%B2%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">青莲寺</a> → <a class="lnk" data-amap data-name="小南村二仙庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%B0%8F%E5%8D%97%E6%9D%91%E4%BA%8C%E4%BB%99%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">小南村二仙庙</a> → <a class="lnk" data-amap data-name="府城玉皇庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">府城玉皇庙</a> → <a class="lnk" data-amap data-name="高平铁佛寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E9%93%81%E4%BD%9B%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平铁佛寺</a></div>
         <div class="n">四大孤品打包：唐塑 · 宋代小木作 · 元塑 · 明塑。问清 <b>4 个点位预约是否团里代办</b>（铁佛寺限 500/日）</div></div></div>
       <div class="tl-i"><div class="tl-t">18:30</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚗 高平东站散团</div>
+        <div class="h">🚗 <a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东站</a>散团</div>
         <div class="n">确认散团点就是高平东；预留 1 小时余量吃口饭再上车</div></div></div>
       <div class="tl-i"><div class="tl-t">20:14</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>D315</b> 高平东 20:14 → 晋城东 20:24 → <b>郑州站</b> 21:34<span class="pill ok">一票到底</span></div>
+        <div class="h">🚄 <b>D315</b> <a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东</a> 20:14 → <a class="lnk" data-amap data-name="晋城东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城东</a> 20:24 → <b><a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a></b> 21:34<span class="pill ok">一票到底</span></div>
         <div class="n">两段是同一趟车、<b>不用下车</b> ｜ 高平东→晋城东 ¥11（03 车 05D）＋ 晋城东→郑州 ¥59（02 车 16A）<br>⚠️ <b>晋城东只停 8 分钟</b>，上车后尽快从 03 车换到 02 车</div></div></div>
       <div class="tl-i"><div class="tl-t">21:50</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🚇 郑州站 → 农业南路<span class="pill warn">别拖到没车</span></div>
         <div class="n">地铁 <b>1 号线直达</b>（郑州火车站站上）9 站约 25 分钟，<b>不用换乘</b>；打车约 20–25 分钟 ¥30–40。1 号线末班到 23:53</div></div></div>
       <div class="tl-i"><div class="tl-t">22:20</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🏨 入住 <b>锦江之星（郑州高铁东站郑东万象城店）</b><span class="pill ok">已订</span></div>
+        <div class="h">🏨 入住 <a class="lnk" data-amap data-name="锦江之星酒店(郑州高铁东站郑东万象城店)" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97%28%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97%29&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">锦江之星（郑州高铁东站郑东万象城店）</a><span class="pill ok">已订</span></div>
         <div class="n">10/5–10/6 ｜ 农业南路 106 号，农业南路站 C 口步行约 5 分钟；距郑州东站 2 站</div></div></div>
       <div class="tl-i"><div class="tl-t">备注</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">⚠️ 晚饭别拖到郑州</div>
         <div class="n">郑东万象城 22:00 闭店，你到酒店已过 22:20——<b>建议晚饭在晋城/高平解决，或买好带上车</b></div></div></div>
     </div>
     <div class="gal">
-      <figure><img src="media/07_yuhuangmiao.jpg" alt="府城玉皇庙" loading="lazy" width="152" height="104"><figcaption>府城玉皇庙 · 二十八星宿</figcaption></figure>
+<figure><img src="media/07_yuhuangmiao.jpg" alt="府城玉皇庙" loading="lazy" width="152" height="104"><figcaption>府城玉皇庙 · 二十八星宿</figcaption></figure>
       <figure><img src="media/08_qingliansi.jpg" alt="青莲寺" loading="lazy" width="152" height="104"><figcaption>青莲寺下寺 · 唐塑</figcaption></figure>
       <figure><img src="media/09_tiefosi.jpg" alt="高平铁佛寺" loading="lazy" width="152" height="104"><figcaption>高平铁佛寺 · 二十四诸天</figcaption></figure>
-      <figure class="tall"><img src="media/xhs17_gaoping_route.jpg" alt="高平一日" loading="lazy" width="152" height="150"><figcaption>高平古建一日走法</figcaption></figure>
     </div>
+    <figure class="map"><img src="media/xhs17_gaoping_route.jpg" alt="高平一日" loading="lazy"><figcaption>高平古建点位与车程（高德路线截图）</figcaption></figure>
     </div>
   </details>
 
@@ -500,15 +534,15 @@ h2.sec:first-child{margin-top:2px}
     </div></summary>
     <div class="dbody"><div class="tl">
       <div class="tl-i"><div class="tl-t">08:45</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">出门去郑州东站</div>
+        <div class="h">出门去<a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东站</a></div>
         <div class="n">农业南路站 → 郑州东站 <b>2 站约 5 分钟</b>（农业南路站首班 06:06）；打车约 8 分钟</div></div></div>
       <div class="tl-i"><div class="tl-t">09:20</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">郑州东站进站</div><div class="n">国庆返程人多，留 50 分钟安检 + 找站台</div></div></div>
       <div class="tl-i"><div class="tl-t">10:11</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>G2238</b> 郑州东 10:11 → 芜湖<span class="pill bad">无座（保底）</span></div>
+        <div class="h">🚄 <b>G2238</b> <a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a> 10:11 → <a class="lnk" data-amap data-name="芜湖站" data-city="芜湖" href="https://uri.amap.com/search?keyword=%E8%8A%9C%E6%B9%96%E7%AB%99&amp;city=%E8%8A%9C%E6%B9%96&amp;src=xiaocai-trip">芜湖</a><span class="pill bad">无座（保底）</span></div>
         <div class="n">12 车 ｜ ¥386.5 ｜ 上车后尽早找空座，或找乘务员问空座</div></div></div>
       <div class="tl-i"><div class="tl-t">13:33</div><div class="tl-d"></div><div class="tl-c">
-        <div class="h">🚄 <b>G2235</b> 芜湖 13:33 → 杭州西<span class="pill ok">已支付</span></div>
+        <div class="h">🚄 <b>G2235</b> <a class="lnk" data-amap data-name="芜湖站" data-city="芜湖" href="https://uri.amap.com/search?keyword=%E8%8A%9C%E6%B9%96%E7%AB%99&amp;city=%E8%8A%9C%E6%B9%96&amp;src=xiaocai-trip">芜湖</a> 13:33 → <a class="lnk" data-amap data-name="杭州西站" data-city="杭州" href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E7%AB%99&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=xiaocai-trip">杭州西</a><span class="pill ok">已支付</span></div>
         <div class="n">04 车 15F ｜ ¥143 ｜ 到杭州即全程结束</div></div></div>
       <div class="tl-i"><div class="tl-t">备选</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🔔 候补兑现就早点走</div>
@@ -522,7 +556,7 @@ h2.sec:first-child{margin-top:2px}
   </div>
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🥈 南大街夜市 + 老城夜游</div><div class="tk-date">免费</div></div>
-    <div class="tk-meta">离晋城博物馆不远，可接成"博物馆 → 老城夜市"一条龙，顺看景德桥 / 景忠桥</div>
+    <div class="tk-meta">离晋城博物馆不远，可接成"博物馆 → 老城夜市"一条龙，顺看<a class="lnk" data-amap data-name="景德桥" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%AF%E5%BE%B7%E6%A1%A5&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">景德桥</a> / <a class="lnk" data-amap data-name="景忠桥" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%AF%E5%BF%A0%E6%A1%A5&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">景忠桥</a></div>
   </div>
   <div class="tk">
     <div class="tk-top"><div class="tk-no">📅 玉皇庙广场惠民演出</div><div class="tk-date">10/1–10/5</div></div>
@@ -539,40 +573,60 @@ h2.sec:first-child{margin-top:2px}
     <div class="sec-k">MUST–SEE</div>
     <div class="sec-h"><h2>必看古建</h2><span class="cnt">12 处 · 按城市</span></div>
   </div>
-  <div class="lead">🎯 全线只挑<b>早期木构与彩塑壁画</b>：唐构、宋塑、元塑、元壁画各占一角。下面按城市分组，每组标了<b>预约渠道</b>与<b>开放时间</b>，能配实拍的都配了图。</div>
+  <div class="lead">🎯 全线只挑<b>早期木构与彩塑壁画</b>：唐构、宋塑、元塑、元壁画各占一角。每一处展开下面的<b>子景点</b>看"到底看什么 / 怎么走 / 哪里能拍"。</div>
+  <div class="lead">🧭 正文里的<b>蓝色下划线</b>和卡片底部的<b>蓝条</b>都可点：手机端会<b>直接唤起高德 App</b>（没装高德则回落网页版）。示意图是<b>动线/顺序示意，非精确比例</b>。</div>
 
-  <div class="sec"><div class="sec-k">YUNCHENG · D2</div><div class="sec-h"><h2>运城 · 芮城线</h2><span class="cnt">2 处</span></div></div>
+  <div class="sec"><div class="sec-k">YUNCHENG · D2</div><div class="sec-h"><h2>运城 · 芮城线</h2><span class="cnt">3 处</span></div></div>
 
   <div class="sight">
     <div class="sh">永乐宫<span class="pill ok">必看</span><span class="pill warn">旺季限流</span></div>
     <div class="sd">国保 ｜ 元代《朝元图》壁画 · 中国壁画巅峰</div>
     <div class="gal">
-      <figure><img src="media/01_yonglegong.jpg" alt="永乐宫" loading="lazy"><figcaption>永乐宫 · 三清殿院落</figcaption></figure>
-      <figure class="tall"><img src="media/xhs03_yongle_annot_01.jpg" alt="朝元图标注" loading="lazy"><figcaption>《朝元图》神仙标注</figcaption></figure>
+<figure><img src="media/01_yonglegong.jpg" alt="永乐宫" loading="lazy"><figcaption>永乐宫 · 三清殿院落</figcaption></figure>
     </div>
+    <figure class="map"><svg viewBox="0 0 360 200" role="img" aria-label="永乐宫三殿参观动线示意" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="200" rx="10" fill="#f8fafc"/><rect x="12" y="12" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="26" r="9" fill="#1d6fe0"/><text x="30" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">1</text><text x="48" y="30" font-size="12.5" font-weight="600" fill="#0f172a">三清殿《朝元图》</text><text x="340" y="30" text-anchor="end" font-size="11" fill="#64748b">286 尊</text><line x1="180" y1="43" x2="180" y2="53" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 51 L180 56 L184 51 Z" fill="#94a3b8"/><rect x="12" y="56" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="70" r="9" fill="#1d6fe0"/><text x="30" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">2</text><text x="48" y="74" font-size="12.5" font-weight="600" fill="#0f172a">纯阳殿 · 吕洞宾连环画</text><text x="340" y="74" text-anchor="end" font-size="11" fill="#64748b">元壁画</text><line x1="180" y1="87" x2="180" y2="97" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 95 L180 100 L184 95 Z" fill="#94a3b8"/><rect x="12" y="100" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="114" r="9" fill="#1d6fe0"/><text x="30" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">3</text><text x="48" y="118" font-size="12.5" font-weight="600" fill="#0f172a">重阳殿 · 王重阳生平</text><text x="340" y="118" text-anchor="end" font-size="11" fill="#64748b">元壁画</text><line x1="180" y1="131" x2="180" y2="141" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 139 L180 144 L184 139 Z" fill="#94a3b8"/><rect x="12" y="144" width="336" height="28" rx="8" fill="#fffbeb" stroke="#fcd34d"/><circle cx="30" cy="158" r="9" fill="#f59e0b"/><text x="30" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">4</text><text x="48" y="162" font-size="12.5" font-weight="600" fill="#92400e">临摹室 · 可拍高清摹本</text><text x="340" y="162" text-anchor="end" font-size="11" fill="#b45309">唯一机位</text><text x="12" y="194" font-size="10.5" fill="#94a3b8">三殿沿中轴自南向北；殿内禁拍照、需套鞋套</text></svg><figcaption>三殿参观动线（示意）</figcaption></figure>
     <div class="lk">👀 <b>重点看</b>：三清殿《朝元图》——<b>286 尊神祇</b>列队朝拜，主像高过 2 米、色彩 700 年不褪；纯阳殿连环画式叙事壁画、重阳殿看王重阳生平。</div>
-    <div class="rows">
-      <div><span class="k">预约</span><span class="v">景区公众号 / OTA 确认，旺季常限流</span></div>
-      <div><span class="k">禁忌</span><span class="v">殿内禁拍照、需套鞋套；出殿后<b>临摹室可拍高清摹本</b></span></div>
-    </div>
+    <details class="sub"><summary><span class="sn">三清殿 ·《朝元图》</span><span class="st">元代壁画巅峰</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">东壁"东华帝君"、西壁"西王母"各领一列，前后共 286 尊。先抓两列主像的排布，再回头细看神祇的服饰与持物。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内<b>禁拍照</b>、需套鞋套；<b>出殿后的临摹室可拍高清摹本</b></span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">纯阳殿 · 重阳殿</span><span class="st">连环画式叙事壁画</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">纯阳殿画吕洞宾生平（连环画式分幅），重阳殿画王重阳与全真七子。看的是"怎么把一整套故事铺满一整面墙"。</div></div></details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">预约 / 限流 / 鞋套</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">预约</span><span class="v">景区公众号 / OTA 确认，旺季常限流</span></div>
+        <div><span class="k">禁忌</span><span class="v">殿内禁拍照、需套鞋套</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="永乐宫" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B9%90%E5%AE%AB&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 永乐宫<span class="ns">山西运城芮城</span></a>
   </div>
 
   <div class="sight">
     <div class="sh">解州关帝庙<span class="pill ok">必看</span></div>
     <div class="sd">国保 ｜ 全国规模最大的关帝庙（"武庙之祖"）</div>
     <div class="gal">
-      <figure><img src="media/02_guandimiao.jpg" alt="解州关帝庙" loading="lazy"><figcaption>端门与木牌坊</figcaption></figure>
+<figure><img src="media/02_guandimiao.jpg" alt="解州关帝庙" loading="lazy"><figcaption>端门与木牌坊</figcaption></figure>
     </div>
+    <figure class="map"><svg viewBox="0 0 360 288" role="img" aria-label="解州关帝庙中轴六进顺序示意" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="288" rx="10" fill="#f8fafc"/><rect x="12" y="12" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="26" r="9" fill="#1d6fe0"/><text x="30" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">1</text><text x="48" y="30" font-size="12.5" font-weight="600" fill="#0f172a">端门</text><text x="340" y="30" text-anchor="end" font-size="11" fill="#64748b">入口</text><line x1="180" y1="43" x2="180" y2="53" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 51 L180 56 L184 51 Z" fill="#94a3b8"/><rect x="12" y="56" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="70" r="9" fill="#1d6fe0"/><text x="30" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">2</text><text x="48" y="74" font-size="12.5" font-weight="600" fill="#0f172a">雉门 → 午门</text><text x="340" y="74" text-anchor="end" font-size="11" fill="#64748b">中轴</text><line x1="180" y1="87" x2="180" y2="97" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 95 L180 100 L184 95 Z" fill="#94a3b8"/><rect x="12" y="100" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="114" r="9" fill="#1d6fe0"/><text x="30" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">3</text><text x="48" y="118" font-size="12.5" font-weight="600" fill="#0f172a">御书楼</text><text x="340" y="118" text-anchor="end" font-size="11" fill="#64748b">中轴</text><line x1="180" y1="131" x2="180" y2="141" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 139 L180 144 L184 139 Z" fill="#94a3b8"/><rect x="12" y="144" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="158" r="9" fill="#1d6fe0"/><text x="30" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">4</text><text x="48" y="162" font-size="12.5" font-weight="600" fill="#0f172a">崇宁殿</text><text x="340" y="162" text-anchor="end" font-size="11" fill="#64748b">主殿</text><line x1="180" y1="175" x2="180" y2="185" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 183 L180 188 L184 183 Z" fill="#94a3b8"/><rect x="12" y="188" width="336" height="28" rx="8" fill="#fffbeb" stroke="#fcd34d"/><circle cx="30" cy="202" r="9" fill="#f59e0b"/><text x="30" y="206" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">5</text><text x="48" y="206" font-size="12.5" font-weight="600" fill="#92400e">春秋楼 · 明代吊柱回廊</text><text x="340" y="206" text-anchor="end" font-size="11" fill="#b45309">压轴</text><line x1="180" y1="219" x2="180" y2="229" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 227 L180 232 L184 227 Z" fill="#94a3b8"/><rect x="12" y="232" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="246" r="9" fill="#1d6fe0"/><text x="30" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">6</text><text x="48" y="250" font-size="12.5" font-weight="600" fill="#0f172a">庙前琉璃影壁</text><text x="340" y="250" text-anchor="end" font-size="11" fill="#64748b">别错过</text><text x="12" y="282" font-size="10.5" fill="#94a3b8">中轴六进、一路向北；春秋楼二层回廊是明代"吊柱"悬空做法</text></svg><figcaption>中轴六进顺序（示意）</figcaption></figure>
     <div class="lk">👀 <b>重点看</b>：中轴六进 <b>端门 → 雉门 → 午门 → 御书楼 → 崇宁殿 → 春秋楼</b>；春秋楼二层回廊是明代"吊柱"悬空做法；庙前琉璃影壁别错过。</div>
-    <div class="rows">
-      <div><span class="k">交通</span><span class="v">市区打车 23.6 km / 36 分钟；公交 14+21 路 1h44m / ¥4</span></div>
-    </div>
+    <details class="sub"><summary><span class="sn">春秋楼</span><span class="st">明代"吊柱"悬空回廊</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">二层回廊的柱子<b>不落地</b>，靠上层梁架悬挑——这是全庙建筑技术含量最高的一处，抬头看廊下与梁架交接。</div></div></details>
+    <details class="sub"><summary><span class="sn">崇宁殿 · 琉璃影壁</span><span class="st">主殿与庙前照壁</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">崇宁殿是主殿，看殿前石雕与蟠龙柱；出来别急着走，<b>庙前琉璃影壁</b>的琉璃构件在顺光时最好看。</div></div></details>
+    <details class="sub"><summary><span class="sn">交通</span><span class="st">市区 ⇄ 解州</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">打车</span><span class="v">市区 23.6 km / 36 分钟</span></div>
+        <div><span class="k">公交</span><span class="v">14 + 21 路 1h44m / ¥4</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="解州关帝庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%A7%A3%E5%B7%9E%E5%85%B3%E5%B8%9D%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 解州关帝庙<span class="ns">山西运城盐湖区解州镇</span></a>
   </div>
 
   <div class="sight">
     <div class="sh">广仁王庙<span class="pill free">免费/低价</span></div>
     <div class="sd">国保 ｜ 现存最早的道教木构之一（唐构）</div>
     <div class="lk">👀 <b>重点看</b>：正殿<b>唐代斗拱与梁架</b>——全国唐代木构只剩几座，这是"看唐构"的稀有机会。体量小，30 分钟够，含金量极高。</div>
+    <details class="sub"><summary><span class="sn">正殿 · 唐构</span><span class="st">斗拱与梁架</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">重点看斗拱的<b>用材尺度</b>与梁架的<b>举折</b>，和前一天在永乐宫看到的元代做法对比着看，差别一眼就出来。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">体量很小，<b>殿外檐下</b>用广角拍斗拱即可；殿内空间窄，别硬塞</span></div></div></div></details>
+    <a class="nav" data-amap data-name="广仁王庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E5%B9%BF%E4%BB%81%E7%8E%8B%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 广仁王庙<span class="ns">山西运城芮城</span></a>
   </div>
 
   <div class="sec"><div class="sec-k">LINFEN · D4</div><div class="sec-h"><h2>临汾 · 洪洞</h2><span class="cnt">2 处</span></div></div>
@@ -581,21 +635,39 @@ h2.sec:first-child{margin-top:2px}
     <div class="sh">广胜寺（上寺 + 下寺）<span class="pill ok">必看</span><span class="pill warn">接驳待定</span></div>
     <div class="sd">国保 ｜ 飞虹塔 + 水神庙元代壁画</div>
     <div class="gal">
-      <figure><img src="media/03_guangshengsi.jpg" alt="飞虹塔" loading="lazy"><figcaption>飞虹塔 · 通体琉璃</figcaption></figure>
-      <figure class="tall"><img src="media/xhs24_guangshengsi_route.jpg" alt="广胜寺走法" loading="lazy"><figcaption>上寺 / 下寺走法</figcaption></figure>
-      <figure class="tall"><img src="media/xhs25_guangshengsi_no_back.jpg" alt="广胜寺避坑" loading="lazy"><figcaption>不走回头路</figcaption></figure>
+<figure><img src="media/03_guangshengsi.jpg" alt="飞虹塔" loading="lazy"><figcaption>飞虹塔 · 通体琉璃</figcaption></figure>
+      <figure><img src="media/xhs25_guangshengsi_no_back.jpg" alt="飞虹塔琉璃细节" loading="lazy"><figcaption>飞虹塔琉璃构件（细节）</figcaption></figure>
     </div>
-    <div class="lk">👀 <b>重点看</b>：<b>飞虹塔</b>——全国保存最完整的琉璃塔，外壁通体琉璃构件，绕塔一周细看佛龛与色彩；下寺<b>水神庙元代壁画</b>《打球图》与《大行散乐忠都秀在此作场》（戏曲史孤本级证据）。上下寺有高差，穿防滑鞋。</div>
-    <div class="rows">
-      <div><span class="k">门票</span><span class="v">¥58 出现两笔（"一日游"＋"门票"）<b>疑重复，出发前退一笔</b></span></div>
-      <div><span class="k">交通</span><span class="v">临汾→洪洞 41.7 km / 54 分钟；洪洞西站直通车 <b>¥2 · 09:30 首班</b></span></div>
-    </div>
+    <figure class="map"><svg viewBox="0 0 360 200" role="img" aria-label="广胜寺上寺下寺动线示意" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="200" rx="10" fill="#f8fafc"/><rect x="12" y="12" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="26" r="9" fill="#1d6fe0"/><text x="30" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">1</text><text x="48" y="30" font-size="12.5" font-weight="600" fill="#0f172a">上寺 · 飞虹塔</text><text x="340" y="30" text-anchor="end" font-size="11" fill="#64748b">山脊</text><line x1="180" y1="43" x2="180" y2="53" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 51 L180 56 L184 51 Z" fill="#94a3b8"/><rect x="12" y="56" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="70" r="9" fill="#1d6fe0"/><text x="30" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">2</text><text x="48" y="74" font-size="12.5" font-weight="600" fill="#0f172a">上寺 · 大雄宝殿</text><text x="340" y="74" text-anchor="end" font-size="11" fill="#64748b">悬塑十八罗汉</text><line x1="180" y1="87" x2="180" y2="97" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 95 L180 100 L184 95 Z" fill="#94a3b8"/><rect x="12" y="100" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="114" r="9" fill="#1d6fe0"/><text x="30" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">3</text><text x="48" y="118" font-size="12.5" font-weight="600" fill="#0f172a">下寺 · 水神庙</text><text x="340" y="118" text-anchor="end" font-size="11" fill="#64748b">山麓</text><line x1="180" y1="131" x2="180" y2="141" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 139 L180 144 L184 139 Z" fill="#94a3b8"/><rect x="12" y="144" width="336" height="28" rx="8" fill="#fffbeb" stroke="#fcd34d"/><circle cx="30" cy="158" r="9" fill="#f59e0b"/><text x="30" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">4</text><text x="48" y="162" font-size="12.5" font-weight="600" fill="#92400e">水神庙元代壁画</text><text x="340" y="162" text-anchor="end" font-size="11" fill="#b45309">禁闪灯</text><text x="12" y="194" font-size="10.5" fill="#94a3b8">上寺在山脊、下寺在山麓，相距约 0.5 km，有高差，穿防滑鞋</text></svg><figcaption>上寺 / 下寺动线（示意）</figcaption></figure>
+    <div class="lk">👀 <b>重点看</b>：<b>飞虹塔</b>——全国保存最完整的琉璃塔，外壁通体琉璃构件，绕塔一周细看佛龛与色彩；下寺<b>水神庙元代壁画</b>《打球图》与《大行散乐忠都秀在此作场》（戏曲史孤本级证据）。</div>
+    <details class="sub"><summary><span class="sn">上寺 · 飞虹塔</span><span class="st">全国最完整的琉璃塔</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">外壁通体琉璃：佛像、力士、花卉一层层往上排。绕塔一周是关键，每面构图不同。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">塔院<b>西侧/院外</b>拉开距离拍全景；<b>斜上方仰拍</b>能把琉璃层次压进画面</span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">上寺 · 大雄宝殿</span><span class="st">悬塑十八罗汉</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">殿内悬塑从梁架垂落，与殿宇结构咬在一起，是"雕塑+木构"合体的少见做法。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">广角镜头在殿内最能出片；<b>禁闪光灯</b></span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">下寺 · 水神庙</span><span class="st">元代壁画（一墙之隔）</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">《打球图》《大行散乐忠都秀在此作场》等在<b>明应王殿</b>内，是现存唯一不以佛道为题的元代壁画群，戏曲史的孤本级证据。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内<b>禁闪光灯</b>、禁三脚架，弱光下靠手机夜景模式</span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">门票 / 接驳</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">门票</span><span class="v">¥58 出现两笔（"一日游"＋"门票"）<b>疑重复，出发前退一笔</b></span></div>
+        <div><span class="k">交通</span><span class="v">临汾→洪洞 41.7 km / 54 分钟；<a class="lnk" data-amap data-name="洪洞西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%B4%AA%E6%B4%9E%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">洪洞西站</a>直通车 <b>¥2 · 09:30 首班</b></span></div>
+        <div><span class="k">提醒</span><span class="v">⚠️ 返程叫车能力需现场确认，这是全程唯一的接驳缺口</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="广胜寺" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%B9%BF%E8%83%9C%E5%AF%BA&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 广胜寺<span class="ns">山西临汾洪洞</span></a>
   </div>
 
   <div class="sight">
     <div class="sh">临汾市博物馆（+ 大云寺）<span class="pill free">免费</span></div>
     <div class="sd">10/1 上午，出发去广胜寺前的顺路一站</div>
     <div class="lk">👀 <b>重点看</b>：把"最早中国"（陶寺）与晋系青铜的脉络补上，再去看塔与壁画会更有底。</div>
+    <details class="sub"><summary><span class="sn">临汾市博物馆</span><span class="st">陶寺 · 晋系青铜</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">主线是"最早中国"——陶寺遗址的观象台与圭表，把中华文明探源的时间轴钉在临汾；再看两周晋系青铜。</div></div></details>
+    <details class="sub"><summary><span class="sn">大云寺</span><span class="st">顺路的寺塔</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">就在市区，塔与殿体量不小，行程紧可只看外观。</div>
+      <a class="nav" data-amap data-name="大云寺" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E4%BA%91%E5%AF%BA&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 大云寺<span class="ns">山西临汾尧都区</span></a></div></details>
+    <a class="nav" data-amap data-name="临汾市博物馆" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 临汾市博物馆<span class="ns">山西临汾尧都区</span></a>
   </div>
 
   <div class="sec"><div class="sec-k">CHANGZHI · D6</div><div class="sec-h"><h2>长治 · 浊漳河谷</h2><span class="cnt">本日讲师团</span></div></div>
@@ -604,13 +676,32 @@ h2.sec:first-child{margin-top:2px}
   <div class="sight">
     <div class="sh">浊漳河谷（天台庵 · 大云院 · 龙门寺 · 原起寺）<span class="pill ok">必看</span></div>
     <div class="sd">早/晚唐、五代、宋、金、元同谷并列 ｜ 讲师全程讲解</div>
-    <div class="gal">
-      <figure class="tall"><img src="media/xhs20_zhuozhang_valley.jpg" alt="浊漳河谷" loading="lazy"><figcaption>浊漳河谷访古路线</figcaption></figure>
-    </div>
+        <figure class="map"><img src="media/xhs20_zhuozhang_valley.jpg" alt="浊漳河谷手绘路线图" loading="lazy"><figcaption>浊漳河谷沿线点位（手绘路线图 · 含淳化寺 / 回龙寺 / 夏禹神祠等）</figcaption></figure>
     <div class="lk">👀 <b>重点看</b>：<b>天台庵</b>——国内极少见的唐代木构；<b>大云院</b>——五代壁画（比永乐宫早约 400 年）；<b>龙门寺</b>——一寺之内六朝建筑并存，古建史的"活标本"；<b>原起寺</b>——唐经幢与宋代殿宇。</div>
-    <div class="rows">
-      <div><span class="k">安排</span><span class="v">讲师讲解 · 市区酒店上门接（把长治酒店地址发商家）</span></div>
-    </div>
+    <details class="sub"><summary><span class="sn">天台庵</span><span class="st">唐构 · 国内极少见</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">小殿一座，看的是<b>唐代的斗拱与梁架比例</b>——出檐深远、用材硕大，和后世"秀气"的做法完全不同。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿外正面退到院墙根，才能把出檐完整收进画面</span></div></div></div>
+      <a class="nav" data-amap data-name="天台庵" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A4%A9%E5%8F%B0%E5%BA%B5&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 天台庵<span class="ns">山西长治平顺</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">大云院</span><span class="st">五代壁画</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">殿内五代壁画比永乐宫早约 400 年，是"五代十国"这个短命王朝留下来的实物证据。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内暗、<b>禁闪光灯</b>；靠讲解员的冷光手电看细节最清楚</span></div></div></div>
+      <a class="nav" data-amap data-name="大云院" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E4%BA%91%E9%99%A2&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 大云院<span class="ns">山西长治平顺</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">龙门寺</span><span class="st">一寺跨六朝</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">同一座寺院里，五代、宋、金、元、明、清的建筑并存——中国古建史的"活标本"，一路走进去等于按朝代翻页。</div></div>
+      <a class="nav" data-amap data-name="龙门寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%BE%99%E9%97%A8%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 龙门寺<span class="ns">山西长治平顺</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">原起寺</span><span class="st">唐经幢 + 宋代殿宇</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">在高台上，视野开阔。看唐经幢的刻工与宋殿的比例，顺手把整条河谷收进视野。</div></div>
+      <a class="nav" data-amap data-name="原起寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%8E%9F%E8%B5%B7%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 原起寺<span class="ns">山西长治平顺</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">跟团 / 上门接</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">安排</span><span class="v">讲师讲解 · 市区酒店上门接（把长治酒店地址发商家）</span></div>
+        <div><span class="k">准备</span><span class="v">车程较长，带水和小食；建议准备好提问</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="龙门寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%BE%99%E9%97%A8%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 浊漳河谷（龙门寺）<span class="ns">山西长治平顺浊漳河谷</span></a>
   </div>
 
   <div class="sight">
@@ -621,6 +712,16 @@ h2.sec:first-child{margin-top:2px}
       <figure><img src="media/05_chongqingsi.jpg" alt="崇庆寺" loading="lazy"><figcaption>崇庆寺 · 三大士殿</figcaption></figure>
     </div>
     <div class="lk">👀 <b>重点看</b>：法兴寺——<b>唐舍利塔</b>＋<b>燃灯塔</b>（唐代石灯，全国少见）＋ 圆觉殿<b>宋塑十二圆觉</b>，被称"宋塑一绝"；崇庆寺——三大士殿宋塑与本殿<b>十八罗汉</b>（造型各异、有市井气），门票 ¥25 + 摆渡车 ¥10。</div>
+    <details class="sub"><summary><span class="sn">法兴寺</span><span class="st">唐塔 + 宋塑十二圆觉</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">唐舍利塔、唐燃灯塔是"石作"的看头；圆觉殿宋塑十二圆觉被称"宋塑一绝"，注意面部神态与坐姿差异。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内<b>禁闪光灯</b>；塔在院内，侧光时拍石塔质感最好</span></div></div></div>
+      <a class="nav" data-amap data-name="法兴寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E6%B3%95%E5%85%B4%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 法兴寺<span class="ns">山西长治长子</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">崇庆寺</span><span class="st">宋塑十八罗汉</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">十八罗汉造型各异、带市井气，是宋代雕塑"入世"的典型。三大士殿的宋塑也一并看。</div>
+      <div class="rows"><div><span class="k">门票</span><span class="v">¥25 + 摆渡车 ¥10</span></div></div></div>
+      <a class="nav" data-amap data-name="崇庆寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%B4%87%E5%BA%86%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 崇庆寺<span class="ns">山西长治长子</span></a>
+    </details>
   </div>
 
   <div class="sec"><div class="sec-k">JINCHENG · D7–D8</div><div class="sec-h"><h2>晋城 · 高平</h2><span class="cnt">4 处孤品</span></div></div>
@@ -629,9 +730,23 @@ h2.sec:first-child{margin-top:2px}
     <div class="sh">府城玉皇庙<span class="pill ok">必看</span><span class="pill free">免费</span><span class="pill warn">预约·限流</span></div>
     <div class="sd">国保 ｜ 元代二十八星宿彩塑 ｜ 预约「风雅晋城」实名</div>
     <div class="gal">
-      <figure><img src="media/07_yuhuangmiao.jpg" alt="府城玉皇庙" loading="lazy"><figcaption>二十八星宿殿</figcaption></figure>
+<figure><img src="media/07_yuhuangmiao.jpg" alt="府城玉皇庙" loading="lazy"><figcaption>二十八星宿殿</figcaption></figure>
     </div>
-    <div class="lk">👀 <b>重点看</b>：<b>二十八星宿彩塑</b>——每尊都带动物化身（如危月燕、室火猪），人物写实到"像活人"，美术史称"中国雕塑史上的绝唱"。<b>星宿殿限流</b>、禁闪光灯、院内无卫生间；隔壁可顺访<b>府城关帝庙</b>；下午常有义务讲解。</div>
+    <figure class="map"><svg viewBox="0 0 360 288" role="img" aria-label="10月5日晋城高平四点动线示意" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="288" rx="10" fill="#f8fafc"/><rect x="12" y="12" width="336" height="28" rx="8" fill="#eef2ff" stroke="#c7d2fe"/><circle cx="30" cy="26" r="9" fill="#4f46e5"/><text x="30" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">起</text><text x="48" y="30" font-size="12.5" font-weight="600" fill="#3730a3">晋城万达 KFC 集合</text><text x="340" y="30" text-anchor="end" font-size="11" fill="#6366f1">市区</text><line x1="180" y1="43" x2="180" y2="53" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 51 L180 56 L184 51 Z" fill="#94a3b8"/><rect x="12" y="56" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="70" r="9" fill="#1d6fe0"/><text x="30" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">1</text><text x="48" y="74" font-size="12.5" font-weight="600" fill="#0f172a">青莲寺（下寺）</text><text x="340" y="74" text-anchor="end" font-size="11" fill="#64748b">东南 · 珏山</text><line x1="180" y1="87" x2="180" y2="97" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 95 L180 100 L184 95 Z" fill="#94a3b8"/><rect x="12" y="100" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="114" r="9" fill="#1d6fe0"/><text x="30" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">2</text><text x="48" y="118" font-size="12.5" font-weight="600" fill="#0f172a">小南村二仙庙</text><text x="340" y="118" text-anchor="end" font-size="11" fill="#64748b">宋塑</text><line x1="180" y1="131" x2="180" y2="141" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 139 L180 144 L184 139 Z" fill="#94a3b8"/><rect x="12" y="144" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="158" r="9" fill="#1d6fe0"/><text x="30" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">3</text><text x="48" y="162" font-size="12.5" font-weight="600" fill="#0f172a">府城玉皇庙</text><text x="340" y="162" text-anchor="end" font-size="11" fill="#64748b">东北 · 府城村</text><line x1="180" y1="175" x2="180" y2="185" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 183 L180 188 L184 183 Z" fill="#94a3b8"/><rect x="12" y="188" width="336" height="28" rx="8" fill="#ffffff" stroke="#e2e8f0"/><circle cx="30" cy="202" r="9" fill="#1d6fe0"/><text x="30" y="206" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">4</text><text x="48" y="206" font-size="12.5" font-weight="600" fill="#0f172a">高平铁佛寺</text><text x="340" y="206" text-anchor="end" font-size="11" fill="#64748b">北 · 高平市区</text><line x1="180" y1="219" x2="180" y2="229" stroke="#94a3b8" stroke-width="1.6"/><path d="M176 227 L180 232 L184 227 Z" fill="#94a3b8"/><rect x="12" y="232" width="336" height="28" rx="8" fill="#eef2ff" stroke="#c7d2fe"/><circle cx="30" cy="246" r="9" fill="#4f46e5"/><text x="30" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">终</text><text x="48" y="250" font-size="12.5" font-weight="600" fill="#3730a3">高平东站 · 散团</text><text x="340" y="250" text-anchor="end" font-size="11" fill="#6366f1">20:14 发车</text><text x="12" y="282" font-size="10.5" fill="#94a3b8">方位为大致相对位置，顺序以当日讲师安排为准</text></svg><figcaption>10/5 四点动线（示意）</figcaption></figure>
+    <div class="lk">👀 <b>重点看</b>：<b>二十八星宿彩塑</b>——每尊都带动物化身（如危月燕、室火猪），人物写实到"像活人"，美术史称"中国雕塑史上的绝唱"。</div>
+    <details class="sub"><summary><span class="sn">二十八星宿殿</span><span class="st">元塑 · 中国雕塑史绝唱</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">每尊星宿都带一个动物化身，人物表情与衣纹写实到"像活人"。<b>星宿殿限流</b>，跟紧讲解。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内<b>禁闪光灯</b>；院内无卫生间，进殿前先解决</span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">府城关帝庙</span><span class="st">隔壁 · 顺访</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">就在隔壁，看完玉皇庙顺路补一处；下午常有<b>义务讲解</b>，遇到就跟。</div></div>
+      <a class="nav" data-amap data-name="府城关帝庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%BA%9C%E5%9F%8E%E5%85%B3%E5%B8%9D%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 府城关帝庙<span class="ns">山西晋城泽州府城村</span></a>
+    </details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">预约 / 开放时间</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">预约</span><span class="v">「风雅晋城」<b>实名</b>预约</span></div>
+        <div><span class="k">开放</span><span class="v">9:00–17:00（16:00 停入）</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="府城玉皇庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 府城玉皇庙<span class="ns">山西晋城泽州府城村</span></a>
   </div>
 
   <div class="sight">
@@ -639,19 +754,41 @@ h2.sec:first-child{margin-top:2px}
     <div class="sd">国保 ｜ 唐代彩塑 6 尊（唐塑色彩最原装）｜ 预约「晋城博物馆」· 周一闭馆</div>
     <div class="gal">
       <figure><img src="media/08_qingliansi.jpg" alt="青莲寺" loading="lazy"><figcaption>青莲寺下寺 · 唐塑</figcaption></figure>
-      <figure class="tall"><img src="media/xhs22_jincheng_route.jpg" alt="晋城古建路线" loading="lazy"><figcaption>晋城古建路线</figcaption></figure>
     </div>
-    <div class="lk">👀 <b>重点看</b>：下寺弥勒殿<b>唐代彩塑</b>（面目丰润、衣纹下垂）＋ 明代藏式砖塔。<b>⚠️ 上寺自 2026-07-01 起闭馆（路封）</b>，别冒险。交通：客运东站 <b>213 路</b> → 珏山（07:15/09:00/11:00/13:30/15:30/17:30，<b>奇数班直达下寺</b>）；景区观光车 ¥10。</div>
+    <div class="lk">👀 <b>重点看</b>：下寺弥勒殿<b>唐代彩塑</b>（面目丰润、衣纹下垂）＋ 明代藏式砖塔。</div>
+    <details class="sub"><summary><span class="sn">下寺弥勒殿</span><span class="st">唐代彩塑 6 尊</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">唐塑色彩"最原装"的一处：面目丰润、衣纹自然下垂，和宋塑的写实、明塑的繁密对照着看。</div>
+      <div class="rows"><div><span class="k">机位</span><span class="v">殿内暗、<b>禁闪光灯</b>；明代藏式砖塔在院内，白天顺光拍</span></div></div></div></details>
+    <details class="sub"><summary><span class="sn">上寺</span><span class="st">⚠️ 2026-07-01 起闭馆</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk"><b>上寺自 2026-07-01 起闭馆（路封）</b>，别冒险绕路，本次只看下寺。</div></div></details>
+    <details class="sub"><summary><span class="sn">交通</span><span class="st">213 路 · 奇数班直达</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">公交</span><span class="v"><a class="lnk" data-amap data-name="晋城客运东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E5%AE%A2%E8%BF%90%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">客运东站</a> <b>213 路</b> → 珏山（07:15 / 09:00 / 11:00 / 13:30 / 15:30 / 17:30，<b>奇数班直达下寺</b>）</span></div>
+        <div><span class="k">景区</span><span class="v">观光车 ¥10</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="青莲寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%9D%92%E8%8E%B2%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 青莲寺（下寺）<span class="ns">山西晋城泽州珏山</span></a>
   </div>
 
   <div class="sight">
     <div class="sh">高平铁佛寺<span class="pill ok">必看</span><span class="pill free">免费</span><span class="pill warn">预约·限流</span></div>
     <div class="sd">国保 ｜ 明代二十四诸天彩塑 ｜ 预约「高平文物」· 周二至周日 9:00–17:30（17:00 停入）</div>
     <div class="gal">
-      <figure><img src="media/09_tiefosi.jpg" alt="高平铁佛寺" loading="lazy"><figcaption>二十四诸天彩塑</figcaption></figure>
-      <figure class="tall"><img src="media/xhs17_gaoping_route.jpg" alt="高平一日" loading="lazy"><figcaption>高平古建一日走法</figcaption></figure>
+<figure><img src="media/09_tiefosi.jpg" alt="高平铁佛寺" loading="lazy"><figcaption>二十四诸天彩塑</figcaption></figure>
     </div>
-    <div class="lk">👀 <b>重点看</b>：一间大殿里满壁<b>明代二十四诸天</b>彩塑，密而精、气势压人（空间小、限流参观）。<b>避峰</b>：上午人极多，<b>中午 11:30 左右可不排队</b>；殿内很暗、禁闪光灯与自拍杆。</div>
+    <figure class="map"><img src="media/xhs17_gaoping_route.jpg" alt="高平古建路线图" loading="lazy"><figcaption>高平古建点位与车程（高德收藏路线截图）</figcaption></figure>
+    <div class="lk">👀 <b>重点看</b>：一间大殿里满壁<b>明代二十四诸天</b>彩塑，密而精、气势压人（空间小、限流参观）。</div>
+    <details class="sub"><summary><span class="sn">二十四诸天殿</span><span class="st">明代彩塑 · 满壁密集</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">一间殿全是塑像，密到几乎不透墙，逼仄空间里压迫感极强，是"密而不乱"的典型。</div>
+      <div class="rows">
+        <div><span class="k">避峰</span><span class="v">上午人极多，<b>中午 11:30 左右可不排队</b></span></div>
+        <div><span class="k">机位</span><span class="v">殿内很暗、<b>禁闪光灯与自拍杆</b></span></div>
+      </div></div></details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">预约 / 开放时间</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">预约</span><span class="v">「高平文物」· 限流（日限 500）</span></div>
+        <div><span class="k">开放</span><span class="v">周二–周日 9:00–17:30（17:00 停入）</span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="高平铁佛寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E9%93%81%E4%BD%9B%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 高平铁佛寺<span class="ns">山西晋城高平市区</span></a>
   </div>
 
   <div class="sight">
@@ -661,24 +798,38 @@ h2.sec:first-child{margin-top:2px}
       <figure><img src="media/12_jcbwg.jpg" alt="晋城博物馆" loading="lazy"><figcaption>晋城博物馆</figcaption></figure>
     </div>
     <div class="lk">👀 <b>重点看</b>：<b>看青莲寺之前先看昙始造像石</b>——把碑刻与造像的来龙去脉搞清楚，再看实物会通透很多。</div>
+    <details class="sub"><summary><span class="sn">北齐昙始造像石</span><span class="st">镇馆之宝</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">先看它，等于拿到"看青莲寺"的钥匙：碑刻题记与造像的关系、北齐造像的特征，看实物前先建立坐标。</div></div></details>
+    <details class="sub"><summary><span class="sn">实用</span><span class="st">预约 / 国庆延时</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="rows">
+        <div><span class="k">预约</span><span class="v">「晋城博物馆」公众号，实名分时段</span></div>
+        <div><span class="k">开放</span><span class="v">国庆 10/1–10/7 延时 09:00–18:00（17:30 停入）<b>夜场仅 10/1</b></span></div>
+      </div></div></details>
+    <a class="nav" data-amap data-name="晋城博物馆" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 晋城博物馆<span class="ns">山西晋城城区</span></a>
   </div>
 
   <div class="sight">
     <div class="sh">小南村二仙庙<span class="pill info">团内含</span></div>
     <div class="sd">10/5 讲师团四点之一 ｜ 宋代彩塑</div>
     <div class="lk">👀 <b>重点看</b>：宋代"二仙"彩塑与宋代小木作帐龛，是"宋塑之冠"级别的一处。</div>
+    <details class="sub"><summary><span class="sn">二仙殿</span><span class="st">宋塑 + 宋小木作帐龛</span><span class="cv">▾</span></summary>
+      <div class="sb"><div class="lk">除了"二仙"彩塑本身，更要看罩在塑像外的<b>宋代小木作帐龛</b>——木构做成的"房间里的房间"，是宋代细木作的标本。</div></div></details>
+    <a class="nav" data-amap data-name="小南村二仙庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%B0%8F%E5%8D%97%E6%9D%91%E4%BA%8C%E4%BB%99%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 小南村二仙庙<span class="ns">山西晋城泽州</span></a>
   </div>
 
   <div class="sec"><div class="sec-k">BOOKING</div><div class="sec-h"><h2>预约渠道汇总</h2><span class="cnt">国庆名额紧</span></div></div>
   <div class="tbl">
     <table>
       <tr><th>景点</th><th>渠道</th><th>开放</th></tr>
-      <tr><td>府城玉皇庙</td><td>「风雅晋城」实名</td><td>9:00–17:00（16:00 停入）</td></tr>
-      <tr><td>青莲寺下寺</td><td>「晋城博物馆」</td><td>约 9:00–17:00 · 周一闭馆</td></tr>
-      <tr><td>高平铁佛寺</td><td>「高平文物」</td><td>周二–周日 9:00–17:30</td></tr>
-      <tr><td>晋城博物馆</td><td>「晋城博物馆」</td><td>国庆 09:00–18:00</td></tr>
-      <tr><td>崇庆寺</td><td>现场</td><td>¥25 + 摆渡车 ¥10</td></tr>
-      <tr><td>法兴寺</td><td>现场</td><td>—</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="府城玉皇庙" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">府城玉皇庙</a></td><td>「风雅晋城」实名</td><td>9:00–17:00（16:00 停入）</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="青莲寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%9D%92%E8%8E%B2%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">青莲寺下寺</a></td><td>「晋城博物馆」</td><td>约 9:00–17:00 · 周一闭馆</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="高平铁佛寺" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E9%93%81%E4%BD%9B%E5%AF%BA&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平铁佛寺</a></td><td>「高平文物」</td><td>周二–周日 9:00–17:30</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="晋城博物馆" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城博物馆</a></td><td>「晋城博物馆」</td><td>国庆 09:00–18:00</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="崇庆寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%B4%87%E5%BA%86%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">崇庆寺</a></td><td>现场</td><td>¥25 + 摆渡车 ¥10</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="法兴寺" data-city="长治" href="https://uri.amap.com/search?keyword=%E6%B3%95%E5%85%B4%E5%AF%BA&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">法兴寺</a></td><td>现场</td><td>—</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="永乐宫" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B9%90%E5%AE%AB&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">永乐宫</a></td><td>景区公众号 / OTA</td><td>旺季常限流</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="解州关帝庙" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%A7%A3%E5%B7%9E%E5%85%B3%E5%B8%9D%E5%BA%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">解州关帝庙</a></td><td>景区公众号 / OTA</td><td>—</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="广胜寺" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%B9%BF%E8%83%9C%E5%AF%BA&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">广胜寺</a></td><td>景区公众号 / OTA</td><td>¥58（疑重复下单，待核）</td></tr>
     </table>
   </div>
   <div class="warnbox">📌 山西小众古建<b>周一普遍闭馆</b>（本行程已避开）；平时可能锁门、需联系文保员。<b>10/5 团内 4 点先问团是否代办预约</b>。电话：玉皇庙 18335684040 ｜ 青莲寺 0356-3959730。</div>
@@ -686,11 +837,11 @@ h2.sec:first-child{margin-top:2px}
   <div class="sec"><div class="sec-k">SKIPPED</div><div class="sec-h"><h2>主动放弃 · 理由</h2><span class="cnt">留给下次</span></div></div>
   <div class="sight">
     <ul class="give">
-      <li><b>鹳雀楼 / 普救寺（运城）</b>：现楼多为重建，情怀大于建筑本体。</li>
-      <li><b>飞云楼 / 后土祠（万荣）</b>：方向与主线相反，专程要加一整天。</li>
-      <li><b>小西天（隰县）</b>：悬塑天花板级，但离临汾约 130 km、方向向西 → <b>下次专程第一顺位</b>。</li>
+      <li><b><a class="lnk" data-amap data-name="鹳雀楼" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%B9%B3%E9%9B%80%E6%A5%BC&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">鹳雀楼</a> / <a class="lnk" data-amap data-name="普救寺" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%99%AE%E6%95%91%E5%AF%BA&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">普救寺</a></b>：现楼多为重建，情怀大于建筑本体。</li>
+      <li><b><a class="lnk" data-amap data-name="飞云楼" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%A3%9E%E4%BA%91%E6%A5%BC&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">飞云楼</a> / <a class="lnk" data-amap data-name="万荣后土祠" data-city="运城" href="https://uri.amap.com/search?keyword=%E4%B8%87%E8%8D%A3%E5%90%8E%E5%9C%9F%E7%A5%A0&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">后土祠</a></b>：方向与主线相反，专程要加一整天。</li>
+      <li><b><a class="lnk" data-amap data-name="小西天" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%B0%8F%E8%A5%BF%E5%A4%A9&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">小西天</a></b>：悬塑天花板级，但离临汾约 130 km、方向向西 → <b>下次专程第一顺位</b>。</li>
       <li><b>壶口瀑布 / 洪洞大槐树</b>：自然景观 / 复建寻根主题，非古建偏好。</li>
-      <li><b>皇城相府（晋城）</b>：明清官宅，与王家大院同类，非早期古建。</li>
+      <li><b><a class="lnk" data-amap data-name="皇城相府" data-city="晋城" href="https://uri.amap.com/search?keyword=%E7%9A%87%E5%9F%8E%E7%9B%B8%E5%BA%9C&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">皇城相府</a></b>：明清官宅，与王家大院同类，非早期古建。</li>
       <li><b>王莽岭 / 珏山</b>：自然风光，不在偏好内。</li>
     </ul>
   </div>
@@ -724,9 +875,9 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">✈️ ZH8158</div><div class="tk-date">9/28 周一</div></div>
     <div class="tk-line">
-      <div><div class="st">杭州</div><div class="tm">12:10</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="杭州萧山国际机场" data-city="杭州" href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%90%A7%E5%B1%B1%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=xiaocai-trip">杭州</a></div><div class="tm">12:10</div></div>
       <div class="ar"><b>直飞</b>2h10m</div>
-      <div style="text-align:right"><div class="st">运城</div><div class="tm">14:20</div></div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="运城张孝机场" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%BC%A0%E5%AD%9D%E6%9C%BA%E5%9C%BA&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城</a></div><div class="tm">14:20</div></div>
     </div>
     <div class="tk-meta">¥1010 ｜ 已出票 ｜ 20kg 托运</div>
   </div>
@@ -734,9 +885,9 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🚄 G2620</div><div class="tk-date">9/30 周三</div></div>
     <div class="tk-line">
-      <div><div class="st">运城北</div><div class="tm">14:21</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="运城北站" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8C%97%E7%AB%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城北</a></div><div class="tm">14:21</div></div>
       <div class="ar"><b>¥39</b>二等座</div>
-      <div style="text-align:right"><div class="st">临汾西</div><div class="tm">—</div></div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西</a></div><div class="tm">—</div></div>
     </div>
     <div class="tk-meta">07 车 05C ｜ 已支付</div>
   </div>
@@ -744,9 +895,9 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🚄 G622 + G3135</div><div class="tk-date">10/2 周五</div></div>
     <div class="tk-line">
-      <div><div class="st">临汾西</div><div class="tm">09:12</div></div>
-      <div class="ar"><b>太原南换乘</b>1h 左右</div>
-      <div style="text-align:right"><div class="st">长治东</div><div class="tm">—</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西</a></div><div class="tm">09:12</div></div>
+      <div class="ar"><a class="lnk" data-amap data-name="太原南站" data-city="太原" href="https://uri.amap.com/search?keyword=%E5%A4%AA%E5%8E%9F%E5%8D%97%E7%AB%99&amp;city=%E5%A4%AA%E5%8E%9F&amp;src=xiaocai-trip"><b>太原南</b></a>换乘 1h 左右</div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东</a></div><div class="tm">—</div></div>
     </div>
     <div class="tk-meta">G622 ¥82（07 车 13D）→ G3135 ¥105（16 车 04D）｜ 均为已改签有效票<br>⚠️ 到太原南 10 点多，11:10 太原南发车</div>
   </div>
@@ -754,9 +905,9 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🚄 G3845</div><div class="tk-date">10/4 周日</div></div>
     <div class="tk-line">
-      <div><div class="st">长治东</div><div class="tm">10:01</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东</a></div><div class="tm">10:01</div></div>
       <div class="ar"><b>¥44</b>二等座</div>
-      <div style="text-align:right"><div class="st">晋城东</div><div class="tm">—</div></div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="晋城东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城东</a></div><div class="tm">—</div></div>
     </div>
     <div class="tk-meta">04 车 09C ｜ 已支付</div>
   </div>
@@ -764,9 +915,9 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🚄 D315（同车两段）</div><div class="tk-date">10/5 周一</div></div>
     <div class="tk-line">
-      <div><div class="st">高平东</div><div class="tm">20:14</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东</a></div><div class="tm">20:14</div></div>
       <div class="ar"><b>一票到底</b>不下车</div>
-      <div style="text-align:right"><div class="st">郑州站</div><div class="tm">21:34</div></div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a></div><div class="tm">21:34</div></div>
     </div>
     <div class="tk-meta">高平东→晋城东 ¥11（03 车 05D，积分）＋ 晋城东→郑州 ¥59（02 车 16A）<br>⚠️ 晋城东 20:24 到 / 20:32 发，<b>只停 8 分钟</b>，上车后尽快换到 02 车</div>
   </div>
@@ -774,26 +925,26 @@ h2.sec:first-child{margin-top:2px}
   <div class="tk">
     <div class="tk-top"><div class="tk-no">🚄 G2238 + G2235</div><div class="tk-date">10/6 周二</div></div>
     <div class="tk-line">
-      <div><div class="st">郑州东</div><div class="tm">10:11</div></div>
-      <div class="ar"><b>芜湖换乘</b></div>
-      <div style="text-align:right"><div class="st">杭州西</div><div class="tm">—</div></div>
+      <div><div class="st"><a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a></div><div class="tm">10:11</div></div>
+      <div class="ar"><a class="lnk" data-amap data-name="芜湖站" data-city="芜湖" href="https://uri.amap.com/search?keyword=%E8%8A%9C%E6%B9%96%E7%AB%99&amp;city=%E8%8A%9C%E6%B9%96&amp;src=xiaocai-trip"><b>芜湖</b></a>换乘</div>
+      <div style="text-align:right"><div class="st"><a class="lnk" data-amap data-name="杭州西站" data-city="杭州" href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E7%AB%99&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=xiaocai-trip">杭州西</a></div><div class="tm">—</div></div>
     </div>
     <div class="tk-meta">G2238 ¥386.5（<b>无座</b>，12 车）→ G2235 13:33 芜湖发 ¥143（04 车 15F）</div>
   </div>
 
   <div class="sec"><div class="sec-k">WAITLIST</div><div class="sec-h"><h2>候补中</h2><span class="cnt">待兑现</span></div></div>
   <div class="tk cand">
-    <div class="tk-top"><div class="tk-no">G1967 郑州东 07:28 → 芜湖 → 杭州</div><div class="tk-date">10/6</div></div>
+    <div class="tk-top"><div class="tk-no">G1967 <a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a> 07:28 → <a class="lnk" data-amap data-name="芜湖站" data-city="芜湖" href="https://uri.amap.com/search?keyword=%E8%8A%9C%E6%B9%96%E7%AB%99&amp;city=%E8%8A%9C%E6%B9%96&amp;src=xiaocai-trip">芜湖</a> → 杭州</div><div class="tk-date">10/6</div></div>
     <div class="tk-meta">¥377.5 ｜ 成功率 <b>75%</b> ｜ 候补截止：开车前 6 小时</div>
   </div>
   <div class="tk cand">
-    <div class="tk-top"><div class="tk-no">G2390 郑州东 11:31 → 杭州西 17:01</div><div class="tk-date">10/6</div></div>
+    <div class="tk-top"><div class="tk-no">G2390 <a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a> 11:31 → <a class="lnk" data-amap data-name="杭州西站" data-city="杭州" href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E7%AB%99&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=xiaocai-trip">杭州西</a> 17:01</div><div class="tk-date">10/6</div></div>
     <div class="tk-meta">¥523.5 ｜ 成功率 35%</div>
   </div>
 
   <div class="sec"><div class="sec-k">SUGGEST</div><div class="sec-h"><h2>建议补一张</h2><span class="cnt">G3198</span></div></div>
   <div class="tk">
-    <div class="tk-top"><div class="tk-no">G3198 郑州东 09:41 → 杭州西 15:06</div><div class="tk-date">候补</div></div>
+    <div class="tk-top"><div class="tk-no">G3198 <a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a> 09:41 → <a class="lnk" data-amap data-name="杭州西站" data-city="杭州" href="https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E7%AB%99&amp;city=%E6%9D%AD%E5%B7%9E&amp;src=xiaocai-trip">杭州西</a> 15:06</div><div class="tk-date">候补</div></div>
     <div class="tk-meta">¥481.5 ｜ 补上上午空档，把 07:28 / 09:41 / 10:11 三班全包住</div>
   </div>
 
@@ -801,22 +952,22 @@ h2.sec:first-child{margin-top:2px}
   <div class="tbl">
     <table>
       <tr><th>枢纽</th><th>到市区怎么走</th></tr>
-      <tr><td>运城机场</td><td>无机场大巴；打车 15.3 km / ≈¥30–36；公交 56·24 路（06:30–19:30）</td></tr>
-      <tr><td>运城北站</td><td>8.5 km / 9 分钟 / ≈¥21；公交 16·24 路</td></tr>
-      <tr><td>临汾西站</td><td>5 路（06:10–18:30，每 9 分钟，¥1）/ 6 路 / 7 路</td></tr>
-      <tr><td>长治东站</td><td>离市区约 9 km；打车 ¥22–40；站前约 10 条日间线 + 3 条夜间线</td></tr>
-      <tr><td>晋城东站</td><td>16.1 km / 打车 ≈¥38；19 路 → 火车站、55 路 → 人民广场；市内公交 1 元</td></tr>
-      <tr><td>郑州站</td><td>地铁 1 号线直达农业南路 9 站 ≈25 分钟；打车 ≈¥30–40</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="运城张孝机场" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%BC%A0%E5%AD%9D%E6%9C%BA%E5%9C%BA&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城机场</a></td><td>无机场大巴；打车 15.3 km / ≈¥30–36；公交 56·24 路（06:30–19:30）</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="运城北站" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8C%97%E7%AB%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城北站</a></td><td>8.5 km / 9 分钟 / ≈¥21；公交 16·24 路</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西站</a></td><td>5 路（06:10–18:30，每 9 分钟，¥1）/ 6 路 / 7 路</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东站</a></td><td>离市区约 9 km；打车 ¥22–40；站前约 10 条日间线 + 3 条夜间线</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="晋城东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城东站</a></td><td>16.1 km / 打车 ≈¥38；19 路 → 火车站、55 路 → 人民广场；市内公交 1 元</td></tr>
+      <tr><td><a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a></td><td>地铁 1 号线直达农业南路 9 站 ≈25 分钟；打车 ≈¥30–40</td></tr>
     </table>
   </div>
 
   <div class="sec"><div class="sec-k">TRANSFER</div><div class="sec-h"><h2>换乘避坑</h2><span class="cnt">4 条</span></div></div>
   <div class="tk">
     <ul class="give">
-      <li><b>太原南换乘（10/2）</b>：临汾西 09:12 发 → 太原南到站 10 点多 → 11:10 再发，同站不必出站，约 1 小时余量。</li>
-      <li><b>高平东上车（10/5）</b>：团散在高平东，D315 高平东 20:14 → 晋城东 20:24（同车续乘，<b>只停 8 分钟</b>）→ 郑州 21:34；上车后尽快从 03 车换到 02 车。</li>
-      <li><b>郑州站 ≠ 郑州东</b>：D315 终到<b>郑州站</b>；10/6 返程车从<b>郑州东站</b>发。住锦江之星（农业南路）两地都顺。</li>
-      <li><b>郑州东返程（10/6）</b>：G2238 无座（12 车）；候补 G1967 07:28（75%）/ G2390 11:31（35%）哪个兑现就退现票。</li>
+      <li><b>太原南换乘（10/2）</b>：<a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西</a> 09:12 发 → <a class="lnk" data-amap data-name="太原南站" data-city="太原" href="https://uri.amap.com/search?keyword=%E5%A4%AA%E5%8E%9F%E5%8D%97%E7%AB%99&amp;city=%E5%A4%AA%E5%8E%9F&amp;src=xiaocai-trip">太原南</a>到站 10 点多 → 11:10 再发，同站不必出站，约 1 小时余量。</li>
+      <li><b><a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东</a>上车（10/5）</b>：团散在<a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东</a>，D315 <a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东</a> 20:14 → <a class="lnk" data-amap data-name="晋城东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城东</a> 20:24（同车续乘，<b>只停 8 分钟</b>）→ <a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州</a> 21:34；上车后尽快从 03 车换到 02 车。</li>
+      <li><b><a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a> ≠ <a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a></b>：D315 终到<b><a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a></b>；10/6 返程车从<b><a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东站</a></b>发。住锦江之星（农业南路）两地都顺。</li>
+      <li><b><a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a>返程（10/6）</b>：G2238 无座（12 车）；候补 G1967 07:28（75%）/ G2390 11:31（35%）哪个兑现就退现票。</li>
     </ul>
   </div>
 
@@ -837,6 +988,7 @@ h2.sec:first-child{margin-top:2px}
       <div class="hn">汉庭（运城槐东路店）<span class="pill ok">已订</span></div>
       <div class="ha">9/28 – 9/30 · 2 晚 ｜ 高级大床房</div>
       <div class="hp"><span>¥358.04</span><span>在线付</span><span>近南风广场</span></div>
+      <a class="nav" data-amap data-name="汉庭(运城槐东路店)" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B1%89%E5%BA%AD%28%E8%BF%90%E5%9F%8E%E6%A7%90%E4%B8%9C%E8%B7%AF%E5%BA%97%29&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 汉庭(运城槐东路店)<span class="ns">山西运城盐湖区槐东路</span></a>
     </div>
   </div>
 
@@ -846,6 +998,7 @@ h2.sec:first-child{margin-top:2px}
       <div class="hn">桔子酒店（临汾高铁西站店）<span class="pill ok">已订</span></div>
       <div class="ha">9/30 – 10/2 · 2 晚 ｜ 桔子大床房 · 27㎡ · 落地窗</div>
       <div class="hp"><span>¥639.66</span><span>就在临汾西站旁</span><span>9/30 06:00 起可入住</span><span>免费取消至 <b>9/29 23:00</b></span></div>
+      <a class="nav" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97%28%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97%29&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 桔子酒店(临汾高铁西站店)<span class="ns">山西临汾尧都区 · 临汾西站旁</span></a>
     </div>
   </div>
 
@@ -855,6 +1008,7 @@ h2.sec:first-child{margin-top:2px}
       <div class="hn">如家精选-长治八一广场威远门中路店<span class="pill ok">已订</span></div>
       <div class="ha">10/2 – 10/4 · 2 晚 ｜ 高级大床房 ｜ 威远门中路 19 号</div>
       <div class="hp"><span>¥632</span><span>含双早</span><span>市区八一广场</span><span>免费取消至 <b>10/2 18:00</b></span></div>
+      <a class="nav" data-amap data-name="如家精选酒店(长治八一广场威远门中路店)" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97%28%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97%29&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 如家精选酒店(长治八一广场威远门中路店)<span class="ns">山西长治潞州区威远门中路 19 号</span></a>
     </div>
   </div>
 
@@ -864,6 +1018,7 @@ h2.sec:first-child{margin-top:2px}
       <div class="hn">华之晋酒店（晋城万达广场店）<span class="pill ok">已订</span></div>
       <div class="ha">10/4 – 10/5 · 1 晚 ｜ 豪华大床房 · 28㎡ 落地窗 ｜ 文峰路</div>
       <div class="hp"><span>¥321.3</span><span>无早</span><span>紧邻晋城万达（跟团集合点）</span><span>免费取消至 <b>10/4 22:00</b></span></div>
+      <a class="nav" data-amap data-name="华之晋酒店(晋城万达广场店)" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97%28%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97%29&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 华之晋酒店(晋城万达广场店)<span class="ns">山西晋城城区文峰路 · 紧邻万达</span></a>
     </div>
   </div>
 
@@ -873,10 +1028,11 @@ h2.sec:first-child{margin-top:2px}
       <div class="hn">锦江之星（郑州高铁东站郑东万象城店）<span class="pill ok">已订</span></div>
       <div class="ha">10/5 – 10/6 · 1 晚 ｜ 标准大床房（小窗）· 25–28㎡ ｜ 农业南路 106 号</div>
       <div class="hp"><span>含 2 份早餐</span><span>地铁 1 号线农业南路站 C 口约 5 分钟</span><span>距郑州东站 2 站</span></div>
+      <a class="nav" data-amap data-name="锦江之星酒店(郑州高铁东站郑东万象城店)" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97%28%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97%29&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德导航 · 锦江之星酒店(郑州高铁东站郑东万象城店)<span class="ns">河南郑州 · 农业南路 106 号</span></a>
     </div>
   </div>
 
-  <div class="foot">到站动线：临汾西站 → 桔子酒店（就在站旁）；长治东站 → 如家精选 约 9 km 打车；郑州站 → 农业南路 地铁 1 号线直达 9 站约 25 分钟（不用换乘）。</div>
+  <div class="foot">到站动线：<a class="lnk" data-amap data-name="临汾西站" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾西站</a> → 桔子酒店（就在站旁）；<a class="lnk" data-amap data-name="长治东站" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治东站</a> → 如家精选 约 9 km 打车；<a class="lnk" data-amap data-name="郑州站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州站</a> → 农业南路 地铁 1 号线直达 9 站约 25 分钟（不用换乘）。</div>
 </section>
 
 <!-- ================= 待办 ================= -->
@@ -898,7 +1054,7 @@ h2.sec:first-child{margin-top:2px}
 
   <div class="todo"><input type="checkbox" data-k="t1"><div class="tt">
     <div class="h"><span class="tagline now">今天</span>确认 10/5 跟团集合时间</div>
-    <div class="d">问清：万达 KFC 几点集合 / 是否确定发团 / 散团是不是高平东站 / 4 个点位预约是否团里代办（铁佛寺限 500/日）</div>
+    <div class="d">问清：万达 KFC 几点集合 / 是否确定发团 / 散团是不是<a class="lnk" data-amap data-name="高平东站" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平东站</a> / 4 个点位预约是否团里代办（铁佛寺限 500/日）</div>
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t2"><div class="tt">
@@ -907,17 +1063,17 @@ h2.sec:first-child{margin-top:2px}
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t3"><div class="tt">
-    <div class="h"><span class="tagline now">今天</span>候补加挂 G3198（郑州东 09:41）</div>
+    <div class="h"><span class="tagline now">今天</span>候补加挂 G3198（<a class="lnk" data-amap data-name="郑州东站" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">郑州东</a> 09:41）</div>
     <div class="d">已有 G1967 07:28、G2390 11:31；候补开车前 6 小时截止</div>
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t4"><div class="tt">
     <div class="h"><span class="tagline soon">出发前</span>预约晋城博物馆（10/4）</div>
-    <div class="d">"晋城博物馆"公众号，实名分时段</div>
+    <div class="d"><a class="lnk" data-amap data-name="晋城博物馆" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">晋城博物馆</a>公众号，实名分时段</div>
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t5"><div class="tt">
-    <div class="h"><span class="tagline soon">出发前</span>预约运城博物馆（9/30）、临汾市博物馆（10/1）</div>
+    <div class="h"><span class="tagline soon">出发前</span>预约<a class="lnk" data-amap data-name="运城博物馆" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城博物馆</a>（9/30）、<a class="lnk" data-amap data-name="临汾市博物馆" data-city="临汾" href="https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%BE%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾市博物馆</a>（10/1）</div>
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t6"><div class="tt">
@@ -926,7 +1082,7 @@ h2.sec:first-child{margin-top:2px}
   </div></div>
 
   <div class="todo"><input type="checkbox" data-k="t7"><div class="tt">
-    <div class="h"><span class="tagline later">10/4 当天</span>司徒小镇打铁花买票</div>
+    <div class="h"><span class="tagline later">10/4 当天</span><a class="lnk" data-amap data-name="司徒小镇" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%8F%B8%E5%BE%92%E5%B0%8F%E9%95%87&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">司徒小镇</a>打铁花买票</div>
     <div class="d">若去：19:30–20:30 开演，提前 0.5–2h 占座</div>
   </div></div>
 
@@ -1066,18 +1222,47 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
 (function(){
   var lb=document.getElementById('lb'); if(!lb)return;
   var im=lb.querySelector('img');
-  document.querySelectorAll('.gal img').forEach(function(g){
+  function open(g){
+    im.src=g.currentSrc||g.src; im.alt=g.alt||'';
+    if(lb.showModal){lb.showModal();}else{lb.setAttribute('open','');}
+  }
+  document.querySelectorAll('.gal img,figure.map img').forEach(function(g){
     g.style.cursor='zoom-in';
-    g.addEventListener('click',function(){
-      im.src=g.currentSrc||g.src; im.alt=g.alt||'';
-      if(lb.showModal){lb.showModal();}else{lb.setAttribute('open','');}
-    });
+    g.addEventListener('click',function(){ open(g); });
   });
   lb.addEventListener('click',function(e){
     if(e.target===lb||e.target.classList.contains('lb-x')) lb.close();
   });
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'&&lb.open) lb.close();
+  });
+})();
+
+// ---- 高德导航条：移动端直接唤起高德 App，失败自动回落网页版 ----
+(function(){
+  var els=document.querySelectorAll('[data-amap]'); if(!els.length)return;
+  els.forEach(function(a){
+    a.removeAttribute('target');
+    a.addEventListener('click',function(e){
+      var ua=navigator.userAgent;
+      var isIOS=/iPhone|iPad|iPod/i.test(ua), isAND=/Android/i.test(ua);
+      if(!isIOS&&!isAND) return;                 // 桌面端：走 href 的网页版
+      var name=a.getAttribute('data-name')||'', city=a.getAttribute('data-city')||'';
+      // 官方 scheme：Android 用 keywords，iOS 用 name（sourceApplication 必填）
+      var scheme=isIOS
+        ? 'iosamap://poi?sourceApplication=xiaocai-trip&name='+encodeURIComponent(name)+'&dev=0'
+        : 'androidamap://poi?sourceApplication=xiaocai-trip&keywords='+encodeURIComponent(name)+'&dev=0';
+      var web='https://uri.amap.com/search?keyword='+encodeURIComponent(name)
+        +(city?('&city='+encodeURIComponent(city)):'')+'&src=xiaocai-trip';
+      e.preventDefault();
+      var jumped=false;
+      var fallback=function(){ if(jumped)return; jumped=true; location.href=web; };
+      var timer=setTimeout(fallback,1800);
+      document.addEventListener('visibilitychange',function onv(){
+        if(document.hidden){ jumped=true; clearTimeout(timer); document.removeEventListener('visibilitychange',onv); }
+      });
+      location.href=scheme;
+    });
   });
 })();
 </script>
