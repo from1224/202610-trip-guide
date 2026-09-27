@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#7c2d12">
+<title>山西古建独行 · 手机行程页</title>
+<style>
+:root{
+  --ink:#1f2328;--mut:#6b7280;--bg:#f7f5f0;--card:#fff;--line:#e7e2d8;
+  --yc:#0d9488;--lf:#ea580c;--cz:#2563eb;--jc:#16a34a;--zz:#64748b;--hz:#7c3aed;
+  --acc:#b45309;--acc2:#7c2d12;--ok:#1a7f37;--warn:#b45309;--bad:#b91c1c;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px;
+  padding-bottom:calc(72px + env(safe-area-inset-bottom));-webkit-font-smoothing:antialiased}
+
+/* ---------- 顶部 ---------- */
+.hd{background:linear-gradient(160deg,#7c2d12,#b45309 70%,#d97706);color:#fff;
+  padding:calc(16px + env(safe-area-inset-top)) 16px 14px}
+.hd-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.hd h1{font-size:21px;letter-spacing:.5px;line-height:1.3}
+.hd-sub{font-size:12.5px;opacity:.88;margin-top:3px}
+.dday{text-align:center;background:#ffffff1f;border:1px solid #ffffff40;border-radius:12px;
+  padding:6px 12px;flex:0 0 auto}
+.dday b{display:block;font-size:20px;line-height:1.15}
+.dday span{font-size:11px;opacity:.85}
+.strip{display:flex;align-items:center;gap:6px;overflow-x:auto;margin-top:12px;
+  padding-bottom:2px;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.strip .sp{flex:0 0 auto;font-size:12.5px;font-weight:600;background:#ffffff26;
+  border-radius:999px;padding:3px 10px;white-space:nowrap}
+.strip i{font-style:normal;font-size:11px;opacity:.7;flex:0 0 auto}
+.demo-note{margin:12px 16px 0;font-size:12.5px;color:#8a5a2b;background:#fff7ed;
+  border:1px dashed #e8c9a0;border-radius:10px;padding:8px 11px;line-height:1.55}
+
+/* ---------- 容器 ---------- */
+main{padding:14px 14px 8px}
+.panel{display:none;animation:fade .18s ease}
+.panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+h2.sec{font-size:15px;margin:18px 0 9px;padding-left:9px;border-left:4px solid var(--acc)}
+h2.sec:first-child{margin-top:4px}
+.hint{font-size:12.5px;color:var(--mut);margin:-4px 0 10px}
+
+/* ---------- 行程卡 ---------- */
+details.day{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  margin-bottom:10px;overflow:hidden;border-left:5px solid var(--line)}
+details.day[data-c="yc"]{border-left-color:var(--yc)}
+details.day[data-c="lf"]{border-left-color:var(--lf)}
+details.day[data-c="cz"]{border-left-color:var(--cz)}
+details.day[data-c="jc"]{border-left-color:var(--jc)}
+details.day[data-c="zz"]{border-left-color:var(--zz)}
+details.day[data-c="hz"]{border-left-color:var(--hz)}
+details.day>summary{list-style:none;cursor:pointer;padding:12px 13px;display:block}
+details.day>summary::-webkit-details-marker{display:none}
+.dh{display:flex;align-items:center;gap:10px}
+.dnum{flex:0 0 46px;text-align:center;font-size:11px;font-weight:700;color:#fff;
+  background:var(--acc2);border-radius:9px;padding:4px 0;line-height:1.25}
+.dnum em{display:block;font-style:normal;font-size:13px}
+.dti{flex:1;min-width:0}
+.dti .t{font-size:15px;font-weight:700}
+.dti .s{font-size:12.5px;color:var(--mut);margin-top:1px}
+.cv{flex:0 0 auto;font-size:16px;color:#c9c2b6;transition:transform .2s}
+details[open] .cv{transform:rotate(180deg)}
+.dbody{padding:0 13px 13px;border-top:1px dashed var(--line);margin-top:2px}
+.row{display:flex;gap:8px;align-items:flex-start;font-size:14px;padding:7px 0;
+  border-bottom:1px solid #f2eee6}
+.row:last-child{border-bottom:none}
+.row .ic{flex:0 0 20px;font-size:14px;line-height:1.6}
+.row .tx{flex:1;min-width:0}
+.row .tx b{font-weight:700}
+.row .tx .n{color:var(--mut);font-size:12.5px;margin-top:2px;line-height:1.55}
+.kv{font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;
+  padding:1px 7px;margin-left:5px;vertical-align:1.5px;white-space:nowrap}
+.pill.ok{background:#e7f5ec;color:var(--ok)}
+.pill.warn{background:#fdf3e3;color:var(--warn)}
+.pill.bad{background:#fdecec;color:var(--bad)}
+.pill.info{background:#e8f0fe;color:#1d4ed8}
+.ph{display:flex;gap:7px;overflow-x:auto;margin-top:9px;padding-bottom:3px;scrollbar-width:none}
+.ph::-webkit-scrollbar{display:none}
+.ph figure{flex:0 0 auto;margin:0;width:158px}
+.ph img{width:100%;height:106px;object-fit:cover;border-radius:9px;border:1px solid var(--line);
+  display:block;background:#f1f1f1}
+.ph figcaption{font-size:11px;color:var(--mut);margin-top:3px;line-height:1.35}
+.look{font-size:13px;color:#7c2d12;background:#fff7ed;border-left:3px solid var(--lf);
+  padding:7px 10px;border-radius:0 8px 8px 0;margin-top:9px;line-height:1.6}
+.look b{color:#9a3412}
+
+/* ---------- 票据卡 ---------- */
+.tk{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:12px 13px;margin-bottom:9px}
+.tk-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.tk-no{font-size:15.5px;font-weight:800;letter-spacing:.3px}
+.tk-date{font-size:12.5px;color:var(--mut)}
+.tk-line{display:flex;align-items:center;gap:9px;margin-top:8px}
+.tk-line .st{font-size:15px;font-weight:700}
+.tk-line .tm{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}
+.tk-line .ar{flex:1;text-align:center;color:var(--mut);font-size:11px;
+  border-top:1px dashed #cfc7b8;position:relative;padding-top:2px}
+.tk-line .ar b{display:block;font-size:12px;color:#374151}
+.tk-meta{font-size:12.5px;color:var(--mut);margin-top:7px;padding-top:7px;
+  border-top:1px dashed var(--line);line-height:1.6}
+.tk.cand{background:#fdfcfa;border-style:dashed}
+
+/* ---------- 住宿卡 ---------- */
+.hotel{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:12px 13px;margin-bottom:9px;display:flex;gap:11px}
+.hotel .hico{flex:0 0 40px;height:40px;border-radius:11px;background:#f3ede3;
+  display:flex;align-items:center;justify-content:center;font-size:19px}
+.hotel .hb{flex:1;min-width:0}
+.hotel .hn{font-size:14.5px;font-weight:700}
+.hotel .ha{font-size:12.5px;color:var(--mut);margin-top:2px;line-height:1.5}
+.hotel .hp{font-size:12.5px;color:#374151;margin-top:5px;display:flex;
+  flex-wrap:wrap;gap:8px}
+.hotel .hp b{color:var(--bad)}
+
+/* ---------- 待办 ---------- */
+.prog{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:12px 13px;margin-bottom:12px}
+.prog-t{display:flex;justify-content:space-between;font-size:13.5px;font-weight:700}
+.bar{height:9px;background:#efe9df;border-radius:99px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#b45309,#d97706);
+  border-radius:99px;transition:width .25s}
+.todo{display:flex;gap:10px;align-items:flex-start;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;padding:11px 12px;margin-bottom:8px}
+.todo input{flex:0 0 auto;width:21px;height:21px;margin-top:2px;accent-color:var(--acc);
+  cursor:pointer}
+.todo .tt{flex:1;min-width:0}
+.todo .tt .h{font-size:14.5px;font-weight:700}
+.todo .tt .d{font-size:12.5px;color:var(--mut);margin-top:2px;line-height:1.55}
+.todo.done{opacity:.52}
+.todo.done .h{text-decoration:line-through}
+.tagline{font-size:11.5px;font-weight:700;border-radius:6px;padding:1px 6px;
+  margin-right:6px;vertical-align:1.5px;white-space:nowrap}
+.tagline.now{background:#fdecec;color:var(--bad)}
+.tagline.soon{background:#fdf3e3;color:var(--warn)}
+.tagline.later{background:#eef2f7;color:#475569}
+
+/* ---------- 装备 ---------- */
+.gbox{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:12px 13px;margin-bottom:10px}
+.gbox h3{font-size:14px;margin-bottom:8px;color:#7c2d12}
+.glist{list-style:none;font-size:13.5px}
+.glist li{padding:6px 0;border-bottom:1px solid #f2eee6;display:flex;gap:8px}
+.glist li:last-child{border-bottom:none}
+.glist li b{flex:0 0 62px;font-weight:600;color:#374151}
+.glist li span{flex:1;color:#4b5563}
+.temp{display:flex;gap:7px;margin-top:4px}
+.temp div{flex:1;text-align:center;background:#fff7ed;border:1px solid #f0dcb4;
+  border-radius:10px;padding:7px 4px}
+.temp b{display:block;font-size:16px;color:#b45309}
+.temp span{font-size:11px;color:#8a5a2b}
+
+/* ---------- 底部导航 ---------- */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;
+  background:#fffffff2;backdrop-filter:blur(12px);border-top:1px solid var(--line);
+  padding-bottom:env(safe-area-inset-bottom)}
+.tabbar button{flex:1;border:0;background:none;font-family:inherit;font-size:11px;
+  color:var(--mut);padding:8px 0 7px;cursor:pointer;display:flex;flex-direction:column;
+  align-items:center;gap:2px}
+.tabbar button span{font-size:19px;line-height:1.1}
+.tabbar button.active{color:var(--acc2);font-weight:700}
+.foot{margin:22px 4px 6px;padding-top:12px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--mut);line-height:1.7}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <div class="hd-row">
+    <div>
+      <h1>山西古建独行</h1>
+      <p class="hd-sub">9/28 – 10/6 ｜ 运城·临汾·长治·晋城 ｜ 全程公共交通</p>
+    </div>
+    <div class="dday"><b>D-1</b><span>距出发</span></div>
+  </div>
+  <div class="strip">
+    <span class="sp">杭州</span><i>✈</i>
+    <span class="sp">运城</span><i>→</i>
+    <span class="sp">临汾</span><i>→</i>
+    <span class="sp">长治</span><i>→</i>
+    <span class="sp">晋城</span><i>→</i>
+    <span class="sp">郑州</span><i>→</i>
+    <span class="sp">杭州</span>
+  </div>
+</header>
+
+<div class="demo-note">
+  <b>DEMO</b> · 这是结构样张：版式、交互、模块划分都是最终形态，<b>数据只填了一部分真实内容</b>（机票/车票/住宿/跟团为真实订单）。你说行，我就把 9 天全部信息 + 图片灌进去。
+</div>
+
+<main>
+
+<!-- ================= 行程 ================= -->
+<section class="panel active" id="p-plan">
+
+  <h2 class="sec">逐日行程（点卡片展开）</h2>
+  <p class="hint">每天一行：交通 → 门票/跟团 → 住宿 → 重点看什么</p>
+
+  <details class="day" data-c="hz" open>
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D1</em>9/28</div>
+        <div class="dti">
+          <div class="t">杭州 → 运城</div>
+          <div class="s">直飞已出票 · 落地打车进市区</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">✈️</div><div class="tx">
+        <b class="kv">ZH8158　12:10 → 14:20</b><span class="pill ok">已出票</span>
+        <div class="n">¥1010 ｜ 20kg 托运 ｜ 出发前 48h 在线值机</div>
+      </div></div>
+      <div class="row"><div class="ic">🚕</div><div class="tx">
+        <b>机场 → 市区：只能打车</b><span class="pill warn">无机场大巴</span>
+        <div class="n">15.3 km / 约 15 分钟 / ¥30–36。公交 56·24·66 路可到但需绕</div>
+      </div></div>
+      <div class="row"><div class="ic">🏨</div><div class="tx">
+        <b>汉庭（运城槐东路店）· 高级大床房</b><span class="pill ok">已订</span>
+        <div class="n">9/28–9/30 共 2 晚 ｜ ¥358.04 在线付</div>
+      </div></div>
+      <div class="row"><div class="ic">☔</div><div class="tx">
+        <b>出发日有雨</b>
+        <div class="n">杭州毛毛雨 → 运城小雨（概率高），带伞、关注航班动态</div>
+      </div></div>
+    </div>
+  </details>
+
+  <details class="day" data-c="yc">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D2</em>9/29</div>
+        <div class="dti">
+          <div class="t">运城 · 芮城线</div>
+          <div class="s">关帝祖庙 + 永乐宫 + 广仁王庙</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🚐</div><div class="tx">
+        <b>携程一日游 · 上门接送</b><span class="pill ok">已订</span>
+        <div class="n">¥115 ｜ 关帝祖庙＋永乐宫＋广仁王庙＋城隍庙＋寿圣寺</div>
+      </div></div>
+      <div class="ph">
+        <figure><img src="images/01_yonglegong.jpg" alt="永乐宫"><figcaption>永乐宫 · 三清殿院落</figcaption></figure>
+        <figure><img src="images/02_guandimiao.jpg" alt="关帝庙"><figcaption>解州关帝庙</figcaption></figure>
+      </div>
+      <div class="look">👀 <b>重点看</b>：三清殿<b>《朝元图》</b>——286 尊神祇的元代壁画天花板（室内禁拍照、需套鞋套）；广仁王庙是<b>现存最早的道教木构之一</b>。</div>
+    </div>
+  </details>
+
+  <details class="day" data-c="yc">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D3</em>9/30</div>
+        <div class="dti">
+          <div class="t">运城 → 临汾</div>
+          <div class="s">上午机动 · 午后高铁</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🏛</div><div class="tx">
+        <b>上午机动：运城博物馆</b>
+        <div class="n">9:00–17:00、16:00 停止入馆；<b>周一闭馆</b>——9/30 是周三，可去</div>
+      </div></div>
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G2620　运城北 14:21 → 临汾西</b><span class="pill ok">已支付</span>
+        <div class="n">二等座 07 车 05C ｜ ¥39</div>
+      </div></div>
+      <div class="row"><div class="ic">🏨</div><div class="tx">
+        <b>临汾住宿</b><span class="pill info">你已另行安排</span>
+      </div></div>
+    </div>
+  </details>
+
+  <details class="day" data-c="lf">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D4</em>10/1</div>
+        <div class="dti">
+          <div class="t">临汾 · 洪洞广胜寺</div>
+          <div class="s">飞虹塔 + 水神庙壁画</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🎟</div><div class="tx">
+        <b>广胜寺一日游 + 门票（两笔 ¥58）</b><span class="pill warn">待核重复</span>
+        <div class="n">携程显示两笔同价订单，出发前核对是否重复下单，可退一笔</div>
+      </div></div>
+      <div class="row"><div class="ic">🚗</div><div class="tx">
+        <b>接驳</b>
+        <div class="n">临汾→广胜寺 41.7 km / 54 分钟；洪洞西站→广胜寺直通车 ¥2（09:30 首班）</div>
+      </div></div>
+      <div class="ph">
+        <figure><img src="images/03_guangshengsi.jpg" alt="广胜寺"><figcaption>广胜寺 · 飞虹塔</figcaption></figure>
+      </div>
+      <div class="look">👀 <b>重点看</b>：<b>飞虹塔</b>（全国保存最完整的琉璃塔，绕塔看琉璃构件）；下寺水神庙<b>元代壁画</b>《大行散乐忠都秀在此作场》——中国戏曲史的孤本级证据。</div>
+    </div>
+  </details>
+
+  <details class="day" data-c="lf">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D5</em>10/2</div>
+        <div class="dti">
+          <div class="t">临汾 → 太原南 → 长治</div>
+          <div class="s">经太原换乘（临汾与长治无直达）</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G622　临汾西 09:12 → 太原南</b><span class="pill ok">已改签有效</span>
+        <div class="n">二等座 07 车 13D ｜ ¥82（9.6 折）</div>
+      </div></div>
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G3135　太原南 11:10 → 长治东</b><span class="pill ok">已改签有效</span>
+        <div class="n">二等座 16 车 04D ｜ ¥105 ｜ 换乘约 1 小时</div>
+      </div></div>
+      <div class="row"><div class="ic">🏨</div><div class="tx">
+        <b>长治住宿</b><span class="pill info">你已另行安排</span>
+      </div></div>
+    </div>
+  </details>
+
+  <details class="day" data-c="cz">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D6</em>10/3</div>
+        <div class="dti">
+          <div class="t">长治 · 浊漳河谷</div>
+          <div class="s">天台庵 + 大云院 + 龙门寺 + 原起寺</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🎧</div><div class="tx">
+        <b>古建讲师全程讲解一日</b><span class="pill ok">已订</span>
+        <div class="n">¥378 ｜ 需确认<b>上门接送的酒店与接送时间</b></div>
+      </div></div>
+      <div class="ph">
+        <figure><img src="images/04_faxingsi.jpg" alt="法兴寺"><figcaption>法兴寺 · 圆觉殿</figcaption></figure>
+        <figure><img src="images/05_chongqingsi.jpg" alt="崇庆寺"><figcaption>崇庆寺 · 三大士殿</figcaption></figure>
+      </div>
+      <div class="look">👀 <b>重点看</b>：浊漳河谷是"中国早期木构走廊"——天台庵（唐构）、大云院（五代壁画）、龙门寺（一寺跨六朝）。</div>
+    </div>
+  </details>
+
+  <details class="day" data-c="jc">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D7</em>10/4</div>
+        <div class="dti">
+          <div class="t">长治 → 晋城</div>
+          <div class="s">博物馆 + 晚间打铁花</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G3845　长治东 10:01 → 晋城东</b><span class="pill ok">已支付</span>
+        <div class="n">二等座 04 车 09C ｜ ¥44</div>
+      </div></div>
+      <div class="row"><div class="ic">🏛</div><div class="tx">
+        <b>晋城博物馆</b><span class="pill warn">需预约</span>
+        <div class="n">"晋城博物馆"公众号 ｜ 10/1–10/7 延时 09:00–18:00（17:30 停入）｜ 夜场仅 10/1</div>
+      </div></div>
+      <div class="row"><div class="ic">🔥</div><div class="tx">
+        <b>晚间首选：司徒小镇《千年铁魂》打铁花</b><span class="pill warn">需买票</span>
+        <div class="n">4A · 晋城本地人推荐榜第 1 ｜ 约 19:30–20:30 开演，提前 0.5–2h 占座 ｜ 市区东北，打车 15–20 分钟</div>
+      </div></div>
+      <div class="row"><div class="ic">🏨</div><div class="tx">
+        <b>华之晋酒店（晋城万达广场店）</b><span class="pill ok">已订</span>
+        <div class="n">10/4–10/5 ｜ ¥322 ｜ 文峰路，紧邻晋城万达（次日跟团集合点）</div>
+      </div></div>
+    </div>
+  </details>
+
+  <details class="day" data-c="jc">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D8</em>10/5</div>
+        <div class="dti">
+          <div class="t">晋城跟团 → 高平 → 郑州</div>
+          <div class="s">四大孤品一天打完，晚上转场</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🎧</div><div class="tx">
+        <b>讲师团：青莲寺＋小南村二仙庙＋玉皇庙＋铁佛寺</b><span class="pill ok">已订</span>
+        <div class="n">¥398 ｜ 晋城万达 KFC 集合、高平东站散团 ｜ <b>集合时间待确认</b></div>
+      </div></div>
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">D315　高平东 20:14 → 晋城东 20:24 → 郑州 21:34</b><span class="pill ok">一票到底</span>
+        <div class="n">两段同一趟车、<b>不用下车</b>；晋城东只停 8 分钟，尽快从 03 车 05D 换到 02 车 16A</div>
+      </div></div>
+      <div class="row"><div class="ic">🏨</div><div class="tx">
+        <b>锦江之星（郑州高铁东站郑东万象城店）</b><span class="pill ok">已订</span>
+        <div class="n">10/5–10/6 ｜ 农业南路 106 号，地铁 1 号线农业南路站 C 口步行 5 分钟</div>
+      </div></div>
+      <div class="ph">
+        <figure><img src="images/07_yuhuangmiao.jpg" alt="玉皇庙"><figcaption>府城玉皇庙 · 二十八星宿</figcaption></figure>
+        <figure><img src="images/08_qingliansi.jpg" alt="青莲寺"><figcaption>青莲寺下寺 · 唐塑</figcaption></figure>
+        <figure><img src="images/09_tiefosi.png" alt="铁佛寺"><figcaption>高平铁佛寺 · 二十四诸天</figcaption></figure>
+      </div>
+      <div class="look">👀 <b>重点看</b>：玉皇庙<b>元代二十八星宿</b>（每尊带动物化身）；青莲寺下寺<b>唐代彩塑</b>（全国仅存三处的唐寺观塑像之一）；高平铁佛寺<b>明代二十四诸天</b>（限流严）；小南村二仙庙<b>天宫楼阁小木作</b>。</div>
+    </div>
+  </details>
+
+  <details class="day" data-c="zz">
+    <summary>
+      <div class="dh">
+        <div class="dnum"><em>D9</em>10/6</div>
+        <div class="dti">
+          <div class="t">郑州 → 杭州</div>
+          <div class="s">郑州东出发 · 芜湖换乘</div>
+        </div>
+        <div class="cv">▾</div>
+      </div>
+    </summary>
+    <div class="dbody">
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G2238　郑州东 10:11 → 芜湖</b><span class="pill bad">无座（保底）</span>
+        <div class="n">12 车 ｜ ¥386.5 ｜ 上车后尽早找空座或找乘务员</div>
+      </div></div>
+      <div class="row"><div class="ic">🚄</div><div class="tx">
+        <b class="kv">G2235　芜湖 13:33 → 杭州西</b><span class="pill ok">已支付</span>
+        <div class="n">04 车 15F ｜ ¥143</div>
+      </div></div>
+      <div class="row"><div class="ic">🕘</div><div class="tx">
+        <b>出门时间：08:45</b>
+        <div class="n">农业南路站 → 郑州东站仅 2 站（约 5 分钟），首班 6:06</div>
+      </div></div>
+    </div>
+  </details>
+
+  <h2 class="sec">10/4 晚间备选（晋城）</h2>
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🥈 南大街夜市 + 老城夜游</div><div class="tk-date">免费</div></div>
+    <div class="tk-meta">离晋城博物馆不远，可接成"博物馆 → 老城夜市"一条龙，顺看景德桥 / 景忠桥</div>
+  </div>
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">📅 玉皇庙广场惠民演出</div><div class="tk-date">10/1–10/5</div></div>
+    <div class="tk-meta">每日 9:30、14:30（晋城市歌舞剧院）——<b>都是白天场</b></div>
+  </div>
+
+  <div class="foot">
+    地图页 / 高德收藏 / 完整核查版仍在 <b>route-map.html</b>（桌面版）。<br>
+    DEMO · 手机版结构样张。
+  </div>
+</section>
+
+<!-- ================= 交通 ================= -->
+<section class="panel" id="p-traffic">
+  <h2 class="sec">已购票（真实订单）</h2>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">✈️ ZH8158</div><div class="tk-date">9/28 周一</div></div>
+    <div class="tk-line">
+      <div><div class="st">杭州</div><div class="tm">12:10</div></div>
+      <div class="ar"><b>直飞</b>2h10m</div>
+      <div style="text-align:right"><div class="st">运城</div><div class="tm">14:20</div></div>
+    </div>
+    <div class="tk-meta">¥1010 ｜ 已出票 ｜ 20kg 托运</div>
+  </div>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🚄 G2620</div><div class="tk-date">9/30 周三</div></div>
+    <div class="tk-line">
+      <div><div class="st">运城北</div><div class="tm">14:21</div></div>
+      <div class="ar"><b>¥39</b>二等座</div>
+      <div style="text-align:right"><div class="st">临汾西</div><div class="tm">—</div></div>
+    </div>
+    <div class="tk-meta">07 车 05C ｜ 已支付</div>
+  </div>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🚄 G622 + G3135</div><div class="tk-date">10/2 周五</div></div>
+    <div class="tk-line">
+      <div><div class="st">临汾西</div><div class="tm">09:12</div></div>
+      <div class="ar"><b>太原南换乘</b>1h 左右</div>
+      <div style="text-align:right"><div class="st">长治东</div><div class="tm">—</div></div>
+    </div>
+    <div class="tk-meta">G622 ¥82（07 车 13D）→ G3135 ¥105（16 车 04D）｜ 均为已改签有效票<br>⚠️ 到太原南 10 点多，11:10 太原南发车</div>
+  </div>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🚄 G3845</div><div class="tk-date">10/4 周日</div></div>
+    <div class="tk-line">
+      <div><div class="st">长治东</div><div class="tm">10:01</div></div>
+      <div class="ar"><b>¥44</b>二等座</div>
+      <div style="text-align:right"><div class="st">晋城东</div><div class="tm">—</div></div>
+    </div>
+    <div class="tk-meta">04 车 09C ｜ 已支付</div>
+  </div>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🚄 D315（同车两段）</div><div class="tk-date">10/5 周一</div></div>
+    <div class="tk-line">
+      <div><div class="st">高平东</div><div class="tm">20:14</div></div>
+      <div class="ar"><b>一票到底</b>不下车</div>
+      <div style="text-align:right"><div class="st">郑州站</div><div class="tm">21:34</div></div>
+    </div>
+    <div class="tk-meta">高平东→晋城东 ¥11（03 车 05D，积分）＋ 晋城东→郑州 ¥59（02 车 16A）<br>⚠️ 晋城东 20:24 到 / 20:32 发，<b>只停 8 分钟</b>，上车后尽快换到 02 车</div>
+  </div>
+
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🚄 G2238 + G2235</div><div class="tk-date">10/6 周二</div></div>
+    <div class="tk-line">
+      <div><div class="st">郑州东</div><div class="tm">10:11</div></div>
+      <div class="ar"><b>芜湖换乘</b></div>
+      <div style="text-align:right"><div class="st">杭州西</div><div class="tm">—</div></div>
+    </div>
+    <div class="tk-meta">G2238 ¥386.5（<b>无座</b>，12 车）→ G2235 13:33 芜湖发 ¥143（04 车 15F）</div>
+  </div>
+
+  <h2 class="sec">候补中（待兑现）</h2>
+  <div class="tk cand">
+    <div class="tk-top"><div class="tk-no">G1967 郑州东 07:28 → 芜湖 → 杭州</div><div class="tk-date">10/6</div></div>
+    <div class="tk-meta">¥377.5 ｜ 成功率 <b>75%</b> ｜ 候补截止：开车前 6 小时</div>
+  </div>
+  <div class="tk cand">
+    <div class="tk-top"><div class="tk-no">G2390 郑州东 11:31 → 杭州西 17:01</div><div class="tk-date">10/6</div></div>
+    <div class="tk-meta">¥523.5 ｜ 成功率 35%</div>
+  </div>
+
+  <h2 class="sec">建议补一张</h2>
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">G3198 郑州东 09:41 → 杭州西 15:06</div><div class="tk-date">候补</div></div>
+    <div class="tk-meta">¥481.5 ｜ 补上上午空档，把 07:28 / 09:41 / 10:11 三班全包住</div>
+  </div>
+
+  <div class="foot">候补开车前 6 小时截止，10/6 凌晨别开静音。保底的无座分段票先别退。</div>
+</section>
+
+<!-- ================= 住宿 ================= -->
+<section class="panel" id="p-hotel">
+  <h2 class="sec">9 晚住宿</h2>
+  <p class="hint">主选按 ≤¥500/晚，价格均为实查价</p>
+
+  <div class="hotel">
+    <div class="hico">🏨</div>
+    <div class="hb">
+      <div class="hn">汉庭（运城槐东路店）<span class="pill ok">已订</span></div>
+      <div class="ha">9/28 – 9/30 · 2 晚 ｜ 高级大床房</div>
+      <div class="hp"><span>¥358.04</span><span>在线付</span><span>近南风广场</span></div>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <div class="hico">🏨</div>
+    <div class="hb">
+      <div class="hn">临汾<span class="pill info">你已安排</span></div>
+      <div class="ha">9/30 – 10/2 · 2 晚</div>
+      <div class="hp"><span>携程显示的原单为"已取消"，出发前核对是否已在他处订好</span></div>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <div class="hico">🏨</div>
+    <div class="hb">
+      <div class="hn">长治<span class="pill info">你已安排</span></div>
+      <div class="ha">10/2 – 10/4 · 2 晚</div>
+      <div class="hp"><span>注意：10/3 跟团需<b>上门接送</b>，把酒店地址给商家</span></div>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <div class="hico">🏨</div>
+    <div class="hb">
+      <div class="hn">华之晋酒店（晋城万达广场店）<span class="pill ok">已订</span></div>
+      <div class="ha">10/4 – 10/5 · 1 晚 ｜ 文峰路</div>
+      <div class="hp"><span>¥322</span><span>2025-04 新装</span><span>紧邻晋城万达（跟团集合点）</span></div>
+    </div>
+  </div>
+
+  <div class="hotel">
+    <div class="hico">🏨</div>
+    <div class="hb">
+      <div class="hn">锦江之星（郑州高铁东站郑东万象城店）<span class="pill ok">已订</span></div>
+      <div class="ha">10/5 – 10/6 · 1 晚 ｜ 农业南路 106 号</div>
+      <div class="hp"><span>地铁 1 号线农业南路站 C 口 5 分钟</span><span>距郑州东站 2 站</span></div>
+    </div>
+  </div>
+
+  <div class="foot">郑州站 → 农业南路：地铁 1 号线直达 9 站约 25 分钟（不用换乘）；打车约 20–25 分钟 ¥30–40。</div>
+</section>
+
+<!-- ================= 待办 ================= -->
+<section class="panel" id="p-todo">
+  <div class="prog">
+    <div class="prog-t"><span>出行前待办</span><span id="progTx">0 / 0</span></div>
+    <div class="bar"><i id="progBar"></i></div>
+  </div>
+  <p class="hint">勾选会保存在本机浏览器（localStorage），刷新不丢</p>
+
+  <div class="todo"><input type="checkbox" data-k="t1"><div class="tt">
+    <div class="h"><span class="tagline now">今天</span>确认 10/5 跟团集合时间</div>
+    <div class="d">问清：万达 KFC 几点集合 / 是否确定发团 / 散团是不是高平东站 / 4 个点位预约是否团里代办（铁佛寺限 500/日）</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t2"><div class="tt">
+    <div class="h"><span class="tagline now">今天</span>核对广胜寺两笔 ¥58</div>
+    <div class="d">"一日游 ¥58" + "门票 ¥58" 同价，重复就退一笔</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t3"><div class="tt">
+    <div class="h"><span class="tagline now">今天</span>候补加挂 G3198（郑州东 09:41）</div>
+    <div class="d">已有 G1967 07:28、G2390 11:31；候补开车前 6 小时截止</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t4"><div class="tt">
+    <div class="h"><span class="tagline soon">出发前</span>预约晋城博物馆（10/4）</div>
+    <div class="d">"晋城博物馆"公众号，实名分时段</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t5"><div class="tt">
+    <div class="h"><span class="tagline soon">出发前</span>预约运城博物馆（9/30）、临汾市博物馆（10/1）</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t6"><div class="tt">
+    <div class="h"><span class="tagline later">出发前</span>确认 10/3 跟团上门接送信息</div>
+    <div class="d">把长治酒店名称 + 地址发给商家</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t7"><div class="tt">
+    <div class="h"><span class="tagline later">10/4 当天</span>司徒小镇打铁花买票</div>
+    <div class="d">若去：19:30–20:30 开演，提前 0.5–2h 占座</div>
+  </div></div>
+
+  <div class="todo"><input type="checkbox" data-k="t8"><div class="tt">
+    <div class="h"><span class="tagline later">10/6 车上</span>无座票尽早找座</div>
+    <div class="d">G2238 郑州东 10:11 出发，12 车无座；可找乘务员问空座</div>
+  </div></div>
+
+  <div class="foot">这张清单就是 DEMO 里我最想让你确认的模块——你点头后，我会把前面几轮聊出来的所有待办（含预约渠道、电话、截止时间）全灌进来。</div>
+</section>
+
+<!-- ================= 装备 ================= -->
+<section class="panel" id="p-gear">
+  <h2 class="sec">天气判断</h2>
+  <div class="gbox">
+    <div class="temp">
+      <div><b>20–26℃</b><span>白天（午后偏热）</span></div>
+      <div><b>10–14℃</b><span>早晚</span></div>
+      <div><b>-3~-5℃</b><span>山区/河谷再降</span></div>
+    </div>
+    <div class="look" style="margin-top:10px">昼夜温差多地可达 <b>15℃ 以上</b>；国庆期间山西<b>多秋雨</b>。晋东南（长治/晋城）比运城、临汾平原再凉 3–5℃。</div>
+  </div>
+
+  <h2 class="sec">上衣：洋葱式三层</h2>
+  <div class="gbox">
+    <ul class="glist">
+      <li><b>打底</b><span>短袖 / 薄长袖 ×2–3（白天单穿）</span></li>
+      <li><b>中层</b><span>薄卫衣 / 针织 ×1</span></li>
+      <li><b>外层</b><span>防风外套（冲锋衣 / 夹克）— 早晚与山里最关键</span></li>
+      <li><b>加厚</b><span>薄羽绒马甲（怕冷就塞一件）</span></li>
+    </ul>
+  </div>
+
+  <h2 class="sec">下装 + 鞋</h2>
+  <div class="gbox">
+    <ul class="glist">
+      <li><b>长裤</b><span>×2（山里、祠庙里都方便）</span></li>
+      <li><b>鞋</b><span>舒适防滑运动鞋 — 浊漳河谷、开化寺长石梯、大粮山全靠走</span></li>
+    </ul>
+  </div>
+
+  <h2 class="sec">必带小物</h2>
+  <div class="gbox">
+    <ul class="glist">
+      <li><b>防雨</b><span>折叠伞 / 一次性雨衣</span></li>
+      <li><b>防晒</b><span>帽子、墨镜、防晒霜（紫外线强、极干）</span></li>
+      <li><b>保湿</b><span>润唇膏、护手霜</span></li>
+      <li><b>日用</b><span>保温杯、充电宝、现金零钱、口罩、小背包</span></li>
+      <li><b>证件</b><span>身份证（火车 / 景区 / 预约全靠它）</span></li>
+    </ul>
+  </div>
+
+  <h2 class="sec">进殿注意</h2>
+  <div class="gbox">
+    <ul class="glist">
+      <li><b>禁</b><span>彩塑 / 壁画区禁闪光灯，多数禁拍照（玉皇庙二十八星宿、铁佛寺尤严）</span></li>
+      <li><b>礼</b><span>部分殿内需脱帽；个别点位要换鞋套</span></li>
+    </ul>
+  </div>
+
+  <div class="foot">DEMO 结束 · 装备模块也是样张，你说行我就按 9 天城市温度逐日细化。</div>
+</section>
+
+</main>
+
+<nav class="tabbar">
+  <button class="active" data-p="p-plan"><span>🗓</span>行程</button>
+  <button data-p="p-traffic"><span>🚄</span>交通</button>
+  <button data-p="p-hotel"><span>🏨</span>住宿</button>
+  <button data-p="p-todo"><span>✅</span>待办</button>
+  <button data-p="p-gear"><span>🎒</span>装备</button>
+</nav>
+
+<script>
+// ---- Tab 切换 ----
+document.querySelectorAll('.tabbar button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var p=b.dataset.p;
+    document.querySelectorAll('.tabbar button').forEach(function(x){
+      x.classList.toggle('active',x===b);
+    });
+    document.querySelectorAll('.panel').forEach(function(s){
+      s.classList.toggle('active',s.id===p);
+    });
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+});
+
+// ---- 待办持久化 ----
+(function(){
+  var boxes=document.querySelectorAll('.todo input[type=checkbox]');
+  var KEY='shanxi-trip-todo-v1';
+  var saved={};
+  try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){saved={}}
+
+  function sync(){
+    var done=0;
+    boxes.forEach(function(cb){
+      var item=cb.closest('.todo');
+      item.classList.toggle('done',cb.checked);
+      if(cb.checked)done++;
+    });
+    document.getElementById('progTx').textContent=done+' / '+boxes.length;
+    document.getElementById('progBar').style.width=(boxes.length?done/boxes.length*100:0)+'%';
+  }
+
+  boxes.forEach(function(cb){
+    if(saved[cb.dataset.k])cb.checked=true;
+    cb.addEventListener('change',function(){
+      saved[cb.dataset.k]=cb.checked;
+      try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}
+      sync();
+    });
+  });
+  sync();
+})();
+</script>
+</body>
+</html>
