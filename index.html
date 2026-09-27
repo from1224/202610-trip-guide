@@ -190,6 +190,20 @@ details[open] .cv{transform:rotate(180deg)}
 .tagline.now{background:#fdecec;color:var(--bad)}
 .tagline.soon{background:#fdf3e3;color:var(--warn)}
 .tagline.later{background:#eef2f7;color:#475569}
+/* 新增待办 */
+.addbox{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:11px 12px;margin-bottom:11px}
+.addrow{display:flex;gap:8px}
+.addbox input[type=text]{flex:1;min-width:0;font-family:inherit;font-size:14px;color:var(--ink);
+  border:1px solid var(--line);border-radius:10px;padding:9px 11px;background:#fffdf8;-webkit-appearance:none}
+.addbox input[type=text]:focus{outline:none;border-color:var(--acc);background:#fff}
+.addbox select{flex:0 0 auto;font-family:inherit;font-size:13px;color:var(--ink2);border:1px solid var(--line);
+  border-radius:10px;padding:9px 8px;background:#fffdf8;-webkit-appearance:none;appearance:none}
+.addbox .addbtn{width:100%;margin-top:8px;border:0;border-radius:10px;font-family:inherit;font-size:14px;
+  font-weight:700;color:#fff;background:var(--acc);padding:11px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.addbox .addbtn:active{background:#92400e}
+.todo .del{flex:0 0 auto;border:0;background:none;color:#c9c2b6;font-size:14px;font-family:inherit;
+  padding:2px 4px;margin-top:1px;cursor:pointer;line-height:1}
+.todo .del:active{color:var(--bad)}
 
 /* ============ 装备 ============ */
 .gbox{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:12px 13px;margin-bottom:10px}
@@ -1045,8 +1059,21 @@ details.sub .nav{margin-top:10px}
     <div class="prog-t"><span>完成进度</span><span id="progTx">0 / 0</span></div>
     <div class="bar"><i id="progBar"></i></div>
   </div>
-  <p class="hint">勾选会保存在本机浏览器（localStorage），刷新不丢</p>
+  <p class="hint">勾选与新增都保存在本机浏览器（localStorage），刷新不丢；<b>未完成的自动排在前面</b>。</p>
 
+  <div class="addbox">
+    <div class="addrow">
+      <input id="tdText" type="text" maxlength="60" placeholder="新增一条待办，如：换点现金 / 买晕车药" autocomplete="off" enterkeyhint="done">
+      <select id="tdTag" aria-label="标签">
+        <option value="now">今天</option>
+        <option value="soon">出发前</option>
+        <option value="later" selected>待定</option>
+      </select>
+    </div>
+    <button id="tdAdd" class="addbtn" type="button">＋ 添加待办</button>
+  </div>
+
+  <div id="todoList">
   <div class="todo"><input type="checkbox" data-k="t0"><div class="tt">
     <div class="h"><span class="tagline soon">留意</span>住宿免费取消截止时间</div>
     <div class="d">临汾 <b>9/29 23:00</b> · 长治 <b>10/2 18:00</b> · 晋城 <b>10/4 22:00</b>；行程有变就在此之前改</div>
@@ -1091,7 +1118,9 @@ details.sub .nav{margin-top:10px}
     <div class="d">G2238 郑州东 10:11 出发，12 车无座；可找乘务员问空座</div>
   </div></div>
 
-  <div class="foot">勾选状态只存在本机浏览器；换设备/清缓存会归零。带「今天/留意」标签的优先处理。</div>
+  </div><!-- /todoList -->
+
+  <div class="foot">勾选与自定义待办只存在本机浏览器；换设备/清缓存会归零。未完成的排前面，「今天/留意」标签优先处理。</div>
 </section>
 
 <!-- ================= 装备 ================= -->
@@ -1189,32 +1218,102 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
   });
 });
 
-// ---- 待办持久化 ----
+// ---- 待办：持久化 + 新增 + 未完成排前 ----
 (function(){
-  var boxes=document.querySelectorAll('.todo input[type=checkbox]');
-  var KEY='shanxi-trip-todo-v1';
-  var saved={};
+  var list=document.getElementById('todoList'); if(!list)return;
+  var KEY='shanxi-trip-todo-v1';           // 内置项勾选状态
+  var CKEY='shanxi-trip-todo-custom-v1';   // 自定义待办
+  var saved={}, custom=[];
   try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){saved={}}
+  try{custom=JSON.parse(localStorage.getItem(CKEY)||'[]')}catch(e){custom=[]}
+  if(!Array.isArray(custom))custom=[];
+  var TAG={now:'今天',soon:'出发前',later:'待定'};
 
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function makeEl(it){
+    var d=document.createElement('div');
+    d.className='todo custom';
+    d.setAttribute('data-id',it.id);
+    d.innerHTML='<input type="checkbox">'+
+      '<div class="tt"><div class="h"><span class="tagline '+(TAG[it.tag]?it.tag:'later')+'">'+
+      (TAG[it.tag]||'待定')+'</span>'+esc(it.text)+'</div></div>'+
+      '<button class="del" type="button" data-del="'+it.id+'" aria-label="删除">✕</button>';
+    return d;
+  }
+  function saveCustom(){try{localStorage.setItem(CKEY,JSON.stringify(custom))}catch(e){}}
+  function saveBuilt(){try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}}
+
+  // 渲染自定义待办（最新排最前）
+  custom.slice().reverse().forEach(function(it){list.insertBefore(makeEl(it),list.firstChild);});
+
+  // 排序：未完成在前、已完成在后（组内保持原顺序）
+  function sortList(){
+    var todo=[],done=[];
+    Array.prototype.forEach.call(list.children,function(el){
+      if(!el.classList.contains('todo'))return;
+      (el.querySelector('input[type=checkbox]').checked?done:todo).push(el);
+    });
+    todo.concat(done).forEach(function(el){list.appendChild(el);});
+  }
   function sync(){
-    var done=0;
-    boxes.forEach(function(cb){
+    var boxes=list.querySelectorAll('input[type=checkbox]'),n=boxes.length,d=0;
+    Array.prototype.forEach.call(boxes,function(cb){
       var item=cb.closest('.todo');
       item.classList.toggle('done',cb.checked);
-      if(cb.checked)done++;
+      if(cb.checked)d++;
     });
-    document.getElementById('progTx').textContent=done+' / '+boxes.length;
-    document.getElementById('progBar').style.width=(boxes.length?done/boxes.length*100:0)+'%';
+    document.getElementById('progTx').textContent=d+' / '+n;
+    document.getElementById('progBar').style.width=(n?d/n*100:0)+'%';
+    sortList();
   }
 
-  boxes.forEach(function(cb){
-    if(saved[cb.dataset.k])cb.checked=true;
-    cb.addEventListener('change',function(){
-      saved[cb.dataset.k]=cb.checked;
-      try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}
-      sync();
-    });
+  // 初始化勾选状态
+  Array.prototype.forEach.call(list.querySelectorAll('.todo'),function(item){
+    var cb=item.querySelector('input[type=checkbox]'); if(!cb)return;
+    var id=item.getAttribute('data-id');
+    if(id){
+      var it=custom.filter(function(x){return x.id===id;})[0];
+      if(it&&it.done)cb.checked=true;
+    }else if(saved[cb.getAttribute('data-k')]){cb.checked=true;}
   });
+
+  // 勾选 / 删除（事件委托，兼容动态新增）
+  list.addEventListener('change',function(e){
+    var cb=e.target; if(cb.type!=='checkbox')return;
+    var item=cb.closest('.todo'),id=item&&item.getAttribute('data-id');
+    if(id){
+      custom.forEach(function(x){if(x.id===id)x.done=cb.checked;});
+      saveCustom();
+    }else{
+      saved[cb.getAttribute('data-k')]=cb.checked; saveBuilt();
+    }
+    sync();
+  });
+  list.addEventListener('click',function(e){
+    var b=e.target.closest('.del'); if(!b)return;
+    var id=b.getAttribute('data-del');
+    custom=custom.filter(function(x){return x.id!==id;});
+    saveCustom();
+    var el=list.querySelector('.todo[data-id="'+id+'"]'); if(el)el.remove();
+    sync();
+  });
+
+  // 新增
+  var txt=document.getElementById('tdText'),tag=document.getElementById('tdTag');
+  function add(){
+    var v=(txt.value||'').trim(); if(!v)return;
+    var it={id:'c'+Date.now()+Math.random().toString(36).slice(2,6),
+            text:v.slice(0,60),tag:((tag&&tag.value)||'later'),done:false};
+    custom.unshift(it); saveCustom();
+    list.insertBefore(makeEl(it),list.firstChild);
+    txt.value=''; txt.blur();
+    sync();
+  }
+  var btn=document.getElementById('tdAdd');
+  if(btn)btn.addEventListener('click',add);
+  if(txt)txt.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();add();}});
+
   sync();
 })();
 
