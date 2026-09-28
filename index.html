@@ -225,11 +225,26 @@ details[open] .cv{transform:rotate(180deg)}
   padding:8px 0 7px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
 .tabbar button span{font-size:19px;line-height:1.1}
 .tabbar button.active{color:var(--acc2);font-weight:700}
-#lb{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh;width:100vw;height:100vh}
-#lb::backdrop{background:#000000d9}
-#lb img{width:100%;height:100%;object-fit:contain;display:block}
-.lb-x{position:fixed;right:14px;top:calc(14px + env(safe-area-inset-top));z-index:5;border:0;
-  background:#ffffff26;color:#fff;font-size:14px;font-family:inherit;border-radius:99px;padding:7px 14px;cursor:pointer}
+#lb{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh;width:100vw;height:100vh;overflow:hidden}
+#lb::backdrop{background:#0b1117f2}
+.lb-stage{position:fixed;inset:0;overflow:hidden;touch-action:none;cursor:grab;
+  -webkit-user-select:none;user-select:none}
+.lb-stage.grabbing{cursor:grabbing}
+.lb-hold{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+.lb-hold img,.lb-hold svg{display:block;width:100%;height:100%;border-radius:10px;background:#f8fafc}
+.lb-x{position:fixed;right:14px;top:calc(14px + env(safe-area-inset-top));z-index:8;border:1px solid #ffffff3d;
+  background:#0f172ad9;color:#fff;font-size:14px;font-family:inherit;border-radius:99px;padding:8px 15px;cursor:pointer}
+.lb-tools{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));
+  z-index:7;display:flex;gap:6px;background:#ffffff1f;border:1px solid #ffffff33;border-radius:99px;
+  padding:5px 7px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.lb-tools button{border:0;background:none;color:#fff;font-family:inherit;font-size:15px;font-weight:700;
+  padding:6px 13px;border-radius:99px;cursor:pointer;line-height:1}
+.lb-tools button:active{background:#ffffff33}
+.lb-tip{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(62px + env(safe-area-inset-bottom));
+  z-index:6;color:#dbe3ec;font-size:11.5px;background:#0b1117b3;padding:4px 12px;border-radius:99px;
+  transition:opacity .6s;pointer-events:none;white-space:nowrap}
+.lb-tip.gone{opacity:0}
+figure.map svg,figure.map img{cursor:zoom-in}
 .foot{margin:24px 4px 8px;padding-top:12px;border-top:1px solid var(--line);font-size:11.5px;color:var(--mut);line-height:1.75}
 
 /* ============ 补充组件 ============ */
@@ -1330,7 +1345,16 @@ details.sub .nav{margin-top:10px}
 
 </main>
 
-<dialog id="lb"><img alt=""><button class="lb-x" type="button">✕ 关闭</button></dialog>
+<dialog id="lb">
+  <div class="lb-stage" id="lbStage"><div class="lb-hold" id="lbHold"></div></div>
+  <div class="lb-tools" id="lbTools">
+    <button type="button" data-z="out" aria-label="缩小">－</button>
+    <button type="button" data-z="in" aria-label="放大">＋</button>
+    <button type="button" data-z="reset" aria-label="重置">重置</button>
+  </div>
+  <button class="lb-x" type="button">✕ 关闭</button>
+  <div class="lb-tip" id="lbTip">双指缩放 / 拖动平移 · 双击放大</div>
+</dialog>
 
 <nav class="tabbar">
   <button class="active" data-p="p-plan"><span>🗓</span>行程</button>
@@ -1456,21 +1480,120 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
   sync();
 })();
 
-// ---- 点图放大（灯箱） ----
+// ---- 点图 / 点地图放大（灯箱 · 支持缩放平移） ----
 (function(){
   var lb=document.getElementById('lb'); if(!lb)return;
-  var im=lb.querySelector('img');
-  function open(g){
-    im.src=g.currentSrc||g.src; im.alt=g.alt||'';
-    if(lb.showModal){lb.showModal();}else{lb.setAttribute('open','');}
+  var stage=document.getElementById('lbStage'), hold=document.getElementById('lbHold');
+  var tools=document.getElementById('lbTools'), tip=document.getElementById('lbTip');
+  if(!stage||!hold)return;
+  var st={s:1,fit:1,tx:0,ty:0,cw:360,ch:300}, ptrs={}, dragging=false, lastTap=0;
+
+  function apply(){hold.style.transform='translate3d('+st.tx+'px,'+st.ty+'px,0) scale('+st.s+')';}
+  function dims(el){
+    if(el.tagName.toLowerCase()==='svg'){
+      var v=(el.getAttribute('viewBox')||'0 0 360 300').trim().split(/[\s,]+/).map(Number);
+      return [v[2]||360, v[3]||300];
+    }
+    return [el.naturalWidth||el.width||360, el.naturalHeight||el.height||300];
   }
-  document.querySelectorAll('.gal img,figure.map img').forEach(function(g){
-    g.style.cursor='zoom-in';
-    g.addEventListener('click',function(){ open(g); });
+  function fit(){
+    var vw=stage.clientWidth, vh=stage.clientHeight;
+    var s=Math.min(vw/(st.cw+28), vh/(st.ch+28));
+    st.fit=s; st.s=s;
+    st.tx=(vw-st.cw*s)/2; st.ty=(vh-st.ch*s)/2; apply();
+  }
+  function zoomAt(cx,cy,f){
+    var ns=Math.max(st.fit*0.5, Math.min(st.fit*10, st.s*f));
+    var k=ns/st.s;
+    st.tx=cx-(cx-st.tx)*k; st.ty=cy-(cy-st.ty)*k; st.s=ns; apply();
+  }
+  function cnt(){return Object.keys(ptrs).length;}
+  function mid(){var k=Object.keys(ptrs);if(k.length<2)return[0,0];var a=ptrs[k[0]],b=ptrs[k[1]];return[(a.x+b.x)/2,(a.y+b.y)/2];}
+  function dist(){var k=Object.keys(ptrs);if(k.length<2)return 0;var a=ptrs[k[0]],b=ptrs[k[1]];return Math.hypot(a.x-b.x,a.y-b.y);}
+
+  function open(el){
+    var d=dims(el);
+    st.cw=d[0]; st.ch=d[1];
+    hold.style.width=d[0]+'px'; hold.style.height=d[1]+'px';
+    hold.innerHTML='';
+    var c=el.cloneNode(true);
+    if(c.tagName.toLowerCase()==='svg'){c.setAttribute('width',d[0]);c.setAttribute('height',d[1]);}
+    hold.appendChild(c);
+    if(lb.showModal){ if(!lb.open) lb.showModal(); } else { lb.setAttribute('open',''); }
+    tip.classList.remove('gone');
+    requestAnimationFrame(fit);
+    clearTimeout(open._t); open._t=setTimeout(function(){tip.classList.add('gone');},2800);
+  }
+
+  document.querySelectorAll('.gal img,figure.map img,figure.map svg,figure.map>a img').forEach(function(g){
+    g.addEventListener('click',function(e){e.preventDefault();open(g);});
   });
+
+  stage.addEventListener('pointerdown',function(e){
+    ptrs[e.pointerId]={x:e.clientX,y:e.clientY};
+    try{stage.setPointerCapture(e.pointerId);}catch(_){}
+    if(cnt()===1){dragging=true;stage.classList.add('grabbing');}
+    if(cnt()>=2){stage._d=dist(); stage._m=mid();}
+  });
+  stage.addEventListener('pointermove',function(e){
+    var p=ptrs[e.pointerId]; if(!p)return;
+    if(cnt()===1&&dragging){
+      st.tx+=e.clientX-p.x; st.ty+=e.clientY-p.y;
+      p.x=e.clientX; p.y=e.clientY; apply();
+    } else if(cnt()>=2){
+      p.x=e.clientX; p.y=e.clientY;
+      var m=mid(), d=dist(), rect=stage.getBoundingClientRect();
+      if(stage._d>0){
+        st.tx+=m[0]-stage._m[0]; st.ty+=m[1]-stage._m[1];
+        zoomAt(m[0]-rect.left, m[1]-rect.top, d/stage._d);
+      }
+      stage._d=d; stage._m=m;
+    }
+  });
+  function up(e){
+    if(ptrs[e.pointerId])delete ptrs[e.pointerId];
+    if(cnt()<2)stage._d=0;
+    if(cnt()===0){dragging=false;stage.classList.remove('grabbing');}
+  }
+  stage.addEventListener('pointerup',up);
+  stage.addEventListener('pointercancel',up);
+  stage.addEventListener('wheel',function(e){
+    e.preventDefault();
+    var rect=stage.getBoundingClientRect();
+    zoomAt(e.clientX-rect.left, e.clientY-rect.top, e.deltaY<0?1.16:1/1.16);
+  },{passive:false});
+
+  function toggleZoom(x,y){
+    if(st.s>st.fit*1.08){fit();}
+    else{zoomAt(x,y,2.4);}
+  }
+  stage.addEventListener('dblclick',function(e){
+    var rect=stage.getBoundingClientRect();
+    toggleZoom(e.clientX-rect.left, e.clientY-rect.top);
+  });
+  stage.addEventListener('pointerup',function(e){
+    if(e.pointerType!=='touch'||cnt()!==0)return;
+    var now=Date.now();
+    if(now-lastTap<300){
+      var rect=stage.getBoundingClientRect();
+      toggleZoom(e.clientX-rect.left, e.clientY-rect.top);
+      lastTap=0;
+    } else lastTap=now;
+  });
+
+  if(tools){
+    tools.addEventListener('click',function(e){
+      var b=e.target.closest('button'); if(!b)return;
+      var a=b.getAttribute('data-z'), cx=stage.clientWidth/2, cy=stage.clientHeight/2;
+      if(a==='in')zoomAt(cx,cy,1.35);
+      else if(a==='out')zoomAt(cx,cy,1/1.35);
+      else fit();
+    });
+  }
   lb.addEventListener('click',function(e){
     if(e.target===lb||e.target.classList.contains('lb-x')) lb.close();
   });
+  lb.addEventListener('close',function(){hold.innerHTML='';tip.classList.add('gone');});
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape'&&lb.open) lb.close();
   });
