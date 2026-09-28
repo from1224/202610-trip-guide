@@ -299,6 +299,16 @@ details.sub .nav{margin-top:10px}
 .food li:last-child{border-bottom:none}
 .food li b{color:var(--acc2)}
 .food li .d{color:var(--mut)}
+/* ============ B站入口 ============ */
+.bili{font-size:12.5px;color:var(--ink2);background:#eef4ff;border:1px solid #d8e4ff;border-radius:10px;
+  padding:8px 10px;margin-top:9px;line-height:1.85}
+.bili b{color:#1d4ed8}
+.blink{color:#1d4ed8;text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:2.5px;font-weight:600}
+.blink:active{opacity:.6}
+/* ============ 美食·具体到店 ============ */
+.food li .shops{font-size:12.3px;color:var(--ink2);margin-top:3px;line-height:1.95}
+.food li .shops .tag{color:var(--mut);font-size:11px}
 </style>
 </head>
 <body>
@@ -609,7 +619,7 @@ details.sub .nav{margin-top:10px}
     <div class="tk-meta">每日 <b>9:30、14:30</b>（晋城市歌舞剧院）——<b>都是白天场</b>，10/4 下午能赶上 14:30</div>
   </div>
 
-  <div class="foot">点每张日卡展开细节；底部标签可切换「看点 / 美食 / 交通 / 住宿 / 待办 / 装备」。</div>
+  <div class="foot">✅ 已把 <b>26 个关键点位</b>收藏进高德（App「我的 → 收藏」里可直接搜到）；点每张日卡展开细节；底部标签可切换「看点 / 美食 / 交通 / 住宿 / 待办 / 装备」。</div>
 </section>
 
 <!-- ================= 看点 ================= -->
@@ -621,13 +631,15 @@ details.sub .nav{margin-top:10px}
   </div>
   <div class="lead">🎯 全线只挑<b>早期木构与彩塑壁画</b>：唐构、宋塑、元塑、元壁画各占一角。每一处展开下面的<b>子景点</b>看"到底看什么 / 怎么走 / 哪里能拍"。</div>
   <div class="lead">🧭 正文里的<b>蓝色下划线</b>和卡片底部的<b>蓝条</b>都可点：手机端会<b>直接唤起高德 App</b>（没装高德则回落网页版）。示意图是<b>动线/顺序示意，非精确比例</b>。</div>
-  <div class="lead">📕 每处标题下的<b>「路线/机位（小红书）」</b>是检索到的<b>真实笔记</b>（标题已逐条核对），点开看别人拍的机位与走线；手机端点了通常直接跳小红书 App，电脑端可能要求登录。</div>
+  <div class="lead">📕 每处标题下的<b>「路线/机位（小红书）」</b>是检索到的<b>真实笔记</b>（标题已逐条核对），点开看别人拍的机位与走线；手机端点＝<b>直接唤起小红书 App</b>（没装则回落网页版）；电脑端可能要求登录。</div>
+  <div class="bili" style="margin-bottom:12px">📺 <b>行前刷片（B站 · 古建打底）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1if4y167zr" target="_blank" rel="noopener">清华王南·千年一窟看云冈（94 万）</a> · <a class="blink" href="https://www.bilibili.com/video/BV1bR4mzNE9G" target="_blank" rel="noopener">央视《古建里的山西》4 集</a> · <a class="blink" href="https://www.bilibili.com/video/BV1ucareTEWP" target="_blank" rel="noopener">山西全域古建·路线规划</a><br>🎬 <b>到点前刷 10 分钟</b>：往下一行行看，带「B站」标记的就是你要看的那处古建的讲解/实拍。</div>
 
   <div class="sec"><div class="sec-k">YUNCHENG · D2</div><div class="sec-h"><h2>运城 · 芮城线</h2><span class="cnt">3 处</span></div></div>
 
   <div class="sight">
     <div class="sh">永乐宫<span class="pill ok">必看</span><span class="pill warn">旺季限流</span></div>
     <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/69f4a5da0000000038035681" target="_blank" rel="noopener">机位·朝元图前排</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6965b26a000000001a01f537" target="_blank" rel="noopener">藻井怎么拍</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a7c8cf20000000025001a30" target="_blank" rel="noopener">朝元图标注版</a></div>
+    <div class="bili">📺 <b>B站·永乐宫</b>：<a class="blink" href="https://www.bilibili.com/video/BV1xEf7BgE1y" target="_blank" rel="noopener">张小看·朝元图 292 尊神全解析（60 万）</a> · <a class="blink" href="https://www.bilibili.com/video/BV177DVYiEoE" target="_blank" rel="noopener">北大李松·元代永乐宫壁画艺术</a></div>
     <div class="sd">国保 ｜ 元代《朝元图》壁画 · 中国壁画巅峰</div>
     <div class="gal">
 <figure><img src="media/01_yonglegong.jpg" alt="永乐宫" loading="lazy"><figcaption>永乐宫 · 三清殿院落</figcaption></figure>
@@ -650,6 +662,7 @@ details.sub .nav{margin-top:10px}
   <div class="sight">
     <div class="sh">解州关帝庙<span class="pill ok">必看</span></div>
     <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/6ab8dc0900000000140024bc" target="_blank" rel="noopener">关帝庙实拍</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a7f0a2f00000000080113f1" target="_blank" rel="noopener">春秋楼·吊柱藻井</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a9cf91f000000002b010f56" target="_blank" rel="noopener">武庙天花板</a></div>
+    <div class="bili">📺 <b>B站·解州关帝庙</b>：<a class="blink" href="https://www.bilibili.com/video/BV16G4y1Z7fJ" target="_blank" rel="noopener">考工志·关公老家的武庙（14 万）</a> · <a class="blink" href="https://www.bilibili.com/video/BV1GMwzeZE6b" target="_blank" rel="noopener">雎鸠叫关关·藻井小巡礼</a></div>
     <div class="sd">国保 ｜ 全国规模最大的关帝庙（"武庙之祖"）</div>
     <div class="gal">
 <figure><img src="media/02_guandimiao.jpg" alt="解州关帝庙" loading="lazy"><figcaption>端门与木牌坊</figcaption></figure>
@@ -684,6 +697,7 @@ details.sub .nav{margin-top:10px}
   <div class="sight">
     <div class="sh">广胜寺（上寺 + 下寺）<span class="pill ok">必看</span><span class="pill warn">接驳待定</span></div>
     <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/6aa09ed90000000025035aff" target="_blank" rel="noopener">阴天琉璃塔也好看</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a6c3c82000000002102080a" target="_blank" rel="noopener">飞虹塔·琉璃天宫</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6ab133e90000000033031204" target="_blank" rel="noopener">飞虹塔+水神庙</a></div>
+    <div class="bili">📺 <b>B站·广胜寺</b>：<a class="blink" href="https://www.bilibili.com/video/BV1Ky411q7o6" target="_blank" rel="noopener">考工志·飞虹塔（39 万）</a> · <a class="blink" href="https://www.bilibili.com/video/BV18C88z8E8a" target="_blank" rel="noopener">小老西儿·广胜寺专业讲解</a></div>
     <div class="sd">国保 ｜ 飞虹塔 + 水神庙元代壁画</div>
     <div class="gal">
 <figure><img src="media/03_guangshengsi.jpg" alt="飞虹塔" loading="lazy"><figcaption>飞虹塔 · 通体琉璃</figcaption></figure>
@@ -727,6 +741,7 @@ details.sub .nav{margin-top:10px}
   <div class="sight">
     <div class="sh">浊漳河谷（天台庵 · 大云院 · 龙门寺 · 原起寺）<span class="pill ok">必看</span></div>
     <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/6aafac51000000001203cb4f" target="_blank" rel="noopener">一日看尽六朝·路线</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a75c91a000000002403c353" target="_blank" rel="noopener">游览安排+避雷</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a84557c0000000021023a0f" target="_blank" rel="noopener">8 大国保·开门攻略</a></div>
+    <div class="bili">📺 <b>B站·浊漳河谷</b>：<a class="blink" href="https://www.bilibili.com/video/BV1WpLXzGEWM" target="_blank" rel="noopener">雎鸠叫关关·速通河谷八座国保</a> · <a class="blink" href="https://www.bilibili.com/video/BV1RRyGBgESp" target="_blank" rel="noopener">山西文博一凡·天台庵解析</a></div>
     <div class="sd">早/晚唐、五代、宋、金、元同谷并列 ｜ 讲师全程讲解</div>
         <figure class="map"><img src="media/xhs20_zhuozhang_valley.jpg" alt="浊漳河谷手绘路线图" loading="lazy"><figcaption>浊漳河谷沿线点位（手绘路线图 · 含淳化寺 / 回龙寺 / 夏禹神祠等）</figcaption></figure>
     <div class="lk">👀 <b>重点看</b>：<b>天台庵</b>——国内极少见的唐代木构；<b>大云院</b>——五代壁画（比永乐宫早约 400 年）；<b>龙门寺</b>——一寺之内六朝建筑并存，古建史的"活标本"；<b>原起寺</b>——唐经幢与宋代殿宇。</div>
@@ -782,6 +797,7 @@ details.sub .nav{margin-top:10px}
   <div class="sight">
     <div class="sh">府城玉皇庙<span class="pill ok">必看</span><span class="pill free">免费</span><span class="pill warn">预约·限流</span></div>
     <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/6a743218000000000600423b" target="_blank" rel="noopener">一张地图读懂玉皇庙</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/69f747f1000000002301eb91" target="_blank" rel="noopener">二十八星宿</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a71b6030000000008011018" target="_blank" rel="noopener">撤笼·近距离观赏</a></div>
+    <div class="bili">📺 <b>B站·府城玉皇庙</b>：<a class="blink" href="https://www.bilibili.com/video/BV1KE421c7rD" target="_blank" rel="noopener">考工志·二十八宿角木蛟（39 万）</a> · <a class="blink" href="https://www.bilibili.com/video/BV1cf421B7EP" target="_blank" rel="noopener">安州牧·730 年前二十八尊（46 万）</a></div>
     <div class="sd">国保 ｜ 元代二十八星宿彩塑 ｜ 预约「风雅晋城」实名</div>
     <div class="gal">
 <figure><img src="media/07_yuhuangmiao.jpg" alt="府城玉皇庙" loading="lazy"><figcaption>二十八星宿殿</figcaption></figure>
@@ -912,63 +928,78 @@ details.sub .nav{margin-top:10px}
 
   <div class="sec">
     <div class="sec-k">EAT LOCAL</div>
-    <div class="sec-h"><h2>当地特色 · 能吃到什么</h2><span class="cnt">5 城</span></div>
+    <div class="sec-h"><h2>当地特色 · 具体到店</h2><span class="cnt">5 城 · 22 家</span></div>
   </div>
-  <div class="lead">🍜 山西以<b>面食＋羊肉</b>为主，晋东南口味偏咸香；郑州是<b>面与汤</b>。点每条的<b>「找店」</b>= 在高德搜这道菜，会列出附近馆子（手机端直接唤起高德）。</div>
-  <div class="lead">🧭 这些都是<b>当地日常点得到的口味</b>，不是网红店清单；怕辣提前说，面食分量普遍大，两人点一份先试。</div>
+  <div class="lead">🍜 山西以<b>面食＋羊肉</b>为主，晋东南口味偏咸香；郑州是<b>面与汤</b>。每道菜下面都给了<b>2–3 家能顺路去的具体店</b>，蓝字点开就是高德导航。</div>
+  <div class="lead">🧭 已<b>刻意避开纯网红店</b>：优先本地老字号、家常馆子与当地文旅/点评榜单推荐。口味以现场为准，面食分量大，两人先点一份试。</div>
 
   <div class="food">
-    <div class="fh">运城<span class="s">晋南 · 羊肉与面食</span></div>
+    <div class="fh">运城<span class="s">晋南 · 羊肉与面食 · D1–D3</span></div>
     <ul>
-      <li><b>解州羊肉泡</b> <span class="d">羊肉汤配手掰馍，本地早餐王牌；D2 到解州镇顺路吃最地道</span> · <a class="lnk" data-amap data-name="解州羊肉泡" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%A7%A3%E5%B7%9E%E7%BE%8A%E8%82%89%E6%B3%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>运城大盘鸡</b> <span class="d">咸香微辣、土豆炖到绵，最后下面条拌汁，晚上聚餐基础款</span> · <a class="lnk" data-amap data-name="运城大盘鸡" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%A4%A7%E7%9B%98%E9%B8%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>闻喜煮饼</b> <span class="d">油炸甜点，外裹芝麻内里糖馅，适合买了带在路上</span> · <a class="lnk" data-amap data-name="闻喜煮饼" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%97%BB%E5%96%9C%E7%85%AE%E9%A5%BC&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>泡泡油糕</b> <span class="d">烫面油炸鼓起空心，甜口小吃，趁热吃</span> · <a class="lnk" data-amap data-name="泡泡油糕" data-city="运城" href="https://uri.amap.com/search?keyword=%E6%B3%A1%E6%B3%A1%E6%B2%B9%E7%B3%95&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
+      <li><b>解州羊肉泡</b> <span class="d">羊肉汤配手掰馍；<b>D2 上午到解州镇先吃再逛关帝庙</b>，最顺路</span>
+        <div class="shops">解州镇老店：<a class="lnk" data-amap data-name="解州王剑羊肉泡" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%A7%A3%E5%B7%9E%E7%8E%8B%E5%89%91%E7%BE%8A%E8%82%89%E6%B3%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">王剑羊肉泡</a> · <a class="lnk" data-amap data-name="一把抓羊肉泡" data-city="运城" href="https://uri.amap.com/search?keyword=%E4%B8%80%E6%8A%8A%E6%8A%93%E7%BE%8A%E8%82%89%E6%B3%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">一把抓</a> · <a class="lnk" data-amap data-name="关乡羊肉泡馍馆" data-city="运城" href="https://uri.amap.com/search?keyword=%E5%85%B3%E4%B9%A1%E7%BE%8A%E8%82%89%E6%B3%A1%E9%A6%8D%E9%A6%86&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">关乡羊肉泡馍馆</a><span class="tag">· 本地办席常去，避开主街新店</span></div></li>
+      <li><b>运城大盘鸡</b> <span class="d">咸香微辣、土豆炖到绵，收尾下面条拌汁；D1 晚或 D2 晚回盐湖区吃</span>
+        <div class="shops">盐湖区：<a class="lnk" data-amap data-name="阿翁鲜炒大盘鸡" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%98%BF%E7%BF%81%E9%B2%9C%E7%82%92%E5%A4%A7%E7%9B%98%E9%B8%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">阿翁鲜炒大盘鸡</a> · <a class="lnk" data-amap data-name="老校大盘鸡" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%80%81%E6%A0%A1%E5%A4%A7%E7%9B%98%E9%B8%A1&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">老校大盘鸡（感恩广场）</a><span class="tag">· 现炒现炖老汤做法</span></div></li>
+      <li><b>闻喜煮饼 · 黍面油糕</b> <span class="d">甜点/伴手礼；煮饼盒装好带走，油糕趁热吃</span>
+        <div class="shops"><a class="lnk" data-amap data-name="闻喜煮饼" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%97%BB%E5%96%9C%E7%85%AE%E9%A5%BC&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">闻喜煮饼</a> · <a class="lnk" data-amap data-name="黍面油糕" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%BB%8D%E9%9D%A2%E6%B2%B9%E7%B3%95&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">黍面油糕</a><span class="tag">· 解州「四大名吃」里的两样</span></div></li>
     </ul>
-    <div class="xhs">📕 <b>路线/机位（小红书 · 真实笔记）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/69c68fc1000000001a03334d" target="_blank" rel="noopener">运城 36h 吃 10 家</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6aa147300000000011036859" target="_blank" rel="noopener">Solotrip 运城美食</a></div>
-  </div>
-
-  <div class="food">
-    <div class="fh">临汾<span class="s">晋南 · 汤与面</span></div>
-    <ul>
-      <li><b>牛肉丸子面</b> <span class="d">临汾招牌，红油＋牛肉丸子＋面，早餐夜宵都有</span> · <a class="lnk" data-amap data-name="牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>洪洞饽糕</b> <span class="d">洪洞特色蒸糕，D4 去广胜寺当天顺路吃</span> · <a class="lnk" data-amap data-name="洪洞饽糕" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%B4%AA%E6%B4%9E%E9%A5%BD%E7%B3%95&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>羊杂割</b> <span class="d">汤浓料足的羊杂汤，配饼吃，早餐首选</span> · <a class="lnk" data-amap data-name="羊杂割" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%BE%8A%E6%9D%82%E5%89%B2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>曲沃羊汤</b> <span class="d">临汾辖县名汤，肉多汤白</span> · <a class="lnk" data-amap data-name="曲沃羊汤" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%9B%B2%E6%B2%83%E7%BE%8A%E6%B1%A4&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">找店</a></li>
-    </ul>
+    <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1z34fe9EEA" target="_blank" rel="noopener">阿星探店·运城大盘鸡+解州羊肉泡</a> · <a class="blink" href="https://www.bilibili.com/video/BV1pK421b79q" target="_blank" rel="noopener">真探唐仁杰·运城烤串羊肉泡</a></div>
+    <div class="xhs">📕 <b>美食笔记（小红书）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/69c68fc1000000001a03334d" target="_blank" rel="noopener">运城 36h 吃 10 家</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6aa147300000000011036859" target="_blank" rel="noopener">Solotrip 运城美食</a></div>
   </div>
 
   <div class="food">
-    <div class="fh">长治<span class="s">上党 · 汤与肉</span></div>
+    <div class="fh">临汾<span class="s">晋南 · 汤与面 · D3–D5</span></div>
     <ul>
-      <li><b>壶关羊汤</b> <span class="d">上党名汤，肉多汤白，配甩饼最搭</span> · <a class="lnk" data-amap data-name="壶关羊汤" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A3%B6%E5%85%B3%E7%BE%8A%E6%B1%A4&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>长治腊驴肉</b> <span class="d">腊制驴肉，切片下酒或夹饼</span> · <a class="lnk" data-amap data-name="长治腊驴肉" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E8%85%8A%E9%A9%B4%E8%82%89&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>潞城甩饼</b> <span class="d">薄饼现甩现烙，卷肉卷菜，长治小吃代表</span> · <a class="lnk" data-amap data-name="潞城甩饼" data-city="长治" href="https://uri.amap.com/search?keyword=%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>长子猪头肉</b> <span class="d">长子县名吃，凉切配蒜泥</span> · <a class="lnk" data-amap data-name="长子猪头肉" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E5%AD%90%E7%8C%AA%E5%A4%B4%E8%82%89&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">找店</a></li>
+      <li><b>牛肉丸子面</b> <span class="d">临汾招牌，红油＋牛肉丸子＋碱水面；早餐夜宵都有</span>
+        <div class="shops"><a class="lnk" data-amap data-name="白老三牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%99%BD%E8%80%81%E4%B8%89%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">白老三牛肉丸子面（平阳街）</a> · <a class="lnk" data-amap data-name="薛老五牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E8%96%9B%E8%80%81%E4%BA%94%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">薛老五牛肉丸子面（总店）</a> · <a class="lnk" data-amap data-name="老白家牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E8%80%81%E7%99%BD%E5%AE%B6%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">老白家牛肉丸子面</a><span class="tag">· 前三家是本地口碑店，别只认写字楼边那家</span></div></li>
+      <li><b>羊杂割 / 羊汤</b> <span class="d">汤浓料足，配饼吃；早餐首选</span>
+        <div class="shops"><a class="lnk" data-amap data-name="张老四羊汤馆平阳北街店" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%BC%A0%E8%80%81%E5%9B%9B%E7%BE%8A%E6%B1%A4%E9%A6%86%E5%B9%B3%E9%98%B3%E5%8C%97%E8%A1%97%E5%BA%97&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">张老四羊汤馆（平阳北街店）</a> · <a class="lnk" data-amap data-name="小黑赵城羊汤" data-city="临汾" href="https://uri.amap.com/search?keyword=%E5%B0%8F%E9%BB%91%E8%B5%B5%E5%9F%8E%E7%BE%8A%E6%B1%A4&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">小黑赵城羊汤（迎春北街店）</a><span class="tag">· 张老四上过点评必吃榜</span></div></li>
+      <li><b>洪洞饽糕</b> <span class="d">洪洞特色馅饼，<b>D4 去广胜寺当天顺路吃</b></span>
+        <div class="shops"><a class="lnk" data-amap data-name="燕子饽糕饸饹面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%87%95%E5%AD%90%E9%A5%BD%E7%B3%95%E9%A5%B8%E9%A5%B9%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">燕子饽糕饸饹面（洪洞）</a> · <a class="lnk" data-amap data-name="洪洞饽糕" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%B4%AA%E6%B4%9E%E9%A5%BD%E7%B3%95&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">洪洞饽糕（找店）</a><span class="tag">· 现包现烙，人均 10 元上下</span></div></li>
     </ul>
+    <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV124pteBEQW" target="_blank" rel="noopener">阿星探店·临汾牛肉丸子面+洪洞饽糕</a> · <a class="blink" href="https://www.bilibili.com/video/BV1me4y1R7NR" target="_blank" rel="noopener">特别乌啦啦·原产地牛肉丸子面</a></div>
   </div>
 
   <div class="food">
-    <div class="fh">晋城<span class="s">晋东南 · 咸香</span></div>
+    <div class="fh">长治<span class="s">上党 · 汤与肉 · D5–D7</span></div>
     <ul>
-      <li><b>晋城烧大葱</b> <span class="d">当地特色名菜，葱烧到甜香软糯</span> · <a class="lnk" data-amap data-name="晋城烧大葱" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%99%8B%E5%9F%8E%E7%83%A7%E5%A4%A7%E8%91%B1&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>高平烧豆腐</b> <span class="d">高平名吃"白起肉"，豆腐烤后蘸蒜泥</span> · <a class="lnk" data-amap data-name="高平烧豆腐" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E7%83%A7%E8%B1%86%E8%85%90&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>炒凉粉</b> <span class="d">街头小吃，凉粉切块炒香，便宜管饱</span> · <a class="lnk" data-amap data-name="炒凉粉" data-city="晋城" href="https://uri.amap.com/search?keyword=%E7%82%92%E5%87%89%E7%B2%89&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>阳城烧猪肝</b> <span class="d">阳城名菜，猪肝爆炒，火候是关键</span> · <a class="lnk" data-amap data-name="阳城烧猪肝" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%98%B3%E5%9F%8E%E7%83%A7%E7%8C%AA%E8%82%9D&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">找店</a></li>
+      <li><b>壶关羊汤</b> <span class="d">上党名汤，肉多汤白，配甩饼最搭；早餐或中午</span>
+        <div class="shops"><a class="lnk" data-amap data-name="壶关羊汤" data-city="长治" href="https://uri.amap.com/search?keyword=%E5%A3%B6%E5%85%B3%E7%BE%8A%E6%B1%A4&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">壶关羊汤（找店）</a> · <a class="lnk" data-amap data-name="羊汤" data-city="长治" href="https://uri.amap.com/search?keyword=%E7%BE%8A%E6%B1%A4&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治羊汤（找店）</a><span class="tag">· 就近选，认本地排队的家常馆</span></div></li>
+      <li><b>潞城甩饼</b> <span class="d">薄饼现甩现烙，卷腊驴肉/驴肉；长治小吃代表</span>
+        <div class="shops"><a class="lnk" data-amap data-name="鸿记潞城甩饼店" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">鸿记潞城甩饼店</a> · <a class="lnk" data-amap data-name="潞城城南甩饼" data-city="长治" href="https://uri.amap.com/search?keyword=%E6%BD%9E%E5%9F%8E%E5%9F%8E%E5%8D%97%E7%94%A9%E9%A5%BC&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">潞城城南甩饼（老字号）</a><span class="tag">· 甩饼本身是百年老做法，配羊杂汤更好</span></div></li>
+      <li><b>腊驴肉 · 长子猪头肉</b> <span class="d">腊制切片，下酒或夹饼；可买真空装带走</span>
+        <div class="shops"><a class="lnk" data-amap data-name="长治腊驴肉" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E6%B2%BB%E8%85%8A%E9%A9%B4%E8%82%89&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长治腊驴肉（找店）</a> · <a class="lnk" data-amap data-name="长子猪头肉" data-city="长治" href="https://uri.amap.com/search?keyword=%E9%95%BF%E5%AD%90%E7%8C%AA%E5%A4%B4%E8%82%89&amp;city=%E9%95%BF%E6%B2%BB&amp;src=xiaocai-trip">长子猪头肉（找店）</a></div></li>
     </ul>
+    <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1C2516zEvJ" target="_blank" rel="noopener">盗月社·山西 10 块钱的面能有多夯</a> · <a class="blink" href="https://www.bilibili.com/video/BV17qm1BrENb" target="_blank" rel="noopener">赛博食录·山西菜真的上不得台面吗</a></div>
   </div>
 
   <div class="food">
-    <div class="fh">郑州<span class="s">豫中 · 面与汤</span></div>
+    <div class="fh">晋城 · 高平<span class="s">晋东南 · 咸香 · D7–D8</span></div>
     <ul>
-      <li><b>烩面</b> <span class="d">郑州招牌，羊肉汤底＋宽面；合记/萧记都行</span> · <a class="lnk" data-amap data-name="合记烩面" data-city="郑州" href="https://uri.amap.com/search?keyword=%E5%90%88%E8%AE%B0%E7%83%A9%E9%9D%A2&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>胡辣汤</b> <span class="d">早餐名店，胡椒味重、配油馍头</span> · <a class="lnk" data-amap data-name="方中山胡辣汤" data-city="郑州" href="https://uri.amap.com/search?keyword=%E6%96%B9%E4%B8%AD%E5%B1%B1%E8%83%A1%E8%BE%A3%E6%B1%A4&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>葛记焖饼</b> <span class="d">老字号，饼丝焖肉，顶饱</span> · <a class="lnk" data-amap data-name="葛记焖饼" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%91%9B%E8%AE%B0%E7%84%96%E9%A5%BC&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">找店</a></li>
-      <li><b>蔡记蒸饺</b> <span class="d">老字号蒸饺，皮薄汁多</span> · <a class="lnk" data-amap data-name="蔡记蒸饺" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%94%A1%E8%AE%B0%E8%92%B8%E9%A5%BA&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">找店</a></li>
+      <li><b>高平烧豆腐</b> <span class="d">高平名吃「白起肉」，豆腐烤后蘸蒜泥；<b>D8 高平顺路吃</b></span>
+        <div class="shops"><a class="lnk" data-amap data-name="米山大食堂" data-city="晋城" href="https://uri.amap.com/search?keyword=%E7%B1%B3%E5%B1%B1%E5%A4%A7%E9%A3%9F%E5%A0%82&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">米山大食堂（高平）</a> · <a class="lnk" data-amap data-name="高平烧豆腐" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E7%83%A7%E8%B1%86%E8%85%90&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平烧豆腐（找摊）</a><span class="tag">· 米山是当地老店、上过央视；小摊挑烤出蜂窝眼的</span></div></li>
+      <li><b>烧大葱 · 十大碗</b> <span class="d">晋城宴席菜代表，葱烧到甜香软糯；人多合点一桌</span>
+        <div class="shops"><a class="lnk" data-amap data-name="十小碗" data-city="晋城" href="https://uri.amap.com/search?keyword=%E5%8D%81%E5%B0%8F%E7%A2%97&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">十小碗（晋城城区）</a> · <a class="lnk" data-amap data-name="高平老味道十大碗" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%AB%98%E5%B9%B3%E8%80%81%E5%91%B3%E9%81%93%E5%8D%81%E5%A4%A7%E7%A2%97&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">高平老味道十大碗</a><span class="tag">· 避开人均 200+ 的高价网红店</span></div></li>
+      <li><b>炒凉粉 · 阳城烧肝</b> <span class="d">街头小吃，凉粉炒香便宜管饱；烧肝是阳城名菜</span>
+        <div class="shops"><a class="lnk" data-amap data-name="月华康桥" data-city="晋城" href="https://uri.amap.com/search?keyword=%E6%9C%88%E5%8D%8E%E5%BA%B7%E6%A1%A5&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">月华康桥（炒凉粉）</a> · <a class="lnk" data-amap data-name="阳城烧肝" data-city="晋城" href="https://uri.amap.com/search?keyword=%E9%98%B3%E5%9F%8E%E7%83%A7%E8%82%9D&amp;city=%E6%99%8B%E5%9F%8E&amp;src=xiaocai-trip">阳城烧肝（找店）</a><span class="tag">· 月华康桥是当地文旅推荐门店</span></div></li>
     </ul>
+    <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1ur4hehEcg" target="_blank" rel="noopener">特别乌啦啦·高平炒饽子</a> · <a class="blink" href="https://www.bilibili.com/video/BV16mXnBxECo" target="_blank" rel="noopener">真探唐仁杰·晋城德华兴（高价，仅参考）</a></div>
   </div>
 
-  <div class="foot">🍜 「顺路吃（待选）」已同步写进「行程」里每天的卡片底部，可按当天体力取舍；口味以现场为准，本页只做筛选方向。</div>
+  <div class="food">
+    <div class="fh">郑州<span class="s">豫中 · 面与汤 · D8 晚–D9</span></div>
+    <ul>
+      <li><b>烩面</b> <span class="d">郑州招牌，羊肉汤底＋宽面；郑州东站/市区都有店</span>
+        <div class="shops"><a class="lnk" data-amap data-name="合记烩面" data-city="郑州" href="https://uri.amap.com/search?keyword=%E5%90%88%E8%AE%B0%E7%83%A9%E9%9D%A2&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">合记烩面（人民路总店）</a> · <a class="lnk" data-amap data-name="萧记烩面" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%90%A7%E8%AE%B0%E7%83%A9%E9%9D%A2&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">萧记烩面</a> · <a class="lnk" data-amap data-name="裕丰源烩面" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%A3%95%E4%B8%B0%E6%BA%90%E7%83%A9%E9%9D%A2&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">裕丰源烩面</a><span class="tag">· 「合记/萧记/裕丰源」是本地公认三家</span></div></li>
+      <li><b>胡辣汤</b> <span class="d">早餐名物，胡椒味重、配油馍头；赶车前解决</span>
+        <div class="shops"><a class="lnk" data-amap data-name="方中山胡辣汤顺河路店" data-city="郑州" href="https://uri.amap.com/search?keyword=%E6%96%B9%E4%B8%AD%E5%B1%B1%E8%83%A1%E8%BE%A3%E6%B1%A4%E9%A1%BA%E6%B2%B3%E8%B7%AF%E5%BA%97&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">方中山胡辣汤（顺河路店）</a> · <a class="lnk" data-amap data-name="逍遥镇胡辣汤" data-city="郑州" href="https://uri.amap.com/search?keyword=%E9%80%8D%E9%81%A5%E9%95%87%E8%83%A1%E8%BE%A3%E6%B1%A4&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">逍遥镇胡辣汤</a><span class="tag">· 方中山偏「极辣」，逍遥镇偏温和</span></div></li>
+      <li><b>葛记焖饼 · 蔡记蒸饺</b> <span class="d">老字号：饼丝焖肉顶饱；蒸饺皮薄汁多</span>
+        <div class="shops"><a class="lnk" data-amap data-name="葛记焖饼" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%91%9B%E8%AE%B0%E7%84%96%E9%A5%BC&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">葛记焖饼</a> · <a class="lnk" data-amap data-name="蔡记蒸饺" data-city="郑州" href="https://uri.amap.com/search?keyword=%E8%94%A1%E8%AE%B0%E8%92%B8%E9%A5%BA&amp;city=%E9%83%91%E5%B7%9E&amp;src=xiaocai-trip">蔡记蒸饺</a></div></li>
+    </ul>
+    <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1C2516zEvJ" target="_blank" rel="noopener">盗月社·山西面食江湖</a></div>
+  </div>
+
+  <div class="foot">🍜 店铺来源：<b>高德 POI ＋ 大众点评必吃榜 ＋ 当地文旅号</b>交叉核对，已剔除纯流量打卡店（如晋城德华兴 ¥248 属高价网红，仅列作参考）。「顺路吃（待选）」也已写进「行程」每天卡片底部；口味以现场为准。</div>
 </section>
 
 <!-- ================= 交通 ================= -->
@@ -1465,6 +1496,29 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
       e.preventDefault();
       var jumped=false;
       var fallback=function(){ if(jumped)return; jumped=true; location.href=web; };
+      var timer=setTimeout(fallback,1800);
+      document.addEventListener('visibilitychange',function onv(){
+        if(document.hidden){ jumped=true; clearTimeout(timer); document.removeEventListener('visibilitychange',onv); }
+      });
+      location.href=scheme;
+    });
+  });
+})();
+
+// ---- 小红书：点击直接唤起 App（xhsdiscover），失败回落网页版 ----
+(function(){
+  var els=document.querySelectorAll('a.xlink'); if(!els.length)return;
+  els.forEach(function(a){
+    var m=/\/explore\/([0-9A-Za-z]+)/.exec(a.href||''); if(!m)return;
+    var id=m[1];
+    a.addEventListener('click',function(e){
+      var ua=navigator.userAgent;
+      var isIOS=/iPhone|iPad|iPod/i.test(ua), isAND=/Android/i.test(ua);
+      if(!isIOS&&!isAND) return;                 // 桌面端：直接走网页
+      e.preventDefault();
+      var scheme='xhsdiscover://item/'+id;
+      var jumped=false;
+      var fallback=function(){ if(jumped)return; jumped=true; location.href=a.href; };
       var timer=setTimeout(fallback,1800);
       document.addEventListener('visibilitychange',function onv(){
         if(document.hidden){ jumped=true; clearTimeout(timer); document.removeEventListener('visibilitychange',onv); }
