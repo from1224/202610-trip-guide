@@ -332,6 +332,9 @@ details.sub .nav{margin-top:10px}
 /* ============ 美食·具体到店 ============ */
 .food li .shops{font-size:12.3px;color:var(--ink2);margin-top:3px;line-height:1.95}
 .food li .shops .tag{color:var(--mut);font-size:11px}
+.route-options{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 0 14px}
+.route-option{flex:0 0 88%;min-width:0;scroll-snap-align:start;background:#fffaf0;border:1px solid var(--line);border-radius:12px;padding:13px;font-size:13px}
+.route-option h3{font-size:15px;margin-bottom:8px}.route-option p{margin:7px 0}.route-option ol{padding-left:20px}
 </style>
 </head>
 <body>
@@ -452,6 +455,13 @@ details.sub .nav{margin-top:10px}
       <div class="tl-i"><div class="tl-t">09:00</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🏛 上午机动：<a class="lnk" data-amap data-name="运城博物馆" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城博物馆</a></div>
         <div class="n">9:00–17:00，16:00 停止入馆；常规<b>周一闭馆</b>——9/30 是周三，可去</div></div></div>
+      <div class="lead"><b>9/30 下午走哪条？左右滑动比较 →</b><br>共同起点：09:00 运城博物馆。以下为备选，不代表已改签或已报团；原票记录保留在下方。跟团按你给定的临汾西14:30集合、13:30前到站规划。</div>
+      <div class="route-options" role="region" aria-label="9月30日备选路线" tabindex="0">
+        <article class="route-option"><h3>A · 广胜寺跟团｜多看博物馆</h3><ol><li>09:00–11:45 博物馆（建议安排）</li><li>11:45 左右离馆叫车，目标12:15前到运城北</li><li><b>D1672 12:49→13:25 临汾西</b></li><li>出站、简单补给，14:30集合；不插入酒店往返或市区餐厅</li></ol><p>9/30查询：一等座¥66，余7张；二等座¥41候补，无座余2张。倾向选择有座一等座，不依赖候补。</p><p>前提：不回酒店取行李；团的名额、集合出口和行李安排仍需确认。未落实则走C。</p></article>
+        <article class="route-option"><h3>B · 广胜寺跟团｜早到更从容</h3><ol><li>09:00–11:00 博物馆（建议安排）</li><li>11:00 左右离馆，目标11:30前到运城北</li><li><b>D2822 12:06→12:51 临汾西</b></li><li>距14:30集合99分钟，可安排简餐；酒店寄存需另核路线</li></ol><p>9/30查询：二等座¥41有票，一等座¥66余11张。更早备选D5374 11:43→12:28，二等座¥41有票。</p><p>小姚面馆（高德名：河西高铁站店）仅作条件午餐备选：出站口步行约13分钟，午间标注14:30结束；排队或出餐慢就跳过，不为吃饭耽误集合。</p></article>
+        <article class="route-option"><h3>C · 临汾市区 citywalk｜保留原票</h3><ol><li>09:00起逛博物馆，午间留出吃饭与取行李时间</li><li><b>原票G2620 14:21→15:13 临汾西</b></li><li>酒店放行李后，市区鼓楼、财神楼候选；大云寺须确认到达时仍开放</li></ol><p>吃饭二选一：留西站片区，17:00后考虑小姚面馆；若直接进市区，不为这家店折返。市区具体顺路餐厅尚未核定。</p><p>不参加今天14:30的广胜寺团；10/1广胜寺原安排继续保留。</p></article>
+      </div>
+      <div class="note">交通核验：9/30高德“运城博物馆→运城北站进站口”驾车19分钟／9.7公里，为当次估算而非午间保证。建议离馆至发车预留约60分钟（叫车与路程约30分钟＋进站候车约30分钟）；回酒店取行李须另加时间。车次与余票来自9/30的12306查询快照，付款前须刷新；未操作购票、改签或退票。</div>
       <div class="tl-i"><div class="tl-t">13:20</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🚕 市区 → <a class="lnk" data-amap data-name="运城北站" data-city="运城" href="https://uri.amap.com/search?keyword=%E8%BF%90%E5%9F%8E%E5%8C%97%E7%AB%99&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">运城北站</a></div>
         <div class="n">8.5 km / 9 分钟 / 约 ¥21；公交 16·24 路直达市中心方向</div></div></div>
@@ -465,7 +475,7 @@ details.sub .nav{margin-top:10px}
     <div class="gal">
       <figure><img src="media/02_guandimiao.jpg" alt="关帝庙" loading="lazy" width="152" height="104"><figcaption>若前一天未含关帝庙，上午补</figcaption></figure>
     </div>
-    <div class="eat">🍜 <b>顺路吃（待选）</b>：<a class="lnk" data-amap data-name="闻喜煮饼" data-city="运城" href="https://uri.amap.com/search?keyword=%E9%97%BB%E5%96%9C%E7%85%AE%E9%A5%BC&amp;city=%E8%BF%90%E5%9F%8E&amp;src=xiaocai-trip">闻喜煮饼（带走）</a> · <a class="lnk" data-amap data-name="牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾牛肉丸子面</a> · 晚上到临汾吃招牌</div>
+    <div class="eat">🍜 <b>具体到店 · 西站片区晚餐备选</b>：<a class="lnk" data-amap data-name="小姚面馆(河西高铁站店)" data-city="临汾" href="https://uri.amap.com/search?keyword=小姚面馆%28河西高铁站店%29&amp;city=临汾&amp;src=xiaocai-trip">小姚面馆（河西高铁站店）</a><br><b>插入环节：</b>按原行程入住休息后，17:00 起考虑晚餐；若下午改去广胜寺，不在出发前插入此店。地址：临汾市尧都区唐尧大道梧桐里5号商铺。9/29 高德标注 10:00–14:30、17:00–21:00；节假日以商家确认为准。<b>临汾西站出站口→店步行950米、约13分钟</b>（高德当次规划，途经平山街；不是酒店出发距离，也未核定三点绕路量）。仅作不排队的正餐备选，菜品与小份需现场问；不是特色必吃或已认证非网红店。原“闻喜煮饼／牛肉丸子面”未锁定店铺，不再当作可执行顺路餐。</div>
     </div>
   </details>
 
@@ -971,9 +981,9 @@ details.sub .nav{margin-top:10px}
 
   <div class="sec">
     <div class="sec-k">EAT LOCAL</div>
-    <div class="sec-h"><h2>当地特色 · 具体到店</h2><span class="cnt">5 城 · 38 家</span></div>
+    <div class="sec-h"><h2>当地特色 · 具体到店</h2><span class="cnt">5 城 · 临汾调研更新</span></div>
   </div>
-  <div class="lead">🍜 山西以<b>面食＋羊肉</b>为主，晋东南口味偏咸香；郑州是<b>面与汤</b>。每道菜下面都给了<b>2–3 家能顺路去的具体店</b>，蓝字点开就是高德导航。</div>
+  <div class="lead">🍜 先选值得在当地尝试的食物，再选具体店。蓝色地点链接打开<b>高德关键词搜索</b>，手机会尝试唤起 App；搜索入口不等于已核验地址或已确认顺路。</div>
   <div class="lead">🧭 选店标准：优先<b>本地老字号、经营多年的知名老店</b>和本地人日常去的家常馆子；凡"店名+避雷"负面多、或大面积投流广告的景点网红店，一律不列。口味以现场为准，面食分量大，先点一份试。</div>
 
   <div class="food">
@@ -993,7 +1003,30 @@ details.sub .nav{margin-top:10px}
   </div>
 
   <div class="food">
-    <div class="fh">临汾<span class="s">晋南 · 汤与面 · D3–D5</span></div>
+    <div class="fh" id="linfen-fieldwork">临汾<span class="s">先尝地方风味 · D3–D5 · 9/29 调研样板</span></div>
+    <div class="shops">不追同款店、不为普通面条绕路。以下分清<b>食物线索、用餐备选、地图核验</b>；暂没有一家完成“非网红＋具体分店＋营业现状”的完整核验。</div>
+    <ul>
+      <li><b>洪洞饽糕</b> <span class="pill warn">食物待核阅</span><div class="d">原资料库已有洪洞店铺线索；优先核对做法、份量和店址。洪洞县城不等于广胜寺门口，暂不承诺 D4 顺路。</div><div class="shops"><a class="lnk" data-amap data-name="洪洞 瑞祥酥肉面饽糕" data-city="临汾" href="https://uri.amap.com/search?keyword=洪洞%20瑞祥酥肉面饽糕&amp;city=临汾&amp;src=xiaocai-trip">高德搜索 · 洪洞瑞祥酥肉面饽糕</a><div class="tag">区域：洪洞县（原库线索）｜详细地址、当前营业待核验</div></div></li>
+      <li><b>混炒 · 吉县小炒</b> <span class="pill info">优先继续核验</span><div class="d">混炒已有乌啦啦视频线索，但未读视频全文；吉县小炒有食客描述为里脊肉丝、粉条、白菜的带汤菜。先验证地方特色，不把普通餐馆菜包装成独有。</div><div class="shops"><a class="lnk" data-amap data-name="临汾 陈晨米线" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾%20陈晨米线&amp;city=临汾&amp;src=xiaocai-trip">高德搜索 · 陈晨米线</a> · <a class="lnk" data-amap data-name="临汾 小姚面馆" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾%20小姚面馆&amp;city=临汾&amp;src=xiaocai-trip">高德搜索 · 小姚面馆</a><div class="tag">两者均未锁定分店｜搜索后请核对分店，不是乌啦啦同款店认证</div></div></li>
+      <li><b>小姚面馆</b> <span class="pill warn">不排队才考虑</span><div class="d">正餐备选而非特色必吃。一篇记录西站附近用餐，另有作者反映热门、需要订位；分店不能混算。清淡菜可留意蒜蓉西兰花，不照搬三人菜量。</div><div class="shops"><a class="lnk" data-amap data-name="临汾西站 小姚面馆" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾西站%20小姚面馆&amp;city=临汾&amp;src=xiaocai-trip">高德搜索 · 西站附近的小姚面馆</a><div class="tag">地址待核验｜“距西站约900米”为笔记说法，非地图测量</div></div></li>
+    </ul>
+    <details class="sub"><summary><span class="sn">市区 citywalk · 核心点与高德入口</span><span class="cv">▾</span></summary><div class="sb">
+      <div class="lk">日间<b>大云寺</b>，傍晚留给<b>鼓楼周边</b>与<b>财神楼</b>。这是候选组合，不是已核验的最短步行导航；门票、开放时间以现场与官方为准。</div>
+      <a class="nav" data-amap data-name="临汾 大云寺" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾%20大云寺&amp;city=临汾&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德搜索 · 大云寺<span class="ns">9/29 高德结果位置提示：山西师范大学北1门口；非街道门牌</span></a>
+      <a class="nav" data-amap data-name="临汾 鼓楼" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾%20鼓楼&amp;city=临汾&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德搜索 · 鼓楼<span class="ns">区域：临汾市区（笔记）｜具体地址、步行路线待核验</span></a>
+      <a class="nav" data-amap data-name="临汾 财神楼" data-city="临汾" href="https://uri.amap.com/search?keyword=临汾%20财神楼&amp;city=临汾&amp;src=xiaocai-trip"><span class="ni">🧭</span>高德搜索 · 财神楼<span class="ns">区域：临汾市区（笔记）｜具体地址、步行路线待核验</span></a>
+      <div class="lk">关帝庙可选：有翻修、部分门关闭的体验反馈。古城遗址留作加项，亮灯时间未确认；临汾博物馆另留时段，不硬拼进老城步行线。</div>
+    </div></details>
+    <details class="sub"><summary><span class="sn">来源与阅读范围 · 有哪些反证？</span><span class="cv">▾</span></summary><div class="sb">
+      <div class="lk">累计小红书 <b>15 篇正文</b>，本轮新增来源评论 <b>84 条</b>；B站 <b>4 个页面、70 条评论</b>，视频全文尚未核阅。图片未逐张看，不代表完整笔记已读。</div>
+      <div class="xhs"><a class="xlink" target="_blank" rel="noopener" href="https://www.xiaohongshu.com/explore/6a6b2bf8000000003302eb9c?xsec_token=ABFeCJu3MHKsZz0fBheRV1Gs7poLdTAa5i1p-GatM1rqY=&amp;xsec_source=pc_feed">山西之行，Day4临汾市区一天的city walk路线</a> · 正文与2条评论已读；提到关帝庙较新且部分门关着。</div>
+      <div class="xhs"><a class="xlink" target="_blank" rel="noopener" href="https://www.xiaohongshu.com/explore/6a9a4894000000000b00c9e2?xsec_token=ABjRd4dLPRKMyp0TraNEyOHJvXt-ZeAArpHuNnl8uer4w=&amp;xsec_source=pc_feed">小姚面馆是路过临汾西站完美的一餐！</a> · 正文与5条评论已读；三人118元是作者当次消费，不是单人套餐。</div>
+      <div class="xhs"><a class="xlink" target="_blank" rel="noopener" href="https://www.xiaohongshu.com/explore/6936746d000000001f00b2e3?xsec_token=ABdGydLfjd6O-CcBQHx_Yo3LaXxvanKfomnosiLr_3hro=&amp;xsec_source=pc_feed">临汾小姚面馆，我们喜欢你~</a> · 正文与1条评论已读；作者明确提示热门、订位与排队。</div>
+      <div class="bili"><a class="blink" target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1N8411C7g2/">BV1N8411C7g2 · 【走遍山西】我尽力了，2天在临汾炫了10种面（20.3万播放）</a> · 简介与20条评论已读，未看完；丸子面口味评价明显分歧。</div>
+      <div class="bili"><a target="_blank" rel="noopener" href="https://jingxuan.douyin.com/m/video/7491558519972449571">特别乌啦啦 · 花64元在临汾吃「混炒」～山西的辣让我万万没想到</a> · 仅标题、作者与日期已核对，店铺和视频内容待核阅。</div>
+    </div></details>
+    <details class="sub"><summary><span class="sn">原有临汾清单 · 保留备查，尚未逐店复核</span><span class="cv">▾</span></summary><div class="sb">
+    <div class="lk">以下为旧版资料原文，不代表本轮重新验证了口碑、价格、营业或顺路程度。</div>
     <ul>
       <li><b>牛肉丸子面</b> <span class="d">临汾招牌，红油＋牛肉丸子＋碱水面；早餐夜宵都有</span>
         <div class="shops"><a class="lnk" data-amap data-name="白老三牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%99%BD%E8%80%81%E4%B8%89%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">白老三牛肉丸子面（平阳街）</a> · <a class="lnk" data-amap data-name="薛老五牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E8%96%9B%E8%80%81%E4%BA%94%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">薛老五牛肉丸子面（总店）</a> · <a class="lnk" data-amap data-name="老白家牛肉丸子面" data-city="临汾" href="https://uri.amap.com/search?keyword=%E8%80%81%E7%99%BD%E5%AE%B6%E7%89%9B%E8%82%89%E4%B8%B8%E5%AD%90%E9%9D%A2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">老白家牛肉丸子面</a><span class="tag">· 前三家是本地口碑店，别只认写字楼边那家</span></div></li>
@@ -1004,6 +1037,9 @@ details.sub .nav{margin-top:10px}
     </ul>
     <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV124pteBEQW" target="_blank" rel="noopener">阿星探店·临汾牛肉丸子面+洪洞饽糕</a> · <a class="blink" href="https://www.bilibili.com/video/BV1me4y1R7NR" target="_blank" rel="noopener">特别乌啦啦·原产地牛肉丸子面</a></div>
     <div class="xhs">📕 <b>美食笔记（小红书）</b>：<a class="xlink" href="https://www.xiaohongshu.com/explore/6a03e40e00000000060326cb" target="_blank" rel="noopener">临汾洪洞 · 饽糕</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/68922cb3000000002203853e" target="_blank" rel="noopener">临汾 | 瑞祥酥肉面饽糕</a> · <a class="xlink" href="https://www.xiaohongshu.com/explore/6a1bcd5a0000000008025154" target="_blank" rel="noopener">在洪洞！被这几家馆子硬控了</a></div>
+  </div>
+
+    </details>
   </div>
 
   <div class="food">
@@ -1046,7 +1082,7 @@ details.sub .nav{margin-top:10px}
     <div class="bili">📺 <b>边吃边看（B站）</b>：<a class="blink" href="https://www.bilibili.com/video/BV1C2516zEvJ" target="_blank" rel="noopener">盗月社·山西面食江湖</a></div>
   </div>
 
-  <div class="foot">🍜 店铺来源：<b>高德 POI ＋ 大众点评必吃榜 ＋ 当地文旅号</b>交叉核对，已剔除纯流量打卡店（如晋城德华兴 ¥248 属高价网红，仅列作参考）。「顺路吃（待选）」也已写进「行程」每天卡片底部；口味以现场为准。</div>
+  <div class="foot">🍜 核验范围：<b>临汾新增内容以卡片内的来源和阅读状态为准</b>，尚未完成逐店地址、营业现状与路线核验。其他城市和每日「顺路吃（待选）」保留原资料，本轮未重新核对；高德搜索入口不代表已锁定具体分店，口味以现场为准。</div>
 </section>
 
 <!-- ================= 交通 ================= -->
