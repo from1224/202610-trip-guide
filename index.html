@@ -1518,9 +1518,24 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
   var stage=document.getElementById('lbStage'), hold=document.getElementById('lbHold');
   var tools=document.getElementById('lbTools'), tip=document.getElementById('lbTip');
   if(!stage||!hold)return;
-  var st={s:1,fit:1,tx:0,ty:0,cw:360,ch:300}, ptrs={}, dragging=false, lastTap=0;
+  var st={s:1,fit:1,tx:0,ty:0,cw:360,ch:300}, ptrs={}, dragging=false, lastTap=0, lastK=-1;
 
-  function apply(){hold.style.transform='translate3d('+st.tx+'px,'+st.ty+'px,0) scale('+st.s+')';}
+  // 地图式缩放：几何等比舒展，但标记圆点与文字保持屏幕固定大小（反向补偿）
+  function syncLabels(){
+    var k=st.s>0?st.fit/st.s:1;
+    if(Math.abs(k-lastK)<0.003)return;
+    lastK=k;
+    var ns=hold.querySelectorAll('text,circle,line');
+    for(var i=0;i<ns.length;i++){
+      var n=ns[i], tg=n.tagName.toLowerCase();
+      if(tg==='line'){n.setAttribute('vector-effect','non-scaling-stroke');continue;}
+      var ax=parseFloat(n.getAttribute(tg==='circle'?'cx':'x'));
+      var ay=parseFloat(n.getAttribute(tg==='circle'?'cy':'y'));
+      if(isNaN(ax))ax=0; if(isNaN(ay))ay=0;
+      n.setAttribute('transform','translate('+ax+' '+ay+') scale('+k.toFixed(4)+') translate('+(-ax)+' '+(-ay)+')');
+    }
+  }
+  function apply(){hold.style.transform='translate3d('+st.tx+'px,'+st.ty+'px,0) scale('+st.s+')';syncLabels();}
   function dims(el){
     if(el.tagName.toLowerCase()==='svg'){
       var v=(el.getAttribute('viewBox')||'0 0 360 300').trim().split(/[\s,]+/).map(Number);
@@ -1551,6 +1566,7 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
     var c=el.cloneNode(true);
     if(c.tagName.toLowerCase()==='svg'){c.setAttribute('width',d[0]);c.setAttribute('height',d[1]);}
     hold.appendChild(c);
+    lastK=-1;
     if(lb.showModal){ if(!lb.open) lb.showModal(); } else { lb.setAttribute('open',''); }
     tip.classList.remove('gone');
     requestAnimationFrame(fit);
