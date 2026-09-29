@@ -232,8 +232,6 @@ details[open] .cv{transform:rotate(180deg)}
 .lb-stage.grabbing{cursor:grabbing}
 .lb-hold{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
 .lb-hold img,.lb-hold svg{display:block;width:100%;height:100%;border-radius:10px;background:#f8fafc}
-.lb-x{position:fixed;right:14px;top:calc(14px + env(safe-area-inset-top));z-index:8;border:1px solid #ffffff3d;
-  background:#0f172ad9;color:#fff;font-size:14px;font-family:inherit;border-radius:99px;padding:8px 15px;cursor:pointer}
 .lb-tools{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom));
   z-index:7;display:flex;gap:6px;background:#ffffff1f;border:1px solid #ffffff33;border-radius:99px;
   padding:5px 7px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
@@ -1387,8 +1385,7 @@ details.sub .nav{margin-top:10px}
     <button type="button" data-z="in" aria-label="放大">＋</button>
     <button type="button" data-z="reset" aria-label="重置">重置</button>
   </div>
-  <button class="lb-x" type="button">✕ 关闭</button>
-  <div class="lb-tip" id="lbTip">双指缩放 / 拖动平移 · 双击放大</div>
+  <div class="lb-tip" id="lbTip">双指缩放 / 拖动平移 · 双击放大 · 点空白处关闭</div>
 </dialog>
 
 <nav class="tabbar">
@@ -1566,12 +1563,14 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
 
   stage.addEventListener('pointerdown',function(e){
     ptrs[e.pointerId]={x:e.clientX,y:e.clientY};
+    stage._tapMoved=false; stage._tapX=e.clientX; stage._tapY=e.clientY;
     try{stage.setPointerCapture(e.pointerId);}catch(_){}
     if(cnt()===1){dragging=true;stage.classList.add('grabbing');}
     if(cnt()>=2){stage._d=dist(); stage._m=mid();}
   });
   stage.addEventListener('pointermove',function(e){
     var p=ptrs[e.pointerId]; if(!p)return;
+    if(Math.abs(e.clientX-stage._tapX)>8||Math.abs(e.clientY-stage._tapY)>8)stage._tapMoved=true;
     if(cnt()===1&&dragging){
       st.tx+=e.clientX-p.x; st.ty+=e.clientY-p.y;
       p.x=e.clientX; p.y=e.clientY; apply();
@@ -1625,8 +1624,16 @@ document.querySelectorAll('.tabbar button').forEach(function(b){
       else fit();
     });
   }
+  function hitImage(x,y){
+    if(!hold.firstChild)return false;
+    var r=hold.getBoundingClientRect();
+    return x>=r.left&&x<=r.right&&y>=r.top&&y<=r.bottom;
+  }
   lb.addEventListener('click',function(e){
-    if(e.target===lb||e.target.classList.contains('lb-x')) lb.close();
+    if(e.target!==lb&&e.target!==stage)return;   // 点在图片/工具条上，不关
+    if(stage._tapMoved)return;                    // 刚拖动完，不算点击
+    if(hitImage(e.clientX,e.clientY))return;      // 点在图片范围内
+    lb.close();
   });
   lb.addEventListener('close',function(){hold.innerHTML='';tip.classList.add('gone');});
   document.addEventListener('keydown',function(e){
