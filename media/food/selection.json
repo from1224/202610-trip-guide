@@ -2,18 +2,163 @@
   "date": "2026-09-30",
   "cards": [
     {
+      "id": "H",
+      "group": "noodles",
+      "title": "混炒",
+      "img": null,
+      "tag": "补回 · 两店候选",
+      "why": "旧笔记把张军混炒描述为凉皮＋担担面、麻酱炒；不是普通汤面。",
+      "photo": "暂缺核准实拍，先保留两店比较。",
+      "limit": "张军是品牌亲历，作者分店不全明确；不要把固定地图点当作原作者同款。",
+      "shops": [
+        {
+          "name": "张军米线 · 时光颂B1",
+          "note": "品牌有两篇亲历；此分店为已核地图落点，先问小份辣度。",
+          "poi": "B0FFKO4KH8"
+        },
+        {
+          "name": "陈晨米线 · 功臣小区",
+          "note": "有人喜欢米皮混炒，也有偏咸、一般的反馈；保留备选，不为人气排队。",
+          "poi": "B0JBCUFESE"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/6aaa1a5c00000000260330fa?xsec_token=ABlqNSJ7-LeIMNXQvBW1yNHlvUTxGPDaiM3el112e_sWE=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "I",
+      "group": "noodles",
+      "title": "牛肉丸子面",
+      "img": "wanzi-1.webp",
+      "tag": "补回 · 两店候选",
+      "why": "看汤底、丸子和配料，再决定是否想吃；可以询问加肉少面，不预设店里一定能做。",
+      "photo": "已有测评笔记的实拍作菜种参考，不能同时当作三刚和永红两店出品。",
+      "limit": "三刚10–19点、永红晚段17–21:30仅9/30地图快照；营业临行确认，原作者分店不全明确。",
+      "shops": [
+        {
+          "name": "三刚 · 平阳南街",
+          "note": "有实吃比较支持，也有后味微苦反馈；旧快照19点关门，勿当深夜夜宵。",
+          "poi": "B0FFFIARJG"
+        },
+        {
+          "name": "永红 · 迎春北街",
+          "note": "品牌有多篇讨论；不要将未注明分店的评价视为这家实吃验证。",
+          "poi": "B0MD4XKBD8"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/6aaa36f6000000002902ee2b?xsec_token=ABlqNSJ7-LeIMNXQvBW1yNHmlTEbg9LZ3CkVbe8PeC7xw=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/69738ca2000000000c0363a2?xsec_token=ABn20FzgMGjH6aE-oei3GWDgGBDdXPbs6g0zS0ZO7zlig=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/6aa0eb8d0000000028003c15?xsec_token=AB_j03jHGBDPE8t_ayAeGYs8r06nNFRiHzMibf8EXiek4=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "J",
+      "group": "noodles",
+      "title": "鸡块面 / 大盘鸡",
+      "img": null,
+      "tag": "补回 · 两店候选",
+      "why": "本地作者区分：人少可选鸡块面，人多再选大盘鸡。先看这类，不因带“面”就排除。",
+      "photo": "核准实拍待补，不借其他城市的大盘鸡照片。",
+      "limit": "两店来自同一本地作者，不算两组独立口碑；旧B站等待反馈未指明分店，不能套给具体店。",
+      "shops": [
+        {
+          "name": "段师傅 · 南洪家楼店",
+          "note": "已有收藏记录；作者推荐此分店，勿混入鼓楼北街另一店体验。"
+        },
+        {
+          "name": "888福海 · 向阳西路店",
+          "note": "已有收藏记录；单人份、当前营业与等待需问，暂从高德收藏打开。"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/6877737400000000110023e0?xsec_token=ABMYzNkScU7Y4j0_alUBDxBFeA8dWxopdN0T36S7ML_Zs=&xsec_source=pc_feed"
+      ]
+    },
+    {
+      "id": "K",
+      "group": "snack",
+      "title": "烧饼 / 夹菜饼",
+      "img": "shaobing.webp",
+      "tag": "补回 · 两店候选",
+      "why": "可以是一顿的小选择，也可以散步时吃；不因被归为加餐就藏起来。",
+      "photo": "照片属于黄上品，不代表臻火候；价格与排队是作者当次体验。",
+      "limit": "不保证冷门或不用排队；臻火候鼓楼店已有收藏记录，旧分类中的地点待核尚未同步。",
+      "shops": [
+        {
+          "name": "黄上品 · 扁担巷南口",
+          "note": "饼和麻酱夹菜有好评，也有排队记录。",
+          "poi": "B0I1KSVNQD"
+        },
+        {
+          "name": "臻火候超级烧饼 · 鼓楼店",
+          "note": "旅行作者偏好钟楼附近店，另一店体验不同；已收藏，从高德收藏打开。"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/6a7beba500000000330091ed?xsec_token=ABFKO6lppcroxb2trRNSTVvxO738yO_N4GdADFlc1lg8g=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/6aaa1a5c00000000260330fa?xsec_token=ABlqNSJ7-LeIMNXQvBW1yNHlvUTxGPDaiM3el112e_sWE=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "L",
+      "group": "snack",
+      "title": "沾串",
+      "img": "zhanchuan-1.webp",
+      "tag": "补回 · 一店＋待核摊位",
+      "why": "先看串和蘸料是否有食欲；不因为暂缺第二家实名店而不展示。",
+      "photo": "磊子笔记的食材照片；商业属性未确认，不代表第二摊位。",
+      "limit": "贡院街旧址与地图同名点对应未确认；两条线索不是两家都核准的店。",
+      "shops": [
+        {
+          "name": "磊子沾串 · 贡院街旧址线索",
+          "note": "两篇不同时期同址笔记；当前地址、营业待核。"
+        },
+        {
+          "name": "扬州大厦对面无名摊 · 待核",
+          "note": "尚无店名；王掌柜只是旁边地标，不冒充第二家店。"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/692d8456000000001e023d87?xsec_token=ABgHTNItrQx2EjjXw5ZGKcvbKeIymBT6V00aL9N468sME=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/5de10bad0000000001009216?xsec_token=ABAfgOX3SnrweY-IxAeGgpbUFpG4IMxXWdqAhk9eISQCk=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/69b167580000000015030907?xsec_token=ABH_8LLnkDC-KhfW8Z051PDW8B6eq4fNrtzvUZRMuokyk=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
       "id": "A",
       "group": "meal",
-      "title": "丸子砂锅",
+      "title": "古法砂锅 / 丸子砂锅",
       "shop": "老陈家古法黑砂锅 · 新百汇",
       "img": "laochen-maruko.webp",
-      "tag": "正餐优先 · 能接受重口",
-      "why": "两位作者都吃过这家；一位直接点名丸子好吃。不用再点一大碗普通面。",
+      "tag": "两店比较 · 重味与排队各有取舍",
+      "why": "先挑汤锅这类，再比店；不是只剩老陈一家。",
       "limit": "有“比王明味重”的比较。先问一锅够几人、能否少辣；饼别急着加。",
-      "photo": "左下是丸子砂锅；照片是多菜，不是建议照单全点。",
+      "photo": "照片只属于老陈家，左下为丸子砂锅；不是王明实拍，也不是单人套餐。",
       "refs": [
         "https://www.xiaohongshu.com/explore/68607cf9000000001c036abf?xsec_token=ABIPIDR0T79wptE3GQxLi8wCjrQkMEOtzsSSNELi10Z_E=&xsec_source=pc_search&source=web_explore_feed",
-        "https://www.xiaohongshu.com/explore/67d539fc000000001e001eac?xsec_token=ABlVLwmlEw-IosZ5cYeYM1SSD98yh41hCFzq-OzA4yb_o=&xsec_source=pc_search&source=web_explore_feed"
+        "https://www.xiaohongshu.com/explore/67d539fc000000001e001eac?xsec_token=ABlVLwmlEw-IosZ5cYeYM1SSD98yh41hCFzq-OzA4yb_o=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/69a6ef620000000023039f1c?xsec_token=AB9FECA7kLy8Q-Kn7vFywuJ5NhPdtfcdo55GOYjJICmic=&xsec_source=pc_search&source=web_search_result_notes",
+        "https://www.xiaohongshu.com/explore/68390788000000002202a3e8?xsec_token=ABsEFJExTY58h7x4uDcVdwrB-98qyNcgtvAvA2K2oXsfo=&xsec_source=pc_search&source=web_search_result_notes",
+        "https://www.xiaohongshu.com/explore/66652304000000000e032142?xsec_token=ABSCyzwWiA5qP2DuqqcWTmisLVsktF-Zm7SBkr9zMqEc8=&xsec_source=pc_search&source=web_search_result_notes",
+        "https://www.xiaohongshu.com/explore/6873bca50000000012031d85?xsec_token=ABrYOkbdAwPh60bfxrMLjONYCB91aW2TRBJT5WPIV-0aQ=&xsec_source=pc_search&source=web_search_result_notes",
+        "https://www.xiaohongshu.com/explore/669d012f000000002500495f?xsec_token=ABZaWJdrrlaN-wkvwg7OqaXWAOvZ7JQzpwd2fe8qUeQ_c=&xsec_source=pc_search&source=web_search_result_notes",
+        "https://www.xiaohongshu.com/explore/68922567000000002302d3b1?xsec_token=ABEpgC6602dMNuukGj93diF157to3hpf5LjgL2f3drZg4=&xsec_source=pc_search"
+      ],
+      "shops": [
+        {
+          "name": "老陈家 · 新百汇",
+          "note": "丸子有好评；作者比较称口味比王明重，先问锅的份量。",
+          "poi": "B0JU255QAI"
+        },
+        {
+          "name": "王明 · 新能源店",
+          "note": "有排队反馈；鼓楼车程5.3km/约10分为旧快照，不是步行顺路。",
+          "poi": "B0HA4USZ6C"
+        }
       ]
     },
     {
@@ -28,21 +173,39 @@
       "photo": "小姚实拍，吃到一半；不代表西站店出品或整份大小。",
       "refs": [
         "https://www.xiaohongshu.com/explore/6a7998ee000000003301f737?xsec_token=AB1onuGU96idT_COTD3j23N9uVzZU3jF7IOY31LA09fSw=&xsec_source=pc_feed"
+      ],
+      "shops": [
+        {
+          "name": "小姚面馆 · 河西高铁站店",
+          "note": "原实吃分店未明；这家只作为已核位置候选，先问吉县小炒供应与少粉条。",
+          "poi": "B0MATLXCU9"
+        }
       ]
     },
     {
       "id": "C",
       "group": "meal",
-      "title": "羊杂汤",
+      "title": "羊汤 / 羊杂",
       "shop": "小黑赵城羊汤 · 迎春北街",
       "img": "yangza.webp",
       "tag": "肉汤候选 · 接受羊杂再选",
-      "why": "一碗热汤配少量饼，比再点一桌炒菜更容易控制这一餐。不是不带膻味的承诺。",
+      "why": "羊杂与纯羊肉不是一回事；先看你想吃哪种，再问店里供应。",
       "limit": "具体分店有一篇亲历，仍不是双重口碑验证；纯羊肉汤、加肉和少饼的点法需问店。",
       "photo": "原作者拼图同时有烧烤；图片不是套餐。",
       "address": "迎春北街与解放东路辅路交叉口东北100米。9/30已收藏，可从高德收藏打开。",
       "refs": [
-        "https://www.xiaohongshu.com/explore/69d78de30000000020039bb3?xsec_token=ABcN2sS7vler-S04lckfWdafTEUe4XlfvMKF4oe0zriJs=&xsec_source=pc_search&source=web_explore_feed"
+        "https://www.xiaohongshu.com/explore/69d78de30000000020039bb3?xsec_token=ABcN2sS7vler-S04lckfWdafTEUe4XlfvMKF4oe0zriJs=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/6a6d802e0000000027020911?xsec_token=ABRDbQBaUbWK2aHP-JWHmicgoqNZJVMTR6jXPxDHTmmzs=&xsec_source=pc_search&source=web_explore_feed"
+      ],
+      "shops": [
+        {
+          "name": "小黑赵城羊汤 · 迎春北街",
+          "note": "有具体街道亲历；已收藏，可从高德收藏打开。"
+        },
+        {
+          "name": "婆婆神羊汤",
+          "note": "正文及评论提及；分店与营业未核，暂不造导航。"
+        }
       ]
     },
     {
@@ -59,6 +222,12 @@
       "refs": [
         "https://www.xiaohongshu.com/search_result/6804c050000000000b015139?xsec_token=ABV7O2cBNiZFfNMQ9TyqXXOs4J2j0p2jd4EyAM56zeYjU=&xsec_source=",
         "https://www.xiaohongshu.com/search_result/6a3bedc6000000000702cbfe?xsec_token=ABQ3TmUZnPqOKcNk5VkYjhLohqIoxZdAd8522eRUkB-A8=&xsec_source="
+      ],
+      "shops": [
+        {
+          "name": "闷闷面食馆 · 煤化巷线索",
+          "note": "店名与街名有异写；红枣蒸饭/软米、饽糕供应和门牌待核，市区第二店尚缺。"
+        }
       ]
     },
     {
@@ -73,6 +242,12 @@
       "photo": "前碗是烩菜，后碗是拌汤；不要把两碗当一份。",
       "refs": [
         "https://www.xiaohongshu.com/search_result/6a3bedc6000000000702cbfe?xsec_token=ABQ3TmUZnPqOKcNk5VkYjhLohqIoxZdAd8522eRUkB-A8=&xsec_source="
+      ],
+      "shops": [
+        {
+          "name": "闷闷面食馆 · 煤化巷线索",
+          "note": "作者称多年复吃；9点后部分早餐选择少是历史体验，门牌待核。"
+        }
       ]
     },
     {
@@ -88,6 +263,13 @@
       "refs": [
         "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed",
         "https://www.xiaohongshu.com/explore/6a6178710000000011019e2b?xsec_token=ABoQm0YgcpfgrvRWM63nUBmq05ei90SsZqUyhs2QMZr90=&xsec_source=pc_search&source=web_explore_feed"
+      ],
+      "shops": [
+        {
+          "name": "小胖油茶坊 · 迎春北街",
+          "note": "店址已核；现有照片仅确认品牌，第二家独立口碑店仍缺。",
+          "poi": "B0FFICHLCI"
+        }
       ]
     },
     {
@@ -103,7 +285,45 @@
       "refs": [
         "https://www.xiaohongshu.com/explore/67d539fc000000001e001eac?xsec_token=ABlVLwmlEw-IosZ5cYeYM1SSD98yh41hCFzq-OzA4yb_o=&xsec_source=pc_search&source=web_explore_feed",
         "https://www.xiaohongshu.com/explore/68607cf9000000001c036abf?xsec_token=ABIPIDR0T79wptE3GQxLi8wCjrQkMEOtzsSSNELi10Z_E=&xsec_source=pc_search&source=web_explore_feed"
+      ],
+      "shops": [
+        {
+          "name": "汾城油粉饭 · 朝殿二巷",
+          "note": "一位比较作者偏爱其浓、料足；酸味接受度因人而异。",
+          "poi": "B0H0U5KR22"
+        },
+        {
+          "name": "老陈家 · 新百汇",
+          "note": "同作者称较稀、酸味轻；本卡照片只属于这家。",
+          "poi": "B0JU255QAI"
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "group": "county",
+      "title": "洪洞黄米蒸饭 / 枣米",
+      "img": "hongdong.webp",
+      "tag": "县域备查 · 不在市区",
+      "why": "原有县域两条线索也保留，但不当临汾市区顺路安排。",
+      "photo": "洪洞瑞祥实拍：左下蒸饭、右上饽糕，不是明姜付家照片。",
+      "limit": "不把黄米蒸饭自动称小米糕；具体门牌与营业未核，不建议为此折返。",
+      "shops": [
+        {
+          "name": "瑞祥酥肉面饽糕 · 洪洞",
+          "note": "有亲历蒸饭小份线索；历史价格不当今日承诺。"
+        },
+        {
+          "name": "明姜付家枣米 · 洪洞线索",
+          "note": "两条评论推荐，仍缺店址与营业验证。"
+        }
+      ],
+      "refs": [
+        "https://www.xiaohongshu.com/explore/68922cb3000000002203853e?xsec_token=ABEpgC6602dMNuukGj93diF3gUf7Q1_tGRD7YloIiTD1A=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/69f75f2a00000000200383dd?xsec_token=AB0YrU18nebietHkRMDAwO2jMtXb_DR1gDta98LsxxemQ=&xsec_source=pc_search&source=web_explore_feed"
       ]
     }
-  ]
+  ],
+  "version": "full-choice-v2",
+  "note": "补齐旧分类，一类一卡；排序不剥夺选择。此轮没有新增调研或照片。"
 }
