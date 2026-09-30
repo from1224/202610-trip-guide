@@ -5,10 +5,10 @@
       "id": "H",
       "group": "noodles",
       "title": "混炒",
-      "img": null,
+      "img": "zhangjun-hunchao.webp",
       "tag": "补回 · 两店候选",
       "why": "旧笔记把张军混炒描述为凉皮＋担担面、麻酱炒；不是普通汤面。",
-      "photo": "暂缺核准实拍，先保留两店比较。",
+      "photo": "张军混炒原笔记图3，分店未明；不是陈晨实拍，也未确认时光颂分店。",
       "limit": "张军是品牌亲历，作者分店不全明确；不要把固定地图点当作原作者同款。",
       "shops": [
         {
@@ -24,8 +24,10 @@
       ],
       "refs": [
         "https://www.xiaohongshu.com/explore/6aaa1a5c00000000260330fa?xsec_token=ABlqNSJ7-LeIMNXQvBW1yNHlvUTxGPDaiM3el112e_sWE=&xsec_source=pc_search&source=web_explore_feed",
-        "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed"
-      ]
+        "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/68390788000000002202a3e8?xsec_token=ABsEFJExTY58h7x4uDcVdwrB-98qyNcgtvAvA2K2oXsfo=&xsec_source=pc_search&source=web_search_result_notes"
+      ],
+      "photo_label": "张军混炒 · 分店未明"
     },
     {
       "id": "I",
@@ -58,23 +60,31 @@
       "id": "J",
       "group": "noodles",
       "title": "鸡块面 / 大盘鸡",
-      "img": null,
+      "img": "duan-jikuaimian.webp",
       "tag": "补回 · 两店候选",
       "why": "本地作者区分：人少可选鸡块面，人多再选大盘鸡。先看这类，不因带“面”就排除。",
-      "photo": "核准实拍待补，不借其他城市的大盘鸡照片。",
+      "photo": "主图：段师傅南洪家楼店鸡块面（原图3）；第二张：888福海向阳西路店干煸大盘鸡（原图6）。均来自3377同一篇亲历，不能算两位独立作者；照片不保证今日份量。",
       "limit": "两店来自同一本地作者，不算两组独立口碑；旧B站等待反馈未指明分店，不能套给具体店。",
       "shops": [
         {
           "name": "段师傅 · 南洪家楼店",
-          "note": "已有收藏记录；作者推荐此分店，勿混入鼓楼北街另一店体验。"
+          "note": "原笔记图3对应本店鸡块面，作者称微辣、土豆鸡肉入味；已有收藏。"
         },
         {
           "name": "888福海 · 向阳西路店",
-          "note": "已有收藏记录；单人份、当前营业与等待需问，暂从高德收藏打开。"
+          "note": "原笔记图6对应本店干煸大盘鸡，作者称咸辣口、可选辣度；先问份量与等位。"
         }
       ],
       "refs": [
         "https://www.xiaohongshu.com/explore/6877737400000000110023e0?xsec_token=ABMYzNkScU7Y4j0_alUBDxBFeA8dWxopdN0T36S7ML_Zs=&xsec_source=pc_feed"
+      ],
+      "photo_label": "段师傅 · 南洪家楼店｜鸡块面",
+      "extra_photos": [
+        {
+          "img": "fuhai-ganbianji.webp",
+          "label": "888福海 · 向阳西路店｜干煸大盘鸡",
+          "photo": "原笔记图6，正文明确分店；并非段师傅出品，不保证有单人份。"
+        }
       ]
     },
     {
@@ -324,6 +334,6 @@
       ]
     }
   ],
-  "version": "full-choice-v2",
-  "note": "补齐旧分类，一类一卡；排序不剥夺选择。此轮没有新增调研或照片。"
+  "version": "full-choice-v3-photos",
+  "note": "补核2篇已存笔记，新增3张实拍；13类均有图片，分店归属分别标注，不新增推荐数量。"
 }

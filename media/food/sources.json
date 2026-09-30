@@ -146,5 +146,35 @@
     "original_image_url": "https://sns-webpic-qc.xhscdn.com/202609302211/18708b9f147543246ab93b698099f66e/note_pre_post_uhdr/1040g3r0321q6tia07e105niotbgg8fdm8bmrgeo!nd_dft_wlteh_webp_3",
     "verified": "原笔记正文/评论与画面交叉核对；限制见note",
     "collected_at": "2026-09-30"
+  },
+  {
+    "file": "media/food/zhangjun-hunchao.webp",
+    "title": "张军混炒",
+    "note": "原笔记图3；作者分店不确定，不能标为时光颂店或陈晨出品",
+    "author": "好好吃饭",
+    "source_url": "https://www.xiaohongshu.com/explore/68390788000000002202a3e8?xsec_token=ABsEFJExTY58h7x4uDcVdwrB-98qyNcgtvAvA2K2oXsfo=&xsec_source=pc_search&source=web_search_result_notes",
+    "original_image_url": "https://sns-webpic-qc.xhscdn.com/202609302349/d27a3d450c4f75f4ed00250096e5db74/notes_pre_post/1040g3k031i3btus36m0g5o7najmgbsc7gs40lag!nd_dft_wlteh_webp_3",
+    "verified": "已打开原笔记，核对正文图片序号和实际画面；未推断未明分店",
+    "collected_at": "2026-09-30"
+  },
+  {
+    "file": "media/food/duan-jikuaimian.webp",
+    "title": "段师傅南洪家楼店鸡块面",
+    "note": "正文p3–5明确南洪家楼店；采用p3，图中文字标鸡块面，画面是多人用餐不是一份套餐",
+    "author": "3377",
+    "source_url": "https://www.xiaohongshu.com/explore/6877737400000000110023e0?xsec_token=ABMYzNkScU7Y4j0_alUBDxBFeA8dWxopdN0T36S7ML_Zs=&xsec_source=pc_feed",
+    "original_image_url": "https://sns-webpic-qc.xhscdn.com/202609302353/d318e1dc49123b49ea9eef6ededf4c53/notes_pre_post/1040g3k831k026sia48a05npaa8hg8m48hpsvk58!nd_dft_wlteh_webp_3",
+    "verified": "已打开原笔记，核对正文图片序号和实际画面；未推断未明分店",
+    "collected_at": "2026-09-30"
+  },
+  {
+    "file": "media/food/fuhai-ganbianji.webp",
+    "title": "888福海向阳西路店干煸大盘鸡",
+    "note": "正文p6–7明确向阳西路店；采用p6，图片文字标干煸大盘鸡，可见鸡块、洋葱和面；不保证单人份供应",
+    "author": "3377",
+    "source_url": "https://www.xiaohongshu.com/explore/6877737400000000110023e0?xsec_token=ABMYzNkScU7Y4j0_alUBDxBFeA8dWxopdN0T36S7ML_Zs=&xsec_source=pc_feed",
+    "original_image_url": "https://sns-webpic-qc.xhscdn.com/202609302353/2839523aa0d06596df47c109e5259cb2/notes_pre_post/1040g3k831k026sia48bg5npaa8hg8m480mus348!nd_dft_wlteh_webp_3",
+    "verified": "已打开原笔记，核对正文图片序号和实际画面；未推断未明分店",
+    "collected_at": "2026-09-30"
   }
 ]
