@@ -346,6 +346,7 @@ details.sub .nav{margin-top:10px}
 /* food-choice-comparison:start */
 .food-photo-label{font-size:11px;color:#52665b;padding:6px 12px;background:#f5f6f1}.food-extra-photo{display:flex;align-items:center;gap:10px;padding:8px 12px;background:#f5f6f1}.food-extra-photo .food-look-open{width:76px;flex:0 0 76px}.food-extra-photo img{height:88px!important;width:76px;object-fit:cover}.food-extra-photo span{font-size:11px;color:#52665b}.food-extra-photo small{display:block;margin-top:5px}.food-photo-pending{height:210px;background:#f1f3ee;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;color:#52665b}.food-photo-pending strong{font-size:21px}.food-photo-pending span{font-size:13px}.food-photo-pending small{font-size:11px}.food-pick-card img{height:210px}.food-shop-option{border-top:1px solid #e7ebe5;padding:9px 0 4px}.food-shop-option b{font-size:13px}.food-shop-option p{margin:4px 0 7px;color:#64748b}.food-shop-option a{font-size:13px}.food-pick-track{align-items:flex-start}
 /* food-choice-comparison:end */
+.plan-controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin:14px 0}.plan-controls span{font-size:12px;color:#64748b}.plan-controls button{font:inherit;font-size:12px;border:1px solid #dce2da;border-radius:15px;background:#fff;padding:7px 10px;margin:2px;color:#315245}.day{scroll-margin-top:12px}.day[data-today]>summary{background:#edf4ee}.day[data-today] .dnum:after{content:'今天';display:block;font-size:10px;color:#315245}.day-flow{font-size:12px;line-height:1.8;color:#52665b;background:#f3f6f1;border-radius:10px;padding:10px;margin-bottom:15px}.day-archive{margin-top:20px}.day-archive>.sb>.dbody{padding:0}.day-archive .map{opacity:.8}
 </style>
 </head>
 <body>
@@ -378,11 +379,13 @@ details.sub .nav{margin-top:10px}
 
   <div class="sec">
     <div class="sec-k">DAY BY DAY</div>
-    <div class="sec-h"><h2>每日行程</h2><span class="cnt">9 天 · 点卡片展开</span></div>
+    <div class="sec-h"><h2>每日行程</h2><span class="cnt">9 天 · 更新10/1</span></div>
   </div>
   <div class="lead">🎯 全程公共交通、独行、以<b>早期木构与彩塑壁画</b>为主线。硬约束只有一个：<b>10/5 傍晚必须赶上高平东 20:14 的 D315</b>，那是 10/6 返程的前置。</div>
 
-  <details class="day" data-c="hz" open>
+  <div class="plan-controls"><span id="plan-date-status">按北京时间定位当天</span><div><button type="button" data-plan-action="today">今天</button><button type="button" data-plan-action="collapse">全部收起</button><button type="button" data-plan-action="expand">全部展开</button></div></div>
+
+  <details class="day" data-c="hz" id="day-1" data-date="2026-09-28">
     <summary><div class="dh">
       <div class="dnum"><em>D1</em>9/28</div>
       <div class="dti"><div class="t">杭州 → 运城</div><div class="s">直飞已出票 · 落地打车进市区</div></div>
@@ -418,7 +421,7 @@ details.sub .nav{margin-top:10px}
     </div></div>
   </details>
 
-  <details class="day" data-c="yc">
+  <details class="day" data-c="yc" id="day-2" data-date="2026-09-29">
     <summary><div class="dh">
       <div class="dnum"><em>D2</em>9/29</div>
       <div class="dti"><div class="t">运城 · 西南线</div><div class="s">关帝祖庙 + 永乐宫 + 广仁王庙</div></div>
@@ -456,13 +459,8 @@ details.sub .nav{margin-top:10px}
     </div>
   </details>
 
-  <details class="day" data-c="yc">
-    <summary><div class="dh">
-      <div class="dnum"><em>D3</em>9/30</div>
-      <div class="dti"><div class="t">运城 → 临汾</div><div class="s">已到临汾 · 14:30酒店接 · 广胜寺＋夜间备选</div></div>
-      <div class="cv">▾</div>
-    </div></summary>
-    <div class="dbody"><section id="linfen-tonight"><div class="note"><b>9/30 实走更新</b>｜运城博物馆09:30–11:00；约13:00抵临汾；14:30酒店出发，广胜寺已游览。两次旁听讲解体验好，阴天壁画难看清但总体满意；两件仍冷，夜间加保暖层。<br><b>今晚新增候选：平阳味道美食嘉年华</b> · 尧庙广场／华门门口，9/20–10/7。集中尝临汾县域风味；可先找油粉饭、羊獬鸡或吴家熏肉，先问小份和价格。每日收摊及天气调整未核，先请司机确认仍开再去，不默认与鼓楼顺路。<br><a class="xlink" target="_blank" rel="noopener" href="https://www.bjnews.com.cn/detail/1789621301031406.html">活动日期与场地报道</a> · <a class="xlink" target="_blank" rel="noopener" href="https://wulanchabuxinwenwang.platform.xinhuaapp.com/detail/99ae8946cd0d4f419f99aa1de1cb60bf?contentType=1&amp;t=MjAyNi0wOS0yOQ%3D%3D">县域美食名单报道</a></div><div class="note"><b>9/30 · 已到临汾</b>｜原计划：14:30 酒店接 → 广胜寺 → 约19:00回市区/临汾西（实际返程时间尚未反馈）。<br>返程不经洪洞县城；晚餐只选一家。时间为计划，落点出发前和司机确认。</div><figure class="map"><svg viewBox="0 0 360 224" role="img" aria-label="广胜寺回程晚餐分支示意，非比例路线图" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="224" rx="12" fill="#f8fafc"/><g font-family="sans-serif" text-anchor="middle"><text x="180" y="26" font-size="14" font-weight="700" fill="#0f172a">约19:00 · 看下车地点选一条</text><path d="M180 45 V63 H80 V80 M180 63 H280 V80" fill="none" stroke="#94a3b8" stroke-width="2"/><rect x="15" y="80" width="150" height="38" rx="9" fill="#e8f1ff"/><text x="90" y="104" font-size="12">市区：混炒 / 砂锅二选一</text><rect x="195" y="80" width="150" height="38" rx="9" fill="#fff1d7"/><text x="270" y="104" font-size="12">西站：小姚 / 回酒店</text><path d="M90 118 V143 M270 118 V143" stroke="#94a3b8" stroke-width="2"/><text x="90" y="160" font-size="12" fill="#334155">坐车 → 鼓楼街景</text><text x="270" y="160" font-size="12" fill="#334155">累了就结束，不折返</text><text x="90" y="183" font-size="12" fill="#334155">体力好再延伸财神楼</text><text x="180" y="211" font-size="10" fill="#64748b">非比例示意 · 9/30财神楼音乐会休场</text></g></svg><figcaption>今晚三选一 · 左右滑动查看</figcaption></figure><div class="route-options" role="region" aria-label="临汾9月30日晚间三选一路线" tabindex="0">
+  <details class="day" data-c="lf" id="day-3" data-date="2026-09-30"><summary><div class="dh"><div class="dnum"><em>D3</em>9/30</div><div class="dti"><div class="t">运城 → 临汾 · 广胜寺</div><div class="s">已实走 · 按时间记录</div></div><div class="cv">▾</div></div></summary><div class="dbody"><div class="day-flow">运城博物馆 → 午餐 → 临汾入住 → 广胜寺</div><div class="tl"><div class="tl-i"><div class="tl-t">08:30</div><div class="tl-d"></div><div class="tl-c"><div class="h">自然醒 · 早餐</div><div class="n">两个包子，随后骑车去博物馆。</div></div></div><div class="tl-i"><div class="tl-t">09:30–11:00</div><div class="tl-d"></div><div class="tl-c"><div class="h"><a class="lnk" data-amap data-name="运城博物馆" data-city="运城" href="https://uri.amap.com/marker?position=111.032345,35.038473&amp;name=%E8%BF%90%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="35.038473" data-lon="111.032345" title="固定地点：运城博物馆；华夏银行对面">运城博物馆</a></div><div class="n">实际逛馆约1.5小时。</div></div></div><div class="tl-i"><div class="tl-t">11:00后</div><div class="tl-d"></div><div class="tl-c"><div class="h">午餐 · 胡卜</div><div class="n">普通份主食多、肉少；下次问汤类、少主食或加肉。店名和肉种不猜。</div></div></div><div class="tl-i"><div class="tl-t">约13:00</div><div class="tl-d"></div><div class="tl-c"><div class="h">到临汾 · 入住 <a class="lnk" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/marker?position=111.473471,36.098572&amp;name=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97(%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.098572" data-lon="111.473471" title="固定地点：桔子酒店(临汾高铁西站店)；景观大道700号6号楼商业楼">桔子酒店 · 临汾高铁西站店</a></div><div class="n">入住后在酒店休息、处理事情。</div></div></div><div class="tl-i"><div class="tl-t">14:30</div><div class="tl-d"></div><div class="tl-c"><div class="h">酒店接车 → <a class="lnk" data-amap data-name="广胜寺" data-city="临汾" href="https://uri.amap.com/marker?position=111.807655,36.297488&amp;name=%E5%B9%BF%E8%83%9C%E5%AF%BA&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.297488" data-lon="111.807655" title="固定地点：广胜寺；广胜寺镇">广胜寺</a></div><div class="n">已完成游览，两次旁听讲解；阴天看壁画受影响，但总体满意。</div></div></div><div class="tl-i"><div class="tl-t">晚间</div><div class="tl-d"></div><div class="tl-c"><div class="h">返程与晚餐 · 实际记录待补</div><div class="n">不经过洪洞县城。没有确认去过的地方，不自动写成已完成。</div></div></div></div><div class="note">当时只穿两件仍冷：后续夜游带更保暖、防风的一层。</div><details class="sub day-archive"><summary><span class="sn">旧备选路线与滑片 · 默认收起</span><span class="cv">▾</span></summary><div class="sb"><p class="hint">旧方案仅备查，不代表当前安排；旧余票、价格和集合点不再作为执行依据。</p>
+    <div class="dbody"><section id="d3-previous-tonight"><div class="note"><b>9/30 实走更新</b>｜运城博物馆09:30–11:00；约13:00抵临汾；14:30酒店出发，广胜寺已游览。两次旁听讲解体验好，阴天壁画难看清但总体满意；两件仍冷，夜间加保暖层。<br><b>今晚新增候选：平阳味道美食嘉年华</b> · 尧庙广场／华门门口，9/20–10/7。集中尝临汾县域风味；可先找油粉饭、羊獬鸡或吴家熏肉，先问小份和价格。每日收摊及天气调整未核，先请司机确认仍开再去，不默认与鼓楼顺路。<br><a class="xlink" target="_blank" rel="noopener" href="https://www.bjnews.com.cn/detail/1789621301031406.html">活动日期与场地报道</a> · <a class="xlink" target="_blank" rel="noopener" href="https://wulanchabuxinwenwang.platform.xinhuaapp.com/detail/99ae8946cd0d4f419f99aa1de1cb60bf?contentType=1&amp;t=MjAyNi0wOS0yOQ%3D%3D">县域美食名单报道</a></div><div class="note"><b>9/30 · 已到临汾</b>｜原计划：14:30 酒店接 → 广胜寺 → 约19:00回市区/临汾西（实际返程时间尚未反馈）。<br>返程不经洪洞县城；晚餐只选一家。时间为计划，落点出发前和司机确认。</div><figure class="map"><svg viewBox="0 0 360 224" role="img" aria-label="广胜寺回程晚餐分支示意，非比例路线图" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="224" rx="12" fill="#f8fafc"/><g font-family="sans-serif" text-anchor="middle"><text x="180" y="26" font-size="14" font-weight="700" fill="#0f172a">约19:00 · 看下车地点选一条</text><path d="M180 45 V63 H80 V80 M180 63 H280 V80" fill="none" stroke="#94a3b8" stroke-width="2"/><rect x="15" y="80" width="150" height="38" rx="9" fill="#e8f1ff"/><text x="90" y="104" font-size="12">市区：混炒 / 砂锅二选一</text><rect x="195" y="80" width="150" height="38" rx="9" fill="#fff1d7"/><text x="270" y="104" font-size="12">西站：小姚 / 回酒店</text><path d="M90 118 V143 M270 118 V143" stroke="#94a3b8" stroke-width="2"/><text x="90" y="160" font-size="12" fill="#334155">坐车 → 鼓楼街景</text><text x="270" y="160" font-size="12" fill="#334155">累了就结束，不折返</text><text x="90" y="183" font-size="12" fill="#334155">体力好再延伸财神楼</text><text x="180" y="211" font-size="10" fill="#64748b">非比例示意 · 9/30财神楼音乐会休场</text></g></svg><figcaption>今晚三选一 · 左右滑动查看</figcaption></figure><div class="route-options" role="region" aria-label="临汾9月30日晚间三选一路线" tabindex="0">
 <article class="route-option"><div class="eyebrow">01 / 03 · 优先尝混炒</div><h3>张军 → 鼓楼散步</h3><div class="tl"><div class="tl-i"><div class="tl-t">约19:00</div><div class="tl-d"></div><div class="tl-c"><a class="lnk" data-amap data-name="张军米线(悦汇时光颂艺术购物中心店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0FFKO4KH8" data-amap-fixed="1" data-lat="36.098055" data-lon="111.505923" title="固定地点：张军米线(悦汇时光颂艺术购物中心店)；中大街时光颂B1层">张军米线 · 时光颂B1</a><div class="n">先问混炒小份/辣度，不必另点一碗面</div></div></div><div class="tl-i"><div class="tl-t">饭后</div><div class="tl-d"></div><div class="tl-c">坐车去<a class="lnk" data-amap data-name="临汾 鼓楼" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0FFHJ46BO" data-amap-fixed="1" data-lat="36.082764" data-lon="111.513323" title="固定地点：临汾 鼓楼；鼓楼东大街317号">鼓楼</a>，再决定是否延伸财神楼<div class="n">以鼓楼→店测算：车程2.6km / 9–10分；步行35分，不是贴着景点的店。</div></div></div></div><div class="route-actions"><a class="lnk" data-amap data-name="张军米线(悦汇时光颂艺术购物中心店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0FFKO4KH8" data-amap-fixed="1" data-lat="36.098055" data-lon="111.505923" title="固定地点：张军米线(悦汇时光颂艺术购物中心店)；中大街时光颂B1层">📍 固定店址</a><a class="lnk" data-amap data-name="临汾 鼓楼" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0FFHJ46BO" data-amap-fixed="1" data-lat="36.082764" data-lon="111.513323" title="固定地点：临汾 鼓楼；鼓楼东大街317号">📍 鼓楼</a></div><details><summary>为何选 / 核验边界 ▾</summary><p>两篇食客笔记提到张军混炒，第三篇评论有对比推荐。分店按地图核对选时光颂，不能保证是作者同一家。高德9/30显示10:00–22:00、人均¥16，非菜单承诺；明显排队就换方案。</p></details></article>
 <article class="route-option"><div class="eyebrow">02 / 03 · 不想再吃面</div><h3>古法砂锅 → 鼓楼可选</h3><div class="tl"><div class="tl-i"><div class="tl-t">约19:00</div><div class="tl-d"></div><div class="tl-c"><a class="lnk" data-amap data-name="王明古法砂锅居(新能源店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0HA4USZ6C" data-amap-fixed="1" data-lat="36.061543" data-lon="111.486902" title="固定地点：王明古法砂锅居(新能源店)；滨河南路3号新能源大厦F3层">王明古法砂锅 · 新能源店</a><div class="n">一人先点一锅，问烩菜/丸子类和小份；饼酌量</div></div></div><div class="tl-i"><div class="tl-t">饭后</div><div class="tl-d"></div><div class="tl-c">有体力再坐车去鼓楼；否则回酒店<div class="n">鼓楼→店驾车5.3km / 约10分；步行4.4km / 59分，不安排徒步串联。</div></div></div></div><div class="route-actions"><a class="lnk" data-amap data-name="王明古法砂锅居(新能源店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0HA4USZ6C" data-amap-fixed="1" data-lat="36.061543" data-lon="111.486902" title="固定地点：王明古法砂锅居(新能源店)；滨河南路3号新能源大厦F3层">📍 固定店址</a><a href="#linfen-fieldwork">🔎 食物与来源</a></div><details><summary>无需等位才选 ▾</summary><p>有本地砂锅指南和分店评论支持，也有多条排队反馈；不是冷门店认证。9/30高德显示16:00–22:00、人均¥43。只在司机落点方便、当场无需等位时选，不为它专门绕城。</p></details></article>
 <article class="route-option"><div class="eyebrow">03 / 03 · 回西站 / 累了</div><h3>酒店附近吃完就休息</h3><div class="tl"><div class="tl-i"><div class="tl-t">约19:00</div><div class="tl-d"></div><div class="tl-c"><a class="lnk" data-amap data-name="小姚面馆(河西高铁站店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0MATLXCU9" data-amap-fixed="1" data-lat="36.098651" data-lon="111.473927" title="固定地点：小姚面馆(河西高铁站店)；临汾市尧都区唐尧大道梧桐里5号商铺">小姚面馆 · 河西高铁站店</a><div class="n">西站出站口→店950米 / 步行13分；不是市区鼓楼片区。</div></div></div><div class="tl-i"><div class="tl-t">饭后</div><div class="tl-d"></div><div class="tl-c">回酒店。不为补打卡再折返市区。</div></div></div><div class="route-actions"><a class="lnk" data-amap data-name="小姚面馆(河西高铁站店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0MATLXCU9" data-amap-fixed="1" data-lat="36.098651" data-lon="111.473927" title="固定地点：小姚面馆(河西高铁站店)；临汾市尧都区唐尧大道梧桐里5号商铺">📍 固定店址</a></div><details><summary>备选，不是必吃 ▾</summary><p>高德此前标注17:00–21:00。吉县小炒有食客线索，但本分店当晚是否供应、份量需问店；排队就跳过。此条不算本轮新增市区特色店。</p></details></article></div><div class="lk">距离为9/30查询快照，方向为鼓楼→餐厅；反向导航、19点拥堵与打车等待需实时看。财神楼步行距离核验遇验证码而中止，保留原入口，不虚报用时。<a href="https://weibo.com/2/detail/5346807664088246" target="_blank" rel="noopener">官方场次公告：9/30音乐会休场</a>。</div><div class="route-actions"><a href="#guangsheng-today">🏯 广胜寺怎么走</a><a href="#linfen-fieldwork">🍲 晚餐详情与笔记</a></div></section><details class="sub"><summary><span class="sn">早前车票 / 上午备选 · 已过时，仅备查</span><span class="cv">▾</span></summary><div class="sb"><p>下面是出发前的计划快照。当前以“已到临汾、酒店14:30接车”为准，勿再照旧站点集合。</p>    <div class="dbody"><figure class="map"><svg viewBox="0 0 360 330" role="img" aria-label="D3 运城⇄临汾方位" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ar3" markerWidth="7" markerHeight="7" refX="5.4" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#94a3b8"/></marker></defs><rect width="360" height="330" rx="11" fill="#f8fafc"/><text x="14" y="21" font-size="12.5" font-weight="700" fill="#0f172a">D3 · 运城上午 → 高铁 → 临汾</text><line x1="144.4" y1="270.0" x2="134.8" y2="254.8" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round"/><line x1="134.8" y1="254.8" x2="222.9" y2="34.0" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="5 4"/><text x="178.8" y="139.4" text-anchor="middle" font-size="9.4" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">🚄高铁 约40min</text><line x1="222.9" y1="34.0" x2="239.2" y2="41.7" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round"/><line x1="239.2" y1="41.7" x2="227.7" y2="47.8" stroke="#cbd5e1" stroke-width="1"/><circle cx="144.4" cy="270.0" r="8.2" fill="#1d6fe0" stroke="#ffffff" stroke-width="2"/><text x="144.4" y="273.2" text-anchor="middle" font-size="9.6" font-weight="700" fill="#ffffff">1</text><circle cx="134.8" cy="254.8" r="8.2" fill="#475569" stroke="#ffffff" stroke-width="2"/><text x="134.8" y="258.0" text-anchor="middle" font-size="9.2" font-weight="700" fill="#ffffff">站</text><circle cx="222.9" cy="34.0" r="8.2" fill="#475569" stroke="#ffffff" stroke-width="2"/><text x="222.9" y="37.2" text-anchor="middle" font-size="9.2" font-weight="700" fill="#ffffff">站</text><circle cx="239.2" cy="41.7" r="8.2" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/><text x="239.2" y="44.9" text-anchor="middle" font-size="9.2" font-weight="700" fill="#ffffff">房</text><text x="155.9" y="273.6" text-anchor="start" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">运城博物馆</text><text x="146.3" y="258.4" text-anchor="start" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">运城北站</text><text x="211.4" y="37.6" text-anchor="end" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">临汾西站</text><text x="227.7" y="51.4" text-anchor="end" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">桔子酒店</text><circle cx="20" cy="297.0" r="5.6" fill="#1d6fe0"/><text x="20" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">1</text><text x="28" y="300.4" font-size="9.4" fill="#475569">景点</text><circle cx="98" cy="297.0" r="5.6" fill="#f59e0b"/><text x="98" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">房</text><text x="106" y="300.4" font-size="9.4" fill="#475569">酒店</text><circle cx="176" cy="297.0" r="5.6" fill="#475569"/><text x="176" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">站</text><text x="184" y="300.4" font-size="9.4" fill="#475569">车站</text><circle cx="254" cy="297.0" r="5.6" fill="#16a34a"/><text x="254" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">食</text><text x="262" y="300.4" font-size="9.4" fill="#475569">吃的</text><text x="14" y="321" font-size="9.4" fill="#94a3b8">上午运城博物馆，午后 G2620 到临汾西；酒店就在西站旁。</text></svg><figcaption>D3 运城⇄临汾方位（真实经纬度 · 等比投影）</figcaption></figure><div class="tl">
@@ -493,14 +491,9 @@ details.sub .nav{margin-top:10px}
     </div>
     <div class="eat">🍜 <b>具体到店 · 西站片区晚餐备选</b>：<a class="lnk" data-amap data-name="小姚面馆(河西高铁站店)" data-city="临汾" href="https://www.amap.com/ssr/search/poi_detail?id=B0MATLXCU9" data-amap-fixed="1" data-lat="36.098651" data-lon="111.473927" title="固定地点：小姚面馆(河西高铁站店)；临汾市尧都区唐尧大道梧桐里5号商铺">小姚面馆（河西高铁站店）</a><br><b>插入环节：</b>按原行程入住休息后，17:00 起考虑晚餐；若下午改去广胜寺，不在出发前插入此店。地址：临汾市尧都区唐尧大道梧桐里5号商铺。9/29 高德标注 10:00–14:30、17:00–21:00；节假日以商家确认为准。<b>临汾西站出站口→店步行950米、约13分钟</b>（高德当次规划，途经平山街；不是酒店出发距离，也未核定三点绕路量）。仅作不排队的正餐备选，菜品与小份需现场问；不是特色必吃或已认证非网红店。原“闻喜煮饼／牛肉丸子面”未锁定店铺，不再当作可执行顺路餐。</div>
     </div></div></details></div>
-  </details>
+  </div></details></div></details>
 
-  <details class="day" data-c="lf">
-    <summary><div class="dh">
-      <div class="dnum"><em>D4</em>10/1</div>
-      <div class="dti"><div class="t">临汾 · 明日待重排</div><div class="s">广胜寺提前至9/30 · 原计划备查</div></div>
-      <div class="cv">▾</div>
-    </div></summary>
+  <details class="day" data-c="lf" id="day-4" data-date="2026-10-01"><summary><div class="dh"><div class="dnum"><em>D4</em>10/1</div><div class="dti"><div class="t">临汾 · 博物馆与休息日</div><div class="s">自然醒 → 看展 → 酒店休息 → 嘉年华 → 财神楼</div></div><div class="cv">▾</div></div></summary><div class="dbody"><div class="day-flow">上午看展 → 下午放空 → 傍晚吃小吃 → 19:30听音乐</div><div class="tl"><div class="tl-i"><div class="tl-t">自然醒</div><div class="tl-d"></div><div class="tl-c"><div class="h">早餐后去 <a class="lnk" data-amap data-name="临汾市博物馆" data-city="临汾" href="https://uri.amap.com/marker?position=111.483454,36.072788&amp;name=%E4%B8%B4%E6%B1%BE%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.072788" data-lon="111.483454" title="固定地点：临汾博物馆；刘村镇滨河西路汾河公园九州广场南端">临汾市博物馆</a></div><div class="n">不设赶早闹钟；带身份证，出发前确认入馆预约要求。</div></div></div><div class="tl-i"><div class="tl-t">上午</div><div class="tl-d"></div><div class="tl-c"><div class="h">临汾市博物馆 · 按自己的节奏看</div><div class="n">国庆开馆09:00–17:00，16:00停入；建议上午留约2小时，不另塞大云寺。重点可看“最早中国”、晋系青铜。</div></div></div><div class="tl-i"><div class="tl-t">午间</div><div class="tl-d"></div><div class="tl-c"><div class="h">简单午餐 → 回酒店</div><div class="n">想听讲解可问12:00国庆加场；不为了赶场牺牲自然醒。饭店仍由你看图挑，不强行指定。<a href="#linfen-pick">看图选午餐 →</a></div></div></div><div class="tl-i"><div class="tl-t">下午</div><div class="tl-d"></div><div class="tl-c"><div class="h"><a class="lnk" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/marker?position=111.473471,36.098572&amp;name=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97(%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.098572" data-lon="111.473471" title="固定地点：桔子酒店(临汾高铁西站店)；景观大道700号6号楼商业楼">桔子酒店 · 临汾高铁西站店</a> · 纪录片、休息</div><div class="n">不安排额外景点；片名由你选。约16:30再看天气、活动是否调整和实时叫车情况。</div></div></div><div class="tl-i"><div class="tl-t">约17:00</div><div class="tl-d"></div><div class="tl-c"><div class="h"><span id="linfen-tonight">平阳味道美食嘉年华</span></div><div class="n">尧庙广场／华门门口区域。先逛再少量点，作为晚餐；这是建议到场时间，不是官方营业时间。</div></div></div><div class="tl-i"><div class="tl-t">18:15起</div><div class="tl-d"></div><div class="tl-c"><div class="h">预留转场 → 财神楼</div><div class="n">先看高德实时路程和叫车等待，目标19:15前到；若时间紧，缩短嘉年华停留。这里预留的是行程缓冲，不是已核导航耗时。</div></div></div><div class="tl-i"><div class="tl-t">19:30</div><div class="tl-d"></div><div class="tl-c"><div class="h">财神楼阳台音乐会</div><div class="n">活动公告：9/23–10/7每晚19:30，9/30休场；10/1在公布场期内，当晚如遇天气调整以现场公告为准。</div></div></div><div class="tl-i"><div class="tl-t">结束后</div><div class="tl-d"></div><div class="tl-c"><div class="h">回酒店休息</div><div class="n">带保暖防风层；不再追加夜游打卡。次日交通仍以D5为准。</div></div></div></div><div class="route-actions"><a class="lnk" data-amap data-name="临汾市博物馆" data-city="临汾" href="https://uri.amap.com/marker?position=111.483454,36.072788&amp;name=%E4%B8%B4%E6%B1%BE%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.072788" data-lon="111.483454" title="固定地点：临汾博物馆；刘村镇滨河西路汾河公园九州广场南端">临汾市博物馆</a><a class="lnk" data-amap data-name="桔子酒店(临汾高铁西站店)" data-city="临汾" href="https://uri.amap.com/marker?position=111.473471,36.098572&amp;name=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97(%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="36.098572" data-lon="111.473471" title="固定地点：桔子酒店(临汾高铁西站店)；景观大道700号6号楼商业楼">桔子酒店 · 临汾高铁西站店</a><a href="https://www.bjnews.com.cn/detail/1789621301031406.html" target="_blank" rel="noopener">嘉年华场地公告</a><a href="https://weibo.com/2/detail/5346807664088246" target="_blank" rel="noopener">音乐会场次公告</a></div><details class="sub"><summary><span class="sn">开放、讲解与转场依据</span><span class="cv">▾</span></summary><div class="sb"><p>博物馆公告转载：9/23–10/7开馆，10/8闭馆，09:00–17:00（16:00停入）。<a href="https://www.sohu.com/a/1079160457_121106991" target="_blank" rel="noopener">开放公告</a></p><p>公益讲解：9:30、14:30，国庆期间加开12:00；每场25人，持有效身份证件到二层咨询台领取设备，无需预约讲解。这不等于已经核实入馆预约政策。<a href="https://www.sohu.com/a/1079172141_121106991" target="_blank" rel="noopener">三馆活动公告</a></p><p>嘉年华活动期9/20–10/7，尧庙广场、主舞台华门门口；每日开收摊和10/1天气调整未核。<a href="https://www.bjnews.com.cn/detail/1789621301031406.html" target="_blank" rel="noopener">发布会报道</a></p><p>财神楼按本次9月公告的19:30，不沿用其他月份20:00的常态时间。<a href="https://weibo.com/2/detail/5346807664088246" target="_blank" rel="noopener">临汾新闻网公告</a></p><p>嘉年华与财神楼不是同一场地；精确路线尚未核验，不编车程。这里没有把搜索结果冒充固定导航点。</p></div></details><details class="sub day-archive"><summary><span class="sn">旧方案与备选 · 不执行，默认收起</span><span class="cv">▾</span></summary><div class="sb"><p class="hint">旧方案仅备查，不代表当前安排；旧余票、价格和集合点不再作为执行依据。</p><p>广胜寺已于9/30完成，不再安排10/1重游。若夜间活动因天气取消，直接回酒店休息；不替你新增第三个去处。</p>
     <div class="dbody"><div class="note"><b>计划更新：</b>广胜寺已改为9/30下午计划，尚未标记完成；以下10/1原安排保留备查，明日待重排。</div><figure class="map"><svg viewBox="0 0 360 330" role="img" aria-label="D4 临汾·洪洞方位" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ar4" markerWidth="7" markerHeight="7" refX="5.4" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#94a3b8"/></marker></defs><rect width="360" height="330" rx="11" fill="#f8fafc"/><text x="14" y="21" font-size="12.5" font-weight="700" fill="#0f172a">D4 · 临汾 → 洪洞广胜寺</text><line x1="20.1" y1="270.0" x2="123.4" y2="86.3" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="5 4"/><text x="71.8" y="173.1" text-anchor="middle" font-size="9.4" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">🚕或高铁</text><line x1="123.4" y1="86.3" x2="339.9" y2="34.0" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round"/><text x="231.7" y="55.1" text-anchor="middle" font-size="9.4" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">🚐直通车 ¥2</text><line x1="339.9" y1="34.0" x2="213.1" y2="66.2" stroke="#94a3b8" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="5 4"/><text x="276.5" y="45.1" text-anchor="middle" font-size="9.4" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">🚕顺访</text><circle cx="20.1" cy="270.0" r="8.2" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/><text x="20.1" y="273.2" text-anchor="middle" font-size="9.2" font-weight="700" fill="#ffffff">房</text><circle cx="123.4" cy="86.3" r="8.2" fill="#475569" stroke="#ffffff" stroke-width="2"/><text x="123.4" y="89.5" text-anchor="middle" font-size="9.2" font-weight="700" fill="#ffffff">站</text><circle cx="213.1" cy="66.2" r="8.2" fill="#1d6fe0" stroke="#ffffff" stroke-width="2"/><text x="213.1" y="69.4" text-anchor="middle" font-size="9.6" font-weight="700" fill="#ffffff">3</text><circle cx="339.9" cy="34.0" r="8.2" fill="#1d6fe0" stroke="#ffffff" stroke-width="2"/><text x="339.9" y="37.2" text-anchor="middle" font-size="9.6" font-weight="700" fill="#ffffff">4</text><text x="31.6" y="273.6" text-anchor="start" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">桔子酒店（临汾西站）</text><text x="134.9" y="89.9" text-anchor="start" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">洪洞西站</text><text x="201.6" y="69.8" text-anchor="end" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">大槐树</text><text x="328.4" y="37.6" text-anchor="end" font-size="10.6" font-weight="700" fill="#0f172a" stroke="#ffffff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">广胜寺（飞虹塔）</text><circle cx="20" cy="297.0" r="5.6" fill="#1d6fe0"/><text x="20" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">1</text><text x="28" y="300.4" font-size="9.4" fill="#475569">景点</text><circle cx="98" cy="297.0" r="5.6" fill="#f59e0b"/><text x="98" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">房</text><text x="106" y="300.4" font-size="9.4" fill="#475569">酒店</text><circle cx="176" cy="297.0" r="5.6" fill="#475569"/><text x="176" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">站</text><text x="184" y="300.4" font-size="9.4" fill="#475569">车站</text><circle cx="254" cy="297.0" r="5.6" fill="#16a34a"/><text x="254" y="299.8" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">食</text><text x="262" y="300.4" font-size="9.4" fill="#475569">吃的</text><text x="14" y="321" font-size="9.4" fill="#94a3b8">往北到洪洞；返程叫车能力需现场确认（全程唯一缺口）。</text></svg><figcaption>D4 临汾·洪洞方位（真实经纬度 · 等比投影）</figcaption></figure><div class="tl">
       <div class="tl-i"><div class="tl-t">08:00</div><div class="tl-d"></div><div class="tl-c">
         <div class="h">🚗 临汾 → 广胜寺</div>
@@ -520,9 +513,9 @@ details.sub .nav{margin-top:10px}
     <div class="lk">👀 <b>重点看</b>：<b>飞虹塔</b>——全国保存最完整的琉璃塔，外壁通体琉璃构件，绕塔一周细看佛龛与色彩层次；下寺<b>水神庙元代壁画</b>《打球图》与《大行散乐忠都秀在此作场》（中国戏曲史的孤本级证据）。上下寺有高差，穿防滑鞋。</div>
     <div class="eat">🍜 <b>顺路吃（待选）</b>：<a class="lnk" data-amap data-name="洪洞饽糕" data-city="临汾" href="https://uri.amap.com/search?keyword=%E6%B4%AA%E6%B4%9E%E9%A5%BD%E7%B3%95&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">洪洞饽糕</a> · <a class="lnk" data-amap data-name="羊杂割" data-city="临汾" href="https://uri.amap.com/search?keyword=%E7%BE%8A%E6%9D%82%E5%89%B2&amp;city=%E4%B8%B4%E6%B1%BE&amp;src=xiaocai-trip">临汾羊杂割</a> · 回市区当夜宵/次日早餐</div>
     </div>
-  </details>
+  </div></details></div></details>
 
-  <details class="day" data-c="lf">
+  <details class="day" data-c="lf" id="day-5" data-date="2026-10-02">
     <summary><div class="dh">
       <div class="dnum"><em>D5</em>10/2</div>
       <div class="dti"><div class="t">临汾 → 太原南 → 长治</div><div class="s">经太原换乘（两市无直达）</div></div>
@@ -547,7 +540,7 @@ details.sub .nav{margin-top:10px}
     </div></div>
   </details>
 
-  <details class="day" data-c="cz">
+  <details class="day" data-c="cz" id="day-6" data-date="2026-10-03">
     <summary><div class="dh">
       <div class="dnum"><em>D6</em>10/3</div>
       <div class="dti"><div class="t">长治 · 浊漳河谷</div><div class="s">天台庵 + 大云院 + 龙门寺 + 原起寺</div></div>
@@ -574,7 +567,7 @@ details.sub .nav{margin-top:10px}
     </div>
   </details>
 
-  <details class="day" data-c="jc" open>
+  <details class="day" data-c="jc" id="day-7" data-date="2026-10-04">
     <summary><div class="dh">
       <div class="dnum"><em>D7</em>10/4</div>
       <div class="dti"><div class="t">长治 → 晋城</div><div class="s">博物馆 + 晚间打铁花</div></div>
@@ -607,10 +600,24 @@ details.sub .nav{margin-top:10px}
       <figure><img src="media/12_jcbwg.jpg" alt="晋城博物馆" loading="lazy" width="152" height="104"><figcaption>晋城博物馆</figcaption></figure>
 
     </div>
+    <details class="day-archive"><summary>当日备选 · 默认收起</summary>
+  <div class="sec">
+    <div class="sec-k">ALTERNATIVES</div>
+    <div class="sec-h"><h2>10/4 其他安排</h2><span class="cnt">2 项</span></div>
+  </div>
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">🥈 南大街夜市 + 老城夜游</div><div class="tk-date">免费</div></div>
+    <div class="tk-meta">离晋城博物馆不远，可接成"博物馆 → 老城夜市"一条龙，顺看<a class="lnk" data-amap data-name="景德桥" data-city="晋城" href="https://uri.amap.com/marker?position=112.832481,35.505437&amp;name=%E6%99%AF%E5%BE%B7%E6%A1%A5&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="35.505437" data-lon="112.832481" title="固定地点：景德桥；景德公园(东南角)">景德桥</a> / <a class="lnk" data-amap data-name="景忠桥" data-city="晋城" href="https://uri.amap.com/marker?position=112.846377,35.505794&amp;name=%E6%99%AF%E5%BF%A0%E6%A1%A5&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="35.505794" data-lon="112.846377" title="固定地点：景忠桥；东大街与下东关后巷交叉口东60米">景忠桥</a></div>
+  </div>
+  <div class="tk">
+    <div class="tk-top"><div class="tk-no">📅 玉皇庙广场惠民演出</div><div class="tk-date">10/1–10/5</div></div>
+    <div class="tk-meta">每日 <b>9:30、14:30</b>（晋城市歌舞剧院）——<b>都是白天场</b>，若选 14:30 场，需调整博物馆安排；不是晚间节目</div>
+  </div>
+    </details>
     </div>
   </details>
 
-  <details class="day" data-c="jc" open>
+  <details class="day" data-c="jc" id="day-8" data-date="2026-10-05">
     <summary><div class="dh">
       <div class="dnum"><em>D8</em>10/5</div>
       <div class="dti"><div class="t">晋城跟团 → 高平 → 郑州</div><div class="s">四大孤品一天打完，晚上转场</div></div>
@@ -650,7 +657,7 @@ details.sub .nav{margin-top:10px}
     </div>
   </details>
 
-  <details class="day" data-c="zz" open>
+  <details class="day" data-c="zz" id="day-9" data-date="2026-10-06">
     <summary><div class="dh">
       <div class="dnum"><em>D9</em>10/6</div>
       <div class="dti"><div class="t">郑州 → 杭州</div><div class="s">郑州东出发 · 芜湖换乘</div></div>
@@ -675,18 +682,6 @@ details.sub .nav{margin-top:10px}
     </div></div>
   </details>
 
-  <div class="sec">
-    <div class="sec-k">ALTERNATIVES</div>
-    <div class="sec-h"><h2>10/4 晚间备选</h2><span class="cnt">2 项</span></div>
-  </div>
-  <div class="tk">
-    <div class="tk-top"><div class="tk-no">🥈 南大街夜市 + 老城夜游</div><div class="tk-date">免费</div></div>
-    <div class="tk-meta">离晋城博物馆不远，可接成"博物馆 → 老城夜市"一条龙，顺看<a class="lnk" data-amap data-name="景德桥" data-city="晋城" href="https://uri.amap.com/marker?position=112.832481,35.505437&amp;name=%E6%99%AF%E5%BE%B7%E6%A1%A5&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="35.505437" data-lon="112.832481" title="固定地点：景德桥；景德公园(东南角)">景德桥</a> / <a class="lnk" data-amap data-name="景忠桥" data-city="晋城" href="https://uri.amap.com/marker?position=112.846377,35.505794&amp;name=%E6%99%AF%E5%BF%A0%E6%A1%A5&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0" data-amap-fixed="1" data-lat="35.505794" data-lon="112.846377" title="固定地点：景忠桥；东大街与下东关后巷交叉口东60米">景忠桥</a></div>
-  </div>
-  <div class="tk">
-    <div class="tk-top"><div class="tk-no">📅 玉皇庙广场惠民演出</div><div class="tk-date">10/1–10/5</div></div>
-    <div class="tk-meta">每日 <b>9:30、14:30</b>（晋城市歌舞剧院）——<b>都是白天场</b>，10/4 下午能赶上 14:30</div>
-  </div>
 
   <div class="foot">✅ 已把 <b>26 个关键点位</b>收藏进高德（App「我的 → 收藏」里可直接搜到）；点每张日卡展开细节；底部标签可切换「看点 / 美食 / 交通 / 住宿 / 待办 / 装备」。</div>
 </section>
@@ -794,7 +789,7 @@ details.sub .nav{margin-top:10px}
 
   <div class="sight">
     <div class="sh">临汾市博物馆（+ 大云寺）<span class="pill free">免费</span></div>
-    <div class="sd">10/1 上午，出发去广胜寺前的顺路一站</div>
+    <div class="sd">10/1 上午慢慢看；下午回酒店休息，不再去广胜寺</div>
     <div class="lk">👀 <b>重点看</b>：把"最早中国"（陶寺）与晋系青铜的脉络补上，再去看塔与壁画会更有底。</div>
     <details class="sub"><summary><span class="sn">临汾市博物馆</span><span class="st">陶寺 · 晋系青铜</span><span class="cv">▾</span></summary>
       <div class="sb"><div class="lk">主线是"最早中国"——陶寺遗址的观象台与圭表，把中华文明探源的时间轴钉在临汾；再看两周晋系青铜。</div></div></details>
@@ -1464,37 +1459,9 @@ details.sub .nav{margin-top:10px}
   <button data-p="p-gear"><span>🎒</span>装备</button>
 </nav>
 
+<script src="scripts/itinerary-ui.js?v=20261001-1" defer></script>
 <script>
-// ---- Tab 切换 ----
-document.querySelectorAll('.tabbar button').forEach(function(b){
-  b.addEventListener('click',function(){
-    var p=b.dataset.p;
-    document.querySelectorAll('.tabbar button').forEach(function(x){
-      x.classList.toggle('active',x===b);
-    });
-    document.querySelectorAll('.panel').forEach(function(s){
-      s.classList.toggle('active',s.id===p);
-    });
-    window.scrollTo({top:0,behavior:'smooth'});
-  });
-});
-
-// 跨栏目深链接：手机从今日卡直接打开美食/寺内路线，并展开所在日卡。
-(function(){
-  function reveal(){
-    var id; try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}
-    var target=document.getElementById(id); if(!target)return;
-    var panel=target.closest('.panel'); if(!panel)return;
-    document.querySelectorAll('.panel').forEach(function(p){p.classList.toggle('active',p===panel);});
-    document.querySelectorAll('.tabbar button').forEach(function(b){b.classList.toggle('active',b.dataset.p===panel.id);});
-    for(var parent=target.parentElement;parent;parent=parent.parentElement){if(parent.tagName==='DETAILS')parent.open=true;}
-    requestAnimationFrame(function(){target.scrollIntoView({block:'start'});});
-  }
-  window.addEventListener('hashchange',reveal);
-  document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a&&a.hash===location.hash)reveal();});
-  reveal();
-})();
-
+// 行程与深链接由 scripts/itinerary-ui.js 统一管理；不持久化日卡展开状态。
 // ---- 待办：持久化 + 新增 + 未完成排前 ----
 (function(){
   var list=document.getElementById('todoList'); if(!list)return;

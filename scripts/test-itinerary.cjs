@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const {tripDate,currentDay}=require('./itinerary-ui.js');
+const dates=['2026-09-28','2026-09-29','2026-09-30','2026-10-01','2026-10-02','2026-10-03','2026-10-04','2026-10-05','2026-10-06'];
+assert.equal(tripDate(new Date('2026-09-30T16:01:00Z')),'2026-10-01');
+assert.equal(currentDay(new Date('2026-09-30T15:59:00Z'),dates),'2026-09-30');
+assert.equal(currentDay(new Date('2026-09-30T16:00:00Z'),dates),'2026-10-01');
+assert.equal(currentDay(new Date('2026-10-07T00:00:00Z'),dates),null);
+const html=fs.readFileSync(require('path').join(__dirname,'../index.html'),'utf8');
+assert.equal((html.match(/<details class="day"/g)||[]).length,9);
+assert(!/<details class="day"[^>]*\bopen\b/.test(html));
+assert(html.includes('id="day-4" data-date="2026-10-01"'));
+for(const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g))if(m[1].trim())new vm.Script(m[1]);
+console.log('PASS: Shanghai date boundary, 9 dated days, no hard-coded open states, script syntax');
