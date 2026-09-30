@@ -9,7 +9,7 @@ async function pageCase(permission, supported = true, fail = false) {
   const registration = { active: { state: 'activated' }, showNotification: async (title, options) => calls.push({ title, options }) };
   const context = {
     URL, setTimeout, clearTimeout,
-    document: { currentScript: { src: 'https://example.test/guide/scripts/trip-notify.js?v=1' }, querySelectorAll: () => [{ textContent: '临汾市博物馆 · 按自己的节奏看', parentElement: { appendChild() {} } }], createElement: () => box },
+    document: { currentScript: { src: 'https://example.test/guide/scripts/trip-notify.js?v=1' }, getElementById: () => ({ appendChild() {} }), createElement: () => box },
     window: { isSecureContext: true, Notification: {}, ServiceWorkerRegistration: {} },
     ServiceWorkerRegistration: { prototype: { showNotification() {} } },
     Notification: { permission, requestPermission: async () => { calls.push('permission'); return 'granted'; } },
@@ -40,6 +40,8 @@ async function workerCase(action, existing) {
   assert.equal(result.calls[1].url, 'https://example.test/guide/trip-notify-sw.js');
   assert.equal(result.calls[1].options.scope, 'https://example.test/guide/');
   assert.equal(result.calls[2].options.tag, 'trip-20261001-museum');
+  assert.equal(result.calls[2].title, '10/1 · 临汾博物馆');
+  assert.equal(result.calls[2].options.icon, 'https://example.test/guide/media/d4/bird-he.png');
   assert.equal(result.calls[2].options.data.url, 'https://example.test/guide/index.html#day-4');
   assert.match(result.status.textContent, /下拉通知栏确认/);
   await result.events.click();

@@ -1,21 +1,19 @@
 /* Opt-in, immediate local notification only. No push subscription or page caching. */
 (function () {
   'use strict';
-  var heading = Array.from(document.querySelectorAll('#day-4 .tl-c > .h')).find(function (h) {
-    return h.textContent.trim() === '临汾市博物馆 · 按自己的节奏看';
-  });
-  if (!heading) return;
+  var mount = document.getElementById('d4-notification');
+  if (!mount) return;
   var box = document.createElement('div');
   box.className = 'trip-notify';
-  box.innerHTML = '<button type="button">🔔 放到通知栏 · 试用</button><small>点击后立即发送，不是定时闹钟；可手动清除，不保证常驻。</small><small role="status" aria-live="polite"></small>';
-  heading.parentElement.appendChild(box);
+  box.innerHTML = '<button type="button">🔔 随身行程卡</button><details class="notify-help"><summary>通知说明</summary><small>点击立即显示，不是定时提醒；重复点击更新同一条。无需 Google 云推送，也不订阅后台推送。外观由手机系统控制，不保证常驻；其他浏览器需支持通知 API。Chrome 名称和系统按钮不能隐藏。</small><small><a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification" target="_blank" rel="noopener">通知接口说明</a></small></details><small role="status" aria-live="polite"></small>';
+  mount.appendChild(box);
   var button = box.querySelector('button');
   var status = box.querySelector('[role="status"]');
   var base = new URL('../', document.currentScript.src);
   var supported = window.isSecureContext && 'Notification' in window && 'serviceWorker' in navigator && 'ServiceWorkerRegistration' in window && 'showNotification' in ServiceWorkerRegistration.prototype;
   if (!supported) {
     button.disabled = true;
-    status.textContent = '当前浏览器不支持此通知方式；请在安卓 Chrome 普通标签页打开。';
+    status.textContent = '当前环境不支持通知；请用支持通知的浏览器打开 HTTPS 线上页面。安卓 Chrome 已实测可用，其他浏览器待实测。';
     return;
   }
   function waitActive(registration) {
@@ -45,16 +43,17 @@
       status.textContent = '正在准备行程通知…';
       var registration = await navigator.serviceWorker.register(new URL('trip-notify-sw.js', base).href, { scope: base.href, updateViaCache: 'none' });
       await waitActive(registration);
-      await registration.showNotification('D4 · 10月1日 · 临汾博物馆', {
-        body: '带身份证｜09:00–17:00开放，16:00停入。入馆预约出发前确认。点此返回今日行程。',
+      await registration.showNotification('10/1 · 临汾博物馆', {
+        body: '09:00–17:00 ｜ 16:00停入\n公益讲解 09:30 / 12:00 / 14:30',
+        icon: new URL('media/d4/bird-he.png', base).href,
         tag: 'trip-20261001-museum',
         lang: 'zh-CN',
         silent: true,
         requireInteraction: true,
         data: { url: new URL('index.html#day-4', base).href },
-        actions: [{ action: 'open', title: '查看 D4' }, { action: 'dismiss', title: '清除' }]
+        actions: [{ action: 'open', title: '路线 · 看展' }, { action: 'dismiss', title: '清除' }]
       });
-      status.textContent = '已交给 Chrome 发送，请下拉通知栏确认。未出现时检查 Chrome 和系统通知权限；重复点击更新同一条，不堆叠。';
+      status.textContent = '已发送，请下拉通知栏确认；未出现时检查浏览器和系统通知权限。';
     } catch (error) {
       status.textContent = '通知未成功（' + (error.name || 'Error') + '）。请确认网络正常、Chrome及本站允许通知后重试；行程页面仍可正常使用。';
     } finally { button.disabled = false; }

@@ -1,0 +1,215 @@
+{
+  "checked_at": "2026-10-01",
+  "provider": "FOSSGIS OSRM demo; OpenStreetMap contributors",
+  "provider_docs": "https://routing.openstreetmap.de/about.html",
+  "limitations": [
+    "道路模型，不含实时车流、等车、散场拥堵或建筑入口步行",
+    "博物馆输入点匹配道路偏移约177米，华门约136米；不是精确入口",
+    "高德浏览器请求超时；未配置高德Web服务key",
+    "鼓楼到财神庙路口的精确步行距离未核实，未伪造坐标或耗时"
+  ],
+  "input_crs": "GCJ-02",
+  "route_crs": "WGS84",
+  "coordinate_conversion": "复用现有 trip-planner-main/scripts/build_map.py gcj02_to_wgs84",
+  "points": {
+    "museum": [
+      "临汾市博物馆",
+      111.483454,
+      36.072788
+    ],
+    "hotel": [
+      "桔子酒店(临汾高铁西站店)",
+      111.473471,
+      36.098572
+    ],
+    "laochen": [
+      "老陈家古法黑砂锅(新百汇店)",
+      111.491479,
+      36.062482
+    ],
+    "wangming": [
+      "王明古法砂锅居(新能源店)",
+      111.486902,
+      36.061543
+    ],
+    "xiaoyao": [
+      "小姚面馆(河西高铁站店)",
+      111.473927,
+      36.098651
+    ],
+    "huamen": [
+      "华门（嘉年华地标）",
+      111.488056,
+      36.052041
+    ],
+    "gulou": [
+      "临汾鼓楼",
+      111.513323,
+      36.082764
+    ]
+  },
+  "route_points_wgs84": {
+    "hotel": [
+      111.467107,
+      36.09856
+    ],
+    "museum": [
+      111.477123,
+      36.07281
+    ],
+    "wangming": [
+      111.480583,
+      36.061577
+    ],
+    "laochen": [
+      111.485175,
+      36.062529
+    ],
+    "huamen": [
+      111.481742,
+      36.052081
+    ],
+    "gulou": [
+      111.507088,
+      36.082872
+    ]
+  },
+  "routes": [
+    {
+      "from": "hotel",
+      "to": "museum",
+      "profile": "foot",
+      "distance_m": 4849.9,
+      "duration_s": 3879.8,
+      "source_url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/111.467107,36.09856;111.477123,36.07281?overview=false&steps=true"
+    },
+    {
+      "from": "hotel",
+      "to": "museum",
+      "profile": "bike",
+      "distance_m": 4744.6,
+      "duration_s": 1301.4,
+      "source_url": "https://routing.openstreetmap.de/routed-bike/route/v1/driving/111.467107,36.09856;111.477123,36.07281?overview=false&steps=true"
+    },
+    {
+      "from": "hotel",
+      "to": "museum",
+      "profile": "car",
+      "distance_m": 6872.2,
+      "duration_s": 485.9,
+      "source_url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/111.467107,36.09856;111.477123,36.07281?overview=false&steps=true"
+    },
+    {
+      "from": "museum",
+      "to": "wangming",
+      "profile": "foot",
+      "distance_m": 1831,
+      "duration_s": 1465,
+      "source_url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/111.477123,36.07281;111.480583,36.061577?overview=false&steps=true"
+    },
+    {
+      "from": "museum",
+      "to": "laochen",
+      "profile": "foot",
+      "distance_m": 1535.5,
+      "duration_s": 1228.4,
+      "source_url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/111.477123,36.07281;111.485175,36.062529?overview=false&steps=true"
+    },
+    {
+      "from": "museum",
+      "to": "hotel",
+      "profile": "car",
+      "distance_m": 4929.1,
+      "duration_s": 375,
+      "source_url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/111.477123,36.07281;111.467107,36.09856?overview=false&steps=true"
+    },
+    {
+      "from": "hotel",
+      "to": "huamen",
+      "profile": "car",
+      "distance_m": 8748.4,
+      "duration_s": 583.5,
+      "source_url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/111.467107,36.09856;111.481742,36.052081?overview=false&steps=true"
+    },
+    {
+      "from": "huamen",
+      "to": "gulou",
+      "profile": "car",
+      "distance_m": 5803.4,
+      "duration_s": 416.3,
+      "source_url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/111.481742,36.052081;111.507088,36.082872?overview=false&steps=true"
+    },
+    {
+      "from": "huamen",
+      "to": "gulou",
+      "profile": "foot",
+      "distance_m": 5475,
+      "duration_s": 4380,
+      "source_url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/111.481742,36.052081;111.507088,36.082872?overview=false&steps=true"
+    },
+    {
+      "from": "gulou",
+      "to": "hotel",
+      "profile": "car",
+      "distance_m": 5090.6,
+      "duration_s": 353.3,
+      "source_url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/111.507088,36.082872;111.467107,36.09856?overview=false&steps=false"
+    }
+  ],
+  "weather": {
+    "source": "https://www.weather.com.cn/weather/101100701.shtml",
+    "date": "2026-10-01",
+    "status": "预报，非实测；抓取时页面hour3data",
+    "hour_celsius": {
+      "08:00": 12,
+      "11:00": 16,
+      "14:00": 20,
+      "17:00": 20,
+      "20:00": 17,
+      "23:00": 13
+    }
+  },
+  "sources": {
+    "points": {
+      "museum": [
+        "临汾市博物馆",
+        111.483454,
+        36.072788
+      ],
+      "hotel": [
+        "桔子酒店(临汾高铁西站店)",
+        111.473471,
+        36.098572
+      ],
+      "laochen": [
+        "老陈家古法黑砂锅(新百汇店)",
+        111.491479,
+        36.062482
+      ],
+      "wangming": [
+        "王明古法砂锅居(新能源店)",
+        111.486902,
+        36.061543
+      ],
+      "xiaoyao": [
+        "小姚面馆(河西高铁站店)",
+        111.473927,
+        36.098651
+      ],
+      "huamen": [
+        "华门（嘉年华地标）",
+        111.488056,
+        36.052041
+      ],
+      "gulou": [
+        "临汾鼓楼",
+        111.513323,
+        36.082764
+      ]
+    },
+    "weather": "https://www.weather.com.cn/weather/101100701.shtml",
+    "exhibit": "https://finance.sina.com.cn/roll/2026-03-10/doc-inhqnrqq6337653.shtml",
+    "festival": "https://wulanchabuxinwenwang.platform.xinhuaapp.com/detail/99ae8946cd0d4f419f99aa1de1cb60bf?contentType=1&t=MjAyNi0wOS0yOQ%3D%3D",
+    "film": "https://tv.cctv.com/2023/11/27/VIDEr5sMLeO4JdhlhxFLmm1K231127.shtml"
+  }
+}
