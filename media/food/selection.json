@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-30",
+  "cards": [
+    {
+      "id": "A",
+      "group": "meal",
+      "title": "丸子砂锅",
+      "shop": "老陈家古法黑砂锅 · 新百汇",
+      "img": "laochen-maruko.webp",
+      "tag": "正餐优先 · 能接受重口",
+      "why": "两位作者都吃过这家；一位直接点名丸子好吃。不用再点一大碗普通面。",
+      "limit": "有“比王明味重”的比较。先问一锅够几人、能否少辣；饼别急着加。",
+      "photo": "左下是丸子砂锅；照片是多菜，不是建议照单全点。",
+      "refs": [
+        "https://www.xiaohongshu.com/explore/68607cf9000000001c036abf?xsec_token=ABIPIDR0T79wptE3GQxLi8wCjrQkMEOtzsSSNELi10Z_E=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/67d539fc000000001e001eac?xsec_token=ABlVLwmlEw-IosZ5cYeYM1SSD98yh41hCFzq-OzA4yb_o=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "B",
+      "group": "meal",
+      "title": "吉县小炒",
+      "shop": "小姚面馆 · 先确认供应",
+      "img": "jixian-xiaochao.webp",
+      "tag": "正餐候选 · 肉丝、白菜、粉条",
+      "why": "名字是小炒，食客描述更像带汤的菜。想吃肉菜而不是纯面的，可优先询问。",
+      "limit": "仅一篇具体菜肴亲历，原分店不明；西站店是位置方便的候选，须问有无、小份和少粉条。",
+      "photo": "小姚实拍，吃到一半；不代表西站店出品或整份大小。",
+      "refs": [
+        "https://www.xiaohongshu.com/explore/6a7998ee000000003301f737?xsec_token=AB1onuGU96idT_COTD3j23N9uVzZU3jF7IOY31LA09fSw=&xsec_source=pc_feed"
+      ]
+    },
+    {
+      "id": "C",
+      "group": "meal",
+      "title": "羊杂汤",
+      "shop": "小黑赵城羊汤 · 迎春北街",
+      "img": "yangza.webp",
+      "tag": "肉汤候选 · 接受羊杂再选",
+      "why": "一碗热汤配少量饼，比再点一桌炒菜更容易控制这一餐。不是不带膻味的承诺。",
+      "limit": "具体分店有一篇亲历，仍不是双重口碑验证；纯羊肉汤、加肉和少饼的点法需问店。",
+      "photo": "原作者拼图同时有烧烤；图片不是套餐。",
+      "address": "迎春北街与解放东路辅路交叉口东北100米。9/30已收藏，可从高德收藏打开。",
+      "refs": [
+        "https://www.xiaohongshu.com/explore/69d78de30000000020039bb3?xsec_token=ABcN2sS7vler-S04lckfWdafTEUe4XlfvMKF4oe0zriJs=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "D",
+      "group": "breakfast",
+      "title": "红枣软米 / 饽糕",
+      "shop": "闷闷面食馆 · 煤化巷线索",
+      "img": "soft-rice.webp",
+      "tag": "明早尝鲜 · 先要小份",
+      "why": "两篇早餐笔记提到闷闷的软米/红枣蒸饭、饽糕，可先找市区版本；店名有异写，先核地址。",
+      "limit": "照片是软米，不是饽糕。仍属主食，少量尝鲜；店名/街名有异写，准确门牌和供应待核。",
+      "photo": "开心汽水饼饼笔记中的软米实拍；未逐图标分店。",
+      "address": "Cherry写煤化巷；旧早餐帖写煤花巷，暂不放猜测的导航。",
+      "refs": [
+        "https://www.xiaohongshu.com/search_result/6804c050000000000b015139?xsec_token=ABV7O2cBNiZFfNMQ9TyqXXOs4J2j0p2jd4EyAM56zeYjU=&xsec_source=",
+        "https://www.xiaohongshu.com/search_result/6a3bedc6000000000702cbfe?xsec_token=ABQ3TmUZnPqOKcNk5VkYjhLohqIoxZdAd8522eRUkB-A8=&xsec_source="
+      ]
+    },
+    {
+      "id": "E",
+      "group": "breakfast",
+      "title": "早餐烩菜",
+      "shop": "闷闷面食馆 · 同店另一选择",
+      "img": "menmen-huicai.webp",
+      "tag": "明早候选 · 想吃热菜",
+      "why": "作者说多年复吃，并在评论明确这碗是早餐烩菜。你若不想只吃包子，可先看这碗。",
+      "limit": "烩菜本身仅一篇直接亲历，不宣称独有；料和小份现场问。作者提醒9点后部分品种变少。",
+      "photo": "前碗是烩菜，后碗是拌汤；不要把两碗当一份。",
+      "refs": [
+        "https://www.xiaohongshu.com/search_result/6a3bedc6000000000702cbfe?xsec_token=ABQ3TmUZnPqOKcNk5VkYjhLohqIoxZdAd8522eRUkB-A8=&xsec_source="
+      ]
+    },
+    {
+      "id": "F",
+      "group": "breakfast",
+      "title": "油茶＋馍夹肉",
+      "shop": "小胖油茶坊 · 迎春北街",
+      "img": "youcha-mo.webp",
+      "tag": "早餐备选 · 不叠加大份主食",
+      "why": "留作另一种早餐组合。选了软米或烩菜，这一套就不用同时安排。",
+      "limit": "现存图片是小胖品牌、分店未核；迎春店址已核，但不要把照片当本分店套餐。",
+      "photo": "原笔记拼图；图片价格只代表作者当次记录。",
+      "refs": [
+        "https://www.xiaohongshu.com/explore/69d0b27500000000230105af?xsec_token=ABWrTHKVCoftuZPcnvKxW-w_OPF6K0GoJYb3_jpcsaWDQ=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/6a6178710000000011019e2b?xsec_token=ABoQm0YgcpfgrvRWM63nUBmq05ei90SsZqUyhs2QMZr90=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    },
+    {
+      "id": "G",
+      "group": "taste",
+      "title": "油粉饭",
+      "shop": "汾城油粉饭 / 老陈家",
+      "img": "youfenfan.webp",
+      "tag": "酸味尝鲜 · 不是多肉正餐",
+      "why": "更适合尝地方风味。一位比较过的作者偏爱朝殿二巷的浓、料足；老陈家版本较稀、酸味轻。",
+      "limit": "酸味是门槛，别因“特色”勉强点大份；两店比较只有一位作者，先问能否小份。",
+      "photo": "图为老陈家的油粉饭，绝不是汾城店实拍。",
+      "refs": [
+        "https://www.xiaohongshu.com/explore/67d539fc000000001e001eac?xsec_token=ABlVLwmlEw-IosZ5cYeYM1SSD98yh41hCFzq-OzA4yb_o=&xsec_source=pc_search&source=web_explore_feed",
+        "https://www.xiaohongshu.com/explore/68607cf9000000001c036abf?xsec_token=ABIPIDR0T79wptE3GQxLi8wCjrQkMEOtzsSSNELi10Z_E=&xsec_source=pc_search&source=web_explore_feed"
+      ]
+    }
+  ]
+}
