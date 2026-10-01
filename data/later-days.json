@@ -1,0 +1,718 @@
+{
+  "updated_at": "2026-10-01",
+  "format_version": 1,
+  "points": {
+    "lfhotel": [
+      "桔子酒店(临汾高铁西站店)",
+      111.473471,
+      36.098572,
+      "临汾"
+    ],
+    "lfstation": [
+      "临汾西站",
+      111.466741,
+      36.101166,
+      "临汾"
+    ],
+    "czstation": [
+      "长治东站",
+      113.163628,
+      36.229623,
+      "长治"
+    ],
+    "czhotel": [
+      "如家精选酒店(长治八一广场威远门中路店)",
+      113.105269,
+      36.205258,
+      "长治"
+    ],
+    "shangdang": [
+      "上党门",
+      113.106939,
+      36.18737,
+      "长治"
+    ],
+    "hongji": [
+      "鸿记潞城甩饼店",
+      113.108443,
+      36.179902,
+      "长治"
+    ],
+    "tiantai": [
+      "天台庵",
+      113.405178,
+      36.383467,
+      "长治"
+    ],
+    "dayun": [
+      "大云院（院内三佛殿地标）",
+      113.445295,
+      36.367401,
+      "长治"
+    ],
+    "longmen": [
+      "龙门寺",
+      113.629277,
+      36.390207,
+      "长治"
+    ],
+    "yuanqi": [
+      "原起寺",
+      113.432526,
+      36.353448,
+      "长治"
+    ],
+    "jcstation": [
+      "晋城东站",
+      112.983555,
+      35.534277,
+      "晋城"
+    ],
+    "jchotel": [
+      "华之晋酒店(晋城万达广场店)",
+      112.87721,
+      35.469769,
+      "晋城"
+    ],
+    "museum": [
+      "晋城博物馆",
+      112.868894,
+      35.491082,
+      "晋城"
+    ],
+    "situ": [
+      "司徒小镇",
+      112.894938,
+      35.523089,
+      "晋城"
+    ],
+    "qinglian": [
+      "青莲寺",
+      112.995673,
+      35.457773,
+      "晋城"
+    ],
+    "erxian": [
+      "小南村二仙庙",
+      112.972667,
+      35.499791,
+      "晋城"
+    ],
+    "yuhuang": [
+      "府城玉皇庙",
+      112.94314,
+      35.545898,
+      "晋城"
+    ],
+    "tiefo": [
+      "高平铁佛寺",
+      112.974645,
+      35.765698,
+      "晋城"
+    ],
+    "gpstation": [
+      "高平东站",
+      112.964253,
+      35.733501,
+      "晋城"
+    ],
+    "zzstation": [
+      "郑州站",
+      113.658097,
+      34.745795,
+      "郑州"
+    ],
+    "zzhotel": [
+      "锦江之星酒店(郑州高铁东站郑东万象城店)",
+      113.755178,
+      34.762482,
+      "郑州"
+    ],
+    "zzeast": [
+      "郑州东站",
+      113.779558,
+      34.759081,
+      "郑州"
+    ]
+  },
+  "days": [
+    {
+      "day": 5,
+      "date": "2026-10-02",
+      "city": "lf",
+      "title": "临汾 → 长治 · 换乘与轻散步",
+      "subtitle": "09:12 出发 → 24 分钟换乘 → 入住 → 上党门、甩饼",
+      "summary": "太原南只留 24 分钟：站内换乘，不出站吃饭。下午住下后，再走一段老城。",
+      "weather": "9–20℃ · 晴转阴；薄保暖层＋外套，傍晚散步随身带 · <a href=\"https://www.weather.com.cn/weather/101100501.shtml\" target=\"_blank\" rel=\"noopener\">长治天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "rows": [
+        {
+          "time": "08:15",
+          "title": "酒店出发 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"临汾西站\" data-city=\"临汾\" data-lat=\"36.101166\" data-lon=\"111.466741\" href=\"https://uri.amap.com/marker?position=111.466741,36.101166&amp;name=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">临汾西站</a>",
+          "facts": [
+            "推荐步行｜约 0.7 km，模型约 10 分钟。",
+            "带行李留 25 分钟；目标 08:40 到站。"
+          ],
+          "drawers": [
+            {
+              "label": "从酒店怎么走",
+              "html": "<p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"桔子酒店(临汾高铁西站店)\" data-city=\"临汾\" data-lat=\"36.098572\" data-lon=\"111.473471\" href=\"https://uri.amap.com/marker?position=111.473471,36.098572&amp;name=%E6%A1%94%E5%AD%90%E9%85%92%E5%BA%97(%E4%B8%B4%E6%B1%BE%E9%AB%98%E9%93%81%E8%A5%BF%E7%AB%99%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">桔子酒店(临汾高铁西站店)</a> → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"临汾西站\" data-city=\"临汾\" data-lat=\"36.101166\" data-lon=\"111.466741\" href=\"https://uri.amap.com/marker?position=111.466741,36.101166&amp;name=%E4%B8%B4%E6%B1%BE%E8%A5%BF%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">临汾西站</a></p><p>这段按你实际住的西站店计算，不再套用“市区离站 7.8 km”。沿途看点未核实，不专门绕路。</p>"
+            },
+            {
+              "label": "距离怎么算 · 点开看估算边界",
+              "html": "<p>路程为 10/1 查询的 OSM / OSRM 道路模型；高德 GCJ-02 点位先转 WGS84。不是直线距离，也不是高德实时导航。</p><p>模型分钟数不含叫车、红绿灯拥堵、安检和入口步行；时间线采用更宽的出门预算。当天点地点链接唤起高德复核。</p><p><a href=\"data/later-days-route-evidence.json\" target=\"_blank\" rel=\"noopener\">路程原始数值与查询链接</a> · <a href=\"https://routing.openstreetmap.de/about.html\" target=\"_blank\" rel=\"noopener\">路由服务 / OpenStreetMap 署名</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "09:12",
+          "title": "G622 · 临汾西 → 太原南",
+          "facts": [
+            "09:12–10:46｜07 车 13D｜已购改签票。"
+          ],
+          "drawers": [
+            {
+              "label": "票与时刻依据",
+              "html": "<p>票面记录 ¥82；到站时刻本轮核阅 <a href=\"https://trains.ctrip.com/trainschedule/G622/\" target=\"_blank\" rel=\"noopener\">G622 公开时刻表</a>。公开时刻表不是你的实时订单，出发以 12306 当日票面为准。</p>"
+            }
+          ]
+        },
+        {
+          "time": "10:46",
+          "title": "太原南站内换乘 · 直接找 G3135",
+          "facts": [
+            "11:10 发车｜两车间隔 24 分钟，实际可用时间更短。",
+            "下车找便捷换乘指示／工作人员；早餐、零食提前备好。"
+          ],
+          "drawers": [
+            {
+              "label": "换乘风险",
+              "html": "<p>停止检票时间、到发站台未核实。若前车晚点，车上就向乘务员说明两张票；不自行出站再安检。</p><p><a href=\"https://trains.ctrip.com/trainschedule/G622/\" target=\"_blank\" rel=\"noopener\">G622 公开时刻表</a> · <a href=\"https://trains.ctrip.com/trainschedule/G3135/\" target=\"_blank\" rel=\"noopener\">G3135 公开时刻表</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "11:10",
+          "title": "G3135 · 太原南 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"长治东站\" data-city=\"长治\" data-lat=\"36.229623\" data-lon=\"113.163628\" href=\"https://uri.amap.com/marker?position=113.163628,36.229623&amp;name=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">长治东站</a>",
+          "facts": [
+            "11:10–12:29｜16 车 04D｜已购改签票。"
+          ],
+          "drawers": [
+            {
+              "label": "票与时刻依据",
+              "html": "<p>票面记录 ¥105；<a href=\"https://trains.ctrip.com/trainschedule/G3135/\" target=\"_blank\" rel=\"noopener\">G3135 公开时刻表</a>。</p>"
+            }
+          ]
+        },
+        {
+          "time": "12:40",
+          "title": "打车 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">如家精选 · 威远门中路店</a>",
+          "facts": [
+            "约 8.5 km｜模型约 9 分钟；接车至酒店按 30 分钟安排。",
+            "先寄存／按房态入住，下午休息后再出门。"
+          ],
+          "drawers": [
+            {
+              "label": "酒店与明日接送",
+              "html": "<p>威远门中路 19 号｜10/2–10/4 两晚｜已订 ¥632。</p><p>把完整店名、地址给 10/3 讲师团，确认上门接的时间；资料未记录商家已收到。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">如家精选酒店(长治八一广场威远门中路店)</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "title": "轻 citywalk：<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"上党门\" data-city=\"长治\" data-lat=\"36.18737\" data-lon=\"113.106939\" href=\"https://uri.amap.com/marker?position=113.106939,36.18737&amp;name=%E4%B8%8A%E5%85%9A%E9%97%A8&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">上党门</a> → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"鸿记潞城甩饼店\" data-city=\"长治\" data-lat=\"36.179902\" data-lon=\"113.108443\" href=\"https://uri.amap.com/marker?position=113.108443,36.179902&amp;name=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">鸿记甩饼</a>",
+          "facts": [
+            "酒店 → 上党门：步行约 2.6 km／34 分钟。",
+            "上党门 → 鸿记：步行约 1.2 km／16 分钟；累就打车到上党门再走。"
+          ],
+          "drawers": [
+            {
+              "label": "这一段看什么、吃什么",
+              "html": "<p>上党门：先看门楼外观，再沿老城往东华门街收尾；登楼开放情况未核实。</p><p>鸿记潞城甩饼店｜东华门街 14 号。建议先问能否少量加驴肉，尝薄饼配肉，不默认点一大份主食；价格、营业时间未核实。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"上党门\" data-city=\"长治\" data-lat=\"36.18737\" data-lon=\"113.106939\" href=\"https://uri.amap.com/marker?position=113.106939,36.18737&amp;name=%E4%B8%8A%E5%85%9A%E9%97%A8&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">上党门</a> · <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"鸿记潞城甩饼店\" data-city=\"长治\" data-lat=\"36.179902\" data-lon=\"113.108443\" href=\"https://uri.amap.com/marker?position=113.108443,36.179902&amp;name=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">鸿记潞城甩饼店</a></p><p>上党门固定点来源：<a href=\"https://ditu.amap.com/place/B016300H0N\" target=\"_blank\" rel=\"noopener\">高德地点页</a>；鸿记沿用已核坐标库。</p>"
+            },
+            {
+              "label": "想喝热汤？羊汤候选单独看",
+              "html": "<p>程氏壶关羊汤（世纪家苑）：旧库有笔记线索，但具体门店坐标、国庆营业时间未核实，不把它写成酒店旁的顺路店。</p><p><a href=\"https://www.xiaohongshu.com/explore/688f0ad0000000002501da2f\" target=\"_blank\" rel=\"noopener\">程氏壶关羊汤</a> · <a href=\"https://www.xiaohongshu.com/explore/6a97cdb30000000027017018\" target=\"_blank\" rel=\"noopener\">壶关羊汤到底有多香</a></p><p>这两条是旧库索引，本轮未重新打开笔记/评论；不能据此说已二次交叉验证口味。</p>"
+            }
+          ]
+        },
+        {
+          "time": "晚间",
+          "title": "回 <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">酒店</a> · 给明天看建筑做预习",
+          "facts": [
+            "建议先看天台庵、河谷建筑差异；明天现场带着“屋顶、斗拱、年代”三个问题听。"
+          ],
+          "drawers": [
+            {
+              "label": "旧库视频 · 不等于本轮看完",
+              "html": "<p><a href=\"https://www.bilibili.com/video/BV1RRyGBgESp\" target=\"_blank\" rel=\"noopener\">BV1RRyGBgESp · 山西文博一凡·天台庵解析</a></p><p><a href=\"https://www.bilibili.com/video/BV1WpLXzGEWM\" target=\"_blank\" rel=\"noopener\">BV1WpLXzGEWM · 雎鸠叫关关·速通河谷八座国保</a></p><p>旧库没有留存这两条播放量，本轮未补造。</p>"
+            }
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "体力不足：只吃晚饭，不走整条散步线",
+          "html": "<p>主线散步合计约 3.8 km／50 分钟纯步行，不含停留。可直接去鸿记，或回酒店休息；餐馆是否营业需当天确认。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"鸿记潞城甩饼店\" data-city=\"长治\" data-lat=\"36.179902\" data-lon=\"113.108443\" href=\"https://uri.amap.com/marker?position=113.108443,36.179902&amp;name=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">鸿记潞城甩饼店</a></p>"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-10-03",
+      "city": "cz",
+      "title": "长治 · 浊漳河谷四寺",
+      "subtitle": "讲师团上门接 → 四寺看建筑差异 → 回长治",
+      "summary": "一天只走已订河谷四寺。看点按寺列，实际先后跟车；不再插入长子县另一条线。",
+      "weather": "5–21℃ · 晴；早晚冷，出门就带保暖层＋防风外套 · <a href=\"https://www.weather.com.cn/weather/101100501.shtml\" target=\"_blank\" rel=\"noopener\">长治天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "rows": [
+        {
+          "time": "约08:00",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">酒店</a>等讲师团接",
+          "facts": [
+            "已订 ¥378｜08:00 是原计划，最终上门时间待商家通知。",
+            "酒店 → 天台庵约 50.9 km，模型约 44 分钟；接齐团友会更久。"
+          ],
+          "drawers": [
+            {
+              "label": "集合与行李",
+              "html": "<p>地址：威远门中路 19 号，如家精选酒店（长治八一广场威远门中路店）。今晚仍住这里，大行李留酒店。</p><p>餐食、接送细节资料没有确认记录；需要核对的是商家通知，不是另买票。</p>"
+            },
+            {
+              "label": "距离怎么算 · 点开看估算边界",
+              "html": "<p>路程为 10/1 查询的 OSM / OSRM 道路模型；高德 GCJ-02 点位先转 WGS84。不是直线距离，也不是高德实时导航。</p><p>模型分钟数不含叫车、红绿灯拥堵、安检和入口步行；时间线采用更宽的出门预算。当天点地点链接唤起高德复核。</p><p><a href=\"data/later-days-route-evidence.json\" target=\"_blank\" rel=\"noopener\">路程原始数值与查询链接</a> · <a href=\"https://routing.openstreetmap.de/about.html\" target=\"_blank\" rel=\"noopener\">路由服务 / OpenStreetMap 署名</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"天台庵\" data-city=\"长治\" data-lat=\"36.383467\" data-lon=\"113.405178\" href=\"https://uri.amap.com/marker?position=113.405178,36.383467&amp;name=%E5%A4%A9%E5%8F%B0%E5%BA%B5&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">天台庵</a>",
+          "facts": [
+            "看屋顶、斗拱与殿内空间：保留唐风的五代木构。",
+            "纠正旧文：不能再直接标“现存唐构”。"
+          ],
+          "drawers": [
+            {
+              "label": "为什么改年代",
+              "html": "<p>2014 年修缮发现后唐长兴四年（933）题记；可请讲师指出唐风特征与断代依据。</p><p><a href=\"https://www.sxwbs.com/detail/fa15e1e904dd480e898bec93e30ccb57?contentType=1&amp;t=MjAyNi0wMi0xNA%3D%3D\" target=\"_blank\" rel=\"noopener\">山西晚报：五代古建与天台庵题记</a></p><p><a href=\"https://www.bilibili.com/video/BV1RRyGBgESp\" target=\"_blank\" rel=\"noopener\">BV1RRyGBgESp · 山西文博一凡·天台庵解析</a>（播放量旧库未留存）</p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"大云院（院内三佛殿地标）\" data-city=\"长治\" data-lat=\"36.367401\" data-lon=\"113.445295\" href=\"https://uri.amap.com/marker?position=113.445295,36.367401&amp;name=%E5%A4%A7%E4%BA%91%E9%99%A2%EF%BC%88%E9%99%A2%E5%86%85%E4%B8%89%E4%BD%9B%E6%AE%BF%E5%9C%B0%E6%A0%87%EF%BC%89&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">大云院</a>",
+          "facts": [
+            "重点：弥陀殿五代壁画；先听讲解定位画面，再看人物与建筑细节。",
+            "暗光下不自行打灯；拍摄与照明遵守现场文保要求。"
+          ],
+          "drawers": [
+            {
+              "label": "看点与导航范围",
+              "html": "<p>地图固定点是院内三佛殿地标，不是入口，也不是壁画所在弥陀殿。跟团按司机下客点入院。</p><p><a href=\"https://www.amap.com/place/B0FFGB4Y5Z\" target=\"_blank\" rel=\"noopener\">高德院内地点页</a> · <a href=\"https://www.sxwbs.com/detail/fa15e1e904dd480e898bec93e30ccb57?contentType=1&amp;t=MjAyNi0wMi0xNA%3D%3D\" target=\"_blank\" rel=\"noopener\">壁画与殿宇资料</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "午间",
+          "title": "跟团停靠吃午饭",
+          "facts": [
+            "饭点跟当日停靠安排；不为长子猪头肉跨线绕行。",
+            "店名、团餐是否包含：资料库里没有确认结果。"
+          ],
+          "drawers": []
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"龙门寺\" data-city=\"长治\" data-lat=\"36.390207\" data-lon=\"113.629277\" href=\"https://uri.amap.com/marker?position=113.629277,36.390207&amp;name=%E9%BE%99%E9%97%A8%E5%AF%BA&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">龙门寺</a>",
+          "facts": [
+            "先比较五代西配殿与宋、金殿宇；同一院内看屋顶和斗拱怎么变。"
+          ],
+          "drawers": [
+            {
+              "label": "带着问题听讲解",
+              "html": "<p>西配殿的悬山顶有什么特征？与后世殿宇在尺度、出檐、结构上有什么不同？</p><p><a href=\"https://www.sxwbs.com/detail/fa15e1e904dd480e898bec93e30ccb57?contentType=1&amp;t=MjAyNi0wMi0xNA%3D%3D\" target=\"_blank\" rel=\"noopener\">山西晚报：龙门寺西配殿</a> · <a href=\"https://www.changzhi.gov.cn/ztzl/5D/5D/202505/P020250516307497991428.pdf\" target=\"_blank\" rel=\"noopener\">长治官方古建资料 PDF</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"原起寺\" data-city=\"长治\" data-lat=\"36.353448\" data-lon=\"113.432526\" href=\"https://uri.amap.com/marker?position=113.432526,36.353448&amp;name=%E5%8E%9F%E8%B5%B7%E5%AF%BA&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">原起寺</a>",
+          "facts": [
+            "大雄宝殿与青龙塔作收尾；把木殿、砖塔和河谷位置一起看。"
+          ],
+          "drawers": [
+            {
+              "label": "路线图与旧库笔记",
+              "html": "<p><figure><img loading=\"lazy\" src=\"media/xhs20_zhuozhang_valley.jpg\" alt=\"浊漳河谷寺院分布与建筑图\"><figcaption>旧库路线参考图；团的实际顺序以当天通知为准。</figcaption></figure></p><p><a href=\"https://www.xiaohongshu.com/explore/6aafac51000000001203cb4f\" target=\"_blank\" rel=\"noopener\">一日看尽六朝·路线</a> · <a href=\"https://www.xiaohongshu.com/explore/6a75c91a000000002403c353\" target=\"_blank\" rel=\"noopener\">游览安排+避雷点</a></p><p>这两条复用已存笔记索引，本轮没有重读评论。</p>"
+            }
+          ]
+        },
+        {
+          "time": "傍晚",
+          "title": "回 <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">长治酒店</a>",
+          "facts": [
+            "原计划约 18:30 回城，非商家保证到达时间。",
+            "晚饭若想少吃主食，优先考虑热汤；已定位的甩饼店也可作备选。"
+          ],
+          "drawers": [
+            {
+              "label": "想喝热汤？羊汤候选单独看",
+              "html": "<p>程氏壶关羊汤（世纪家苑）：旧库有笔记线索，但具体门店坐标、国庆营业时间未核实，不把它写成酒店旁的顺路店。</p><p><a href=\"https://www.xiaohongshu.com/explore/688f0ad0000000002501da2f\" target=\"_blank\" rel=\"noopener\">程氏壶关羊汤</a> · <a href=\"https://www.xiaohongshu.com/explore/6a97cdb30000000027017018\" target=\"_blank\" rel=\"noopener\">壶关羊汤到底有多香</a></p><p>这两条是旧库索引，本轮未重新打开笔记/评论；不能据此说已二次交叉验证口味。</p>"
+            },
+            {
+              "label": "回城已定位餐馆",
+              "html": "<p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"鸿记潞城甩饼店\" data-city=\"长治\" data-lat=\"36.179902\" data-lon=\"113.108443\" href=\"https://uri.amap.com/marker?position=113.108443,36.179902&amp;name=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">鸿记潞城甩饼店</a>｜东华门街 14 号。先核营业；不要为吃饭反向去长子县。</p>"
+            }
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "另一天才考虑：法兴寺、崇庆寺",
+          "html": "<p>这是长子方向另一条线路，不与今天四寺拼成一日。原有备选保留在古建栏目，本日不设未确认的加点或返程承诺。</p>"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-10-04",
+      "city": "jc",
+      "title": "长治 → 晋城 · 看展与夜游",
+      "subtitle": "10:01 高铁 → 寄存 → 小碗午餐 → 博物馆 → 司徒小镇（确认场次后）",
+      "summary": "先放行李，再在博物馆一带吃午饭、看展。司徒夜场保留，但不把旧的“20:00”写成确定场次。",
+      "weather": "6–21℃ · 多云转阴；夜游外套随身带，不留在酒店 · <a href=\"https://www.weather.com.cn/weather/101100601.shtml\" target=\"_blank\" rel=\"noopener\">晋城天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "rows": [
+        {
+          "time": "08:50",
+          "title": "退房打车 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"长治东站\" data-city=\"长治\" data-lat=\"36.229623\" data-lon=\"113.163628\" href=\"https://uri.amap.com/marker?position=113.163628,36.229623&amp;name=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">长治东站</a>",
+          "facts": [
+            "约 9.5 km｜模型约 10 分钟；含叫车留 30 分钟。",
+            "目标 09:20 到站，乘 10:01 高铁。"
+          ],
+          "drawers": [
+            {
+              "label": "距离怎么算 · 点开看估算边界",
+              "html": "<p>路程为 10/1 查询的 OSM / OSRM 道路模型；高德 GCJ-02 点位先转 WGS84。不是直线距离，也不是高德实时导航。</p><p>模型分钟数不含叫车、红绿灯拥堵、安检和入口步行；时间线采用更宽的出门预算。当天点地点链接唤起高德复核。</p><p><a href=\"data/later-days-route-evidence.json\" target=\"_blank\" rel=\"noopener\">路程原始数值与查询链接</a> · <a href=\"https://routing.openstreetmap.de/about.html\" target=\"_blank\" rel=\"noopener\">路由服务 / OpenStreetMap 署名</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "10:01",
+          "title": "G3845 · 长治东 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城东站\" data-city=\"晋城\" data-lat=\"35.534277\" data-lon=\"112.983555\" href=\"https://uri.amap.com/marker?position=112.983555,35.534277&amp;name=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城东站</a>",
+          "facts": [
+            "10:01–10:29｜04 车 09C｜已购 ¥44。"
+          ],
+          "drawers": [
+            {
+              "label": "时刻来源",
+              "html": "<p><a href=\"https://trains.ctrip.com/trainschedule/G3845/\" target=\"_blank\" rel=\"noopener\">G3845 公开时刻表</a>；到达时间本轮核阅，订单未作改动。</p>"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">华之晋 · 万达广场店</a>放行李",
+          "facts": [
+            "晋城东 → 酒店约 14.4 km，模型约 17 分钟；含出站接车留 40 分钟。",
+            "先寄存，能否提前进房看房态；今晚已订。"
+          ],
+          "drawers": [
+            {
+              "label": "酒店信息",
+              "html": "<p>文峰路｜10/4–10/5 一晚｜已订 ¥321.3。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">华之晋酒店(晋城万达广场店)</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "title": "午餐 · 十小碗（凤台东街店）",
+          "facts": [
+            "酒店 → 博物馆约 3.0 km；推荐打车，含等车留 15–20 分钟。",
+            "店在博物馆斜对面：先问小份烧豆腐／木耳圪贝，不必点整套十碗。"
+          ],
+          "drawers": [
+            {
+              "label": "具体地址、菜单与证据",
+              "html": "<p>泽州公园南门东 50 米路南、博物馆斜对面。固定门店坐标未核实：先导航博物馆，再对照店名和地址，不能把导航点当店门。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城博物馆\" data-city=\"晋城\" data-lat=\"35.491082\" data-lon=\"112.868894\" href=\"https://uri.amap.com/marker?position=112.868894,35.491082&amp;name=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城博物馆</a> · <a href=\"https://gs.ctrip.com/html5/you/foods/fooddetail/665/13048512.html\" target=\"_blank\" rel=\"noopener\">十小碗（凤台东街店）店页、菜单与食客记录</a></p><p>平台展示 11:00–14:00、17:30–21:00；国庆是否调整、小份是否能单点未确认。该页仅少量评论，保留为就近候选，不能称多源口味验证。</p><p>并非冷门店：<a href=\"https://jcgov.gov.cn/dtxx/sxyw/202402/t20240215_1933078.shtml\" target=\"_blank\" rel=\"noopener\">晋城政府转载报道曾提春节排队</a>。排长队就不为它挤占看展。</p>"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城博物馆\" data-city=\"晋城\" data-lat=\"35.491082\" data-lon=\"112.868894\" href=\"https://uri.amap.com/marker?position=112.868894,35.491082&amp;name=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城博物馆</a> · 建议留 2 小时",
+          "facts": [
+            "开放｜09:00–18:00；17:30 停止入馆。",
+            "重点｜北齐昙始造像碑座：把馆藏与明日青莲寺串起来。"
+          ],
+          "drawers": [
+            {
+              "label": "核心文物 · 实拍与为什么看",
+              "html": "<p><figure><img loading=\"lazy\" src=\"media/later-days/tanshi-stele.png\" alt=\"北齐乾明元年昙始造像碑座，晋城博物馆官方藏品照片\"><figcaption>官方馆藏图：北齐乾明元年昙始造像碑座；当前展厅位置、当天是否展出未核实。</figcaption></figure></p><p>看正面一佛二菩萨和铭文；1996 年青莲寺大雄宝殿修缮时出土，明日到寺后能把“出土地—馆藏”对上。</p><p><a href=\"https://www.jcbwg.cn/bwg/wwsx/gcjc/202502/t20250206_2095357.shtml\" target=\"_blank\" rel=\"noopener\">晋城博物馆：藏品介绍与原图</a></p>"
+            },
+            {
+              "label": "预约、讲解与公告",
+              "html": "<p>预约：微信公众号“晋城博物馆”。公益讲解时刻未查到，不能套用临汾馆的 12:00。</p><p>咨询：0356-6965144。10/1 夜场不等于 10/4 也夜开。</p><p><a href=\"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml\" target=\"_blank\" rel=\"noopener\">官方国庆开放与活动公告</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "傍晚",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"司徒小镇\" data-city=\"晋城\" data-lat=\"35.523089\" data-lon=\"112.894938\" href=\"https://uri.amap.com/marker?position=112.894938,35.523089&amp;name=%E5%8F%B8%E5%BE%92%E5%B0%8F%E9%95%87&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">司徒小镇</a> · 先确认《千年铁魂》场次",
+          "facts": [
+            "博物馆 → 司徒小镇约 7.2 km；含叫车按 30 分钟安排。",
+            "按票面开演前至少 60 分钟入园规划；10/4 具体开演时间未核实。"
+          ],
+          "drawers": [
+            {
+              "label": "去前看什么、证据到哪一步",
+              "html": "<p>当地双节活动预告覆盖 9/25–10/7，但没有给出 10/4 精确场次。因此先核当日演出票／景区公告，再确定离馆和晚餐时间；本页没有代买票。</p><p><a href=\"https://finance.sina.com.cn/wm/2026-09-24/doc-inisxxkr5046184.shtml\" target=\"_blank\" rel=\"noopener\">晋城城区双节活动预告（转载）</a></p><p>道路模型仅约 7 分钟，但司徒输入点距匹配道路约 293 米，不代表入口到看台；另留园内步行、排队时间。</p>"
+            }
+          ]
+        },
+        {
+          "time": "散场",
+          "title": "打车回 <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">华之晋酒店</a>",
+          "facts": [
+            "约 9.3 km｜模型约 10 分钟；散场按 30 分钟以上安排。",
+            "把明日集合通知、随车行李与高平东下客约定一起核对。"
+          ],
+          "drawers": []
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "不去夜场：老城散步是替代项",
+          "html": "<p>博物馆 → 景忠桥道路步行约 3.9 km／53 分钟，不是馆旁短散步；想逛旧城建议先乘车进城，再按体力走。</p><p>景忠桥位置来自旧坐标候选，入口与完整 citywalk 路线未重新核实，因此不伪造一条精确老城游线。</p>"
+        },
+        {
+          "label": "玉皇庙演出 · 与主线二选一",
+          "html": "<p>官方公布 10/1–10/5 每天 09:30、14:30 在玉皇庙广场演出。若选 14:30，需要压缩或替换博物馆，且明日团会到玉皇庙，不默认重复跑。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"府城玉皇庙\" data-city=\"晋城\" data-lat=\"35.545898\" data-lon=\"112.94314\" href=\"https://uri.amap.com/marker?position=112.94314,35.545898&amp;name=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">府城玉皇庙</a> · <a href=\"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml\" target=\"_blank\" rel=\"noopener\">官方节目时间公告</a></p>"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-10-05",
+      "city": "jc",
+      "title": "晋城四寺 → 高平东 → 郑州",
+      "subtitle": "跟团看彩塑 → 高平东乘 D315 → 郑州站 → 酒店",
+      "summary": "上午带行李跟团，晚上直接去高平东。最要紧：确认散团能送高平东，并为 20:14 的车留足进站时间。",
+      "weather": "晋城 6–21℃ · 晴；全天带外套，晚间还要赶车 · <a href=\"https://www.weather.com.cn/weather/101100601.shtml\" target=\"_blank\" rel=\"noopener\">晋城天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "rows": [
+        {
+          "time": "约07:30",
+          "title": "退房带行李 · 晋城万达肯德基集合",
+          "facts": [
+            "07:30 是原计划，具体门口和时间待商家确认。",
+            "已订携程一日团 ¥398；不另排市区早餐绕路。"
+          ],
+          "drawers": [
+            {
+              "label": "出门前只核对这三件事",
+              "html": "<p>① 集合点具体哪家肯德基、哪个门；② 行李能否随车；③ 四寺门票／预约是否由团办理、是否送高平东。资料里没有最终确认记录。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">酒店固定点</a>（不是肯德基集合点）</p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"青莲寺\" data-city=\"晋城\" data-lat=\"35.457773\" data-lon=\"112.995673\" href=\"https://uri.amap.com/marker?position=112.995673,35.457773&amp;name=%E9%9D%92%E8%8E%B2%E5%AF%BA&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">青莲寺 · 下寺</a>",
+          "facts": [
+            "重点：早期彩塑；先听讲解辨认年代与人物，再看面容、衣纹。",
+            "官方国庆公告开放的是下寺；不承诺上寺也能参观。"
+          ],
+          "drawers": [
+            {
+              "label": "开放与旧库图鉴",
+              "html": "<p>下寺 09:00–18:00，17:30 停止进入；如团通知不同，先核是否有专门安排。</p><p><a href=\"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml\" target=\"_blank\" rel=\"noopener\">官方国庆公告</a> · <a href=\"https://www.xiaohongshu.com/explore/69e6f3dd000000001a02071c\" target=\"_blank\" rel=\"noopener\">唐塑图鉴+保姆级攻略</a> · <a href=\"https://www.xiaohongshu.com/explore/6a9e940e0000000026030500\" target=\"_blank\" rel=\"noopener\">最早的唐代彩塑</a></p><p>小红书为旧库索引，本轮未重读；图文年代结论以文保现场与正式资料为准。</p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"小南村二仙庙\" data-city=\"晋城\" data-lat=\"35.499791\" data-lon=\"112.972667\" href=\"https://uri.amap.com/marker?position=112.972667,35.499791&amp;name=%E5%B0%8F%E5%8D%97%E6%9D%91%E4%BA%8C%E4%BB%99%E5%BA%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">小南村二仙庙</a>",
+          "facts": [
+            "看小型殿宇里的木构与空间层次；和昨日馆藏、今日其他殿宇做对照。"
+          ],
+          "drawers": [
+            {
+              "label": "旧库笔记",
+              "html": "<p><a href=\"https://www.xiaohongshu.com/explore/6aa12180000000002a02d69c\" target=\"_blank\" rel=\"noopener\">二仙庙·宋式美学</a></p><p>实际游览先后跟团；地图沿用现有小南村二仙庙固定点，司机确认入口。</p>"
+            }
+          ]
+        },
+        {
+          "time": "午间",
+          "title": "跟团停靠午餐 · 有烧豆腐就尝小份",
+          "facts": [
+            "高平烧豆腐作为地域口味候选，不为吃饭单独脱团。",
+            "店铺、价格未核实；下午提前备好上车前晚饭。"
+          ],
+          "drawers": [
+            {
+              "label": "旧库美食视频",
+              "html": "<p><a href=\"https://www.bilibili.com/video/BV1ur4hehEcg\" target=\"_blank\" rel=\"noopener\">BV1ur4hehEcg · 特别乌啦啦·高平炒饽子</a>（播放量旧库未留存）</p><p>炒饽子是另一种选择，不因博主推荐就强行加一大份主食。</p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"府城玉皇庙\" data-city=\"晋城\" data-lat=\"35.545898\" data-lon=\"112.94314\" href=\"https://uri.amap.com/marker?position=112.94314,35.545898&amp;name=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">府城玉皇庙</a>",
+          "facts": [
+            "重点：二十八宿彩塑；先挑角木蛟等几尊，看动物特征如何变成人物。"
+          ],
+          "drawers": [
+            {
+              "label": "视频与图鉴",
+              "html": "<p><a href=\"https://www.bilibili.com/video/BV1KE421c7rD\" target=\"_blank\" rel=\"noopener\">BV1KE421c7rD · 考工志·二十八宿角木蛟（39万）</a></p><p><a href=\"https://www.bilibili.com/video/BV1cf421B7EP\" target=\"_blank\" rel=\"noopener\">BV1cf421B7EP · 安州牧·730年前二十八尊（46万）</a></p><p>播放量为旧库记录，非当前实时数值。</p><p><a href=\"https://www.xiaohongshu.com/explore/6a743218000000000600423b\" target=\"_blank\" rel=\"noopener\">一张地图读懂玉皇庙</a> · <a href=\"https://www.xiaohongshu.com/explore/69f747f1000000002301eb91\" target=\"_blank\" rel=\"noopener\">二十八星宿</a></p><p>09:00–18:00，17:30 停入；<a href=\"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml\" target=\"_blank\" rel=\"noopener\">国庆开放公告</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"高平铁佛寺\" data-city=\"晋城\" data-lat=\"35.765698\" data-lon=\"112.974645\" href=\"https://uri.amap.com/marker?position=112.974645,35.765698&amp;name=%E9%AB%98%E5%B9%B3%E9%93%81%E4%BD%9B%E5%AF%BA&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">高平铁佛寺</a>",
+          "facts": [
+            "重点：二十四诸天的姿态、甲胄与表情；现场不挡参观动线。",
+            "不再沿用未经核实的“每日 500 人”限额。"
+          ],
+          "drawers": [
+            {
+              "label": "照片与路线参考",
+              "html": "<p><figure><img loading=\"lazy\" src=\"media/09_tiefosi.jpg\" alt=\"高平铁佛寺院落外观\"><figcaption>已有资料图：寺院外观，不是二十四诸天特写。</figcaption></figure></p><p><a href=\"https://www.xiaohongshu.com/explore/69ede1ba000000003601abcc\" target=\"_blank\" rel=\"noopener\">高平一日·四国保路线</a> · <a href=\"https://www.xiaohongshu.com/explore/69dcb48c0000000021004c3d\" target=\"_blank\" rel=\"noopener\">高平紧凑访古攻略</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "title": "原计划散团 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"高平东站\" data-city=\"晋城\" data-lat=\"35.733501\" data-lon=\"112.964253\" href=\"https://uri.amap.com/marker?position=112.964253,35.733501&amp;name=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">高平东站</a>",
+          "facts": [
+            "目标 19:15 到高平东；不要到站后再绕店吃饭。",
+            "铁佛寺 → 高平东约 6.6 km，模型约 8 分钟；仅适用于从铁佛寺直接出发。"
+          ],
+          "drawers": [
+            {
+              "label": "这段的硬条件",
+              "html": "<p>18:30 散团、送站地点尚未有最终商家确认。若最后一站不是铁佛寺，这段模型不能直接套用；需按实际散团位置提前出发。</p><p>晚餐用团途中已买的补给，不承诺高平东有哪家营业店。</p>"
+            },
+            {
+              "label": "距离怎么算 · 点开看估算边界",
+              "html": "<p>路程为 10/1 查询的 OSM / OSRM 道路模型；高德 GCJ-02 点位先转 WGS84。不是直线距离，也不是高德实时导航。</p><p>模型分钟数不含叫车、红绿灯拥堵、安检和入口步行；时间线采用更宽的出门预算。当天点地点链接唤起高德复核。</p><p><a href=\"data/later-days-route-evidence.json\" target=\"_blank\" rel=\"noopener\">路程原始数值与查询链接</a> · <a href=\"https://routing.openstreetmap.de/about.html\" target=\"_blank\" rel=\"noopener\">路由服务 / OpenStreetMap 署名</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "20:14",
+          "title": "D315 · 高平东 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"郑州站\" data-city=\"郑州\" data-lat=\"34.745795\" data-lon=\"113.658097\" href=\"https://uri.amap.com/marker?position=113.658097,34.745795&amp;name=%E9%83%91%E5%B7%9E%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">郑州站</a>",
+          "facts": [
+            "20:14–21:34｜同一列车，两张分段票；晋城东不下车。",
+            "高平东段 03 车 05D → 晋城东起 02 车 16A。"
+          ],
+          "drawers": [
+            {
+              "label": "分段车票怎么用",
+              "html": "<p>高平东→晋城东 ¥11；晋城东→郑州 ¥59。晋城东 20:24 到、20:32 发（既有票面记录）。</p><p>上车后向乘务员出示两张票，确认车内换座时机；不要提前占用下一段座位，也不要跑去站台“换乘”。</p>"
+            }
+          ]
+        },
+        {
+          "time": "21:45",
+          "title": "郑州站 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"锦江之星酒店(郑州高铁东站郑东万象城店)\" data-city=\"郑州\" data-lat=\"34.762482\" data-lon=\"113.755178\" href=\"https://uri.amap.com/marker?position=113.755178,34.762482&amp;name=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97(%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">锦江之星 · 郑东万象城店</a>",
+          "facts": [
+            "推荐打车｜约 12.5 km，模型约 15 分钟；出站接车至酒店留 35 分钟。",
+            "今晚到郑州站，明早从郑州东站走：两个站不同。"
+          ],
+          "drawers": [
+            {
+              "label": "酒店与地铁备选",
+              "html": "<p>农业南路 106 号｜10/5–10/6 已订。地铁 1 号线为旧库备选，今晚末班未核实，不以旧文的 23:53 保证能坐上。</p><p>郑州全天 11–23℃ · 晴 · <a href=\"https://www.weather.com.cn/weather/101180101.shtml\" target=\"_blank\" rel=\"noopener\">郑州天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small></p>"
+            }
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "散团不送高平东怎么办",
+          "html": "<p>先让商家给出实际散团地址和时间，再据此核路程；不能用“铁佛寺→高平东 8 分钟”替代整个转场。已购 D315 保留，不自动改签或另购车票。</p>"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-10-06",
+      "city": "zz",
+      "title": "郑州 → 杭州 · 同车续乘回家",
+      "subtitle": "郑州东 10:11 → 芜湖车内换座 → 杭州西 14:49",
+      "summary": "G2238／G2235 是同一趟贯通列车的两个车次号。芜湖两段票续乘，不是两分钟跨站台换乘。",
+      "weather": "13–26℃ · 晴；上午带轻外套，车上按冷暖增减 · <a href=\"https://www.weather.com.cn/weather/101180101.shtml\" target=\"_blank\" rel=\"noopener\">郑州天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "rows": [
+        {
+          "time": "早餐",
+          "title": "酒店或周边简单吃，再退房",
+          "facts": [
+            "不绕去顺河路胡辣汤、人民路烩面老店赶早餐。",
+            "酒店附近可靠具体早餐店：资料库里没有核实结果。"
+          ],
+          "drawers": []
+        },
+        {
+          "time": "08:45",
+          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"锦江之星酒店(郑州高铁东站郑东万象城店)\" data-city=\"郑州\" data-lat=\"34.762482\" data-lon=\"113.755178\" href=\"https://uri.amap.com/marker?position=113.755178,34.762482&amp;name=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97(%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">酒店</a>出发 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"郑州东站\" data-city=\"郑州\" data-lat=\"34.759081\" data-lon=\"113.779558\" href=\"https://uri.amap.com/marker?position=113.779558,34.759081&amp;name=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">郑州东站</a>",
+          "facts": [
+            "推荐打车｜约 6.5 km，模型约 8 分钟；含叫车按 30 分钟安排。",
+            "目标 09:20 到郑州东，10:11 发车。"
+          ],
+          "drawers": [
+            {
+              "label": "为什么不是步行几分钟",
+              "html": "<p>酒店名里有“高铁东站”，不代表就在进站口。驾车路线受道路与站区入口影响；本页不把直线距离当导航里程。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"郑州东站\" data-city=\"郑州\" data-lat=\"34.759081\" data-lon=\"113.779558\" href=\"https://uri.amap.com/marker?position=113.779558,34.759081&amp;name=%E9%83%91%E5%B7%9E%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">郑州东站</a> · <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"锦江之星酒店(郑州高铁东站郑东万象城店)\" data-city=\"郑州\" data-lat=\"34.762482\" data-lon=\"113.755178\" href=\"https://uri.amap.com/marker?position=113.755178,34.762482&amp;name=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97(%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">锦江之星酒店(郑州高铁东站郑东万象城店)</a></p>"
+            },
+            {
+              "label": "距离怎么算 · 点开看估算边界",
+              "html": "<p>路程为 10/1 查询的 OSM / OSRM 道路模型；高德 GCJ-02 点位先转 WGS84。不是直线距离，也不是高德实时导航。</p><p>模型分钟数不含叫车、红绿灯拥堵、安检和入口步行；时间线采用更宽的出门预算。当天点地点链接唤起高德复核。</p><p><a href=\"data/later-days-route-evidence.json\" target=\"_blank\" rel=\"noopener\">路程原始数值与查询链接</a> · <a href=\"https://routing.openstreetmap.de/about.html\" target=\"_blank\" rel=\"noopener\">路由服务 / OpenStreetMap 署名</a></p>"
+            }
+          ]
+        },
+        {
+          "time": "10:11",
+          "title": "G2238／G2235 · 郑州东上车",
+          "facts": [
+            "郑州东 → 芜湖段：无座，12 车，已购 ¥386.5。",
+            "先向乘务员说明有芜湖起的续程座位，两张票都保留。"
+          ],
+          "drawers": [
+            {
+              "label": "同一趟列车的证据",
+              "html": "<p><a href=\"https://trains.ctrip.com/trainschedule/G2238/\" target=\"_blank\" rel=\"noopener\">G2238 公开时刻表</a> · <a href=\"https://trains.ctrip.com/trainschedule/G2235/\" target=\"_blank\" rel=\"noopener\">G2235 公开时刻表</a></p><p>两份公开时刻表相同：郑州东 10:11、芜湖 13:31 到／13:33 发、杭州西 14:49 到。10/1 核阅；当日列车编组、票面仍需对照。</p>"
+            }
+          ]
+        },
+        {
+          "time": "13:31",
+          "title": "芜湖 · 不下车，按续程票换座",
+          "facts": [
+            "13:33 继续发车｜后半程 04 车 15F，已购 ¥143。",
+            "车内从 12 车到 04 车需时间，提前问乘务员怎么走、何时换。"
+          ],
+          "drawers": [
+            {
+              "label": "别把停站两分钟当换乘时间",
+              "html": "<p>两段为同一贯通车次，不需要从站台换另一列车。只有票面或乘务员明确显示列车关系不同，才重新处理，不凭页面替你退改。</p>"
+            }
+          ]
+        },
+        {
+          "time": "14:49",
+          "title": "抵达杭州西 · 行程结束",
+          "facts": [
+            "预计到达时间来自本轮公开时刻表；不擅自补写你回家的交通。"
+          ],
+          "drawers": []
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "候补兑现后再选 · 不改现有订单",
+          "html": "<p>旧库候补：G1967 07:28、G2390 11:31。历史成功率已移除，不当作当前概率。</p><p>只有候补实际兑现、重新比较完整返程后，才由你决定是否退改现票；本轮没有取消、购买或改签任何订单。</p>"
+        }
+      ]
+    }
+  ]
+}

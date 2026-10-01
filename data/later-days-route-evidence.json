@@ -1,0 +1,387 @@
+{
+  "checked_at": "2026-10-01",
+  "provider": "FOSSGIS OSRM; © OpenStreetMap contributors",
+  "provider_docs": "https://routing.openstreetmap.de/about.html",
+  "input_crs": "GCJ-02",
+  "route_crs": "WGS84",
+  "coordinate_conversion": "Existing trip-planner-main/scripts/build_map.py gcj02_to_wgs84",
+  "limitations": [
+    "道路模型：不含实时交通、叫车等待、入口步行、排队",
+    "司徒小镇输入点匹配道路约293米偏移，不是精确入口",
+    "景忠桥沿用旧geo_raw候选，只用于解释老城并非博物馆旁，不作为新核准导航入口"
+  ],
+  "points_gcj02": {
+    "lfhotel": [
+      "桔子酒店(临汾高铁西站店)",
+      111.473471,
+      36.098572,
+      "临汾"
+    ],
+    "lfstation": [
+      "临汾西站",
+      111.466741,
+      36.101166,
+      "临汾"
+    ],
+    "czstation": [
+      "长治东站",
+      113.163628,
+      36.229623,
+      "长治"
+    ],
+    "czhotel": [
+      "如家精选酒店(长治八一广场威远门中路店)",
+      113.105269,
+      36.205258,
+      "长治"
+    ],
+    "shangdang": [
+      "上党门",
+      113.106939,
+      36.18737,
+      "长治"
+    ],
+    "hongji": [
+      "鸿记潞城甩饼店",
+      113.108443,
+      36.179902,
+      "长治"
+    ],
+    "tiantai": [
+      "天台庵",
+      113.405178,
+      36.383467,
+      "长治"
+    ],
+    "dayun": [
+      "大云院（院内三佛殿地标）",
+      113.445295,
+      36.367401,
+      "长治"
+    ],
+    "longmen": [
+      "龙门寺",
+      113.629277,
+      36.390207,
+      "长治"
+    ],
+    "yuanqi": [
+      "原起寺",
+      113.432526,
+      36.353448,
+      "长治"
+    ],
+    "jcstation": [
+      "晋城东站",
+      112.983555,
+      35.534277,
+      "晋城"
+    ],
+    "jchotel": [
+      "华之晋酒店(晋城万达广场店)",
+      112.87721,
+      35.469769,
+      "晋城"
+    ],
+    "museum": [
+      "晋城博物馆",
+      112.868894,
+      35.491082,
+      "晋城"
+    ],
+    "situ": [
+      "司徒小镇",
+      112.894938,
+      35.523089,
+      "晋城"
+    ],
+    "qinglian": [
+      "青莲寺",
+      112.995673,
+      35.457773,
+      "晋城"
+    ],
+    "erxian": [
+      "小南村二仙庙",
+      112.972667,
+      35.499791,
+      "晋城"
+    ],
+    "yuhuang": [
+      "府城玉皇庙",
+      112.94314,
+      35.545898,
+      "晋城"
+    ],
+    "tiefo": [
+      "高平铁佛寺",
+      112.974645,
+      35.765698,
+      "晋城"
+    ],
+    "gpstation": [
+      "高平东站",
+      112.964253,
+      35.733501,
+      "晋城"
+    ],
+    "zzstation": [
+      "郑州站",
+      113.658097,
+      34.745795,
+      "郑州"
+    ],
+    "zzhotel": [
+      "锦江之星酒店(郑州高铁东站郑东万象城店)",
+      113.755178,
+      34.762482,
+      "郑州"
+    ],
+    "zzeast": [
+      "郑州东站",
+      113.779558,
+      34.759081,
+      "郑州"
+    ]
+  },
+  "points_wgs84": {
+    "lfhotel": [
+      111.467107,
+      36.09856
+    ],
+    "lfstation": [
+      111.460358,
+      36.101136
+    ],
+    "czstation": [
+      113.157031,
+      36.229515
+    ],
+    "czhotel": [
+      113.098599,
+      36.205083
+    ],
+    "shangdang": [
+      113.100271,
+      36.1872
+    ],
+    "hongji": [
+      113.101776,
+      36.179734
+    ],
+    "tiantai": [
+      113.398452,
+      36.383231
+    ],
+    "jcstation": [
+      112.977286,
+      35.534571
+    ],
+    "jchotel": [
+      112.871137,
+      35.470233
+    ],
+    "museum": [
+      112.86281,
+      35.491522
+    ],
+    "jingzhong": [
+      112.840257,
+      35.506189
+    ],
+    "situ": [
+      112.888867,
+      35.523527
+    ],
+    "tiefo": [
+      112.968385,
+      35.765899
+    ],
+    "gpstation": [
+      112.958034,
+      35.733742
+    ],
+    "zzstation": [
+      113.652007,
+      34.746928
+    ],
+    "zzhotel": [
+      113.748997,
+      34.763477
+    ],
+    "zzeast": [
+      113.773413,
+      34.760095
+    ]
+  },
+  "routes": [
+    {
+      "from": "lfhotel",
+      "to": "lfstation",
+      "profile": "foot",
+      "distance_m": 714.2,
+      "duration_s": 571.4,
+      "snap_distance_m": [
+        51,
+        18
+      ],
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/111.467107,36.09856;111.460358,36.101136?overview=false&steps=false"
+    },
+    {
+      "from": "czstation",
+      "to": "czhotel",
+      "profile": "car",
+      "distance_m": 8458,
+      "duration_s": 544.3,
+      "snap_distance_m": [
+        70,
+        36
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/113.157031,36.229515;113.098599,36.205083?overview=false&steps=false"
+    },
+    {
+      "from": "czhotel",
+      "to": "czstation",
+      "profile": "car",
+      "distance_m": 9466,
+      "duration_s": 578.3,
+      "snap_distance_m": [
+        36,
+        70
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/113.098599,36.205083;113.157031,36.229515?overview=false&steps=false"
+    },
+    {
+      "from": "czhotel",
+      "to": "shangdang",
+      "profile": "foot",
+      "distance_m": 2552.5,
+      "duration_s": 2041.9,
+      "snap_distance_m": [
+        36,
+        24
+      ],
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/113.098599,36.205083;113.100271,36.1872?overview=false&steps=false"
+    },
+    {
+      "from": "shangdang",
+      "to": "hongji",
+      "profile": "foot",
+      "distance_m": 1198.9,
+      "duration_s": 959.2,
+      "snap_distance_m": [
+        24,
+        20
+      ],
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/113.100271,36.1872;113.101776,36.179734?overview=false&steps=false"
+    },
+    {
+      "from": "czhotel",
+      "to": "tiantai",
+      "profile": "car",
+      "distance_m": 50905.2,
+      "duration_s": 2645.1,
+      "snap_distance_m": [
+        36,
+        28
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/113.098599,36.205083;113.398452,36.383231?overview=false&steps=false"
+    },
+    {
+      "from": "jcstation",
+      "to": "jchotel",
+      "profile": "car",
+      "distance_m": 14439.1,
+      "duration_s": 1027.1,
+      "snap_distance_m": [
+        31,
+        38
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/112.977286,35.534571;112.871137,35.470233?overview=false&steps=false"
+    },
+    {
+      "from": "jchotel",
+      "to": "museum",
+      "profile": "car",
+      "distance_m": 2956.6,
+      "duration_s": 239.3,
+      "snap_distance_m": [
+        38,
+        76
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/112.871137,35.470233;112.86281,35.491522?overview=false&steps=false"
+    },
+    {
+      "from": "museum",
+      "to": "jingzhong",
+      "profile": "foot",
+      "distance_m": 3949,
+      "duration_s": 3159.4,
+      "snap_distance_m": [
+        76,
+        3
+      ],
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/driving/112.86281,35.491522;112.840257,35.506189?overview=false&steps=false"
+    },
+    {
+      "from": "museum",
+      "to": "situ",
+      "profile": "car",
+      "distance_m": 7156.1,
+      "duration_s": 421,
+      "snap_distance_m": [
+        76,
+        293
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/112.86281,35.491522;112.888867,35.523527?overview=false&steps=false"
+    },
+    {
+      "from": "situ",
+      "to": "jchotel",
+      "profile": "car",
+      "distance_m": 9284.9,
+      "duration_s": 614.3,
+      "snap_distance_m": [
+        293,
+        38
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/112.888867,35.523527;112.871137,35.470233?overview=false&steps=false"
+    },
+    {
+      "from": "tiefo",
+      "to": "gpstation",
+      "profile": "car",
+      "distance_m": 6641.5,
+      "duration_s": 479.7,
+      "snap_distance_m": [
+        39,
+        2
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/112.968385,35.765899;112.958034,35.733742?overview=false&steps=false"
+    },
+    {
+      "from": "zzstation",
+      "to": "zzhotel",
+      "profile": "car",
+      "distance_m": 12467,
+      "duration_s": 879.1,
+      "snap_distance_m": [
+        57,
+        29
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/113.652007,34.746928;113.748997,34.763477?overview=false&steps=false"
+    },
+    {
+      "from": "zzhotel",
+      "to": "zzeast",
+      "profile": "car",
+      "distance_m": 6492,
+      "duration_s": 455.7,
+      "snap_distance_m": [
+        29,
+        89
+      ],
+      "url": "https://routing.openstreetmap.de/routed-car/route/v1/driving/113.748997,34.763477;113.773413,34.760095?overview=false&steps=false"
+    }
+  ]
+}
