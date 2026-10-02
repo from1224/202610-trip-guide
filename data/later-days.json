@@ -293,21 +293,21 @@
       "date": "2026-10-03",
       "city": "cz",
       "title": "长治 · 浊漳河谷四寺",
-      "subtitle": "讲师团上门接 → 四寺看建筑差异 → 回长治",
-      "summary": "一天只走已订河谷四寺。看点按寺列，实际先后跟车；不再插入长子县另一条线。",
-      "weather": "5–21℃ · 晴；早晚冷，出门就带保暖层＋防风外套 · <a href=\"https://www.weather.com.cn/weather/101100501.shtml\" target=\"_blank\" rel=\"noopener\">长治天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "subtitle": "07:50 八一广场集合 → 龙门寺 → 午餐 → 大云院 → 原起寺 → 天台庵",
+      "summary": "导游 10/2 通知改为八一广场天空之城（汉堡王旁）07:50 集合，不在酒店等上门接。先龙门寺，午餐后大云院、原起寺、天台庵；下方各寺看点卡仍按旧顺序排，勿按其顺序找车。",
+      "weather": "导游 10/2 通知：8–19℃、紫外线强；早晨穿薄保暖层＋防风外套，白天可脱层，带帽子/防晒和水。<small>这是导游通知，不是本站实时天气；出发前可再看天气 App。</small>",
       "rows": [
         {
-          "time": "约08:00",
-          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"如家精选酒店(长治八一广场威远门中路店)\" data-city=\"长治\" data-lat=\"36.205258\" data-lon=\"113.105269\" href=\"https://uri.amap.com/marker?position=113.105269,36.205258&amp;name=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97(%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">酒店</a>等讲师团接",
+          "time": "07:50",
+          "title": "八一广场天空之城 · 汉堡王旁集合",
           "facts": [
-            "已订 ¥378｜08:00 是原计划，最终上门时间待商家通知。",
-            "酒店 → 天台庵约 50.9 km，模型约 44 分钟；接齐团友会更久。"
+            "导游已通知 07:50 出发；建议 07:35 左右到集合点找车，不在酒店等接。",
+            "高德核到汉堡王(长治天空之城店)：太行东街2号天空之城院内1号商铺；车辆停靠车道以现场为准。"
           ],
           "drawers": [
             {
-              "label": "集合与行李",
-              "html": "<p>地址：威远门中路 19 号，如家精选酒店（长治八一广场威远门中路店）。今晚仍住这里，大行李留酒店。</p><p>餐食、接送细节资料没有确认记录；需要核对的是商家通知，不是另买票。</p>"
+              "label": "集合导航与行李",
+              "html": "<p><a href=\"https://www.amap.com/ssr/search/poi_detail?query_type=TQUERY&amp;query=%E6%B1%89%E5%A0%A1%E7%8E%8B%2B%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%2B%E9%95%BF%E6%B2%BB&amp;city=140700&amp;id=B0K1P5JQ4S&amp;source=search_result\" target=\"_blank\" rel=\"noopener\">汉堡王（长治天空之城店）高德地点</a>，在院内1号商铺旁找集合车辆。酒店→集合点的道路距离未核，请提前留出打车和找车时间。今晚仍住原酒店，大行李留房间。</p><p>车牌和导游电话只在私有通知中，不在公开页面展示。</p>"
             },
             {
               "label": "距离怎么算 · 点开看估算边界",
