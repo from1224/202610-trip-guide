@@ -3,6 +3,13 @@ const {build,range}=require('./build-later-days.cjs');
 const root=path.join(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),data=require('../data/later-days.json'),evidence=require('../data/later-days-route-evidence.json');
 assert.deepEqual(data.days.map(d=>d.day),[5,6,7,8,9]);
 assert.equal(build(html,data),html,'deterministic regeneration');
+const d5=html.slice(...range(html,5));
+for(const slot of ['start','meal','sight','gate','end'])assert(d5.includes('data-slot="'+slot+'"'),'D5 place slot '+slot);
+for(const edge of ['hotel-meal','meal-sight','sight-gate','gate-museum','sight-museum'])assert(d5.includes('data-edge="'+edge+'"'),'D5 adjacent edge '+edge);
+assert(d5.includes('原计划快照 · 不作为已发生'));
+assert(d5.includes('城市阳台地面停车场出入口')&&d5.includes('仅机动车通行'),'D5 must not recommend unverified lake cycling');
+assert(html.includes('class="exec-jump" href="#d5-execution"'));
+assert(html.includes('scripts/execution-cards.js?v=20261003-11'));
 for(const d of data.days){
  const[a,b]=range(html,d.day),s=html.slice(a,b);
  assert(s.includes('data-date="'+d.date+'"'));

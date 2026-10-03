@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "format_version": 1,
   "points": {
     "lfhotel": [
@@ -139,11 +139,11 @@
     {
       "day": 5,
       "date": "2026-10-02",
-      "city": "lf",
-      "title": "临汾 → 长治 · 换乘与轻散步",
-      "subtitle": "09:12 出发 → 24 分钟换乘 → 入住午餐 → 市博物馆",
-      "summary": "太原南只留 24 分钟：站内换乘。长治入住后先在酒店附近吃，下午优先市博物馆；老城仅作有体力时的晚间加分项。",
-      "weather": "9–20℃ · 晴转阴；薄保暖层＋外套，傍晚散步随身带 · <a href=\"https://www.weather.com.cn/weather/101100501.shtml\" target=\"_blank\" rel=\"noopener\">长治天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "city": "cz",
+      "title": "临汾 → 长治 · 10/2 实走复盘",
+      "subtitle": "赶上早车 → 鸿记午餐 → 城隍庙与上党门 → 博物馆 → 城市阳台",
+      "summary": "10/2 已实走。下面点店名或景点名试换：两侧交通卡会跟着改；时间、入口和停放只展示已核信息。",
+      "weather": "<a href=\"https://www.weather.com.cn/weather/101100501.shtml\" target=\"_blank\" rel=\"noopener\">查看长治天气</a><small>不沿用10/1预报当作当下实况。</small>",
       "rows": [
         {
           "time": "08:15",

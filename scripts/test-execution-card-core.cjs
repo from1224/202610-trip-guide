@@ -1,0 +1,57 @@
+const assert=require('node:assert/strict');
+const data=require('../data/d5-execution.json');
+const core=require('./execution-card-core.js');
+assert.equal(core.validate(data),data);
+const start={...data.slots,meal:'hongji'};
+const actualIn=core.resolve(data,start,'hotel-meal');
+const actualOut=core.resolve(data,start,'meal-sight');
+assert.equal(actualIn.to.key,actualOut.from.key);
+assert.equal(actualIn.mode,'driving');
+assert.equal(actualIn.evidence.distanceM,3700);
+assert.equal(actualIn.evidence.durationMin,12);
+assert.match(actualIn.routeUrl,/type=0(?:&|$)/);
+const actualCycle=core.resolve(data,start,'hotel-meal','cycling');
+assert.equal(actualCycle.evidence.distanceM,undefined,'user-reported ride has no measured distance');
+assert.match(actualCycle.routeUrl,/mode=ride/);
+for(const meal of data.choices){
+ const selected={...data.slots,meal};
+ const inbound=core.resolve(data,selected,'hotel-meal');
+ const outbound=core.resolve(data,selected,'meal-sight');
+ assert.equal(inbound.to.key,outbound.from.key,'same food key joins both routes');
+ assert.equal(inbound.to.name,outbound.from.name,'same place joins both labels');
+ assert(inbound.routeUrl.includes(inbound.mode==='cycling'?'from=':'fname='));
+ assert(inbound.routeUrl.includes(inbound.mode==='cycling'?'to=':'dname='));
+}
+const near=core.resolve(data,{...data.slots,meal:'ludingji'},'hotel-meal');
+assert.equal(near.evidence.distanceM,241);
+assert.equal(near.evidence.durationMin,4);
+const other=core.resolve(data,{...data.slots,meal:'laolu'},'hotel-meal');
+assert.equal(other.evidence.distanceM,1100);
+assert.equal(other.evidence.durationMin,15);
+assert.equal(core.resolve(data,{...data.slots,meal:'ludingji'},'meal-sight').evidence.screenshot.path,'assets/routes/ludingji-temple-drive.png');
+for(const sight of data.sightChoices){
+ const picked={...data.slots,sight};
+ const inbound=core.resolve(data,picked,'meal-sight');
+ const outbound=core.resolve(data,picked,sight==='temple'?'sight-gate':'sight-museum');
+ assert.equal(inbound.to.key,outbound.from.key,'same sight key joins both routes');
+}
+assert.deepEqual(core.activeEdges(data,{...data.slots,sight:'temple'}).map(e=>e.id),['hotel-meal','meal-sight','sight-gate','gate-museum']);
+assert.deepEqual(core.activeEdges(data,{...data.slots,sight:'shangdang'}).map(e=>e.id),['hotel-meal','meal-sight','sight-museum']);
+assert.equal(core.resolve(data,start,'sight-gate').evidence.screenshot.path,'assets/routes/temple-shangdang-walk.png');
+assert.equal(core.resolve(data,start,'gate-museum').evidence.screenshot.path,'assets/routes/shangdang-museum-drive.png');
+const museumLeg=core.resolve(data,{...data.slots,sight:'shangdang'},'sight-museum');
+assert.equal(museumLeg.evidence.mode,'driving');
+assert.match(museumLeg.routeUrl,/type=0(?:&|$)/,'desktop Amap driving must not open bus');
+assert.equal(core.resolve(data,{...data.slots,sight:'temple'},'sight-museum').evidence.screenshot.path,'assets/routes/temple-museum-drive.png');
+assert.equal(core.resolve(data,{...data.slots,sight:'shangdang'},'sight-museum','walking').evidence,null,'mode switch never borrows taxi evidence');
+const west=core.mapGeometry(data.places.temple,data.places.museum);
+assert(west.to.x<west.from.x,'west destination appears left');
+assert(west.to.y<west.from.y,'north destination appears above');
+assert.equal(west.roadVerified,false,'relative map never claims road verification');
+const changed=structuredClone(data);
+changed.routeEvidence.push({...changed.routeEvidence[0]});
+assert.throws(()=>core.validate(changed),/duplicate route evidence/);
+const badScreenshot=structuredClone(data);
+badScreenshot.routeEvidence[0].screenshot={path:'assets/routes/unreviewed.png',source:'https://www.amap.com/',checkedAt:'2026-10-03',reviewed:false};
+assert.throws(()=>core.validate(badScreenshot),/route screenshot provenance missing/);
+console.log('PASS: D5 actual four-leg path, 3 food × 2 sight choices, exact endpoint/mode evidence');

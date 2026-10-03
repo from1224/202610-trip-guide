@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-02",
+  "coordinateSystem": "GCJ-02",
+  "title": "10/2 长治 · 实走顺序与可复走路线",
+  "note": "实际顺序：酒店→口述“虹记”午餐→城隍庙→上党门→博物馆。午餐与老城之间三段骑行；因共享车停放点和骑行线未核，下面默认展示可核的打车／步行替代路线，不把替代路线写成实走。",
+  "slots": {
+    "start": "hotel",
+    "meal": "hongji",
+    "sight": "temple",
+    "gate": "shangdang",
+    "end": "museum"
+  },
+  "places": {
+    "hotel": {
+      "key": "poi:B0FFIA5Z5N",
+      "name": "如家精选·威远门中路店",
+      "detail": "中午入住后从酒店出发",
+      "lon": 113.105269,
+      "lat": 36.205258,
+      "poi": "B0FFIA5Z5N",
+      "address": "威远门中路19号",
+      "kind": "hotel"
+    },
+    "hongji": {
+      "key": "gcj02:113.108443,36.179902",
+      "name": "鸿记潞城甩饼店",
+      "detail": "用户实吃：现烙饼香、切驴肉香；口述“虹记”，待核店招",
+      "lon": 113.108443,
+      "lat": 36.179902,
+      "address": "东华门街14号",
+      "kind": "food",
+      "status": "已实吃 · 店名待核",
+      "dish": "甩饼卷驴肉",
+      "portion": "这顿已吃；再选其他店仅为路线交互体验",
+      "source": "用户2026-10-02实走反馈；旧高德固定坐标"
+    },
+    "ludingji": {
+      "key": "poi:B0L65HONIR",
+      "name": "潞鼎记甩饼·三鞭汤旗舰店",
+      "detail": "食客称驴肉瘦、筋少；饼正常。用户未实吃本店",
+      "lon": 113.10603,
+      "lat": 36.205308,
+      "poi": "B0L65HONIR",
+      "address": "威远门中路新元素一楼",
+      "kind": "food",
+      "status": "候选 · 非今日实走",
+      "dish": "甩饼＋少量驴肉",
+      "portion": "一人先问小份；不默认点三鞭汤",
+      "source": "https://www.xiaohongshu.com/explore/697b70c40000000022031399"
+    },
+    "laolu": {
+      "key": "poi:B0FFJCVV1R",
+      "name": "老路驴肉甩饼·紫金店",
+      "detail": "现做甩饼与汆汤有食客线索；用户未实吃本店",
+      "lon": 113.10917,
+      "lat": 36.199127,
+      "poi": "B0FFJCVV1R",
+      "address": "紫金西街62号（旧食记写60号，门脸待核）",
+      "kind": "food",
+      "status": "候选 · 非今日实走",
+      "dish": "现做甩饼",
+      "portion": "先问肉和汤能否小份，避免一人重复叠饼",
+      "source": "https://www.amap.com/ssr/search/poi_detail?id=B0FFJCVV1R"
+    },
+    "temple": {
+      "key": "poi:B016300LLW",
+      "name": "潞安府城隍庙",
+      "detail": "用户午餐后骑车抵达；具体停车位置未反馈",
+      "lon": 113.116378,
+      "lat": 36.183586,
+      "poi": "B016300LLW",
+      "address": "东街庙道巷13号",
+      "kind": "sight",
+      "sightType": "heritage",
+      "status": "已实走",
+      "highlight": "三进院落；看元、明、清建筑层次与木石雕",
+      "photo": "https://www.changzhi.gov.cn/ztzl/cjwmwz/shfs/202506/W020250616308252392225_ORIGIN.jpg",
+      "photoCaption": "长治日报 2025 年城隍庙外景；不是入口标注图",
+      "photoSource": "https://www.changzhi.gov.cn/ztzl/cjwmwz/shfs/202506/t20250616_3056020.shtml",
+      "source": "https://www.changzhi.gov.cn/ztzl/cjwmwz/shfs/202506/t20250616_3056020.shtml"
+    },
+    "shangdang": {
+      "key": "poi:B016300H0N",
+      "name": "上党门",
+      "detail": "用户在城隍庙之后骑车到此；切换到本卡不代表跳过城隍庙",
+      "lon": 113.106939,
+      "lat": 36.18737,
+      "poi": "B016300H0N",
+      "address": "府坡街与西斜街交叉口东北50米",
+      "kind": "sight",
+      "sightType": "heritage",
+      "status": "已实走 · 实际在城隍庙之后",
+      "highlight": "看门楼外观；登楼开放与具体入口未核",
+      "source": "https://ditu.amap.com/place/B016300H0N"
+    },
+    "museum": {
+      "key": "poi:B0L2MSZFO8",
+      "name": "长治市博物馆新馆",
+      "detail": "用户实走；东门为馆方资料所示入馆方向，具体落客点与讲解集合处未核",
+      "lon": 113.071467,
+      "lat": 36.217466,
+      "poi": "B0L2MSZFO8",
+      "address": "迎宾大街9号",
+      "kind": "sight",
+      "sightType": "museum",
+      "status": "已实走",
+      "opening": "10/2 国庆开放 09:00–18:00，17:30 停入",
+      "explain": "国庆每日公益讲解 09:30、11:00、14:00、15:30；集合点与临时调整未核",
+      "explainSource": "https://i.ifeng.com/c/8wqTFrA1wK3",
+      "access": {
+        "status": "documented-direction",
+        "arrival": "博物馆东门入馆；打车请以东门一侧可安全落客处为目标，馆址 POI 不是门口坐标",
+        "storage": "馆方资料确认提供物品寄存，馆内具体柜台位置未找到；入东门后先问服务台",
+        "source": "https://www.sxwbs.com/detail/fed671062aec43fe9feb19efb3b6f1e7?contentType=1&t=MjAyNi0wMS0wMw%3D%3D",
+        "checkedAt": "2026-10-03"
+      },
+      "highlight": "先看《一眼千年》古建模型 →《策马飞舆》车马坑 →《华彩重光》琉璃；不是已核的楼层路径",
+      "photo": "https://q1.itc.cn/q_70/images03/20260101/ec8d603696cd483fa9c8f74958c10ffb.jpeg",
+      "photoCaption": "长治市旅游发展委员会 2026-01-01 新馆导览中的《华彩重光》配图；不是 10/2 现场照片",
+      "photoSource": "https://m.sohu.com/a/971635276_121106854",
+      "exhibitions": [
+        {"name":"一眼千年——上党古建精华展","type":"古建特展","focus":"看27处古建模型，预习次日寺院。","evidenceDate":"2026-09-15","source":"https://finance.sina.com.cn/roll/2026-09-15/doc-inirwsee3856348.shtml","status":"9月报道仍列为馆内展；10/2所在楼层待核","photo":"https://33973916.s21i.faiusr.com/2/ABUIABACGAAg7pWcywYo3vS31AcwgAo41QY%21900x900.jpg","photoSource":"https://www.hanzeo.com/sys-nd/85.html","photoCaption":"新馆古建模型展区宣传照片；非10/2现场"},
+        {"name":"策马飞舆——长治东周车马坑考古纪实","type":"专题展","focus":"看分水岭车马坑与车马器。","evidenceDate":"2026-01-01","source":"https://m.sohu.com/a/971635276_121106854","status":"开馆导览列出；10/2展厅状态待核","photo":"https://q4.itc.cn/q_70/images03/20260101/08bb75f74f914dbaaf4ce287b9670867.jpeg","photoCaption":"2026-01-01 长治文旅导览车马坑专题配图；非10/2实况"},
+        {"name":"华彩重光——长治千年琉璃大观","type":"琉璃专题","focus":"看琉璃珠、建筑构件与珐华陈设。","evidenceDate":"2026-02-09","source":"https://www.changzhi.gov.cn/ztzl/cjwmwz/wmdt/202602/t20260209_3138163.shtml","status":"2月专题报道；10/2是否仍全部展出待核","photo":"https://q1.itc.cn/q_70/images03/20260101/ec8d603696cd483fa9c8f74958c10ffb.jpeg","photoSource":"https://m.sohu.com/a/971635276_121106854","photoCaption":"2026-01-01 长治文旅导览琉璃专题配图；非10/2实况"}
+      ],
+      "artifacts": [
+        {"name":"春秋兽面三蹄足兽首扉棱蟠螭纹铜鼎","source":"https://czsbwg.org.cn/qingtongqi/923.html","status":"馆藏图鉴；新馆当日展出位置未核"},
+        {"name":"唐三彩抱鸭女俑","source":"https://czsbwg.org.cn/taociqi/938.html","status":"馆藏图鉴；新馆当日展出位置未核","photo":"https://app-new.sxwbs.com/upload/news/image/2025/05/22/1747882734172088910.jpg?h=1440&w=1080","photoSource":"https://www.sxwbs.com/detail/e57668f6bd814be48edabc263a643124?contentType=1&t=MjAyNS0wNS0yMQ%3D%3D","photoCaption":"山西晚报 2025-05-22 抱鸭女俑图；非新馆展柜实况"},
+        {"name":"金三彩开光莲石鸳鸯纹虎形瓷枕","source":"https://czsbwg.org.cn/taociqi/933.html","status":"馆藏图鉴；新馆当日展出位置未核"}
+      ],
+      "source": "https://changzhi.gov.cn/zmhd/zmhdrdhy/202609/t20260929_3210010.shtml"
+    }
+  },
+  "choices": ["hongji", "ludingji", "laolu"],
+  "sightChoices": ["temple", "shangdang"],
+  "edges": [
+    {"id": "hotel-meal", "from": "start", "to": "meal", "recommendedByMeal": {"hongji": "driving", "ludingji": "walking", "laolu": "walking"}},
+    {"id": "meal-sight", "from": "meal", "to": "sight", "recommendedByMeal": {"hongji": "walking", "ludingji": "driving", "laolu": "driving"}},
+    {"id": "sight-gate", "from": "sight", "to": "gate", "defaultMode": "walking"},
+    {"id": "gate-museum", "from": "gate", "to": "end", "defaultMode": "driving"},
+    {"id": "sight-museum", "from": "sight", "to": "end", "defaultMode": "driving"}
+  ],
+  "routeEvidence": [
+    {
+      "fromKey": "poi:B0FFIA5Z5N",
+      "toKey": "gcj02:113.108443,36.179902",
+      "mode": "driving",
+      "distanceM": 3700,
+      "durationMin": 12,
+      "source": "https://www.amap.com/ssr/dir?dname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&dlat=36.179902&dlon=113.108443&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=0&fid=B0FFIA5Z5N",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车替代路线，约3.7公里/12分钟；用户10/2实际骑行，不能把本段写成实际打车",
+      "screenshot": {"path":"assets/routes/hotel-hongji-drive.png","source":"https://www.amap.com/ssr/dir?dname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&dlat=36.179902&dlon=113.108443&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=0&fid=B0FFIA5Z5N","checkedAt":"2026-10-03","reviewed":true}
+    },
+    {
+      "fromKey": "poi:B016300LLW",
+      "toKey": "poi:B016300H0N",
+      "mode": "walking",
+      "distanceM": 1200,
+      "durationMin": 17,
+      "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&flat=36.183586&flon=113.116378&type=2&did=B016300H0N&fid=B016300LLW",
+      "checkedAt": "2026-10-03",
+      "scope": "高德步行替代路线，约1.2公里/17分钟；用户10/2实际骑行，不能把本段写成实际步行",
+      "screenshot": {"path":"assets/routes/temple-shangdang-walk.png","source":"https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&flat=36.183586&flon=113.116378&type=2&did=B016300H0N&fid=B016300LLW","checkedAt":"2026-10-03","reviewed":true}
+    },
+    {
+      "fromKey": "gcj02:113.108443,36.179902",
+      "toKey": "poi:B016300H0N",
+      "mode": "walking",
+      "distanceM": 1200,
+      "durationMin": 17,
+      "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&flat=36.179902&flon=113.108443&type=2&did=B016300H0N",
+      "checkedAt": "2026-10-03",
+      "scope": "仅供跳过城隍庙时比较；高德步行约1.2公里/17分钟，不是10/2实际走法",
+      "screenshot": {"path":"assets/routes/hongji-shangdang-walk.png","source":"https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&flat=36.179902&flon=113.108443&type=2&did=B016300H0N","checkedAt":"2026-10-03","reviewed":true}
+    },
+    {
+      "fromKey": "poi:B0FFIA5Z5N",
+      "toKey": "poi:B0L65HONIR",
+      "mode": "walking",
+      "distanceM": 241,
+      "durationMin": 4,
+      "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%28%E6%97%97%E8%88%B0%E5%BA%97%29&dlat=36.205308&dlon=113.106030&did=B0L65HONIR&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97%28%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97%29&flat=36.205258&flon=113.105269&fid=B0FFIA5Z5N&fpoitype=100100&type=2",
+      "checkedAt": "2026-10-02",
+      "scope": "高德网页步行规划；不证明实际入口或营业",
+      "screenshot": {
+        "path": "assets/routes/hotel-ludingji-walk.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%E6%97%97%E8%88%B0%E5%BA%97&dlat=36.205308&dlon=113.10603&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=2&did=B0L65HONIR&fid=B0FFIA5Z5N",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0FFIA5Z5N",
+      "toKey": "poi:B0FFJCVV1R",
+      "mode": "walking",
+      "distanceM": 1100,
+      "durationMin": 15,
+      "source": "https://www.amap.com/ssr/dir?dname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%28%E7%B4%AB%E9%87%91%E5%BA%97%29&dlat=36.199127&dlon=113.109170&did=B0FFJCVV1R&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97%28%E9%95%BF%E6%B2%BB%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97%29&flat=36.205258&flon=113.105269&fid=B0FFIA5Z5N&fpoitype=100100&type=2",
+      "checkedAt": "2026-10-02",
+      "scope": "高德网页步行规划；旧食记门牌不一致",
+      "screenshot": {
+        "path": "assets/routes/hotel-laolu-walk.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%C2%B7%E7%B4%AB%E9%87%91%E5%BA%97&dlat=36.199127&dlon=113.10917&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=2&did=B0FFJCVV1R&fid=B0FFIA5Z5N",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0FFIA5Z5N",
+      "toKey": "gcj02:113.108443,36.179902",
+      "mode": "cycling",
+      "source": "用户2026-10-02实走反馈",
+      "checkedAt": "2026-10-02",
+      "scope": "仅证明用户曾骑行抵达；未记录道路、起终点停车与耗时"
+    },
+    {
+      "fromKey": "gcj02:113.108443,36.179902",
+      "toKey": "poi:B016300LLW",
+      "mode": "cycling",
+      "source": "用户2026-10-02实走反馈",
+      "checkedAt": "2026-10-02",
+      "scope": "仅证明用户曾骑行抵达；未记录城隍庙停车点与耗时"
+    },
+    {
+      "fromKey": "poi:B016300H0N",
+      "toKey": "poi:B0L2MSZFO8",
+      "mode": "driving",
+      "distanceM": 6700,
+      "durationMin": 16,
+      "source": "https://www.amap.com/ssr/dir?dname=%E9%95%BF%E6%B2%BB%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86&dlat=36.217466&dlon=113.071467&fname=%E4%B8%8A%E5%85%9A%E9%97%A8&flat=36.18737&flon=113.106939&type=0&did=B0L2MSZFO8&fid=B016300H0N",
+      "checkedAt": "2026-10-03",
+      "scope": "用户2026-10-02实走此连接；高德2026-10-03驾车路线快照约6.7公里/16分钟，不等于当天车程；具体落客入口未核",
+      "screenshot": {
+        "path": "assets/routes/shangdang-museum-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E9%95%BF%E6%B2%BB%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86&dlat=36.217466&dlon=113.071467&fname=%E4%B8%8A%E5%85%9A%E9%97%A8&flat=36.18737&flon=113.106939&type=0&did=B0L2MSZFO8&fid=B016300H0N",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0FFIA5Z5N",
+      "toKey": "gcj02:113.108443,36.179902",
+      "mode": "walking",
+      "distanceM": 3700,
+      "durationMin": 50,
+      "source": "https://www.amap.com/ssr/dir?dname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&dlat=36.179902&dlon=113.108443&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=2&fid=B0FFIA5Z5N",
+      "checkedAt": "2026-10-03",
+      "scope": "高德步行备选路线；用户当天实际骑行，不能把50分钟写成实走用时",
+      "screenshot": {
+        "path": "assets/routes/hotel-hongji-walk.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&dlat=36.179902&dlon=113.108443&fname=%E5%A6%82%E5%AE%B6%E7%B2%BE%E9%80%89%C2%B7%E5%A8%81%E8%BF%9C%E9%97%A8%E4%B8%AD%E8%B7%AF%E5%BA%97&flat=36.205258&flon=113.105269&type=2&fid=B0FFIA5Z5N",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "gcj02:113.108443,36.179902",
+      "toKey": "poi:B016300LLW",
+      "mode": "walking",
+      "distanceM": 1200,
+      "durationMin": 16,
+      "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&flat=36.179902&flon=113.108443&type=2&did=B016300LLW",
+      "checkedAt": "2026-10-03",
+      "scope": "高德步行备选路线；用户当天实际骑行，城隍庙入口和共享车停车点仍未核",
+      "screenshot": {
+        "path": "assets/routes/hongji-temple-walk.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E9%B8%BF%E8%AE%B0%E6%BD%9E%E5%9F%8E%E7%94%A9%E9%A5%BC%E5%BA%97&flat=36.179902&flon=113.108443&type=2&did=B016300LLW",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B016300LLW",
+      "toKey": "poi:B0L2MSZFO8",
+      "mode": "driving",
+      "distanceM": 7700,
+      "durationMin": 20,
+      "source": "https://www.amap.com/ssr/dir?dname=%E9%95%BF%E6%B2%BB%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86&dlat=36.217466&dlon=113.071467&fname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&flat=36.183586&flon=113.116378&type=0&did=B0L2MSZFO8&fid=B016300LLW",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车比较路线；当天用户先去上党门才打车到博物馆，不能作为当天直连实走车程；博物馆落客入口未核",
+      "screenshot": {
+        "path": "assets/routes/temple-museum-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E9%95%BF%E6%B2%BB%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86&dlat=36.217466&dlon=113.071467&fname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&flat=36.183586&flon=113.116378&type=0&did=B0L2MSZFO8&fid=B016300LLW",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0L65HONIR",
+      "toKey": "poi:B016300LLW",
+      "mode": "driving",
+      "distanceM": 4300,
+      "durationMin": 14,
+      "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%E6%97%97%E8%88%B0%E5%BA%97&flat=36.205308&flon=113.10603&type=0&did=B016300LLW&fid=B0L65HONIR",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车比较路线；停车与景点开放入口未核",
+      "screenshot": {
+        "path": "assets/routes/ludingji-temple-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%E6%97%97%E8%88%B0%E5%BA%97&flat=36.205308&flon=113.10603&type=0&did=B016300LLW&fid=B0L65HONIR",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0L65HONIR",
+      "toKey": "poi:B016300H0N",
+      "mode": "driving",
+      "distanceM": 2600,
+      "durationMin": 8,
+      "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%E6%97%97%E8%88%B0%E5%BA%97&flat=36.205308&flon=113.10603&type=0&did=B016300H0N&fid=B0L65HONIR",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车比较路线；上党门打车落点与参观入口未核",
+      "screenshot": {
+        "path": "assets/routes/ludingji-shangdang-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E6%BD%9E%E9%BC%8E%E8%AE%B0%E7%94%A9%E9%A5%BC%C2%B7%E4%B8%89%E9%9E%AD%E6%B1%A4%E6%97%97%E8%88%B0%E5%BA%97&flat=36.205308&flon=113.10603&type=0&did=B016300H0N&fid=B0L65HONIR",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0FFJCVV1R",
+      "toKey": "poi:B016300LLW",
+      "mode": "driving",
+      "distanceM": 4000,
+      "durationMin": 12,
+      "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%C2%B7%E7%B4%AB%E9%87%91%E5%BA%97&flat=36.199127&flon=113.10917&type=0&did=B016300LLW&fid=B0FFJCVV1R",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车比较路线；停车与景点开放入口未核",
+      "screenshot": {
+        "path": "assets/routes/laolu-temple-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E6%BD%9E%E5%AE%89%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99&dlat=36.183586&dlon=113.116378&fname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%C2%B7%E7%B4%AB%E9%87%91%E5%BA%97&flat=36.199127&flon=113.10917&type=0&did=B016300LLW&fid=B0FFJCVV1R",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    },
+    {
+      "fromKey": "poi:B0FFJCVV1R",
+      "toKey": "poi:B016300H0N",
+      "mode": "driving",
+      "distanceM": 2600,
+      "durationMin": 8,
+      "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%C2%B7%E7%B4%AB%E9%87%91%E5%BA%97&flat=36.199127&flon=113.10917&type=0&did=B016300H0N&fid=B0FFJCVV1R",
+      "checkedAt": "2026-10-03",
+      "scope": "高德驾车比较路线；上党门打车落点与参观入口未核",
+      "screenshot": {
+        "path": "assets/routes/laolu-shangdang-drive.png",
+        "source": "https://www.amap.com/ssr/dir?dname=%E4%B8%8A%E5%85%9A%E9%97%A8&dlat=36.18737&dlon=113.106939&fname=%E8%80%81%E8%B7%AF%E9%A9%B4%E8%82%89%E7%94%A9%E9%A5%BC%C2%B7%E7%B4%AB%E9%87%91%E5%BA%97&flat=36.199127&flon=113.10917&type=0&did=B016300H0N&fid=B0FFJCVV1R",
+        "checkedAt": "2026-10-03",
+        "reviewed": true
+      }
+    }
+  ]
+}
