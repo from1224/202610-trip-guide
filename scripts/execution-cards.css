@@ -46,18 +46,26 @@
 .exec-method p{font-size:10.5px;color:#6b7280;margin:0 0 4px}
 .prior-plan{margin-top:10px}
 .d7-flow{display:flex;gap:5px;overflow-x:auto;white-space:nowrap;padding:10px;margin:9px 0;border-radius:10px;background:#e8f2ec;color:#246044;font-size:11px;font-weight:750}.d7-flow b{color:#90aa99}
-.d7-zone .exec-time{flex-basis:68px}
+.d7-zone .exec-time{flex:0 0 84px;font-size:12px;line-height:1.35;border-right:1px solid currentColor;min-height:30px;padding-right:7px}
 /* One hue per role: warm orange lodging, rail blue, map blue, sage sights, clay food. */
 .d7-zone .d7-hotel{--d7-accent:#ae4f19;--d7-border:#efc5a6;--d7-bg:#fff6ee}
 .d7-zone .d7-station,.d7-zone .d7-train{--d7-accent:#19599d;--d7-border:#a9c8ea;--d7-bg:#eaf2fd}
 .d7-zone .d7-edge{--d7-accent:#2c75aa;--d7-border:#b8dced;--d7-bg:#eef8fd}
-.d7-zone .d7-sight{--d7-accent:#366d5c;--d7-border:#bfd9ca;--d7-bg:#f0f8f2}
+.d7-zone .d7-sight{--d7-accent:#685579;--d7-border:#d4c9df;--d7-bg:#f8f4fb}
+.d7-zone[data-sight-theme="ochre"] .d7-sight{--d7-accent:#876120;--d7-border:#e2d1a9;--d7-bg:#fffaeb}
+.d7-zone[data-sight-theme="rose"] .d7-sight{--d7-accent:#9e4c51;--d7-border:#e4c4c7;--d7-bg:#fff3f4}
 .d7-zone .d7-meal{--d7-accent:#9b503d;--d7-border:#e8c7ba;--d7-bg:#fff5f0}
 .d7-zone :is(.d7-place,.d7-edge,.d7-train,.d7-meal){background:var(--d7-bg);border-color:var(--d7-border);border-left:4px solid var(--d7-accent)}
 .d7-zone :is(.d7-place,.d7-edge,.d7-train,.d7-meal) :is(.exec-label,.exec-time){color:var(--d7-accent)}
 .d7-zone .d7-train .exec-title{color:#164d89}
 .d7-zone .d7-meal .exec-food-picker button[aria-pressed=true]{background:#9b503d;border-color:#9b503d;box-shadow:0 3px 10px #9b503d2c}
 .d7-zone .d7-edge .exec-mode button[aria-pressed=true]{background:#d9edf8;border-color:#8fc4e1;color:#225d86}
-.d7-zone .d7-sight .exec-focus{background:#e3f1e7;color:#315b46}
+.d7-zone .d7-sight .exec-focus{background:#eee7f3;color:#584467}
+.d7-zone[data-sight-theme="ochre"] .d7-sight .exec-focus{background:#f8edd0;color:#715219}
+.d7-zone[data-sight-theme="rose"] .d7-sight .exec-focus{background:#f8e4e6;color:#803d43}
+.d7-theme-picker{display:flex;align-items:center;gap:5px;overflow-x:auto;margin:9px 0 3px}.d7-theme-picker span{font-size:10px;color:#64748b;white-space:nowrap}.d7-theme-picker button{min-height:38px;padding:5px 10px;border:1px solid #cbd5e1;border-radius:9px;font-size:11px;font-weight:700;background:#fff;color:#475569;white-space:nowrap}.d7-theme-picker button[data-d7-theme="violet"]{border-color:#bdaacf;color:#685579}.d7-theme-picker button[data-d7-theme="ochre"]{border-color:#d8c38d;color:#876120}.d7-theme-picker button[data-d7-theme="rose"]{border-color:#d8a7ac;color:#9e4c51}.d7-theme-picker button[aria-pressed="true"]{box-shadow:inset 0 0 0 2px currentColor}
+.d7-overview{margin:2px 0 12px;padding:11px;border:1px solid #d7e1dc;border-radius:12px;background:#fbfcfa}.d7-overview-title{display:flex;justify-content:space-between;gap:8px;align-items:baseline;color:#315441;font-size:13px;font-weight:800}.d7-overview-title small{font-size:9px;font-weight:500;color:#69776f}.d7-overview-map{position:relative;height:175px;margin-top:9px;border:1px solid #cbd8d2;border-radius:10px;background:linear-gradient(125deg,#eaf2ea,#f3f7f5 52%,#e7f1f8)}.d7-north{position:absolute;right:8px;top:7px;font-size:11px;font-weight:800;color:#3f5563}.d7-pin{position:absolute;padding:5px 7px;border:1px solid;border-radius:7px;background:#fff;box-shadow:0 2px 7px #23382824;font-size:10px;font-weight:800;white-space:nowrap}.d7-pin.station{top:22%;right:7%;color:#19599d}.d7-pin.hotel{bottom:10%;left:41%;color:#ae4f19}.d7-pin.food{top:51%;left:15%;color:#9b503d}.d7-pin.sight{top:17%;left:12%;color:#685579}.d7-overview-rail{margin-top:8px;font-size:11px;color:#42566a}.d7-overview-rail b{color:#19599d}
+.d7-overview-source{margin-top:4px;font-size:10px}.d7-overview-source a{color:#536c79}
 .d7-map{margin-top:10px;overflow:hidden;border:1px solid #a9cfe5;border-radius:11px;background:#e9f3fa}.d7-map iframe{display:block;width:100%;height:240px;border:0;background:#fff}.d7-map-fallback{padding:7px 9px;background:#f7fbfe;color:#496579;font-size:10.5px}.d7-map-fallback a{color:#1d5a9a;font-weight:750}
+.d7-zone .exec-mode button{font-size:11px}.d7-cycling-note{font-size:11px;color:#8b5b2c;margin:7px 0 0}
 .d7-keyline{font-size:11.5px;line-height:1.55;color:#415365;margin:8px 0 0}.d7-food{flex:0 0 100%;scroll-snap-align:start;padding:4px 12px 8px}.d7-food h4{font-size:15px;margin:0;flex:1}.d7-food h4 a{color:#1d4ed8;text-decoration:underline;text-underline-offset:3px}.d7-food p{font-size:11.5px;color:#4b5563;margin:7px 0}.d7-gallery{display:flex;gap:7px;overflow-x:auto;scroll-snap-type:x mandatory;margin:10px 0}.d7-gallery figure{flex:0 0 78%;scroll-snap-align:start;margin:0}.d7-gallery img{width:100%;height:175px;object-fit:cover;border-radius:9px}.d7-gallery figcaption{font-size:10px;color:#667085}.d7-rest{padding:11px;border-radius:10px;background:#fff6ee;border:1px solid #efc5a6;color:#87401a;font-size:12px;font-weight:750}

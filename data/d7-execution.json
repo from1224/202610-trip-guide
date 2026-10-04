@@ -1,5 +1,6 @@
 {
   "date": "2026-10-04",
+  "train": {"number":"D3349","depart":"11:24","arrive":"12:00","carriage":"04车","seat":"08D"},
   "places": {
     "czhotel": {"key":"gcj02:113.105269,36.205258","name":"如家精选·威远门中路店","lon":113.105269,"lat":36.205258,"kind":"hotel","time":"约10:00"},
     "czstation": {"key":"gcj02:113.163628,36.229623","name":"长治东站","lon":113.163628,"lat":36.229623,"kind":"station","time":"10:30前"},
@@ -7,13 +8,33 @@
     "jchotel": {"key":"gcj02:112.877210,35.469769","name":"华之晋酒店·万达广场店","lon":112.877210,"lat":35.469769,"kind":"hotel","time":"约12:40"},
     "tenbowls": {"key":"poi:B0FFGDISTM","poi":"B0FFGDISTM","name":"晋城十小碗·凤台东街店","lon":112.867200,"lat":35.489942,"kind":"food","time":"约13:10","address":"凤台东街1122号","dish":"三菌桑椹黑豆腐（小份）＋一项轻菜","portion":"食客订单见小份；当天供应、排队仍要到店确认","status":"主选 · 博物馆附近","photos":["assets/jincheng/tenbowls-01.webp","assets/jincheng/tenbowls-02.webp","assets/jincheng/tenbowls-03.webp","assets/jincheng/tenbowls-04.webp","assets/jincheng/tenbowls-05.webp"],"photoSource":"https://www.xiaohongshu.com/explore/6a898ec8000000002802e0de","positive":"https://www.xiaohongshu.com/explore/6a898ec8000000002802e0de","negative":"https://www.xiaohongshu.com/explore/69f6162e000000001a034a34"},
     "dehuaxing": {"key":"poi:B0L69SLVTB","poi":"B0L69SLVTB","name":"德华兴·百年晋城菜","lon":112.854259,"lat":35.494314,"kind":"food","time":"午餐备选","address":"泽州路1855号1号办公楼","dish":"铜锅烩菜；单人份量待核","portion":"更适合多人；独行不默认点套餐。可能排队。","status":"备选 · 会改变前后两段交通","photos":["assets/jincheng/dehuaxing-01.webp"],"photoSource":"https://www.xiaohongshu.com/search_result/6aa363cf000000000b0360ab","positive":"https://www.xiaohongshu.com/search_result/6aa363cf000000000b0360ab","negative":"https://www.xiaohongshu.com/explore/6aa5ef72000000001001cf0c"},
-    "museum": {"key":"gcj02:112.868894,35.491082","name":"晋城博物馆","lon":112.868894,"lat":35.491082,"kind":"sight","time":"约14:15–16:15","opening":"国庆 09:00–18:00；17:30 停入","explain":"讲解时刻未核","access":"具体落客侧、开放入口和寄存点未核；到场按馆方标识","highlight":"北齐乾明元年昙始造像碑座；当日是否在展待现场确认","photo":"media/later-days/tanshi-stele.png","photoSource":"https://www.jcbwg.cn/bwg/wwsx/gcjc/202502/t20250206_2095357.shtml","source":"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml"}
+    "museum": {"key":"gcj02:112.868894,35.491082","name":"晋城博物馆","lon":112.868894,"lat":35.491082,"kind":"sight","time":"约14:15–16:15","opening":"国庆 09:00–18:00；17:30 停入","explain":"未获取","access":"未获取","highlight":"北齐乾明元年昙始造像碑座（馆藏；当日展出状态未获取）","photo":"media/later-days/tanshi-stele.png","photoSource":"https://www.jcbwg.cn/bwg/wwsx/gcjc/202502/t20250206_2095357.shtml","source":"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml"}
   },
   "initialMeal": "tenbowls",
   "mealChoices": ["tenbowls","dehuaxing"],
   "sequence": ["czhotel","czstation","jcstation","jchotel","meal","museum","jchotel"],
   "routeEvidence": [
-    {"fromKey":"gcj02:113.105269,36.205258","toKey":"gcj02:113.163628,36.229623","mode":"driving","distanceM":9466,"durationMin":10,"source":"data/later-days-route-evidence.json","checkedAt":"2026-10-01","scope":"道路模型，不含叫车和进站"},
-    {"fromKey":"gcj02:112.983555,35.534277","toKey":"gcj02:112.877210,35.469769","mode":"driving","distanceM":14439,"durationMin":17,"source":"data/later-days-route-evidence.json","checkedAt":"2026-10-01","scope":"道路模型，不含出站和等车"}
-  ]
+    {"fromKey":"gcj02:113.105269,36.205258","toKey":"gcj02:113.163628,36.229623","mode":"driving","distanceM":8924,"durationMin":19},
+    {"fromKey":"gcj02:113.105269,36.205258","toKey":"gcj02:113.163628,36.229623","mode":"walking","distanceM":7889,"durationMin":105},
+    {"fromKey":"gcj02:113.105269,36.205258","toKey":"gcj02:113.163628,36.229623","mode":"cycling","distanceM":8161,"durationMin":33},
+    {"fromKey":"gcj02:112.983555,35.534277","toKey":"gcj02:112.877210,35.469769","mode":"driving","distanceM":16568,"durationMin":23},
+    {"fromKey":"gcj02:112.983555,35.534277","toKey":"gcj02:112.877210,35.469769","mode":"walking","distanceM":13710,"durationMin":183},
+    {"fromKey":"gcj02:112.983555,35.534277","toKey":"gcj02:112.877210,35.469769","mode":"cycling","distanceM":15119,"durationMin":61},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0FFGDISTM","mode":"driving","distanceM":4138,"durationMin":13},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0FFGDISTM","mode":"walking","distanceM":3135,"durationMin":42},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0FFGDISTM","mode":"cycling","distanceM":4004,"durationMin":17},
+    {"fromKey":"poi:B0FFGDISTM","toKey":"gcj02:112.868894,35.491082","mode":"driving","distanceM":1673,"durationMin":6},
+    {"fromKey":"poi:B0FFGDISTM","toKey":"gcj02:112.868894,35.491082","mode":"walking","distanceM":717,"durationMin":10},
+    {"fromKey":"poi:B0FFGDISTM","toKey":"gcj02:112.868894,35.491082","mode":"cycling","distanceM":368,"durationMin":2},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0L69SLVTB","mode":"driving","distanceM":4960,"durationMin":16},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0L69SLVTB","mode":"walking","distanceM":4360,"durationMin":59},
+    {"fromKey":"gcj02:112.877210,35.469769","toKey":"poi:B0L69SLVTB","mode":"cycling","distanceM":4791,"durationMin":20},
+    {"fromKey":"poi:B0L69SLVTB","toKey":"gcj02:112.868894,35.491082","mode":"driving","distanceM":2029,"durationMin":10},
+    {"fromKey":"poi:B0L69SLVTB","toKey":"gcj02:112.868894,35.491082","mode":"walking","distanceM":1838,"durationMin":25},
+    {"fromKey":"poi:B0L69SLVTB","toKey":"gcj02:112.868894,35.491082","mode":"cycling","distanceM":1777,"durationMin":8},
+    {"fromKey":"gcj02:112.868894,35.491082","toKey":"gcj02:112.877210,35.469769","mode":"driving","distanceM":4239,"durationMin":14},
+    {"fromKey":"gcj02:112.868894,35.491082","toKey":"gcj02:112.877210,35.469769","mode":"walking","distanceM":3511,"durationMin":47},
+    {"fromKey":"gcj02:112.868894,35.491082","toKey":"gcj02:112.877210,35.469769","mode":"cycling","distanceM":4339,"durationMin":18}
+  ],
+  "routeEvidenceSource": "高德 Web Service 路线估时 · 2026-10-04 10:31 CST；不含叫车、候车或进站"
 }

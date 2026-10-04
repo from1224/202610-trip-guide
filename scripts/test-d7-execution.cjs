@@ -6,7 +6,8 @@ for(const role of ['d7-hotel','d7-train','d7-edge','d7-sight','d7-meal'])assert(
 assert(html.includes('id="d7-execution"'),'D7 cards must be in generated Guide');
 assert(html.includes('scripts/d7-execution-cards.js'),'D7 rendering script must load');
 for(const place of Object.values(data.places))for(const photo of place.photos||[])assert(fs.existsSync(path.join(root,photo)),photo+' missing');
-for(const edge of data.routeEvidence){assert.equal(edge.source,'data/later-days-route-evidence.json');assert(edge.distanceM>0&&edge.durationMin>0);}
+for(const edge of data.routeEvidence){assert(edge.distanceM>0&&edge.durationMin>0);}
+assert.equal(data.routeEvidence.length,21,'all adjacent choices and modes have estimates');
 let globalRoot='';try{globalRoot=execFileSync('npm',['root','-g'],{encoding:'utf8'}).trim();}catch(_){}
 let dom;for(const candidate of [process.env.GUIDE_LINKEDOM_PATH,'linkedom',globalRoot&&path.join(globalRoot,'openclaw/node_modules/linkedom')].filter(Boolean)){try{dom=require(candidate);break;}catch(_){}}
 assert(dom,'linkedom required for D7 interaction test');
@@ -15,12 +16,20 @@ window.HTMLElement.prototype.scrollTo=function(o){this.scrollLeft=o.left;};
 vm.runInNewContext(fs.readFileSync(path.join(__dirname,'d7-execution-cards.js'),'utf8'),{window,globalThis:window,setTimeout,clearTimeout,URLSearchParams});
 const zone=window.document.querySelector('#d7-execution'),key=id=>zone.querySelector('[data-d7-edge="'+id+'"]').dataset.routeKey;
 assert(zone.querySelector('.d7-train')?.textContent.includes('D3349'));
+assert(zone.querySelector('.d7-train')?.textContent.includes('04车')&&zone.querySelector('.d7-train')?.textContent.includes('08D'));
+assert(zone.querySelector('.d7-train .exec-bell'),'train has notification action');
+assert(!zone.querySelector('[data-d7-place="czstation"]')&&!zone.querySelector('[data-d7-place="jcstation"]'),'station-only cards removed');
+assert(zone.querySelector('.d7-overview-map'),'day overview present');
 assert.equal(zone.querySelectorAll('.d7-food').length,2);
 assert.equal(zone.querySelectorAll('.d7-food[data-food="tenbowls"] img').length,5);
 assert(zone.querySelector('[data-d7-place="museum"] img')?.getAttribute('src')==='media/later-days/tanshi-stele.png');
 assert.equal(zone.querySelectorAll('[data-d7-edge] iframe').length,5,'each local leg has an embedded map');
 const map=id=>zone.querySelector('[data-d7-edge="'+id+'"] iframe')?.getAttribute('src');
 assert(map('jchotel-meal').includes('/ssr/embed/dir?')&&map('jchotel-meal').includes('B0FFGDISTM'),'default map must target tenbowls');
+assert(zone.querySelector('[data-d7-edge="czhotel-czstation"] iframe')?.getAttribute('loading')==='eager','default iframe should not wait for a mode click');
+assert(zone.querySelector('[data-d7-edge="czhotel-czstation"] [data-d7-mode="driving"]')?.textContent.includes('19分钟'));
+assert(zone.querySelector('[data-d7-edge="czhotel-czstation"] .exec-title a')?.getAttribute('href').includes('uri.amap.com/marker'));
+assert(zone.querySelector('[data-d7-edge="czhotel-czstation"] .d7-map-fallback a')?.getAttribute('href').includes('uri.amap.com/navigation'));
 const fixed=key('jcstation-jchotel'),before=key('jchotel-meal');
 const fixedMap=map('jcstation-jchotel'),beforeMap=map('jchotel-meal');
 zone.querySelector('[data-d7-pick="dehuaxing"]').dispatchEvent(new window.Event('click',{bubbles:true}));
@@ -31,9 +40,12 @@ assert.equal(key('jcstation-jchotel'),fixed,'unrelated route stays fixed');
 assert.notEqual(map('jchotel-meal'),beforeMap,'previous embedded map updates with meal');
 assert(map('jchotel-meal').includes('B0L69SLVTB'),'new map targets selected restaurant');
 assert.equal(map('jcstation-jchotel'),fixedMap,'unrelated embedded map stays fixed');
-assert(zone.querySelector('[data-d7-edge="jchotel-meal"] .exec-metric').textContent.includes('尚无同方式实测'),'old metric must clear');
+assert(zone.querySelector('[data-d7-edge="jchotel-meal"] [data-d7-mode="driving"]')?.textContent.includes('16分钟'),'alternate meal estimate follows selected endpoint');
+assert(!zone.querySelector('[data-d7-edge="jchotel-meal"] .exec-metric'),'duplicate metric removed');
 zone.querySelector('[data-d7-mode="walking"][data-for-edge="jchotel-meal"]').dispatchEvent(new window.Event('click',{bubbles:true}));
 assert(key('jchotel-meal').endsWith('|walking'));
 assert(map('jchotel-meal').includes('type=walk'),'embedded map follows mode switch');
 assert.equal(key('jcstation-jchotel'),fixed);
-console.log('PASS: D7 distinct cards, real images, meal switch updates adjacent routes, mode switch clears stale metrics');
+zone.querySelector('[data-d7-theme="ochre"]').dispatchEvent(new window.Event('click',{bubbles:true}));
+assert.equal(zone.dataset.sightTheme,'ochre','museum color preview switches');
+console.log('PASS: D7 overview, distinct cards, app links, train details, iframe eager load, route estimates and linked switching');
