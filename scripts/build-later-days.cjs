@@ -4,9 +4,22 @@ const fs=require('node:fs'),path=require('node:path');
 const root=path.join(__dirname,'..');
 const executionCore=require('./execution-card-core.js');
 const d5Execution=executionCore.validate(JSON.parse(fs.readFileSync(path.join(root,'data/d5-execution.json'),'utf8')));
+const d7Execution=JSON.parse(fs.readFileSync(path.join(root,'data/d7-execution.json'),'utf8'));
 function escape(s){return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');}
 function drawer(d){return '<details class="d4-drawer"><summary>'+escape(d.label)+'</summary><div>'+d.html+'</div></details>';}
 function execution(d){
+ if(d.day===7){
+  const payload=escape(JSON.stringify(d7Execution));
+  return '<section class="exec-zone d7-zone" id="d7-execution" data-d7="'+payload+'" aria-label="10月4日晋城执行卡">'
+   +'<div class="exec-kicker">10/4 · 按时间执行</div><h3>长治 → 晋城 · 轻松看展</h3>'
+   +'<div class="d7-flow">酒店 <b>→</b> 高铁 <b>→</b> 放行李 <b>→</b> 午餐 <b>→</b> 博物馆 <b>→</b> 休息</div>'
+   +'<div data-d7-place="czhotel"></div><div data-d7-edge="czhotel-czstation"></div><div data-d7-place="czstation"></div>'
+   +'<div data-d7-train></div><div data-d7-place="jcstation"></div><div data-d7-edge="jcstation-jchotel"></div>'
+   +'<div data-d7-place="jchotel"></div><div data-d7-edge="jchotel-meal"></div><div data-d7-meal></div>'
+   +'<div data-d7-edge="meal-museum"></div><div data-d7-place="museum"></div><div data-d7-edge="museum-jchotel"></div>'
+   +'<div class="d7-rest">16:15 后打车回华之晋酒店休息；不接夜游。</div>'
+   +'<noscript>请启用 JavaScript 查看地点切换与交通联动；下方文字行程仍可阅读。</noscript></section>';
+ }
  if(d.day!==5)return '';
  const payload=escape(JSON.stringify(d5Execution));
  return '<section class="exec-zone" id="d5-execution" data-execution="'+payload+'" aria-label="10月2日真实地点换店交互">'
@@ -38,7 +51,7 @@ function range(html,day){
 }
 function render(d){
  const rows=d.rows.map(r=>'<div class="tl-i"><div class="tl-t">'+escape(r.time)+'</div><div class="tl-d"></div><div class="tl-c"><div class="h">'+r.title+'</div>'+r.facts.map(f=>'<div class="n">'+f+'</div>').join('')+(r.drawers||[]).map(drawer).join('')+'</div></div>').join('\n');
- const timeline=d.day===5?'<details class="d4-drawer prior-plan"><summary>10/2 原计划快照 · 不作为已发生</summary><div class="tl">'+rows+'</div></details>':'<div class="tl">'+rows+'</div>';
+ const timeline=d.day===5?'<details class="d4-drawer prior-plan"><summary>10/2 原计划快照 · 不作为已发生</summary><div class="tl">'+rows+'</div></details>':d.day===7?'<details class="d4-drawer prior-plan"><summary>文字行程与证据备查</summary><div class="tl">'+rows+'</div></details>':'<div class="tl">'+rows+'</div>';
  const note=d.day===5?'实走反馈来自本人；切换项仅为路线体验，不代表当日又去过或已核营业。':d.day===7?'10/4 已按本人改签订单更新车次；其余钟点为行程建议，交通耗时按模型或预留时间，不代表实时导航。':'资料整理：10/1。钟点未注明“车次／官方”的均为行程建议；道路耗时为模型估算。原订单未改动。';
  return '<details class="day" data-c="'+d.city+'" id="day-'+d.day+'" data-date="'+d.date+'" data-practical="1">\n<summary><div class="dh"><div class="dnum"><em>D'+d.day+'</em>10/'+(d.day-3)+'</div><div class="dti"><div class="t">'+escape(d.title)+'</div><div class="s">'+escape(d.subtitle)+'</div></div><div class="cv">▾</div></div></summary>\n<div class="dbody"><div class="day-flow">'+escape(d.summary)+'<small>'+d.weather+'</small></div>'+execution(d)+timeline+'<details class="d4-drawer day-archive"><summary>备选方案 · 主线不变，按需展开</summary><div>'+d.alternatives.map(drawer).join('')+'</div></details><p class="d4-note">'+note+'</p></div>\n</details>';
 }

@@ -45,3 +45,19 @@
 .exec-method{margin-top:8px}.exec-method summary{font-size:11px;color:#6b7280;min-height:36px;cursor:pointer}
 .exec-method p{font-size:10.5px;color:#6b7280;margin:0 0 4px}
 .prior-plan{margin-top:10px}
+.d7-flow{display:flex;gap:5px;overflow-x:auto;white-space:nowrap;padding:10px;margin:9px 0;border-radius:10px;background:#e8f2ec;color:#246044;font-size:11px;font-weight:750}.d7-flow b{color:#90aa99}
+.d7-zone .exec-time{flex-basis:68px}
+/* One hue per role: warm orange lodging, rail blue, map blue, sage sights, clay food. */
+.d7-zone .d7-hotel{--d7-accent:#ae4f19;--d7-border:#efc5a6;--d7-bg:#fff6ee}
+.d7-zone .d7-station,.d7-zone .d7-train{--d7-accent:#19599d;--d7-border:#a9c8ea;--d7-bg:#eaf2fd}
+.d7-zone .d7-edge{--d7-accent:#2c75aa;--d7-border:#b8dced;--d7-bg:#eef8fd}
+.d7-zone .d7-sight{--d7-accent:#366d5c;--d7-border:#bfd9ca;--d7-bg:#f0f8f2}
+.d7-zone .d7-meal{--d7-accent:#9b503d;--d7-border:#e8c7ba;--d7-bg:#fff5f0}
+.d7-zone :is(.d7-place,.d7-edge,.d7-train,.d7-meal){background:var(--d7-bg);border-color:var(--d7-border);border-left:4px solid var(--d7-accent)}
+.d7-zone :is(.d7-place,.d7-edge,.d7-train,.d7-meal) :is(.exec-label,.exec-time){color:var(--d7-accent)}
+.d7-zone .d7-train .exec-title{color:#164d89}
+.d7-zone .d7-meal .exec-food-picker button[aria-pressed=true]{background:#9b503d;border-color:#9b503d;box-shadow:0 3px 10px #9b503d2c}
+.d7-zone .d7-edge .exec-mode button[aria-pressed=true]{background:#d9edf8;border-color:#8fc4e1;color:#225d86}
+.d7-zone .d7-sight .exec-focus{background:#e3f1e7;color:#315b46}
+.d7-map{margin-top:10px;overflow:hidden;border:1px solid #a9cfe5;border-radius:11px;background:#e9f3fa}.d7-map iframe{display:block;width:100%;height:240px;border:0;background:#fff}.d7-map-fallback{padding:7px 9px;background:#f7fbfe;color:#496579;font-size:10.5px}.d7-map-fallback a{color:#1d5a9a;font-weight:750}
+.d7-keyline{font-size:11.5px;line-height:1.55;color:#415365;margin:8px 0 0}.d7-food{flex:0 0 100%;scroll-snap-align:start;padding:4px 12px 8px}.d7-food h4{font-size:15px;margin:0;flex:1}.d7-food h4 a{color:#1d4ed8;text-decoration:underline;text-underline-offset:3px}.d7-food p{font-size:11.5px;color:#4b5563;margin:7px 0}.d7-gallery{display:flex;gap:7px;overflow-x:auto;scroll-snap-type:x mandatory;margin:10px 0}.d7-gallery figure{flex:0 0 78%;scroll-snap-align:start;margin:0}.d7-gallery img{width:100%;height:175px;object-fit:cover;border-radius:9px}.d7-gallery figcaption{font-size:10px;color:#667085}.d7-rest{padding:11px;border-radius:10px;background:#fff6ee;border:1px solid #efc5a6;color:#87401a;font-size:12px;font-weight:750}

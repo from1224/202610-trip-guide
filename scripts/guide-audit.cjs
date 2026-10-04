@@ -11,7 +11,7 @@ check('data-schema',()=>core.validate(data));
 check('generated-guide-current',()=>assert.equal(build(html,later),html));
 check('card-template-slots',()=>{const page=html.slice(...range(html,5));for(const slot of ['start','meal','sight','end'])assert(page.includes('data-slot="'+slot+'"'));for(const edge of data.edges)assert(page.includes('data-edge="'+edge.id+'"'));});
 check('private-data-boundary',()=>{for(const value of ['18235529994','晋D53906','李慧丽'])assert(!html.includes(value));});
-for(const script of ['test-execution-card-core.cjs','test-later-days.cjs','test-itinerary.cjs'])check(script,()=>execFileSync(process.execPath,[path.join(__dirname,script)],{stdio:'pipe'}));
+for(const script of ['test-execution-card-core.cjs','test-later-days.cjs','test-d7-execution.cjs','test-itinerary.cjs'])check(script,()=>execFileSync(process.execPath,[path.join(__dirname,script)],{stdio:'pipe'}));
 function domLibrary(){
   let globalRoot='';try{globalRoot=execFileSync('npm',['root','-g'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();}catch(_){}
   const candidates=[process.env.GUIDE_LINKEDOM_PATH,'linkedom',globalRoot&&path.join(globalRoot,'openclaw/node_modules/linkedom')].filter(Boolean);
