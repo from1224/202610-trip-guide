@@ -509,7 +509,7 @@
       "city": "jc",
       "title": "晋城四寺 → 高平东 → 郑州",
       "subtitle": "跟团看彩塑 → 高平东乘 D315 → 郑州站 → 酒店",
-      "summary": "上午带行李跟团，晚上直接去高平东。最要紧：确认散团能送高平东，并为 20:14 的车留足进站时间。",
+      "summary": "按现有票面，这是 10 月 5 日的已购 D315 行程，不是 10 月 6 日的新车票。晚饭首选铁佛寺旁米山大食堂，能否成行取决于散团地点和出餐；最迟仍以 19:15 到高平东为目标。",
       "weather": "晋城 6–21℃ · 晴；全天带外套，晚间还要赶车 · <a href=\"https://www.weather.com.cn/weather/101100601.shtml\" target=\"_blank\" rel=\"noopener\">晋城天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
       "rows": [
         {
@@ -558,7 +558,7 @@
           "title": "跟团停靠午餐 · 有烧豆腐就尝小份",
           "facts": [
             "高平烧豆腐作为地域口味候选，不为吃饭单独脱团。",
-            "店铺、价格未核实；下午提前备好上车前晚饭。"
+            "晚饭优先留给铁佛寺附近的米山大食堂；不要把午间是否营业视为已确认。"
           ],
           "drawers": [
             {
@@ -595,16 +595,30 @@
           ]
         },
         {
+          "time": "约17:20–18:15",
+          "title": "高平晚饭首选 · <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"米山大食堂\" data-city=\"晋城\" data-lat=\"35.762428\" data-lon=\"112.976113\" href=\"https://uri.amap.com/marker?position=112.976113,35.762428&amp;name=%E7%B1%B3%E5%B1%B1%E5%A4%A7%E9%A3%9F%E5%A0%82&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">米山大食堂</a>",
+          "facts": [
+            "铁佛寺步行路线约 699 m／9 分钟；只在铁佛寺确为最后一站、团允许自行离团且餐厅可及时出餐时执行。",
+            "单人优先炒卤面或核桃肉选一份；近期亲历对炒卤面有好评，也有偏干、排队慢的反评。"
+          ],
+          "drawers": [
+            {
+              "label": "三种晚饭方案 · 证据与止损点",
+              "html": "<p><strong>首选米山大食堂：</strong>铁佛寺附近，<a href=\"https://www.xiaohongshu.com/explore/6a886f4900000000160223b9\" target=\"_blank\" rel=\"noopener\">近期食记</a>称核桃肉好吃、炒卤面偏干且需排队；<a href=\"https://www.xiaohongshu.com/explore/68ac5dd1000000001d037a77\" target=\"_blank\" rel=\"noopener\">本地推荐帖与评论</a>也有赞有贬。官方高德步行模型约 9 分钟，米山到高平东驾车 6.25 km／约 11 分钟，均不含等车、排队和进站。<strong>18:15 前未吃完就打包离开；19:15 前到站。</strong></p><p><strong>备选翠岭茶楼：</strong><a href=\"https://uri.amap.com/marker?position=112.927871,35.777303&amp;name=%E7%BF%A0%E5%B2%AD%E8%8C%B6%E6%A5%BC&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">建设南路 61 号</a>；<a href=\"https://www.xiaohongshu.com/explore/68ac5dd1000000001d037a77\" target=\"_blank\" rel=\"noopener\">本地评论</a>多次推荐，但提醒预约，且从市区到高平东驾车模型 8.05 km／约 13 分钟。只有团在市区散、已约好位且能 18:15 前离店才选，不为它从米山往返。</p><p><strong>站前兜底：</strong><a href=\"https://uri.amap.com/marker?position=112.962189,35.733334&amp;name=%E9%9A%90%E9%87%8C%E9%A4%90%E5%8E%85&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">隐里餐厅</a>高德点位在站前广场西侧；至进站口步行模型约 640 m／9 分钟。只有 19:15 已到站、店开门且能快速出餐才用；否则吃提前准备的补给。营业、排队和 10 月 6 日车票均未核实。</p>"
+            }
+          ]
+        },
+        {
           "time": "18:30",
           "title": "原计划散团 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"高平东站\" data-city=\"晋城\" data-lat=\"35.733501\" data-lon=\"112.964253\" href=\"https://uri.amap.com/marker?position=112.964253,35.733501&amp;name=%E9%AB%98%E5%B9%B3%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">高平东站</a>",
           "facts": [
-            "目标 19:15 到高平东；不要到站后再绕店吃饭。",
-            "铁佛寺 → 高平东约 6.6 km，模型约 8 分钟；仅适用于从铁佛寺直接出发。"
+            "目标 19:15 到高平东；18:15 晚饭止损，不为吃饭挤占进站。",
+            "米山大食堂 → 高平东进站口高德驾车模型约 6.25 km／11 分钟；不含叫车、候车与安检。"
           ],
           "drawers": [
             {
               "label": "这段的硬条件",
-              "html": "<p>18:30 散团、送站地点尚未有最终商家确认。若最后一站不是铁佛寺，这段模型不能直接套用；需按实际散团位置提前出发。</p><p>晚餐用团途中已买的补给，不承诺高平东有哪家营业店。</p>"
+              "html": "<p>18:30 散团、送站地点尚未有最终商家确认。若最后一站不是铁佛寺，不套用米山路线；按实际散团位置直奔高平东。餐厅营业和排队未实时确认，备好可带上车的补给。</p>"
             },
             {
               "label": "距离怎么算 · 点开看估算边界",
@@ -630,13 +644,13 @@
           "time": "21:45",
           "title": "郑州站 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"锦江之星酒店(郑州高铁东站郑东万象城店)\" data-city=\"郑州\" data-lat=\"34.762482\" data-lon=\"113.755178\" href=\"https://uri.amap.com/marker?position=113.755178,34.762482&amp;name=%E9%94%A6%E6%B1%9F%E4%B9%8B%E6%98%9F%E9%85%92%E5%BA%97(%E9%83%91%E5%B7%9E%E9%AB%98%E9%93%81%E4%B8%9C%E7%AB%99%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">锦江之星 · 郑东万象城店</a>",
           "facts": [
-            "推荐打车｜约 12.5 km，模型约 15 分钟；出站接车至酒店留 35 分钟。",
+            "推荐打车｜高德道路模型约 12.97 km／20 分钟；出站、接车、入住总计至少留 45 分钟。",
             "今晚到郑州站，明早从郑州东站走：两个站不同。"
           ],
           "drawers": [
             {
               "label": "酒店与地铁备选",
-              "html": "<p>农业南路 106 号｜10/5–10/6 已订。地铁 1 号线为旧库备选，今晚末班未核实，不以旧文的 23:53 保证能坐上。</p><p>郑州全天 11–23℃ · 晴 · <a href=\"https://www.weather.com.cn/weather/101180101.shtml\" target=\"_blank\" rel=\"noopener\">郑州天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small></p>"
+              "html": "<p>农业南路 106 号｜原订房记录为 10/5–10/6。到站是<strong>郑州站</strong>，不是郑州东站；按出站指引到正规网约车上车区，再核车牌。10/5 晚郑州站→酒店高德驾车路线查询为 12.97 km／20 分钟，仅为路网估时。地铁 1 号线为备选，但末班未核实，不保证可乘。</p><p>若实际出行日期是 10/6，原 10/5 车票和酒店不能视作有效，请在 12306 与订单页核对后再出发。</p>"
             }
           ]
         }

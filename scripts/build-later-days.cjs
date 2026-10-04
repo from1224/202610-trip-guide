@@ -10,11 +10,14 @@ function drawer(d){return '<details class="d4-drawer"><summary>'+escape(d.label)
 function execution(d){
  if(d.day===7){
   const payload=escape(JSON.stringify(d7Execution));
-  return '<section class="exec-zone d7-zone" id="d7-execution" data-d7="'+payload+'" data-sight-theme="violet" aria-label="10月4日晋城执行卡">'
+  return '<section class="exec-zone d7-zone" id="d7-execution" data-d7="'+payload+'" data-sight-theme="ochre" data-transport-palette="clear" data-food-palette="apricot" aria-label="10月4日晋城执行卡">'
    +'<div class="d7-overview"><div class="d7-overview-title">今日方位图 <small>坐标方位示意 · 非道路路线 · 不按比例</small></div>'
-   +'<div class="d7-overview-map" role="img" aria-label="晋城东站在东北，华之晋酒店在南，十小碗和晋城博物馆在市区北侧且相近"><span class="d7-north">N ↑</span><span class="d7-pin station">晋城东</span><span class="d7-pin hotel">华之晋</span><span class="d7-pin food">十小碗</span><span class="d7-pin sight">博物馆</span></div>'
-   +'<div class="d7-overview-rail">长治东 11:24 <b>→ D3349 →</b> 晋城东 12:00</div><div class="d7-overview-source">'+d.weather+'</div></div>'
-   +'<div data-d7-place="czhotel"></div><div data-d7-edge="czhotel-czstation"></div>'
+   +'<div class="d7-overview-map" role="img" aria-label="长治至晋城六个行程地点和五段交通的相对方位示意">'
+   +'<div class="d7-map-city changzhi"><span class="d7-city-label">长治</span><span class="d7-pin cz-hotel">如家精选</span><span class="d7-pin cz-station">长治东</span><svg viewBox="0 0 400 95" preserveAspectRatio="none" aria-hidden="true"><path class="d7-route-line cz-taxi" d="M88 69 L316 37"/><path class="d7-route-line train" d="M338 37 L338 95"/></svg><span class="d7-map-leg cz-taxi" data-overview-leg="czhotel-station"></span></div>'
+   +'<div class="d7-map-break"><svg viewBox="0 0 400 58" preserveAspectRatio="none" aria-hidden="true"><path class="d7-route-line train" d="M338 0 L338 17 L324 24 L352 33 L338 41 L338 58"/></svg><span data-overview-leg="train"></span><small>跨城距离省略</small></div>'
+   +'<div class="d7-map-city jincheng" data-meal="tenbowls"><span class="d7-city-label">晋城</span><span class="d7-north">N ↑</span><svg class="d7-overview-lines" viewBox="0 0 400 320" preserveAspectRatio="none" aria-hidden="true"><path class="d7-route-line train" d="M338 0 L338 54"/><path class="d7-route-line station-hotel" d="M338 54 Q270 178 151 263"/><path class="d7-route-line hotel-food" d="M148 263 Q122 230 110 202"/><path class="d7-route-line food-museum" d="M113 201 Q140 190 171 184"/><path class="d7-route-line museum-hotel" d="M175 188 Q165 225 150 258"/></svg><span class="d7-pin station">晋城东</span><span class="d7-pin hotel">华之晋</span><span class="d7-pin food">十小碗</span><span class="d7-pin sight">博物馆</span><span class="d7-map-leg station-hotel" data-overview-leg="station-hotel"></span><span class="d7-map-leg hotel-food" data-overview-leg="hotel-food"></span><span class="d7-map-leg food-museum" data-overview-leg="food-museum"></span><span class="d7-map-leg museum-hotel" data-overview-leg="museum-hotel"></span></div></div>'
+   +'<div class="d7-overview-source">'+d.weather+'</div></div>'
+   +'<div data-d7-edge="czhotel-czstation"></div>'
    +'<div data-d7-train></div><div data-d7-edge="jcstation-jchotel"></div>'
    +'<div data-d7-place="jchotel"></div><div data-d7-edge="jchotel-meal"></div><div data-d7-meal></div>'
    +'<div data-d7-edge="meal-museum"></div><div data-d7-place="museum"></div><div data-d7-edge="museum-jchotel"></div>'
