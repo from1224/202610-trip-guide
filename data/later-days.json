@@ -408,17 +408,17 @@
       "day": 7,
       "date": "2026-10-04",
       "city": "jc",
-      "title": "长治 → 晋城 · 看展与夜游",
-      "subtitle": "10:01 高铁 → 寄存 → 小碗午餐 → 博物馆 → 司徒小镇（确认场次后）",
-      "summary": "先放行李，再在博物馆一带吃午饭、看展。司徒夜场保留，但不把旧的“20:00”写成确定场次。",
-      "weather": "6–21℃ · 多云转阴；夜游外套随身带，不留在酒店 · <a href=\"https://www.weather.com.cn/weather/101100601.shtml\" target=\"_blank\" rel=\"noopener\">晋城天气</a><small>10/1 查阅的全天最低–最高温预报，不是出门时逐小时温度。</small>",
+      "title": "长治 → 晋城 · 午餐与博物馆",
+      "subtitle": "11:24 D3349 → 酒店放行李 → 晋城十小碗 → 晋城博物馆 → 回酒店休息",
+      "summary": "早上从容退房，乘已改签的 D3349 到晋城。抵达后先去酒店放行李，再吃午饭、看博物馆；不安排夜游，傍晚回酒店休息。",
+      "weather": "出发前查看逐小时天气 · <a href=\"https://www.weather.com.cn/weather/101100601.shtml\" target=\"_blank\" rel=\"noopener\">晋城天气</a><small>旧的 10/1 预报已过期，不作为今天穿衣依据。</small>",
       "rows": [
         {
-          "time": "08:50",
+          "time": "约10:00",
           "title": "退房打车 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"长治东站\" data-city=\"长治\" data-lat=\"36.229623\" data-lon=\"113.163628\" href=\"https://uri.amap.com/marker?position=113.163628,36.229623&amp;name=%E9%95%BF%E6%B2%BB%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">长治东站</a>",
           "facts": [
-            "约 9.5 km｜模型约 10 分钟；含叫车留 30 分钟。",
-            "目标 09:20 到站，乘 10:01 高铁。"
+            "从如家精选（八一广场威远门中路店）出发；道路模型约 9.5 km，打车与进站时间以当天导航为准。",
+            "建议 10:30 前到长治东站，留约 50 分钟安检、候车；若退房或叫车慢，提前出门。"
           ],
           "drawers": [
             {
@@ -428,24 +428,24 @@
           ]
         },
         {
-          "time": "10:01",
-          "title": "G3845 · 长治东 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城东站\" data-city=\"晋城\" data-lat=\"35.534277\" data-lon=\"112.983555\" href=\"https://uri.amap.com/marker?position=112.983555,35.534277&amp;name=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城东站</a>",
+          "time": "11:24–12:00",
+          "title": "D3349 · 长治东 → <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城东站\" data-city=\"晋城\" data-lat=\"35.534277\" data-lon=\"112.983555\" href=\"https://uri.amap.com/marker?position=112.983555,35.534277&amp;name=%E6%99%8B%E5%9F%8E%E4%B8%9C%E7%AB%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城东站</a>",
           "facts": [
-            "10:01–10:29｜04 车 09C｜已购 ¥44。"
+            "已改签至 D3349；11:24 出发、12:00 抵达。以 12306 订单及站内屏为准。"
           ],
           "drawers": [
             {
               "label": "时刻来源",
-              "html": "<p><a href=\"https://trains.ctrip.com/trainschedule/G3845/\" target=\"_blank\" rel=\"noopener\">G3845 公开时刻表</a>；到达时间本轮核阅，订单未作改动。</p>"
+              "html": "<p>车次与时间来自本人 12306 已改签订单（10/4 核阅）。旧 G3845 车票已改签，不再按旧车次出行。公开 Guide 不展示车厢、座位或订单号。</p>"
             }
           ]
         },
         {
-          "time": "11:00",
+          "time": "约12:40",
           "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">华之晋 · 万达广场店</a>放行李",
           "facts": [
-            "晋城东 → 酒店约 14.4 km，模型约 17 分钟；含出站接车留 40 分钟。",
-            "先寄存，能否提前进房看房态；今晚已订。"
+            "晋城东出站后打车到华之晋酒店；道路模型约 14.4 km／17 分钟，含出站等车按约 40 分钟安排。",
+            "先放行李；能否提前进房看房态，不能入住就寄存。今晚已订。"
           ],
           "drawers": [
             {
@@ -455,11 +455,11 @@
           ]
         },
         {
-          "time": "12:00",
+          "time": "约13:10",
           "title": "午餐 · 十小碗（凤台东街店）",
           "facts": [
-            "酒店 → 博物馆约 3.0 km；推荐打车，含等车留 15–20 分钟。",
-            "店在博物馆斜对面：先问小份烧豆腐／木耳圪贝，不必点整套十碗。"
+            "酒店 → 博物馆一带约 3.0 km；打车和找店预留 20 分钟。",
+            "在博物馆斜对面吃午餐；先问小份烧豆腐／木耳圪贝，不必点整套十碗。约 14:00 前结束。"
           ],
           "drawers": [
             {
@@ -469,10 +469,10 @@
           ]
         },
         {
-          "time": "13:00",
+          "time": "约14:15–16:15",
           "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"晋城博物馆\" data-city=\"晋城\" data-lat=\"35.491082\" data-lon=\"112.868894\" href=\"https://uri.amap.com/marker?position=112.868894,35.491082&amp;name=%E6%99%8B%E5%9F%8E%E5%8D%9A%E7%89%A9%E9%A6%86&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">晋城博物馆</a> · 建议留 2 小时",
           "facts": [
-            "开放｜09:00–18:00；17:30 停止入馆。",
+            "国庆开放｜09:00–18:00；17:30 停止入馆。计划留约 2 小时。",
             "重点｜北齐昙始造像碑座：把馆藏与明日青莲寺串起来。"
           ],
           "drawers": [
@@ -487,37 +487,19 @@
           ]
         },
         {
-          "time": "傍晚",
-          "title": "<a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"司徒小镇\" data-city=\"晋城\" data-lat=\"35.523089\" data-lon=\"112.894938\" href=\"https://uri.amap.com/marker?position=112.894938,35.523089&amp;name=%E5%8F%B8%E5%BE%92%E5%B0%8F%E9%95%87&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">司徒小镇</a> · 先确认《千年铁魂》场次",
-          "facts": [
-            "博物馆 → 司徒小镇约 7.2 km；含叫车按 30 分钟安排。",
-            "按票面开演前至少 60 分钟入园规划；10/4 具体开演时间未核实。"
-          ],
-          "drawers": [
-            {
-              "label": "去前看什么、证据到哪一步",
-              "html": "<p>当地双节活动预告覆盖 9/25–10/7，但没有给出 10/4 精确场次。因此先核当日演出票／景区公告，再确定离馆和晚餐时间；本页没有代买票。</p><p><a href=\"https://finance.sina.com.cn/wm/2026-09-24/doc-inisxxkr5046184.shtml\" target=\"_blank\" rel=\"noopener\">晋城城区双节活动预告（转载）</a></p><p>道路模型仅约 7 分钟，但司徒输入点距匹配道路约 293 米，不代表入口到看台；另留园内步行、排队时间。</p>"
-            }
-          ]
-        },
-        {
-          "time": "散场",
+          "time": "约16:15",
           "title": "打车回 <a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"华之晋酒店(晋城万达广场店)\" data-city=\"晋城\" data-lat=\"35.469769\" data-lon=\"112.87721\" href=\"https://uri.amap.com/marker?position=112.87721,35.469769&amp;name=%E5%8D%8E%E4%B9%8B%E6%99%8B%E9%85%92%E5%BA%97(%E6%99%8B%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%E5%BA%97)&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">华之晋酒店</a>",
           "facts": [
-            "约 9.3 km｜模型约 10 分钟；散场按 30 分钟以上安排。",
-            "把明日集合通知、随车行李与高平东下客约定一起核对。"
+            "博物馆出来打车回酒店；不再接夜游。车程与叫车时间当日以高德为准。",
+            "回酒店休息；有空再核对明日集合通知、随车行李与高平东下客约定。"
           ],
           "drawers": []
         }
       ],
       "alternatives": [
         {
-          "label": "不去夜场：老城散步是替代项",
-          "html": "<p>博物馆 → 景忠桥道路步行约 3.9 km／53 分钟，不是馆旁短散步；想逛旧城建议先乘车进城，再按体力走。</p><p>景忠桥位置来自旧坐标候选，入口与完整 citywalk 路线未重新核实，因此不伪造一条精确老城游线。</p>"
-        },
-        {
-          "label": "玉皇庙演出 · 与主线二选一",
-          "html": "<p>官方公布 10/1–10/5 每天 09:30、14:30 在玉皇庙广场演出。若选 14:30，需要压缩或替换博物馆，且明日团会到玉皇庙，不默认重复跑。</p><p><a class=\"lnk\" data-amap data-amap-fixed=\"1\" data-name=\"府城玉皇庙\" data-city=\"晋城\" data-lat=\"35.545898\" data-lon=\"112.94314\" href=\"https://uri.amap.com/marker?position=112.94314,35.545898&amp;name=%E5%BA%9C%E5%9F%8E%E7%8E%89%E7%9A%87%E5%BA%99&amp;coordinate=gaode&amp;src=xiaocai-trip&amp;callnative=0\">府城玉皇庙</a> · <a href=\"https://www.jcbwg.cn/bwg/zx/gg/202609/t20260924_2395693.shtml\" target=\"_blank\" rel=\"noopener\">官方节目时间公告</a></p>"
+          "label": "午餐排队或列车晚点时",
+          "html": "<p>十小碗若排队太久，不为吃饭挤占博物馆：改在馆旁找简餐，或先看展再吃。具体替代店未核实，不编造店名和导航点。博物馆 17:30 停止入馆，晚点时优先保证入馆。</p>"
         }
       ]
     },
