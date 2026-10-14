@@ -808,6 +808,214 @@
       "sourceNoteId": "6acf4c8000000000140398ac",
       "imagePage": 3,
       "itemIndex": 7
+    },
+    {
+      "id": "pending-bread",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "就叫面包节",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": "2026-10-14",
+      "dateEnd": "2026-10-25",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "龙湖杭州滨江天街江南道",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 1,
+      "itemIndex": 3
+    },
+    {
+      "id": "pending-flower",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "花朵爵士公园",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": null,
+      "dateEnd": "2026-11-08",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "天目里国际街区",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 4,
+      "itemIndex": 11
+    },
+    {
+      "id": "pending-wujiu",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "乌厩市场登高",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": "2026-10-16",
+      "dateEnd": "2026-10-18",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "天目里负一层",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 5,
+      "itemIndex": 13
+    },
+    {
+      "id": "pending-skin",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "Skin on skin 贴贴音乐市集",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": "2026-10-17",
+      "dateEnd": "2026-10-18",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "天目里",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 5,
+      "itemIndex": 14
+    },
+    {
+      "id": "pending-zhijiang",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "之江银泰 6 周年",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": null,
+      "dateEnd": "2026-10-18",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "之江银泰 1F 中庭",
+      "address": "场地请以官方信息为准",
+      "price": "费用未知（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 5,
+      "itemIndex": 15
+    },
+    {
+      "id": "pending-xianwu",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "闲物有吉二手循环市集",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": "2026-10-17",
+      "dateEnd": "2026-10-17",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "良渚青年公社大操场",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 6,
+      "itemIndex": 16
+    },
+    {
+      "id": "pending-kaguya",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "超辉夜姬快闪",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": null,
+      "dateEnd": "2026-10-24",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "湖滨88 2F–6F",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 6,
+      "itemIndex": 17
+    },
+    {
+      "id": "pending-feiren",
+      "checkedAt": "2026-10-14",
+      "kind": "待核活动",
+      "area": "杭州",
+      "title": "非人哉荒野俱乐部",
+      "subtitle": "小红书海报线索 · 待独立核实",
+      "dateStart": "2026-09-30",
+      "dateEnd": "2026-10-25",
+      "schedule": "海报信息；起日缺失时未臆造",
+      "venue": "湖滨88 1F 中庭",
+      "address": "场地请以官方信息为准",
+      "price": "免费（海报标注，未官方核实）",
+      "booking": "待核",
+      "status": "pending",
+      "summary": "尚未独立打开验证。",
+      "sources": [
+        [
+          "小红书原帖",
+          "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
+        ]
+      ],
+      "sourceNoteId": "6acf4c8000000000140398ac",
+      "imagePage": 6,
+      "itemIndex": 18
     }
   ]
 }
