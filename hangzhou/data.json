@@ -468,10 +468,10 @@
     {
       "id": "pending-tianmuli-fiber-festival",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "西湖区",
       "title": "好好织时节·纤维生活节 2.0",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "潮新闻已核对日期与主会场 · 价格、每日时段待核",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-18",
       "schedule": "10/16–10/18 · 12:00–21:00（海报信息）",
@@ -622,20 +622,24 @@
     {
       "id": "pending-liangzhu-creative-market",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "余杭区",
       "title": "良渚文创市集",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "潮新闻已核对日期与主会场 · 价格、每日时段待核",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-20",
-      "schedule": "10/16–10/20 · 10:00–20:00（海报信息）",
-      "venue": "良渚 5000+ 艺创园及分会场",
+      "schedule": "10/16–10/20 · 每日时段待核",
+      "venue": "良渚 5000+ 艺创园（主会场）",
       "address": "不公开私人地址；场地请以官方信息为准",
-      "price": "免费（海报标注，未官方核实）",
+      "price": "价格待核",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
-      "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
+      "status": "active",
+      "summary": "潮新闻 2026-10-13 报道确认日期与良渚 5000+ 艺创园主会场；价格、每日时段仍待核。",
       "sources": [
+        [
+          "潮新闻 · 2026 良渚文创市集",
+          "https://tidenews.com.cn/news.html?id=3583580"
+        ],
         [
           "小红书搜索来源组 1",
           "https://www.xiaohongshu.com/search_result/6acceddb000000001400318d"
@@ -660,10 +664,10 @@
     {
       "id": "pending-natural-japanese-handicraft-market",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "余杭区",
       "title": "自然和风手工市集",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "官方项目计划 · 未来场次待最终公告确认",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-18",
       "schedule": "10/16–10/18（海报信息）",
@@ -736,20 +740,24 @@
     {
       "id": "pending-pet-forest-market",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "萧山区",
       "title": "毛孩森活集",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "官方项目计划 · 未来场次待最终公告确认",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-18",
-      "schedule": "10/16–10/18（海报信息）",
-      "venue": "钱江世纪公园 A 区大草坪",
+      "schedule": "10/16–10/18（官方项目页计划；待最终公告确认）",
+      "venue": "钱江世纪公园",
       "address": "不公开私人地址；场地请以官方信息为准",
-      "price": "¥29–49（海报标价，未官方核实）",
-      "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
-      "summary": "宠物主题；2026-10-14 已读小红书海报线索，尚未独立打开验证。",
+      "price": "门票待核（项目页所列摊位费不是门票）",
+      "booking": "未来场次待最终公告确认",
+      "status": "active",
+      "summary": "宠业家官方项目页列出计划日期与钱江世纪公园；页面同时注明未来场次待最终公告确认。",
       "sources": [
+        [
+          "宠业家官方项目页 · 未来场次待最终公告确认",
+          "https://www.chongyejia.com/projects/hangzhou-autumn"
+        ],
         [
           "小红书搜索来源组 1",
           "https://www.xiaohongshu.com/search_result/6acceddb000000001400318d"
@@ -774,10 +782,10 @@
     {
       "id": "pending-womens-aesthetics-festival",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "拱墅区",
       "title": "女子美学节",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "杭州日报已核对持续日期与场地 · 每日排期、票价待核",
       "dateStart": "2026-10-15",
       "dateEnd": "2026-10-18",
       "schedule": "10/15–10/18（海报信息）",
@@ -812,20 +820,24 @@
     {
       "id": "pending-bread",
       "checkedAt": "2026-10-14",
-      "kind": "待核活动",
+      "kind": "市集",
       "area": "杭州",
       "title": "就叫面包节",
-      "subtitle": "小红书海报线索 · 待独立核实",
+      "subtitle": "杭州日报已核对持续日期与场地 · 每日排期、票价待核",
       "dateStart": "2026-10-14",
       "dateEnd": "2026-10-25",
-      "schedule": "海报信息；起日缺失时未臆造",
+      "schedule": "10/14–10/25 · 每日时段待核",
       "venue": "龙湖杭州滨江天街江南道",
       "address": "场地请以官方信息为准",
-      "price": "免费（海报标注，未官方核实）",
-      "booking": "待核",
-      "status": "pending",
-      "summary": "尚未独立打开验证。",
+      "price": "票价待核",
+      "booking": "入场方式待核",
+      "status": "active",
+      "summary": "潮新闻 2026-10-10 报道确认日期、滨江天街北侧江南道与活动内容；每日时段和票价未写明。",
       "sources": [
+        [
+          "潮新闻 · 就叫面包节",
+          "https://tidenews.com.cn/tmh_news.html?id=6ac9dbbabe449b000197c8ec"
+        ],
         [
           "小红书原帖",
           "https://www.xiaohongshu.com/explore/6acf4c8000000000140398ac"
