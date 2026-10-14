@@ -1,7 +1,7 @@
-const assert=require('node:assert/strict'),data=require('./data.json');
-assert.equal(data.items.length,4);
-assert.equal(new Set(data.items.map(x=>x.id)).size,4);
-assert.equal(data.items.filter(x=>x.title.includes('浙江美术馆')).length,1);
-assert.equal(data.items.filter(x=>x.price.includes('免费')).length,2);
-for(const x of data.items){assert(x.dateStart&&x.venue&&x.price&&x.checkedAt);assert(x.sources.length)}
-console.log('hangzhou activity data: ok');
+const assert=require("node:assert/strict"),data=require("./data.json");
+const by=s=>data.items.filter(x=>x.status===s);
+assert.equal(by("active").length,4);assert.equal(by("permanent").length,12);assert.equal(by("archived").length,3);assert.equal(by("pending").length,9);
+assert.equal(new Set(data.items.map(x=>x.id)).size,data.items.length);
+for(const x of data.items){assert(x.id&&x.kind&&x.venue&&x.price&&x.checkedAt);assert(x.sources.length)}
+for(const x of by("pending")){assert(x.sourceNoteId&&x.imagePage&&x.itemIndex)}
+console.log("hangzhou activity data: ok");
