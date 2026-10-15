@@ -583,6 +583,10 @@
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ],
+        [
           "小红书搜索来源组 1",
           "https://www.xiaohongshu.com/search_result/6acceddb000000001400318d"
         ],
@@ -621,6 +625,10 @@
       "status": "pending",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
+        [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad07694000000001802cd62"
+        ],
         [
           "小红书搜索来源组 1",
           "https://www.xiaohongshu.com/search_result/6acceddb000000001400318d"
@@ -690,13 +698,17 @@
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-18",
       "schedule": "10/16–10/18（海报信息）",
-      "venue": "杭州大厦中央商城",
+      "venue": "杭州大厦 E 座中央商城",
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
       "status": "pending",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
+        [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ],
         [
           "小红书搜索来源组 1",
           "https://www.xiaohongshu.com/search_result/6acceddb000000001400318d"
@@ -718,6 +730,58 @@
       "imagePage": 2,
       "itemIndex": 5,
       "additionalSourceNoteId": "6ac9cead00000000180182ef"
+    },
+    {
+      "id": "pending-ideal-islands-art-market",
+      "checkedAt": "2026-10-15",
+      "kind": "待核活动",
+      "area": "西湖区",
+      "title": "理想群岛艺术市集 / 展览",
+      "subtitle": "汇总笔记列为 10/16–18 杭州周末去处；单项具体日期与时段未见",
+      "dateStart": null,
+      "dateEnd": null,
+      "schedule": "具体日期与时段未见",
+      "venue": "东巢碾米厂 Village",
+      "address": "场地与入场信息待独立核验",
+      "price": "费用未见",
+      "booking": "入场与预约条件未见",
+      "status": "pending",
+      "summary": "已读小红书周末活动汇总列出该市集 / 展览与东巢碾米厂 Village；尚未读到单项公告，不能据此判断开放时间、费用或是否需预约。",
+      "sources": [
+        [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ]
+      ],
+      "sourceNoteId": "6ad088e6000000001802b695",
+      "imagePage": "未记录（已读汇总正文）",
+      "itemIndex": "理想群岛条目"
+    },
+    {
+      "id": "pending-qincheng-reuse-market-sports",
+      "checkedAt": "2026-10-15",
+      "kind": "待核活动",
+      "area": "滨江区",
+      "title": "户外循环二手市集与草坪运动会",
+      "subtitle": "用户附近候选；汇总笔记未给出单项日时",
+      "dateStart": null,
+      "dateEnd": null,
+      "schedule": "具体日期与时段未见",
+      "venue": "亲橙 556",
+      "address": "场地与入场信息待独立核验",
+      "price": "费用未见；汇总标题称“大多免费”不适用于单项确认",
+      "booking": "入场与预约条件未见",
+      "status": "pending",
+      "summary": "已读小红书周末活动汇总列出亲橙 556 的户外循环二手市集与草坪运动会；具体日时、费用和参与方式尚未独立核验。",
+      "sources": [
+        [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ]
+      ],
+      "sourceNoteId": "6ad088e6000000001802b695",
+      "imagePage": "未记录（已读汇总正文）",
+      "itemIndex": "亲橙556条目"
     },
     {
       "id": "pending-liangzhu-creative-market",
@@ -855,6 +919,10 @@
       "summary": "宠业家官方项目页列出计划日期与钱江世纪公园；页面同时注明未来场次待最终公告确认。",
       "sources": [
         [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ],
+        [
           "宠业家官方项目页 · 未来场次待最终公告确认",
           "https://www.chongyejia.com/projects/hangzhou-autumn"
         ],
@@ -934,6 +1002,10 @@
       "status": "active",
       "summary": "潮新闻 2026-10-10 报道确认日期、滨江天街北侧江南道与活动内容；每日时段和票价未写明。",
       "sources": [
+        [
+          "小红书已读周末活动汇总（10/16–18；未独立核验）",
+          "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"
+        ],
         [
           "潮新闻 · 就叫面包节",
           "https://tidenews.com.cn/tmh_news.html?id=6ac9dbbabe449b000197c8ec"
