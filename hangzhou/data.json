@@ -133,6 +133,52 @@
       ]
     },
     {
+      "id": "yu-xiangyu-minimum-unit",
+      "checkedAt": "2026-10-15",
+      "kind": "脱口秀",
+      "area": "拱墅区",
+      "title": "于祥宇《最小单位的于祥宇》",
+      "subtitle": "新的派 Standby 专场",
+      "dateStart": "2026-10-18",
+      "dateEnd": "2026-10-18",
+      "schedule": "10/18（周日）19:30",
+      "venue": "杭州剧院",
+      "address": "武林广场29号；请以场馆入场信息为准",
+      "price": "¥220 / ¥280 / ¥380 / ¥480 / ¥580 · 非实时余票",
+      "booking": "公告列出购票平台；余票与入场规则请自行确认",
+      "status": "active",
+      "summary": "新的派 Standby 公告确认杭州站时间、场馆与票档；公告开票信息不代表当前余票。",
+      "sources": [
+        [
+          "新的派 Standby 开票公告",
+          "https://weibo.com/2/detail/5345525260880359"
+        ]
+      ]
+    },
+    {
+      "id": "ashida-all-sounds-concert",
+      "checkedAt": "2026-10-15",
+      "kind": "演出",
+      "area": "临平区",
+      "title": "阿希达《万物声》原生态音乐会",
+      "subtitle": "2026 艺尚音乐节",
+      "dateStart": "2026-10-18",
+      "dateEnd": "2026-10-18",
+      "schedule": "10/18（周日）19:00 · 约60分钟 · 全场坐席",
+      "venue": "杭州临平大剧院·户外空中舞台",
+      "address": "请以场馆入场信息为准",
+      "price": "¥50 / ¥160 / ¥198 · 非实时余票",
+      "booking": "早鸟优惠公告不代表当前可购价格；余票与入场规则请自行确认",
+      "status": "active",
+      "summary": "杭州临平大剧院公告确认演出时间、户外空中舞台、时长、座席与标价；早鸟优惠不作为实时票价。",
+      "sources": [
+        [
+          "杭州临平大剧院演出公告",
+          "https://weibo.com/2/detail/5346733220434665"
+        ]
+      ]
+    },
+    {
       "id": "china-wetland-museum",
       "checkedAt": "2026-10-07",
       "kind": "长期去处",
