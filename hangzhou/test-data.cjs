@@ -6,6 +6,7 @@ for(const id of ["yu-xiangyu-minimum-unit","ashida-all-sounds-concert"]){const x
 assert.equal(data.items.find(x=>x.id==="yu-xiangyu-minimum-unit").sources[0][1],"https://detail.damai.cn/item.htm?id=1080414047097");
 assert(data.items.find(x=>x.id==="ashida-all-sounds-concert").sources[0][1].startsWith("https://weibo.com/2/detail/"));
 const drama=data.items.find(x=>x.id==="inter-alia-hangzhou");assert.equal(drama.status,"active");assert.equal(drama.dateEnd,"2026-10-18");assert.equal(drama.sources.length,2);
+const zjam=data.items.find(x=>x.id==="zjam-october-exhibitions");assert.equal(zjam.images.length,3);assert.equal(new Set(zjam.images.map(x=>x.src)).size,3);for(const image of zjam.images)assert(image.source.includes("ExbitionDetail.aspx"));
 const frankie=data.items.find(x=>x.id==="frankie-akil-live-hangzhou");assert.equal(frankie.status,"active");assert.equal(frankie.dateStart,"2026-10-17");assert.equal(frankie.sources[0][1],"https://www.showstart.com/event/311138");
 for(const id of ["pending-ideal-islands-art-market","pending-qincheng-reuse-market-sports"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,"pending");assert.equal(x.dateStart,null);assert(x.sources[0][1].includes("6ad088e6000000001802b695"))}
 for(const x of data.items){assert(x.id&&x.kind&&x.venue&&x.price&&x.checkedAt);assert(x.sources.length)}

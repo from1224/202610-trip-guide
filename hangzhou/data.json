@@ -60,6 +60,23 @@
       "booking": "预约方式待复核",
       "status": "active",
       "summary": "周日可以把四场展览合在一次到访。",
+      "images": [
+        {
+          "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20260930115310.jpg",
+          "source": "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2910&type=1",
+          "caption": "寻找方幹民 · 浙江美术馆官方海报"
+        },
+        {
+          "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20261013151006.jpg",
+          "source": "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2914&type=2",
+          "caption": "采真见素—吴洪晖 · 浙江美术馆官方海报"
+        },
+        {
+          "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20261014175447.jpg",
+          "source": "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2915&type=2",
+          "caption": "陈高杰：世界的肚脐 · 浙江美术馆官方海报"
+        }
+      ],
       "exhibitions": [
         [
           "寻找方幹民",
