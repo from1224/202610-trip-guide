@@ -5,7 +5,7 @@
     "checkedAt": "2026-10-16",
     "weekLabel": "本周 · 10月17日–18日",
     "weather": {
-      "checkedAt": "2026-10-16 14:00（Asia/Shanghai）",
+      "checkedAt": "2026-10-16（Asia/Shanghai）",
       "validThrough": "2026-10-18",
       "source": "https://api.open-meteo.com/v1/forecast?latitude=30.2741&longitude=120.1551&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum&timezone=Asia%2FShanghai&forecast_days=3",
       "days": [
