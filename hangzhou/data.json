@@ -1430,13 +1430,14 @@
       "area": "西湖区",
       "label": "候选",
       "title": "湘缘道客·湘缘饭店（古墩路店）",
-      "subtitle": "旧食记提到：小炒肉、鱼头、金钱蛋、茄子煲。",
+      "subtitle": "家常湘菜候选，近期口碑待补。",
+      "menuTags": ["小炒黄牛肉", "酸萝卜鸡杂", "茄子煲", "农家小炒肉", "一品过江鱼", "萝卜干腊肉", "蚂蚁上树", "剁椒鱼头"],
       "venue": "湘缘道客·湘缘饭店（古墩路店）",
       "address": "西湖区古墩路紫金公寓 19-8 商铺",
       "price": "约 ¥54/人（页面消费参考，非推荐评分）",
-      "note": "旧食记只作菜品线索，当前营业、价格与排队待核。",
-      "conditions": "Trip.com 食记为 2024 年旧记录，仅作菜品线索；营业、价格、排队与当前出品均待核。",
-      "sources": [["大众点评菜品图片页", "https://www.dianping.com/shop/kaR9Os3L0GuumJmK/photos"], ["Trip.com 2024 食记", "https://hk.trip.com/moments/detail/hangzhou-14-124423335/"]]
+      "note": "点评菜标签已核；近期口碑待补，地图未定点。",
+      "conditions": "门店名已与大众点评原图页核对；菜标签不等于推荐票。Trip.com 旧食记为 2024-09-13 的单一正面体验，近期口碑证据为 0，不能判断当前稳定性。营业、价格、排队与当前出品待核；紫金公寓 19-8 与第三方 254 号地址未确认同门牌，未设固定 POI。",
+      "sources": [["大众点评菜品标签／原图页（店名已核）", "https://www.dianping.com/shop/kaR9Os3L0GuumJmK/photos"], ["Trip.com 旧食记 · 2024-09-13（单一正面体验）", "https://hk.trip.com/moments/detail/hangzhou-14-124423335/"]]
     },
     {
       "id": "food-wanjiu-shangtang",
