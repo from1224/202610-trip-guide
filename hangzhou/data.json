@@ -1420,7 +1420,7 @@
       "price": "作者食记约 ¥100/人，仅作参考",
       "note": "仅备选；营业、实时等位与独行份量待核。",
       "dianping": {"label": "点评店页", "url": "https://m.dianping.com/shop/1745976602?msource=applemaps", "checkedAt": "2026-10-17"},
-      "map": {"poiId": "B0JUCOB8R3", "url": "https://www.amap.com/place/B0JUCOB8R3", "checkedAt": "2026-10-17"},
+      "map": {"poiId": "B0JUCOB8R3", "url": "https://www.amap.com/place/B0JUCOB8R3", "location": [120.100609,30.267406], "checkedAt": "2026-10-17"},
       "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。仅备选；营业、实时等位与独行份量待核。鸡爪、酱板鸭仅有单个食客负面体验，不作门店事实判定。",
       "sources": [["小红书：再给我两分钟同学《杭州湘绯🌶️ 真实测评》", "https://www.xiaohongshu.com/explore/6ab9e2ab000000001203eaea?xsec_token=ABs7bFajeoi-OHLj_n4R0hU-tZlxtrW5aCA_We2H6zJSA=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
@@ -1455,7 +1455,7 @@
       "price": "约 ¥95–96/人（携程商户页参考）",
       "note": "上塘路一、二店曾排队为食记陈述，实时等位待核。",
       "dianping": {"label": "点评店页", "url": "https://m.dianping.com/shop/584815?msource=applemaps", "checkedAt": "2026-10-17"},
-      "map": {"poiId": "B0FFHQ5MD9", "url": "https://www.amap.com/place/B0FFHQ5MD9", "checkedAt": "2026-10-17"},
+      "map": {"poiId": "B0FFHQ5MD9", "url": "https://www.amap.com/place/B0FFHQ5MD9", "location": [120.161865,30.292981], "checkedAt": "2026-10-17"},
       "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。作者 Snowb福星高照的已读摘要显示“06-02”，年份未明；上塘路一、二店曾排队为食记陈述，营业、实时等位与价格待核。",
       "sources": [["携程商户页（人均参考）", "https://you.ctrip.com/food/hangzhou14/16481522.html"], ["小红书：Snowb 福星高照《打卡够杭州就停手（3/100）|阿英川菜馆》", "https://www.xiaohongshu.com/explore/69d8c887000000001a0287aa?xsec_token=ABB4mm0c3TIJ67jrB7Zajrelw_kQPR_yQfO14OZ4EWZoI=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
@@ -1472,7 +1472,7 @@
       "price": "约 ¥82/人（大众点评页面参考）",
       "note": "推广式旧食记仅作候选和菜品线索。",
       "dianping": {"label": "点评店页", "url": "https://m.dianping.com/shop/1464364481?msource=applemaps", "checkedAt": "2026-10-17"},
-      "map": {"poiId": "B0LARRDQT5", "url": "https://www.amap.com/place/B0LARRDQT5", "checkedAt": "2026-10-17"},
+      "map": {"poiId": "B0LARRDQT5", "url": "https://www.amap.com/place/B0LARRDQT5", "location": [120.165627,30.272313], "checkedAt": "2026-10-17"},
       "conditions": "公开食记呈推广式表达且日期未明，仅作候选和菜品线索；非小红书实读，营业、价格与等位待核。",
       "sources": [["大众点评商户页", "https://m.dianping.com/shop/1464364481?msource=applemaps"], ["Trip.com 食记", "https://hk.trip.com/moments/poi-city-151210045/"]]
     },
@@ -1489,7 +1489,7 @@
       "price": "人均未知",
       "note": "单篇推广式食记仅作菜品线索。",
       "dianping": {"label": "点评店页", "url": "https://m.dianping.com/shop/1797911828?msource=applemaps", "checkedAt": "2026-10-17"},
-      "mapSearch": {"url": "https://www.amap.com/search?query=%E6%9D%A8%E6%9C%89%E5%96%9C%C2%B7%E5%B1%B1%E9%87%8E%E6%B1%9F%E8%A5%BF%E8%8F%9C%EF%BC%88%E8%A5%BF%E6%BA%AA%E5%8D%B0%E8%B1%A1%E5%9F%8E%E5%BA%97%EF%BC%89", "query": "杨有喜·山野江西菜（西溪印象城店）", "checkedAt": "2026-10-17"},
+      "map": {"poiId": "B0L0GU3PRP", "url": "https://www.amap.com/place/B0L0GU3PRP", "location": [120.048825,30.247045], "checkedAt": "2026-10-17"},
       "conditions": "来源为单篇推广式公开食记，日期表述有冲突；仅作菜品线索，不能据此断言当前营业、价格或出品。",
       "sources": [["Trip.com 食记", "https://hk.trip.com/moments/detail/hangzhou-14-140526275/"]]
     },
