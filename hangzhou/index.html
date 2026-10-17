@@ -286,5 +286,6 @@ function start(){
 window.initHangzhouSwipe=start;
 start();
 })()</script>
+<script>document.addEventListener('click',e=>{let b=e.target.closest('#hikingPanel .gallery-frame');if(!b)return;let src=b.dataset.image,d=document.querySelector('#imageDialog');if(!src||!d)return;e.stopImmediatePropagation();d.querySelector('img').src=src;d.querySelector('figcaption').textContent=b.dataset.caption||b.querySelector('img')?.alt||'';d.showModal()},true);new MutationObserver(()=>{let h=[...document.querySelectorAll('h3')].find(x=>x.textContent==='半山入口、南门与杭钢如何对应');if(h&&h.nextElementSibling)h.nextElementSibling.textContent='明园路南门与旅游咨询中心经图文＋POI交叉核对为同一起点；娘娘庙入口在其东北约 720 m，民俗文化礼堂再北侧，均为另点。咨询中心到杭钢有高德城市步行路线。'}).observe(document.documentElement,{childList:true,subtree:true})</script>
 </body>
 </html>
