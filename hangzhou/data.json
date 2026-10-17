@@ -1403,7 +1403,7 @@
       "address": "古墩路印象城",
       "price": "4 人约 ¥560（约 ¥140/人），仅作食记消费参考",
       "note": "晚餐曾排队、午餐未排；出行前请核对营业与等位。",
-      "map": {"poiId": "B0LKYB434Y", "url": "https://www.amap.com/place/B0LKYB434Y", "checkedAt": "2026-10-17"},
+      "map": {"poiId": "B0LKYB434Y", "url": "https://www.amap.com/place/B0LKYB434Y", "location": [120.099310,30.294116], "checkedAt": "2026-10-17"},
       "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。晚餐曾排队、午餐未排；营业、实时等位与独行份量待核。",
       "sources": [["小红书：桥桥瞧世界《杭州最好吃的湖南菜，2次10道菜！》", "https://www.xiaohongshu.com/explore/6a65d041000000000a0386d7?xsec_token=ABGIK2PayN28TURANkxOsqupjSmb2mw2QOywbgOa4OPAg=&xsec_source=pc_search&source=web_search_result_notes"], ["小红书：快意飞马《杭州美味湘菜｜一月四刷陸幺陸》", "https://www.xiaohongshu.com/explore/6a660b8e000000001c012019?xsec_token=ABb222Bt2dOsYLM4K7eQ10SpTYjHFLYieYN5HCMfH1aG4=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
