@@ -384,6 +384,7 @@
       "booking": "第三方页面显示部分票档暂时无货且为订金预订；不代表当前可购，请以场馆或主办方最终开票信息为准",
       "status": "active",
       "summary": "保剑锋工作室官方微博巡演图确认杭州大剧院 10/16–10/18；演出时段、时长和票档来自第三方票务页，未找到场馆官方详情页。",
+      "images": [{"src": "https://wx3.sinaimg.cn/middle/6074585cly1igh4u66d14j223u35sb29.jpg", "source": "https://www.sina.cn/news/detail/5336144482140904.html", "caption": "保剑锋工作室官方微博巡演图（经新浪转发页）"}],
       "map": {"poiId": "B023B03DMD", "url": "https://www.amap.com/place/B023B03DMD", "checkedAt": "2026-10-17"},
       "sources": [
         [
