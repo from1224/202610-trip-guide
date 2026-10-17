@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">半山入口、望宸阁、南门与杭钢的关系示意</title>
+  <desc id="desc">非比例图。桃源街 A 口到咨询中心和咨询中心到杭钢南出入口为高德已核接驳；两条小红书短线以虚线各自呈现，不把娘娘庙入口、南门和咨询中心混同。</desc>
+  <style>
+    .bg{fill:#f5f7f3}.panel{fill:#fffefa;stroke:#c7d7d0;stroke-width:3}.road{fill:none;stroke:#2866a1;stroke-width:11;stroke-linecap:round}.xhs{fill:none;stroke:#d85c3f;stroke-width:8;stroke-linecap:round;stroke-dasharray:16 12}.node{fill:#285e5a;stroke:#fff;stroke-width:6}.poi{fill:#fffefa;stroke:#285e5a;stroke-width:5}.t{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;fill:#183b3b}.h{font-size:28px;font-weight:700}.n{font-size:24px;font-weight:700}.s{font-size:19px;fill:#637574}.label{font-size:18px;fill:#2866a1;font-weight:700}.x{font-size:18px;fill:#a8442e;font-weight:700}
+  </style>
+  <rect class="bg" width="1000" height="620" rx="28"/>
+  <text class="t h" x="48" y="56">半山位置关系示意</text>
+  <text class="t s" x="48" y="88">非比例 · 只画已核节点与已说明的接驳，不补未核岔路</text>
+  <rect class="panel" x="42" y="122" width="916" height="286" rx="24"/>
+  <text class="t n" x="70" y="162">高德定位与城市接驳</text>
+  <path class="road" d="M150 268 H355"/>
+  <path class="road" d="M410 268 H790"/>
+  <polygon points="790,268 761,251 761,285" fill="#2866a1"/>
+  <circle class="node" cx="120" cy="268" r="28"/><text class="t n" x="165" y="260">桃源街 A 口</text><text class="t s" x="165" y="288">→ 咨询中心 1.74 km／约 23 分</text>
+  <circle class="node" cx="382" cy="268" r="28"/><text class="t n" x="286" y="335">咨询中心</text><text class="t label" x="465" y="244">高德步行：2.42 km／约 32 分</text>
+  <circle class="node" cx="822" cy="268" r="28"/><text class="t n" x="716" y="335">杭钢南出入口</text>
+  <circle class="poi" cx="382" cy="373" r="20"/><text class="t n" x="418" y="381">望宸阁</text><text class="t s" x="535" y="381">仅标高德 POI；山内不画路线</text>
+  <rect class="panel" x="42" y="440" width="916" height="138" rx="24"/>
+  <text class="t n" x="70" y="480">小红书短线入口各自独立</text>
+  <path class="xhs" d="M176 532 H318"/><circle class="poi" cx="150" cy="532" r="20"/><text class="t n" x="84" y="568">娘娘庙入口</text><text class="t x" x="196" y="522">双宝：原路往返望宸阁</text>
+  <path class="xhs" d="M575 532 H796"/><circle class="poi" cx="548" cy="532" r="20"/><text class="t n" x="455" y="568">桃源街 C 口</text><text class="t x" x="596" y="516">苏苏：娘娘庙／礼堂 → 望宸阁</text><text class="t x" x="596" y="540">→ 隐云亭方向 → 南门</text>
+  <text class="t s" x="596" y="568">南门是该短线终点，不等同咨询中心或杭钢</text>
+</svg>
