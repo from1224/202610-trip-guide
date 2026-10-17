@@ -1438,6 +1438,7 @@
       "price": "约 ¥54/人（页面消费参考，非推荐评分）",
       "note": "点评菜标签已核；近期口碑待补，地图未定点。",
       "dianping": {"label": "点评菜图", "url": "https://www.dianping.com/shop/kaR9Os3L0GuumJmK/photos", "checkedAt": "2026-10-17"},
+      "mapSearch": {"url": "https://www.amap.com/search?query=%E6%B9%98%E7%BC%98%E9%81%93%E5%AE%A2%C2%B7%E6%B9%98%E7%BC%98%E9%A5%AD%E5%BA%97%EF%BC%88%E5%8F%A4%E5%A2%A9%E8%B7%AF%E5%BA%97%EF%BC%89", "query": "湘缘道客·湘缘饭店（古墩路店）", "checkedAt": "2026-10-17"},
       "conditions": "门店名已与大众点评原图页核对；菜标签不等于推荐票。Trip.com 旧食记为 2024-09-13 的单一正面体验，近期口碑证据为 0，不能判断当前稳定性。营业、价格、排队与当前出品待核；紫金公寓 19-8 与第三方 254 号地址未确认同门牌，未设固定 POI。",
       "sources": [["大众点评菜品标签／原图页（店名已核）", "https://www.dianping.com/shop/kaR9Os3L0GuumJmK/photos"], ["Trip.com 旧食记 · 2024-09-13（单一正面体验）", "https://hk.trip.com/moments/detail/hangzhou-14-124423335/"]]
     },
@@ -1488,6 +1489,7 @@
       "price": "人均未知",
       "note": "单篇推广式食记仅作菜品线索。",
       "dianping": {"label": "点评店页", "url": "https://m.dianping.com/shop/1797911828?msource=applemaps", "checkedAt": "2026-10-17"},
+      "mapSearch": {"url": "https://www.amap.com/search?query=%E6%9D%A8%E6%9C%89%E5%96%9C%C2%B7%E5%B1%B1%E9%87%8E%E6%B1%9F%E8%A5%BF%E8%8F%9C%EF%BC%88%E8%A5%BF%E6%BA%AA%E5%8D%B0%E8%B1%A1%E5%9F%8E%E5%BA%97%EF%BC%89", "query": "杨有喜·山野江西菜（西溪印象城店）", "checkedAt": "2026-10-17"},
       "conditions": "来源为单篇推广式公开食记，日期表述有冲突；仅作菜品线索，不能据此断言当前营业、价格或出品。",
       "sources": [["Trip.com 食记", "https://hk.trip.com/moments/detail/hangzhou-14-140526275/"]]
     }
