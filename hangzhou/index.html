@@ -134,7 +134,7 @@ function weather(meta){let w=meta.weather,host=$('#weather');if(!w||!w.validThro
 $('#imageDialog button').onclick=()=>$('#imageDialog').close();
 document.addEventListener('click',e=>{let b=e.target.closest('[data-gallery-move]');if(!b)return;let track=b.closest('.event-gallery').querySelector('.gallery-track');track.scrollBy({left:track.clientWidth*Number(b.dataset.galleryMove),behavior:'smooth'})});
 document.querySelectorAll('[data-top-tab]').forEach(b=>b.onclick=()=>{let food=b.dataset.topTab==='food';document.querySelector('#playPanel').hidden=food;document.querySelector('#foodPanel').hidden=!food;document.querySelectorAll('[data-top-tab]').forEach(q=>q.setAttribute('aria-selected',q===b))});
-fetch('./data.json?v=hangzhou-current-picks-20261017').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{items=d.items;foodItems=d.foodItems||[];$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
+fetch('./data.json?v=hangzhou-play-poster-20261017').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{items=d.items;foodItems=d.foodItems||[];$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
 </script>
 
 <script>(()=>{
