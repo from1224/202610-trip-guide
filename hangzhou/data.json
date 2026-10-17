@@ -32,6 +32,9 @@
       "booking": "预约方式待复核",
       "status": "active",
       "summary": "一处免费馆展，适合留出半天慢慢看。",
+      "images": [
+        {"src":"https://zjumaa.zju.edu.cn/_upload/article/images/5e/75/a9b956fb4f5285ffb7e0433073e7/09b5690e-e170-4ee7-a541-7afa4af1fd02.jpg","source":"https://zjumaa.zju.edu.cn/_s186/main.psp","caption":"梅花知己展览海报 · 浙江大学艺术与考古博物馆官方"}
+      ],
       "sources": [
         [
           "官网展讯",
@@ -123,6 +126,13 @@
       "booking": "分期售票；购票与当日入场规则请以场馆页面为准",
       "status": "active",
       "summary": "一期至 11 月 1 日；历史文物线与影视沉浸线并置，适合想看吴越国主题的人。",
+      "images": [
+        {"src":"https://www.chnmuseum.cn/zx/gbxw/202608/W020260804600336702048.jpg","source":"https://www.chnmuseum.cn/zx/gbxw/202608/t20260804_281322.shtml","caption":"展览现场 · 中国国家博物馆官方"},
+        {"src":"https://www.chnmuseum.cn/zx/gbxw/202608/W020260804600336717959.jpg","source":"https://www.chnmuseum.cn/zx/gbxw/202608/t20260804_281322.shtml","caption":"彩绘浮雕武士石刻 · 中国国家博物馆官方"},
+        {"src":"https://www.chnmuseum.cn/zx/gbxw/202608/W020260804600336738289.jpg","source":"https://www.chnmuseum.cn/zx/gbxw/202608/t20260804_281322.shtml","caption":"钱镠投龙银简 · 中国国家博物馆官方"},
+        {"src":"https://www.chnmuseum.cn/zx/gbxw/202608/W020260804600336746039.png","source":"https://www.chnmuseum.cn/zx/gbxw/202608/t20260804_281322.shtml","caption":"吴越王钱弘俶造佛塔 · 中国国家博物馆官方"},
+        {"src":"https://www.chnmuseum.cn/zx/gbxw/202608/W020260804600336757738.png","source":"https://www.chnmuseum.cn/zx/gbxw/202608/t20260804_281322.shtml","caption":"展览海报 · 浙江省博物馆供图、国博官方发布"}
+      ],
       "sources": [["iCity 展讯（日期、场馆、票价）","https://art.icity.ly/events/fl4ptxk"]]
     },
     {
@@ -142,6 +152,13 @@
       "booking": "预约规则请以场馆当日公告为准",
       "status": "active",
       "summary": "免费特展；以“起、合、承、转”四单元追溯玉琮从史前礼器到后世审美载体。",
+      "images": [
+        {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621026850051684241667.png","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"参观资讯海报 · 良渚博物院官方"},
+        {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621030800049572440861.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"玉琮展品图 · 良渚博物院官方导览"},
+        {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621033160987431894046.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"玉琮形制示意 · 良渚博物院官方导览"},
+        {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621047245362236132611.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"“外方内圆”前言墙 · 良渚博物院官方导览"},
+        {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621050117241491925994.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"神徽投影展陈 · 良渚博物院官方导览"}
+      ],
       "sources": [["iCity 展讯（日期、场馆、免费信息）","https://art.icity.ly/events/0tr04g3"]]
     },
     {
@@ -180,6 +197,13 @@
       "booking": "入馆规则请以场馆当日公告为准",
       "status": "active",
       "summary": "申遗成功15周年主题展，沿西湖十景题名景观与其艺术表达展开。",
+      "images": [
+        {"src":"https://www.westlakemuseum.com/images/images2026/20261001_01.jpg","source":"https://www.westlakemuseum.com/index.php/bwggk/xwdt/1008-2026-10-01-05-21-44.html","caption":"展览现场 1 · 杭州西湖博物馆官方"},
+        {"src":"https://www.westlakemuseum.com/images/images2026/20261001_02.jpg","source":"https://www.westlakemuseum.com/index.php/bwggk/xwdt/1008-2026-10-01-05-21-44.html","caption":"展览现场 2 · 杭州西湖博物馆官方"},
+        {"src":"https://www.westlakemuseum.com/images/images2026/20261001_03.jpg","source":"https://www.westlakemuseum.com/index.php/bwggk/xwdt/1008-2026-10-01-05-21-44.html","caption":"展览现场 3 · 杭州西湖博物馆官方"},
+        {"src":"https://www.westlakemuseum.com/images/images2026/20261001_04.jpg","source":"https://www.westlakemuseum.com/index.php/bwggk/xwdt/1008-2026-10-01-05-21-44.html","caption":"展览现场 4 · 杭州西湖博物馆官方"},
+        {"src":"https://www.westlakemuseum.com/images/images2026/20261001_05.jpg","source":"https://www.westlakemuseum.com/index.php/bwggk/xwdt/1008-2026-10-01-05-21-44.html","caption":"展览现场 5 · 杭州西湖博物馆官方"}
+      ],
       "sources": [["iCity 展讯（日期、场馆、免费信息）","https://art.icity.ly/events/nvgi53u"]]
     },
     {
@@ -199,6 +223,13 @@
       "booking": "预约规则请以场馆当日公告为准",
       "status": "active",
       "summary": "室内自然科学展；从传说、形态到演化历程讲菊石，适合雨天。",
+      "images": [
+        {"src":"https://www.zmnh.com/uploadFiles/imgs/96000bf0-c72f-4637-aabe-90c49090ea04.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 1 · 浙江自然博物院官方"},
+        {"src":"https://www.zmnh.com/uploadFiles/imgs/6b569a3a-41b1-4002-a12b-02d2920e5599.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 2 · 浙江自然博物院官方"},
+        {"src":"https://www.zmnh.com/uploadFiles/imgs/a9cb0b18-b093-4cd6-92b9-c3c72789e95e.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 3 · 浙江自然博物院官方"},
+        {"src":"https://www.zmnh.com/uploadFiles/imgs/a17221f7-6d07-4322-a178-3a3461238a4a.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 4 · 浙江自然博物院官方"},
+        {"src":"https://www.zmnh.com/uploadFiles/imgs/6dec4aa2-3e94-4f91-a2a5-c5c8464f1adf.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 5 · 浙江自然博物院官方"}
+      ],
       "sources": [["iCity 展讯（日期、场馆、预约信息）","https://art.icity.ly/events/erbi2jd"]]
     },
     {
