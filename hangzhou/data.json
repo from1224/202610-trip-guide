@@ -759,21 +759,31 @@
     },
     {
       "id": "pending-tianmuli-fiber-festival",
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "kind": "市集",
       "area": "西湖区",
       "title": "好好织时节·纤维生活节 2.0",
-      "subtitle": "潮新闻已核对日期与主会场 · 价格、每日时段待核",
+      "subtitle": "潮新闻记者现场报道：纤维市集、手作体验与织物艺术活动",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-18",
-      "schedule": "10/16–10/18 · 12:00–21:00（海报信息）",
+      "schedule": "10/16–10/18 · 每日 12:00–21:00（潮新闻现场报道）",
       "venue": "天目里 1F 户外广场",
-      "address": "不公开私人地址；场地请以官方信息为准",
-      "price": "免费（海报标注，未官方核实）",
-      "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
-      "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
+      "address": "天目山路398号 · 天目里 1F 户外广场",
+      "price": "费用未知（潮新闻报道未披露）",
+      "booking": "预约/入场规则未知（潮新闻报道未披露）",
+      "status": "active",
+      "summary": "60余家织物品牌与原创创作者；编织、刺绣、再生纺织、原创配饰，含 DIY、织女义诊与甜品车。",
+      "imageNote": "已读潮新闻现场报道；未取得可公开嵌入的主办方宣传图。",
+      "map": {
+        "url": "https://www.amap.com/search?query=%E5%A4%A9%E7%9B%AE%E9%87%8C%201F%20%E6%88%B7%E5%A4%96%E5%B9%BF%E5%9C%BA",
+        "location": [120.098901,30.266540],
+        "checkedAt": "2026-10-17"
+      },
       "sources": [
+        [
+          "潮新闻记者现场报道 · 好好织时节",
+          "https://tidenews.com.cn/news.html?id=3587534"
+        ],
         [
           "小红书已读周末活动汇总（10/16–18；未独立核验）",
           "https://www.xiaohongshu.com/explore/6ad088e6000000001802b695"

@@ -132,7 +132,6 @@ const posters={
   'shye-return-hangzhou':['https://s2.showstart.com/img/2026/0923/18/30/f9690d19a82d43768691d5b85aa6607c_2160_2700_3640465.0x0.png','https://www.uniuni.live/zh','UN! / Team Uni 官方排期海报：Shye Return'],
   'pending-liangzhu-creative-market':['https://meizi-chao-pub.8531.cn/2109842336568393728_1280px.png?height=685&width=1280','https://tidenews.com.cn/news.html?id=3583580','潮新闻来源图：2026良渚文创市集'],
   'pending-bread':['https://mc-gxlmmz-public.8531.cn/17887302285064.png','https://tidenews.com.cn/tmh_news.html?id=6ac9dbbabe449b000197c8ec','潮新闻来源图：就叫面包节'],
-  'pending-tianmuli-fiber-festival':['./images/fiber-festival.jpg','https://www.sina.cn/news/detail/5353523489540363.html','博主实发海报：好好织时节'],
   'pending-flower':['./images/flower-jazz.jpg','https://pic.hangzhou.com.cn/hzyx/content/content_9324356.html','杭州日报佐证图：花朵爵士公园'],
   'pending-pet-forest-market':['./images/pet-forest-market.jpg','https://www.chongyejia.com/projects/hangzhou-autumn','宠业家官方计划海报：毛孩森活集（待最终公告）']
 };
@@ -194,11 +193,11 @@ $('#imageDialog button').onclick=()=>$('#imageDialog').close();
 document.addEventListener('click',e=>{let b=e.target.closest('[data-gallery-move]');if(!b)return;let track=b.closest('.event-gallery').querySelector('.gallery-track');track.scrollBy({left:track.clientWidth*Number(b.dataset.galleryMove),behavior:'smooth'})});
 function selectTop(tab){let food=tab==='food',after=tab==='after';$('#playPanel').hidden=food||after;$('#foodPanel').hidden=!food;$('#afterPanel').hidden=!after;document.querySelectorAll('[data-top-tab]').forEach(q=>q.setAttribute('aria-selected',q.dataset.topTab===tab));localStorage.setItem('hz:ui:top',tab);if(food)setTimeout(()=>foodMap?.invalidateSize(),0)}
 document.querySelectorAll('[data-top-tab]').forEach(b=>b.onclick=()=>selectTop(b.dataset.topTab));
-fetch('./data.json?v=hangzhou-food-map-20261017-poi17-images-v6').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','');else x.note=(x.note||'').replace('图片：未查','图片：已查未获可用图')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
+fetch('./data.json?v=hangzhou-food-map-20261017-poi17-images-v7').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','');else x.note=(x.note||'').replace('图片：未查','图片：已查未获可用图')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
 </script>
 
 <script>(()=>{
-const pic={"pending-pet-forest-market":"./images/pet-forest-market.jpg","pending-tianmuli-fiber-festival":"./images/fiber-festival.jpg","pending-flower":"./images/flower-jazz.jpg"};
+const pic={"pending-pet-forest-market":"./images/pet-forest-market.jpg","pending-flower":"./images/flower-jazz.jpg"};
 const key=x=>'hz:'+x.id+':swipe';
 const name={yes:'感兴趣',no:'不感兴趣',maybe:'待定',none:'尚未筛选'};
 function start(){
