@@ -178,6 +178,13 @@
       "booking": "预约与入馆规则请以场馆当日公告为准",
       "status": "active",
       "summary": "适合把“琮谱”之外的良渚礼器体系补全；璧、钺在展览中并置呈现。",
+      "imageNote": "已查：iCity 页面图不可转载；未找到可公开展示的官方图",
+      "map": {
+        "poiId": "B0JGVA5ULY",
+        "url": "https://www.amap.com/place/B0JGVA5ULY",
+        "checkedAt": "2026-10-17",
+        "note": "官方高德 POI：玉架山考古博物馆（临平区，兴中路与绿洲路交叉口）"
+      },
       "sources": [["iCity 展讯（日期、场馆、预约信息）","https://art.icity.ly/events/cxt8v0q"]]
     },
     {
