@@ -285,7 +285,7 @@ function start(){
 window.initHangzhouSwipe=start;
 start();
 })()</script>
-<script>document.addEventListener('click',e=>{let b=e.target.closest('#hikingPanel .gallery-frame');if(!b)return;let src=b.dataset.image,d=document.querySelector('#imageDialog');if(!src||!d)return;e.stopImmediatePropagation();d.querySelector('img').src=src;d.querySelector('figcaption').textContent=b.dataset.caption||b.querySelector('img')?.alt||'';d.showModal()},true)</script>
+<style>.map-zoom .map-viewport img{object-fit:contain!important}</style><script>document.addEventListener('click',e=>{let b=e.target.closest('#hikingPanel .gallery-frame');if(!b)return;let src=b.dataset.image,d=document.querySelector('#imageDialog');if(!src||!d)return;e.stopImmediatePropagation();d.querySelector('img').src=src;d.querySelector('figcaption').textContent=b.dataset.caption||b.querySelector('img')?.alt||'';d.showModal()},true)</script>
 <script>(()=>{document.querySelectorAll('[data-zoom-map]').forEach(box=>{let img=box.querySelector('img'),view=box.querySelector('.map-viewport'),scale=1,x=0,y=0,last;let paint=()=>img.style.transform=`translate(${x}px,${y}px) scale(${scale})`;box.querySelectorAll('[data-map-zoom]').forEach(b=>b.onclick=()=>{scale=Math.max(1,Math.min(3,scale+(b.dataset.mapZoom==='in'?.35:-.35)));paint()});view.onpointerdown=e=>{last=[e.clientX,e.clientY];view.setPointerCapture(e.pointerId)};view.onpointermove=e=>{if(!last)return;x+=e.clientX-last[0];y+=e.clientY-last[1];last=[e.clientX,e.clientY];paint()};view.onpointerup=view.onpointercancel=()=>last=null;view.addEventListener("wheel",e=>{e.preventDefault();scale=Math.max(1,Math.min(3,scale+(e.deltaY<0?.15:-.15)));paint()},{passive:false})})()});</script>
 </body>
 </html>
