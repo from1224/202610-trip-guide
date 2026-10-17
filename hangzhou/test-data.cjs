@@ -15,6 +15,7 @@ for(const x of by("pending")){assert(x.sourceNoteId&&x.imagePage&&x.itemIndex)}
 assert.equal(data.foodItems.length,6);assert.equal(new Set(data.foodItems.map(x=>x.id)).size,data.foodItems.length);
 for(const id of ["food-xiangyuandao-gudun","food-wanjiu-shangtang","food-huqia-jingdezhen","food-yangyouxi-xixi"]){const x=data.foodItems.find(x=>x.id===id);assert(x);assert.equal(x.label,"候选");assert.equal(x.checkedAt,"2026-10-17")}
 for(const x of data.foodItems){assert(x.id&&x.cuisine&&x.area&&x.title&&x.venue&&x.address&&x.price&&x.conditions&&x.sources.length);assert(!["萧山区","临平区","滨江区"].includes(x.area));for(const source of x.sources)assert(!source[1]?.includes("xiaohongshu.com/search_result/"))}
+for(const id of ["food-luyaoliu-gudun","food-xiangfei-tianmuli","food-wanjiu-shangtang"]){const x=data.foodItems.find(x=>x.id===id);assert(x.sources.some(s=>s[1]?.includes("xiaohongshu.com/explore/")));assert(!x.conditions.includes("待补"))}
 for(const id of ["zhejiang-museum-taipingnian","liangzhu-museum-cong-spectrum","yujia-museum-zhili","west-lake-museum-ten-scenes","zhejiang-natural-ammonite","kuahuqiao-wenjing-liuguang"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,"active");assert(x.exhibitionType);assert(x.sources[0][1].startsWith("https://art.icity.ly/events/"))}
 assert.equal(data.meta.weather.validThrough,"2026-10-18");assert.equal(data.meta.weather.days.length,2);for(const day of data.meta.weather.days)assert(day.date>="2026-10-17"&&Number.isFinite(day.high)&&Number.isFinite(day.low));
 console.log("hangzhou activity data: ok");

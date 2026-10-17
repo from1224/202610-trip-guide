@@ -1387,8 +1387,8 @@
       "venue": "古墩路印象城一楼",
       "address": "古墩路印象城",
       "price": "4 人约 ¥560（约 ¥140/人），仅作食记消费参考",
-      "conditions": "小红书已读摘要保留；原搜索入口在手机端失效，正式分享链接待修复。晚餐曾排队、午餐未排；营业、实时等位与独行份量待核。",
-      "sources": [["小红书已读食记：桥桥瞧世界《杭州最好吃的湖南菜，2次10道菜！》；快意飞马《杭州美味湘菜｜一月四刷陸幺陸》（来源 ID：6a65d041000000000a0386d7；分享链接待补）", null]]
+      "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。晚餐曾排队、午餐未排；营业、实时等位与独行份量待核。",
+      "sources": [["小红书：桥桥瞧世界《杭州最好吃的湖南菜，2次10道菜！》", "https://www.xiaohongshu.com/explore/6a65d041000000000a0386d7?xsec_token=ABGIK2PayN28TURANkxOsqupjSmb2mw2QOywbgOa4OPAg=&xsec_source=pc_search&source=web_search_result_notes"], ["小红书：快意飞马《杭州美味湘菜｜一月四刷陸幺陸》", "https://www.xiaohongshu.com/explore/6a660b8e000000001c012019?xsec_token=ABb222Bt2dOsYLM4K7eQ10SpTYjHFLYieYN5HCMfH1aG4=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
     {
       "id": "food-xiangfei-tianmuli",
@@ -1401,8 +1401,8 @@
       "venue": "天目里店",
       "address": "天目里",
       "price": "作者食记约 ¥100/人，仅作参考",
-      "conditions": "小红书已读摘要保留；原搜索入口在手机端失效，正式分享链接待修复。仅备选；营业、实时等位与独行份量待核。鸡爪、酱板鸭仅有单个食客负面体验，不作门店事实判定。",
-      "sources": [["小红书已读食记：再给我两分钟同学《杭州湘绯🌶️ 真实测评》（来源 ID：6ab9e2ab000000001203eaea；分享链接待补）", null]]
+      "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。仅备选；营业、实时等位与独行份量待核。鸡爪、酱板鸭仅有单个食客负面体验，不作门店事实判定。",
+      "sources": [["小红书：再给我两分钟同学《杭州湘绯🌶️ 真实测评》", "https://www.xiaohongshu.com/explore/6ab9e2ab000000001203eaea?xsec_token=ABs7bFajeoi-OHLj_n4R0hU-tZlxtrW5aCA_We2H6zJSA=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
     {
       "id": "food-xiangyuandao-gudun",
@@ -1429,8 +1429,8 @@
       "venue": "晚酒·阿英川菜馆（上塘路店）",
       "address": "拱墅区上塘路 310-3",
       "price": "约 ¥95–96/人（携程商户页参考）",
-      "conditions": "小红书作者 Snowb福星高照的已读摘要显示“06-02”，年份未明；上塘路一、二店曾排队为食记陈述，营业、实时等位与价格待核。",
-      "sources": [["携程商户页（人均参考）", "https://you.ctrip.com/food/hangzhou14/16481522.html"], ["小红书已读食记：Snowb 福星高照《打卡够杭州就停手（3/100）|阿英川菜馆》（来源 ID：69d8c887000000001a0287aa；分享链接待补）", null]]
+      "conditions": "原帖标题与作者已在桌面登录 Chrome 新标签核对，手机未验。作者 Snowb福星高照的已读摘要显示“06-02”，年份未明；上塘路一、二店曾排队为食记陈述，营业、实时等位与价格待核。",
+      "sources": [["携程商户页（人均参考）", "https://you.ctrip.com/food/hangzhou14/16481522.html"], ["小红书：Snowb 福星高照《打卡够杭州就停手（3/100）|阿英川菜馆》", "https://www.xiaohongshu.com/explore/69d8c887000000001a0287aa?xsec_token=ABB4mm0c3TIJ67jrB7Zajrelw_kQPR_yQfO14OZ4EWZoI=&xsec_source=pc_search&source=web_search_result_notes"]]
     },
     {
       "id": "food-huqia-jingdezhen",
