@@ -1,4 +1,4 @@
-const assert=require("node:assert/strict"),data=require("./data.json");
+const assert=require("node:assert/strict"),fs=require("node:fs"),data=require("./data.json");
 const by=s=>data.items.filter(x=>x.status===s);
 assert.equal(by("active").length,17);assert.equal(by("permanent").length,12);assert.equal(by("archived").length,3);assert.equal(by("pending").length,16);
 assert.equal(new Set(data.items.map(x=>x.id)).size,data.items.length);
@@ -16,6 +16,8 @@ assert.equal(data.foodItems.length,6);assert.equal(new Set(data.foodItems.map(x=
 for(const id of ["food-xiangyuandao-gudun","food-wanjiu-shangtang","food-huqia-jingdezhen","food-yangyouxi-xixi"]){const x=data.foodItems.find(x=>x.id===id);assert(x);assert.equal(x.label,"候选");assert.equal(x.checkedAt,"2026-10-17")}
 for(const x of data.foodItems){assert(x.id&&x.cuisine&&x.area&&x.title&&x.venue&&x.address&&x.price&&x.conditions&&x.sources.length);assert(!["萧山区","临平区","滨江区"].includes(x.area));for(const source of x.sources)assert(!source[1]?.includes("xiaohongshu.com/search_result/"))}
 for(const id of ["food-luyaoliu-gudun","food-xiangfei-tianmuli","food-wanjiu-shangtang"]){const x=data.foodItems.find(x=>x.id===id);assert(x.sources.some(s=>s[1]?.includes("xiaohongshu.com/explore/")));assert(!x.conditions.includes("待补"))}
+for(const x of data.foodItems)assert(x.note);
+const page=fs.readFileSync(require.resolve("./index.html"),"utf8");assert(page.includes('class="source-action"'));assert(page.includes("查看原帖 · "));assert(page.includes("data.json?v=food-source-links-20261017"));assert(!page.includes("来源与证据边界"));
 for(const id of ["zhejiang-museum-taipingnian","liangzhu-museum-cong-spectrum","yujia-museum-zhili","west-lake-museum-ten-scenes","zhejiang-natural-ammonite","kuahuqiao-wenjing-liuguang"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,"active");assert(x.exhibitionType);assert(x.sources[0][1].startsWith("https://art.icity.ly/events/"))}
 assert.equal(data.meta.weather.validThrough,"2026-10-18");assert.equal(data.meta.weather.days.length,2);for(const day of data.meta.weather.days)assert(day.date>="2026-10-17"&&Number.isFinite(day.high)&&Number.isFinite(day.low));
 console.log("hangzhou activity data: ok");
