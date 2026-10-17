@@ -1374,5 +1374,91 @@
       "imagePage": 6,
       "itemIndex": 18
     }
+  ],
+  "foodItems": [
+    {
+      "id": "food-luyaoliu-gudun",
+      "checkedAt": "2026-10-17",
+      "cuisine": "湘菜",
+      "area": "西湖区",
+      "label": "分店级记录",
+      "title": "陸幺陸家常菜·古墩路印象城店",
+      "subtitle": "已读食记提到：酸菜子煎蛋、爆炒三脆、葱油香干丝。",
+      "venue": "古墩路印象城一楼",
+      "address": "古墩路印象城",
+      "price": "4 人约 ¥560（约 ¥140/人），仅作食记消费参考",
+      "conditions": "小红书已读摘要保留；原搜索入口在手机端失效，正式分享链接待修复。晚餐曾排队、午餐未排；营业、实时等位与独行份量待核。",
+      "sources": [["小红书已读食记：桥桥瞧世界《杭州最好吃的湖南菜，2次10道菜！》；快意飞马《杭州美味湘菜｜一月四刷陸幺陸》（来源 ID：6a65d041000000000a0386d7；分享链接待补）", null]]
+    },
+    {
+      "id": "food-xiangfei-tianmuli",
+      "checkedAt": "2026-10-17",
+      "cuisine": "湘菜",
+      "area": "西湖区",
+      "label": "备选",
+      "title": "湘绯·天目里店",
+      "subtitle": "已读食记总体评价中规中矩；可优先看小炒黄牛肉、金钱蛋。",
+      "venue": "天目里店",
+      "address": "天目里",
+      "price": "作者食记约 ¥100/人，仅作参考",
+      "conditions": "小红书已读摘要保留；原搜索入口在手机端失效，正式分享链接待修复。仅备选；营业、实时等位与独行份量待核。鸡爪、酱板鸭仅有单个食客负面体验，不作门店事实判定。",
+      "sources": [["小红书已读食记：再给我两分钟同学《杭州湘绯🌶️ 真实测评》（来源 ID：6ab9e2ab000000001203eaea；分享链接待补）", null]]
+    },
+    {
+      "id": "food-xiangyuandao-gudun",
+      "checkedAt": "2026-10-17",
+      "cuisine": "湘菜",
+      "area": "西湖区",
+      "label": "候选",
+      "title": "湘缘道客·湘缘饭店（古墩路店）",
+      "subtitle": "旧食记提到：小炒肉、鱼头、金钱蛋、茄子煲。",
+      "venue": "湘缘道客·湘缘饭店（古墩路店）",
+      "address": "西湖区古墩路紫金公寓 19-8 商铺",
+      "price": "约 ¥54/人（页面消费参考，非推荐评分）",
+      "conditions": "Trip.com 食记为 2024 年旧记录，仅作菜品线索；营业、价格、排队与当前出品均待核。",
+      "sources": [["大众点评菜品图片页", "https://www.dianping.com/shop/kaR9Os3L0GuumJmK/photos"], ["Trip.com 2024 食记", "https://hk.trip.com/moments/detail/hangzhou-14-124423335/"]]
+    },
+    {
+      "id": "food-wanjiu-shangtang",
+      "checkedAt": "2026-10-17",
+      "cuisine": "川菜",
+      "area": "拱墅区",
+      "label": "候选",
+      "title": "晚酒·阿英川菜馆（上塘路店）",
+      "subtitle": "已读食记提到：水煮鱼、咸蛋黄南瓜、辣子鸡、牛蛙等，适合朋友聚餐的个人记录。",
+      "venue": "晚酒·阿英川菜馆（上塘路店）",
+      "address": "拱墅区上塘路 310-3",
+      "price": "约 ¥95–96/人（携程商户页参考）",
+      "conditions": "小红书作者 Snowb福星高照的已读摘要显示“06-02”，年份未明；上塘路一、二店曾排队为食记陈述，营业、实时等位与价格待核。",
+      "sources": [["携程商户页（人均参考）", "https://you.ctrip.com/food/hangzhou14/16481522.html"], ["小红书已读食记：Snowb 福星高照《打卡够杭州就停手（3/100）|阿英川菜馆》（来源 ID：69d8c887000000001a0287aa；分享链接待补）", null]]
+    },
+    {
+      "id": "food-huqia-jingdezhen",
+      "checkedAt": "2026-10-17",
+      "cuisine": "江西菜",
+      "area": "拱墅区",
+      "label": "候选",
+      "title": "胡恰·景德江西菜（杭州中心店）",
+      "subtitle": "公开食记提到：碎椒牛肉吐司、赣州鸭霸王、糯米蒸排骨。",
+      "venue": "胡恰·景德江西菜（杭州中心店）",
+      "address": "拱墅区展览东路 150 号杭州中心裙楼 6 楼 L618",
+      "price": "约 ¥82/人（大众点评页面参考）",
+      "conditions": "公开食记呈推广式表达且日期未明，仅作候选和菜品线索；非小红书实读，营业、价格与等位待核。",
+      "sources": [["大众点评商户页", "https://m.dianping.com/shop/1464364481?msource=applemaps"], ["Trip.com 食记", "https://hk.trip.com/moments/poi-city-151210045/"]]
+    },
+    {
+      "id": "food-yangyouxi-xixi",
+      "checkedAt": "2026-10-17",
+      "cuisine": "江西菜",
+      "area": "余杭区",
+      "label": "候选",
+      "title": "杨有喜·山野江西菜（西溪印象城店）",
+      "subtitle": "单篇公开食记提到：蟹脚捞粉、压锅牛蛙、油浸鱼、瓦罐汤。",
+      "venue": "杨有喜·山野江西菜（西溪印象城店）",
+      "address": "余杭区五常大道 1 号西溪印象城 3 楼",
+      "price": "人均未知",
+      "conditions": "来源为单篇推广式公开食记，日期表述有冲突；仅作菜品线索，不能据此断言当前营业、价格或出品。",
+      "sources": [["Trip.com 食记", "https://hk.trip.com/moments/detail/hangzhou-14-140526275/"]]
+    }
   ]
 }
