@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const root=path.join(__dirname,'..'),page=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),contract=fs.readFileSync(path.join(root,'DELIVERY_ACCEPTANCE.md'),'utf8'),maintenance=fs.readFileSync(path.join(__dirname,'MAINTENANCE.md'),'utf8');
+assert(contract.includes('要求—检查—证据矩阵'));
+assert(contract.includes('自动测试和源码检查不代替视觉与操作验收'));
+assert(maintenance.includes('../DELIVERY_ACCEPTANCE.md'));
+assert(page.includes('data-delivery-mobile-guard'));
+assert(page.includes('高德查看入口：旅游咨询中心（南门附近）'));
+assert(page.includes('https://www.amap.com/place/B0FFFGUY1N'));
+assert(page.includes('历史查询中，桃源街 A 口至咨询中心步行约 1.74 km／23 分钟'));
+assert(page.includes('data-tab-filter-isolation'));
+assert(page.includes("document.querySelectorAll('#playPanel .card')"));
+assert(page.includes('data-tab-hiking-state-isolation'));
+assert(page.includes("tab==='play'&&activeFilter==='徒步'"));
+assert(!page.includes("replace('图片：未查','图片：已查未获可用图')"));
+assert(page.includes('data-hiking-reader-copy'));
+console.log('PASS: public delivery contract, narrow-screen guardrails, hiking entry action, and tab-filter isolation');
