@@ -12,5 +12,7 @@ assert(page.includes("document.querySelectorAll('#playPanel .card')"));
 assert(page.includes('data-tab-hiking-state-isolation'));
 assert(page.includes("tab==='play'&&activeFilter==='徒步'"));
 assert(!page.includes("replace('图片：未查','图片：已查未获可用图')"));
-assert(page.includes('data-hiking-reader-copy'));
+assert(page.includes('红线仅显示本站截取的已核路线，终点对应望宸阁位置；切换不会改变底图或缩放。'));
+assert(!page.includes('核定像素点列'));
+assert(!page.includes('data-hiking-reader-copy'));
 console.log('PASS: public delivery contract, narrow-screen guardrails, hiking entry action, and tab-filter isolation');
