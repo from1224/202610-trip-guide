@@ -15,4 +15,11 @@ assert(!page.includes("replace('图片：未查','图片：已查未获可用图
 assert(page.includes('红线仅显示本站截取的已核路线，终点对应望宸阁位置；切换不会改变底图或缩放。'));
 assert(!page.includes('核定像素点列'));
 assert(!page.includes('data-hiking-reader-copy'));
+assert.equal((page.match(/<h2>这周去哪吃<\/h2>/g)||[]).length,1);
+let foodPanel=page.indexOf('<section id="foodPanel"'),foodHeading=page.indexOf('<h2>这周去哪吃</h2>',foodPanel),foodFilters=page.indexOf('id="foodFilters"',foodPanel),foodCards=page.indexOf('id="foodCards"',foodPanel),hikingStack=page.indexOf('<section class="stack hiking-stack hiking-only">'),hikingDinner=page.indexOf('id="hiking-hanggang-dinner"'),activeCards=page.indexOf('<section class="stack" id="active">');
+assert(foodPanel>=0&&foodHeading<foodFilters&&foodFilters<foodCards);
+assert(hikingStack<hikingDinner&&hikingDinner<activeCards);
+assert(!page.includes('id="foodMap"'));
+assert(page.includes('按偏好筛选（可选）'));
+assert(!page.includes('用滑卡筛选本周活动'));
 console.log('PASS: public delivery contract, narrow-screen guardrails, hiking entry action, and tab-filter isolation');
