@@ -2,15 +2,15 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-16",
-    "weekLabel": "本周 · 10月17日–18日",
+    "checkedAt": "2026-10-19",
+    "weekLabel": "本周 · 10月24日–25日",
     "weather": {
-      "checkedAt": "2026-10-16（Asia/Shanghai）",
-      "validThrough": "2026-10-18",
-      "source": "https://api.open-meteo.com/v1/forecast?latitude=30.2741&longitude=120.1551&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum&timezone=Asia%2FShanghai&forecast_days=3",
+      "checkedAt": "2026-10-19（Asia/Shanghai）",
+      "validThrough": "2026-10-25",
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=30.2741&longitude=120.1551&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum&timezone=Asia%2FShanghai&start_date=2026-10-24&end_date=2026-10-25",
       "days": [
-        {"date":"2026-10-17","label":"周六","condition":"多云","low":19.6,"high":30.4,"rainChance":2},
-        {"date":"2026-10-18","label":"周日","condition":"毛毛雨","low":22.1,"high":33.2,"rainChance":43}
+        {"date":"2026-10-24","label":"周六","condition":"阵雨","low":18.7,"high":24.7,"rainChance":86},
+        {"date":"2026-10-25","label":"周日","condition":"毛毛雨","low":23.7,"high":30.8,"rainChance":63}
       ]
     }
   },
@@ -311,7 +311,7 @@
       "address": "武林之星博览中心2号楼2-02",
       "price": "¥80 起 · 非实时余票",
       "booking": "请在售票页确认余票与入场规则",
-      "status": "active",
+      "status": "archived",
       "summary": "周日晚上可看的另一场。",
       "sources": [
         [
@@ -338,7 +338,7 @@
       "address": "武林广场29号；请以场馆入场信息为准",
       "price": "¥220 / ¥280 / ¥380 / ¥480 / ¥580 · 非实时余票",
       "booking": "大麦当前为缺货登记，不能当作可订推荐；余票与入场规则请自行确认",
-      "status": "active",
+      "status": "archived",
       "summary": "新的派 Standby 公告确认杭州站时间、场馆与票档；公告开票信息不代表当前余票。",
       "sources": [
         [
@@ -365,7 +365,7 @@
       "address": "请以场馆入场信息为准",
       "price": "¥50 / ¥160 / ¥198 · 非实时余票",
       "booking": "早鸟优惠公告不代表当前可购价格；余票与入场规则请自行确认",
-      "status": "active",
+      "status": "archived",
       "summary": "杭州临平大剧院公告确认演出时间、户外空中舞台、时长、座席与标价；早鸟优惠不作为实时票价。",
       "sources": [
         [
@@ -388,7 +388,7 @@
       "address": "请以场馆入场信息为准",
       "price": "¥180 / ¥280 / ¥380 / ¥480 / ¥680 / ¥880 · 非实时票面信息",
       "booking": "第三方页面显示部分票档暂时无货且为订金预订；不代表当前可购，请以场馆或主办方最终开票信息为准",
-      "status": "active",
+      "status": "archived",
       "summary": "保剑锋工作室官方微博巡演图确认杭州大剧院 10/16–10/18；演出时段、时长和票档来自第三方票务页，未找到场馆官方详情页。",
       "images": [{"src": "./images/inter-alia-tour.jpg", "source": "https://www.sina.cn/news/detail/5336144482140904.html", "caption": "保剑锋工作室官方微博巡演图（经新浪转发页；本地静态副本）"}],
       "map": {"poiId": "B023B03DMD", "url": "https://www.amap.com/place/B023B03DMD", "checkedAt": "2026-10-17"},
@@ -773,7 +773,7 @@
       "address": "天目山路398号 · 天目里 1F 户外广场",
       "price": "费用未知（潮新闻报道未披露）",
       "booking": "预约/入场规则未知（潮新闻报道未披露）",
-      "status": "active",
+      "status": "archived",
       "summary": "60余家织物品牌与原创创作者；编织、刺绣、再生纺织、原创配饰，含 DIY、织女义诊与甜品车。",
       "imageNote": "已读潮新闻现场报道；未取得可公开嵌入的主办方宣传图。",
       "map": {
@@ -826,7 +826,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "需门票；价格未知（海报信息，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
+      "status": "archived",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
@@ -906,7 +906,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
+      "status": "archived",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
@@ -1043,7 +1043,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
+      "status": "archived",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
@@ -1081,7 +1081,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
+      "status": "archived",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
@@ -1119,7 +1119,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "门票待核（项目页所列摊位费不是门票）",
       "booking": "未来场次待最终公告确认",
-      "status": "pending",
+      "status": "archived",
       "summary": "宠业家官方项目页列出计划日期与钱江世纪公园；页面同时注明未来场次待最终公告确认。",
       "sources": [
         [
@@ -1165,7 +1165,7 @@
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "¥48（海报标价，未官方核实）",
       "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
+      "status": "archived",
       "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
       "sources": [
         [
@@ -1263,7 +1263,7 @@
       "address": "场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
+      "status": "archived",
       "summary": "尚未独立打开验证。",
       "sources": [
         [
@@ -1289,7 +1289,7 @@
       "address": "场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
+      "status": "archived",
       "summary": "尚未独立打开验证。",
       "sources": [
         [
@@ -1315,7 +1315,7 @@
       "address": "场地请以官方信息为准",
       "price": "费用未知（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
+      "status": "archived",
       "summary": "尚未独立打开验证。",
       "sources": [
         [
@@ -1341,7 +1341,7 @@
       "address": "场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
+      "status": "archived",
       "summary": "尚未独立打开验证。",
       "sources": [
         [
@@ -1428,6 +1428,8 @@
     {"id":"hangzhou-museum-heritage","checkedAt":"2026-10-17","kind":"展览","area":"上城区","title":"意匠生辉：杭州不可移动文物纵览","subtitle":"iCity 常设展。","schedule":"09:00–16:30，提前30分钟停止入馆，周一闭馆","venue":"杭州博物馆","address":"粮道山18号 · 北馆二楼","price":"免费（iCity 展讯）","booking":"需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/4rh84eq"]]},
     {"id":"hangzhou-museum-scholars-objects","checkedAt":"2026-10-17","kind":"展览","area":"上城区","title":"闲情雅致：馆藏文房雅玩陈列","subtitle":"iCity 常设展。","schedule":"09:00–16:30，提前30分钟停止入馆，周一闭馆","venue":"杭州博物馆","address":"粮道山18号 · 北馆三楼","price":"免费（iCity 展讯）","booking":"需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/bhs23ss"]]},
     {"id":"zhejiang-natural-permanent","checkedAt":"2026-10-17","kind":"展览","area":"拱墅区","title":"浙江自然博物院基本陈列展","subtitle":"iCity 常设展。","schedule":"09:00–17:00；11月至3月09:30开放，提前1小时停止入馆，周一闭馆","venue":"浙江自然博物院","address":"西湖文化广场6号","price":"免费（iCity 展讯）","booking":"双休日及法定节假日需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/xern6rm"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}}
+    ,{"id":"charlie-puth-whatevers-clever-hangzhou","checkedAt":"2026-10-19","kind":"演出","area":"西湖区","title":"Charlie Puth：Whatever's Clever! World Tour 杭州站","subtitle":"Live Nation 官方页列 10 月 25 日黄龙体育中心体育场；页面显示“全面开售”。","dateStart":"2026-10-25","dateEnd":"2026-10-25","schedule":"10/25（周日）· 具体开演时间待主办方进一步公告","venue":"黄龙体育中心体育场","address":"西湖区黄龙路1号","price":"票价未在官方页面公开；不代表实时余票","booking":"Live Nation 页面显示“全面开售”；购票页与实时余票、入场规则请以主办方/票务页为准","status":"active","summary":"可作为本周日大型演出备选；仅确认日期、场馆与官方页面的开售状态，未将其表述为有余票。","map":{"poiId":"B023B0283F","url":"https://www.amap.com/place/B023B0283F","location":[120.133622,30.266075],"checkedAt":"2026-10-19","note":"高德 Web Service POI：黄龙体育中心体育场（黄龙路1号）"},"sources":[["Live Nation 官方活动页（日期、场馆与开售状态）","https://www.livenation.cn/event/charlie-puth-whatever-s-clever-world-tour-hangzhou-tickets-edp1693517"]]}
+    ,{"id":"zhejiang-museum-liujiang-donation","checkedAt":"2026-10-19","kind":"展览","exhibitionType":"艺术","area":"西湖区","title":"金石永年：纪念刘江先生诞辰100周年捐赠展","subtitle":"96 件（组）书法、篆刻作品；与同馆“金石书画第八期”分在不同展厅。","dateStart":"2026-10-01","dateEnd":"2026-10-25","schedule":"10/1–10/25 · 开放与停入以馆方当日公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画馆 A","price":"免费（浙博入馆说明：全馆免费，特殊临展除外；本展未见另收费提示）","booking":"个人无需预约，凭有效身份证件入馆（浙博 2026 入馆说明）","status":"active","summary":"刘江先生诞辰百年捐赠展，和书画厅 C 的“金石书画第八期”可同次安排；10 月 25 日为明确截止日。","imageNote":"未取得可公开嵌入的官方图。","map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-19","note":"与之江馆区其他展览共用已核高德 POI"},"sources":[["浙江省博物馆官方微博（经新浪转载，展期、展厅与作品数量）","https://www.sina.cn/news/detail/5348933216765280.html"],["浙江美术馆 2026 入馆说明","https://www.zjam.org.cn/Site/news/2025/0015/002108.shtml"]]}
   ],
   "foodItems": [
     {
