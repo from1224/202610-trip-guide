@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-10-20",
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -1433,7 +1433,88 @@
     {"id":"hangzhou-museum-scholars-objects","checkedAt":"2026-10-17","kind":"展览","area":"上城区","title":"闲情雅致：馆藏文房雅玩陈列","subtitle":"iCity 常设展。","schedule":"09:00–16:30，提前30分钟停止入馆，周一闭馆","venue":"杭州博物馆","address":"粮道山18号 · 北馆三楼","price":"免费（iCity 展讯）","booking":"需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/bhs23ss"]]},
     {"id":"zhejiang-natural-permanent","checkedAt":"2026-10-17","kind":"展览","area":"拱墅区","title":"浙江自然博物院基本陈列展","subtitle":"iCity 常设展。","schedule":"09:00–17:00；11月至3月09:30开放，提前1小时停止入馆，周一闭馆","venue":"浙江自然博物院","address":"西湖文化广场6号","price":"免费（iCity 展讯）","booking":"双休日及法定节假日需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/xern6rm"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}}
     ,{"id":"charlie-puth-whatevers-clever-hangzhou","checkedAt":"2026-10-19","kind":"演出","area":"西湖区","title":"Charlie Puth：Whatever's Clever! World Tour 杭州站","subtitle":"Live Nation 官方页列 10 月 25 日黄龙体育中心体育场；页面显示“全面开售”。","dateStart":"2026-10-25","dateEnd":"2026-10-25","schedule":"10/25（周日）· 具体开演时间待主办方进一步公告","venue":"黄龙体育中心体育场","address":"西湖区黄龙路1号","price":"票价未在官方页面公开；不代表实时余票","booking":"Live Nation 页面显示“全面开售”；购票页与实时余票、入场规则请以主办方/票务页为准","status":"active","summary":"可作为本周日大型演出备选；仅确认日期、场馆与官方页面的开售状态，未将其表述为有余票。","map":{"poiId":"B023B0283F","url":"https://www.amap.com/place/B023B0283F","location":[120.133622,30.266075],"checkedAt":"2026-10-19","note":"高德 Web Service POI：黄龙体育中心体育场（黄龙路1号）"},"sources":[["Live Nation 官方活动页（日期、场馆与开售状态）","https://www.livenation.cn/event/charlie-puth-whatever-s-clever-world-tour-hangzhou-tickets-edp1693517"]]}
-    ,{"id":"zhejiang-museum-liujiang-donation","checkedAt":"2026-10-19","kind":"展览","exhibitionType":"艺术","area":"西湖区","title":"金石永年：纪念刘江先生诞辰100周年捐赠展","subtitle":"96 件（组）书法、篆刻作品；与同馆“金石书画第八期”分在不同展厅。","dateStart":"2026-10-01","dateEnd":"2026-10-25","schedule":"10/1–10/25 · 开放与停入以馆方当日公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画馆 A","price":"免费（浙博入馆说明：全馆免费，特殊临展除外；本展未见另收费提示）","booking":"个人无需预约，凭有效身份证件入馆（浙江省博物馆官网）","status":"active","summary":"刘江先生诞辰百年捐赠展，和书画厅 C 的“金石书画第八期”可同次安排；10 月 25 日为明确截止日。","imageNote":"未取得可公开嵌入的官方图。","map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-19","note":"与之江馆区其他展览共用已核高德 POI"},"sources":[["浙江省博物馆官方微博（经新浪转载，展期、展厅与作品数量）","https://www.sina.cn/news/detail/5348933216765280.html"],["浙江省博物馆官网（入馆须持实体身份证）","https://www.zjmuseum.com.cn/cn/"]]}
+    ,{"id":"zhejiang-museum-liujiang-donation","checkedAt":"2026-10-19","kind":"展览","exhibitionType":"艺术","area":"西湖区","title":"金石永年：纪念刘江先生诞辰100周年捐赠展","subtitle":"96 件（组）书法、篆刻作品；与同馆“金石书画第八期”分在不同展厅。","dateStart":"2026-10-01","dateEnd":"2026-10-25","schedule":"10/1–10/25 · 开放与停入以馆方当日公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画馆 A","price":"免费（浙博入馆说明：全馆免费，特殊临展除外；本展未见另收费提示）","booking":"个人无需预约，凭有效身份证件入馆（浙江省博物馆官网）","status":"active","summary":"刘江先生诞辰百年捐赠展，和书画厅 C 的“金石书画第八期”可同次安排；10 月 25 日为明确截止日。","imageNote":"未取得可公开嵌入的官方图。","map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-19","note":"与之江馆区其他展览共用已核高德 POI"},"sources":[["浙江省博物馆官方微博（经新浪转载，展期、展厅与作品数量）","https://www.sina.cn/news/detail/5348933216765280.html"],["浙江省博物馆官网（入馆须持实体身份证）","https://www.zjmuseum.com.cn/cn/"]]},
+    {
+      "id": "mengchuan-haobuhao-hangzhou-20261114",
+      "checkedAt": "2026-10-20",
+      "kind": "脱口秀",
+      "area": "杭州",
+      "title": "孟川《好不好》杭州站",
+      "subtitle": "10月20日 14:00 开票；演出在11月14日",
+      "dateStart": "2026-11-14",
+      "dateEnd": "2026-11-14",
+      "schedule": "演出：2026-11-14 19:30（北京时间）",
+      "venue": "杭州演艺·红星剧院",
+      "address": "具体入场地址以票务页为准",
+      "price": "票价未知；当前余票未知",
+      "booking": "首次开票：2026-10-20 14:00（北京时间）；猫眼实名制，一人一票。购票直链未核到，见猫眼官方公告。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "sources": [
+        [
+          "猫眼演出官方开票公告（2026-10-09 发布，2026-10-20 核查）",
+          "https://weibo.com/2/detail/5352169038677437"
+        ],
+        [
+          "高德搜索：杭州演艺·红星剧院（尚未核定精确 POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%BC%94%E8%89%BA%C2%B7%E7%BA%A2%E6%98%9F%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "luxiansen-outdoor-linping-20261031",
+      "checkedAt": "2026-10-20",
+      "kind": "演出",
+      "area": "临平区",
+      "title": "鹿先森乐队 · 户外特别专场",
+      "subtitle": "临平大剧院户外空中舞台 · 约110分钟 · 全站席",
+      "dateStart": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "schedule": "演出：2026-10-31 19:30（北京时间）",
+      "venue": "杭州临平大剧院·户外空中舞台",
+      "address": "具体入场地址以场馆信息为准",
+      "price": "标准票：普通 ¥288／VIP ¥388；不代表实时余票，早鸟优惠不作为当前价",
+      "booking": "首次开票：2026-09-04 11:18（北京时间，已过）；当前余票与购票直链未知，见剧院官方公告。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "sources": [
+        [
+          "杭州临平大剧院官方公告（2026-09-03 发布，2026-10-20 核查）",
+          "https://weibo.com/2/detail/5339072847676905"
+        ],
+        [
+          "高德搜索：杭州临平大剧院（具体舞台入口待确认）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E4%B8%B4%E5%B9%B3%E5%A4%A7%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "1024-moli-ai-community-day-20261024",
+      "checkedAt": "2026-10-20",
+      "kind": "市集",
+      "area": "杭州",
+      "title": "1024 模力工场 AI 社区日",
+      "subtitle": "AI造物市集、主论坛与动手工作坊；免费限额报名",
+      "dateStart": "2026-10-24",
+      "dateEnd": "2026-10-24",
+      "schedule": "2026-10-24（北京时间）：主论坛 10:00–11:30；Demo 分享 13:30–15:30；两个动手工作坊 13:30–15:20；造物市集 10:00–16:00",
+      "venue": "杭州云谷中心；市集原文另标“云谷之芯”",
+      "address": "两处名称按官方原文保留，具体会场与市集之间的路线未核",
+      "price": "免费，限额先到先得",
+      "booking": "官方 10月9日文章已开放报名，使用原文末尾“参会者报名”二维码；首次开放时刻、报名截止时间和当前剩余名额未知。",
+      "status": "active",
+      "imageNote": "官方原文含报名二维码；未取得可用于本页的现场图。",
+      "sources": [
+        [
+          "InfoQ 官方活动介绍及报名二维码（2026-10-09 发布，2026-10-20 核查）",
+          "https://www.infoq.cn/article/RicHewwNF5jacSMQNy6O"
+        ],
+        [
+          "高德搜索：杭州云谷中心（尚未核定精确会场 POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E4%BA%91%E8%B0%B7%E4%B8%AD%E5%BF%83"
+        ]
+      ]
+    }
   ],
   "foodItems": [
     {
