@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-21",
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -49,21 +49,21 @@
     },
     {
       "id": "zjam-october-exhibitions",
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-21",
       "kind": "展览",
       "exhibitionType": "艺术",
       "area": "西湖区",
-      "title": "浙江美术馆 · 四展（分项截止不同）",
+      "title": "浙江美术馆 · 六展（分项截止不同）",
       "subtitle": "同一馆可一次到访；每场结束日期见卡片内分项",
       "dateStart": "2026-10-01",
       "dateEnd": "2026-11-18",
-      "schedule": "方幹民 10/25 截止；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
+      "schedule": "蔡亮、张自薿 10/24 截止；方幹民 10/25 截止；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
       "venue": "浙江美术馆",
       "address": "南山路138号",
       "price": "免费",
       "booking": "无需预约，持有效身份证件入馆（浙江美术馆 2026 入馆说明）",
       "status": "active",
-      "summary": "四场日期不同：寻找方幹民 10/25 截止，珍·墨与采真见素均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
+      "summary": "六场日期不同：蔡亮、张自薿 10/24 最后一天；寻找方幹民 10/25 截止；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
       "images": [
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20260930115310.jpg",
@@ -83,6 +83,11 @@
       ],
       "exhibitions": [
         [
+          "西行长路 双轸同心——蔡亮、张自薿艺术展（4、5、6号厅）",
+          "09/22–10/24（本周六最后一天）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2908&type=1"
+        ],
+        [
           "寻找方幹民",
           "10/01–10/25",
           "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2910&type=1"
@@ -101,6 +106,11 @@
           "陈高杰：世界的肚脐",
           "10/18–11/18",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2915&type=2"
+        ],
+        [
+          "素心万象——林孝爽书法作品展（7号厅）",
+          "10/17–10/30",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2916&type=1"
         ]
       ],
       "sources": [
@@ -115,6 +125,14 @@
         [
           "iCity 展讯：寻找方幹民",
           "https://art.icity.ly/events/dtdqbw5"
+        ],
+        [
+          "浙江美术馆官方展讯：蔡亮、张自薿艺术展（2026-09-21 发布，2026-10-21 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2908&type=1"
+        ],
+        [
+          "浙江美术馆官方展讯：林孝爽书法作品展（2026-10-16 发布，2026-10-21 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2916&type=1"
         ]
       ],
       "map": {"poiId":"B023B0BMJ6","url":"https://www.amap.com/place/B023B0BMJ6","location":[120.156894,30.231049],"checkedAt":"2026-10-18","note":"高德 Web Service POI：浙江美术馆（南山路138号）"}
@@ -993,24 +1011,32 @@
     },
     {
       "id": "pending-liangzhu-creative-market",
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-21",
       "kind": "市集",
       "area": "余杭区",
       "title": "良渚文创市集",
-      "subtitle": "潮新闻已核对日期与主会场 · 价格、每日时段待核",
+      "subtitle": "线下市集已于 10 月 20 日结束；线上专区长期销售不等于线下延期",
       "dateStart": "2026-10-16",
       "dateEnd": "2026-10-20",
-      "schedule": "10/16–10/20 · 每日时段待核",
+      "schedule": "线下市集：10/16–10/20（已结束）",
       "venue": "良渚 5000+ 艺创园（主会场）",
       "address": "不公开私人地址；场地请以官方信息为准",
-      "price": "价格待核",
-      "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
-      "summary": "潮新闻 2026-10-13 报道确认日期与良渚 5000+ 艺创园主会场；价格、每日时段仍待核。",
+      "price": "线下市集价格未记录",
+      "booking": "线下市集已结束；线上专区长期销售不等于线下延长",
+      "status": "archived",
+      "summary": "线下市集日期为 10 月 16 日至 20 日，现已结束。浙江发布与文旅厅信息所述线上专区属于长期销售，未据此延长线下活动。",
       "sources": [
         [
           "潮新闻 · 2026 良渚文创市集",
           "https://tidenews.com.cn/news.html?id=3583580"
+        ],
+        [
+          "浙江发布官方公告（线下日期与线上专区边界，2026-10-21 核查）",
+          "https://weibo.com/2/detail/5353615570242601"
+        ],
+        [
+          "湖南省文旅厅公告（线上专区说明，2026-10-21 核查）",
+          "https://whhlyt.hunan.gov.cn/whhlyt/xxgk2019/xxgkml/tzgg/202610/t20261009_34078013.html"
         ],
         [
           "小红书搜索来源组 1",
@@ -1512,6 +1538,82 @@
         [
           "高德搜索：杭州云谷中心（尚未核定精确会场 POI）",
           "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E4%BA%91%E8%B0%B7%E4%B8%AD%E5%BF%83"
+        ]
+      ]
+    },
+    {
+      "id": "nicholas-tse-evolution-hangzhou-20261114-15",
+      "checkedAt": "2026-10-21",
+      "kind": "演出",
+      "area": "滨江区",
+      "title": "谢霆锋《进化》演唱会 · 杭州站",
+      "subtitle": "两晚均在杭州奥体中心体育场（大莲花）举行",
+      "dateStart": "2026-11-14",
+      "dateEnd": "2026-11-15",
+      "schedule": "演出：11/14、11/15 均 19:00（北京时间）",
+      "venue": "杭州奥体中心体育场（大莲花）",
+      "address": "精确入场口待票务平台/主办方进一步公告",
+      "price": "¥380 / ¥580 / ¥780 / ¥980 / ¥1380 / ¥1680；不代表实时余票",
+      "booking": "票星球：10/22 13:00 开售 11/14 场，13:20 开售 11/15 场（北京时间）；当前余票、实名要求与商品链接待核。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "summary": "官方公告已确认双场日期、19:00 开演、场馆、开售分场时间和票档；没有把公告当作当前余票或实名要求的证明。",
+      "sources": [
+        [
+          "票星球官方开票公告（2026-10-16 15:00 发布，2026-10-21 核查）",
+          "https://weibo.com/2/detail/5354660455253374"
+        ]
+      ]
+    },
+    {
+      "id": "curley-g-new-realm-hangzhou-20261121",
+      "checkedAt": "2026-10-21",
+      "kind": "演出",
+      "area": "拱墅区",
+      "title": "希林娜依高《新境之地》杭州站",
+      "subtitle": "大麦官方微博公告确认 11 月 21 日在运河体育公园体育馆举行",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "schedule": "演出具体时刻待最终官方核验",
+      "venue": "拱墅运河体育公园体育馆",
+      "address": "精确入场信息待主办方/票务页公告",
+      "price": "票价未知；当前余票未知",
+      "booking": "大麦抢先购：10/21 11:00；全面预售：10/22 11:00（北京时间）。抢先购资格条件待核，未表述为所有人均可购买。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "summary": "只确认演出日期、场馆和两次销售节点；正文缓存与工作室检索摘要不一致，未采用其中的具体开演时刻。",
+      "sources": [
+        [
+          "大麦官方微博新浪镜像（2026-10-17 11:32 发布，2026-10-21 核查）",
+          "https://www.sina.cn/news/detail/5354970725745232.html"
+        ]
+      ]
+    },
+    {
+      "id": "hangzhou-international-model-culture-festival-20261030-1101",
+      "checkedAt": "2026-10-21",
+      "kind": "市集",
+      "area": "萧山区",
+      "title": "杭州国际模型文化节",
+      "subtitle": "杭州国际博览中心二期 1E–1F 馆",
+      "dateStart": "2026-10-30",
+      "dateEnd": "2026-11-01",
+      "schedule": "10/30–11/01 · 每日 09:00–17:00，16:30 停止入场",
+      "venue": "杭州国际博览中心二期 1E–1F 馆",
+      "address": "精确展馆入口待现场/票务页进一步核对",
+      "price": "会员购索引显示 ¥80 起；实时票种、余票未核，未采用已过期 ¥68 早鸟或未明示票种的 ¥136。",
+      "booking": "实名制：持本人身份证原件与二维码入场；票务原页正文读取异常，实时购票与票种规则待核。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "summary": "日期、场馆、日开放时段及实名入场要求已核；会员购原页无法读取正文，故把索引标价与实时售票信息明确分开。",
+      "sources": [
+        [
+          "会员购活动页（原页正文读取异常；索引证据仅支持 ¥80 起，2026-10-21 核查）",
+          "https://mall.bilibili.com/neul-next/ticket-renovation/detail.html?from_spmid=mall.pers-shop.0.0&id=1006309&noTitleBar=1&track_id=__BGMT__"
+        ],
+        [
+          "展会公司官方资讯（日期、场馆与入场规则交叉来源，2026-10-21 核查）",
+          "https://www.samexpo.cn/newsinfo/11217855.html"
         ]
       ]
     }
