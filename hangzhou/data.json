@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -878,7 +878,7 @@
     },
     {
       "id": "pending-liangzhu-autumn-antique-market",
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-22",
       "kind": "待核活动",
       "area": "余杭区",
       "title": "良渚秋社古美术市集",
@@ -889,9 +889,9 @@
       "venue": "暖村·渚上良仓",
       "address": "不公开私人地址；场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
-      "booking": "待核；不能据此判断可入场或需预约",
-      "status": "pending",
-      "summary": "2026-10-14 已读小红书海报线索；尚未独立打开验证，逐项单篇对应关系未确认。",
+      "booking": "活动日期已过；原海报线索未独立验证，不能据此判断当时入场或预约要求",
+      "status": "archived",
+      "summary": "海报线索所列线下日期为 10 月 16 日至 20 日，现已结束；原始单篇仍未独立验证，归档不改变其待核证据等级。",
       "sources": [
         [
           "小红书搜索来源组 1",
@@ -1439,7 +1439,7 @@
     {"id":"zhejiang-natural-seashells","checkedAt":"2026-10-19","kind":"展览","area":"拱墅区","title":"沧海遗贝","subtitle":"浙江自然博物院公告：展期原定至12月2日，调整为10月25日闭展；10月25日当天正常开放。","dateStart":"2026-09-03","dateEnd":"2026-10-25","schedule":"开放与停入以当日馆方公告为准","venue":"浙江自然博物院","address":"西湖文化广场6号 · 一楼临展B","price":"费用以馆方当日规则为准（未取得本特展明确收费说明）","booking":"杭州馆工作日免预约；周末及法定节假日须线上预约，提前3日开放预约（馆方 9/1 公告）","status":"active","images":[{"src":"./images/seashells-official-poster.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展览海报 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-1.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 1 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-2.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 2 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-3.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 3 · 浙江自然博物院官方"}],"sources":[["浙江自然博物院展期调整公告","https://www.zmnh.com/news/news_info.html?category=14&id=28864&infotype=9"],["浙江自然博物院预约公告","https://www.zmnh.com/news/news_info.html?category=14&id=28830&infotype=9"],["浙江自然博物院官方展图","https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20"],["iCity 展讯","https://art.icity.ly/events/e2wivc0"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}},
     {"id":"zhejiang-museum-jinshi-shuhua-8","checkedAt":"2026-10-17","kind":"展览","area":"西湖区","title":"金石书画第八期","subtitle":"iCity 展讯：浙博之江书画厅限期展，10月25日前可看。","dateStart":"2026-08-15","dateEnd":"2026-10-25","schedule":"开放与停入以当日馆方公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画厅C","price":"免费（iCity 展讯）","booking":"需身份证（iCity 展讯；官方预约页待核）","status":"active","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/3sbal6m"]],"map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-17"}},
     {"id":"china-tea-museum-fengwu-changxin","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"风物长新","subtitle":"iCity 展讯：中国茶博双峰馆临展，至11月30日。","dateStart":"2026-07-17","dateEnd":"2026-11-30","schedule":"开放时间以场馆当日公告为准","venue":"中国茶叶博物馆（双峰馆区）","address":"龙井路88号 · 临展厅","price":"免费（iCity 展讯）","booking":"预约信息待核","status":"active","images":[{"src":"./images/fengwu-changxin-official.jpg","source":"https://www.teamuseum.cn/mobile/information/tempDetail.htm?id=8436","caption":"风物长新展览海报 · 中国茶叶博物馆官方"}],"sources":[["中国茶叶博物馆官方展讯","https://www.teamuseum.cn/mobile/information/tempDetail.htm?id=8436"],["iCity 展讯","https://art.icity.ly/events/4rscg2x"]],"map":{"poiId":"B023B13PFT","url":"https://www.amap.com/place/B023B13PFT","location":[120.120532,30.232381],"checkedAt":"2026-10-18","note":"高德 Web Service POI：中国茶叶博物馆（双峰馆区，龙井路88号）"}},
-    {"id":"design-museum-montage","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"蒙太奇","subtitle":"iCity 展讯：国际设计博物馆 0–4 厅，10月20日截止。","dateStart":"2026-04-10","dateEnd":"2026-10-20","schedule":"开放时间以场馆当日公告为准","venue":"中国国际设计博物馆","address":"象山路352号 · 0–4厅","price":"免费，但需入馆门票（iCity 展讯）","booking":"入馆规则待场馆当日确认","status":"active","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/xo5u03k"]],"map":{"poiId":"B0FFHG8EPA","url":"https://www.amap.com/place/B0FFHG8EPA","location":[120.080129,30.152022],"checkedAt":"2026-10-18","note":"高德 Web Service POI：中国美术学院象山校区中国国际设计博物馆（象山路352号）"}},
+    {"id":"design-museum-montage","checkedAt":"2026-10-22","kind":"展览","area":"西湖区","title":"蒙太奇","subtitle":"iCity 展讯：国际设计博物馆 0–4 厅，10月20日截止。","dateStart":"2026-04-10","dateEnd":"2026-10-20","schedule":"展期已于 10/20 结束","venue":"中国国际设计博物馆","address":"象山路352号 · 0–4厅","price":"免费，但需入馆门票（iCity 展讯）","booking":"展期已结束；入馆规则待场馆当日确认","status":"archived","summary":"展期至 10 月 20 日，现已结束；归档保留已核场馆与来源记录，不表示场馆日常闭馆。","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/xo5u03k"]],"map":{"poiId":"B0FFHG8EPA","url":"https://www.amap.com/place/B0FFHG8EPA","location":[120.080129,30.152022],"checkedAt":"2026-10-18","note":"高德 Web Service POI：中国美术学院象山校区中国国际设计博物馆（象山路352号）"}},
     {"id":"zhejiang-museum-gushan-timin","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"梯旻初志","subtitle":"iCity 展讯：浙博孤山主楼长期展。","dateStart":"2025-07-25","dateEnd":"2031-08-30","schedule":"开放与停入以当日馆方公告为准","venue":"浙江省博物馆（孤山馆区）","address":"孤山路25号 · 主楼一层","price":"免费（iCity 展讯）","booking":"需身份证（iCity 展讯；官方预约页待核）","status":"active","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/ipaflke"]],"map":{"poiId":"B023B06XVX","url":"https://www.amap.com/place/B023B06XVX","location":[120.143778,30.251243],"checkedAt":"2026-10-18","note":"高德 Web Service POI：浙江省博物馆（孤山馆区，孤山路25号）"}},
     {"id":"zju-art-museum-zhizhi-shangxiang","checkedAt":"2026-10-17","kind":"展览","area":"西湖区","title":"制器尚象","subtitle":"iCity 常设展；浙大艺博展厅一。","schedule":"开放与预约以当日馆方公告为准","venue":"浙江大学艺术与考古博物馆（紫金港）","address":"余杭塘路866号 · 展厅一","price":"免费（iCity 展讯）","booking":"暑期需预约（iCity 展讯；当前规则待核）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/kdxnbhz"]],"map":{"poiId":"B0FFKZ2KRA","url":"https://www.amap.com/place/B0FFKZ2KRA","checkedAt":"2026-10-17"}},
     {"id":"yujia-museum-permanent","checkedAt":"2026-10-17","kind":"展览","area":"临平区","title":"玉架山考古博物馆基本陈列","subtitle":"iCity 常设展；与临展“执礼”分开记录。","schedule":"开放与预约以当日馆方公告为准","venue":"玉架山考古博物馆","address":"绿洲路100号","price":"免费（iCity 展讯）","booking":"预约信息待核","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/76blk2w"]],"map":{"poiId":"B0JGVA5ULY","url":"https://www.amap.com/place/B0JGVA5ULY","checkedAt":"2026-10-17"}},
@@ -1567,25 +1567,29 @@
     },
     {
       "id": "curley-g-new-realm-hangzhou-20261121",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "kind": "演出",
       "area": "拱墅区",
       "title": "希林娜依高《新境之地》杭州站",
-      "subtitle": "大麦官方微博公告确认 11 月 21 日在运河体育公园体育馆举行",
+      "subtitle": "11 月 21 日 19:00 · 拱墅运河体育公园体育馆",
       "dateStart": "2026-11-21",
       "dateEnd": "2026-11-21",
-      "schedule": "演出具体时刻待最终官方核验",
+      "schedule": "演出：2026-11-21 19:00（北京时间）",
       "venue": "拱墅运河体育公园体育馆",
       "address": "精确入场信息待主办方/票务页公告",
       "price": "票价未知；当前余票未知",
       "booking": "大麦抢先购：10/21 11:00；全面预售：10/22 11:00（北京时间）。抢先购资格条件待核，未表述为所有人均可购买。",
       "status": "active",
       "imageNote": "未取得可用于本页的官方海报。",
-      "summary": "只确认演出日期、场馆和两次销售节点；正文缓存与工作室检索摘要不一致，未采用其中的具体开演时刻。",
+      "summary": "工作室官方正文已确认 11 月 21 日 19:00、场馆及五个平台；保留此前开票信息，票价与当前余票仍未知。",
       "sources": [
         [
           "大麦官方微博新浪镜像（2026-10-17 11:32 发布，2026-10-21 核查）",
           "https://www.sina.cn/news/detail/5354970725745232.html"
+        ],
+        [
+          "希林娜依高官方认证工作室公告（2026-10-13 10:00 发布，2026-10-22 核查）",
+          "https://www.sina.cn/news/detail/5353497954091672.html"
         ]
       ]
     },
@@ -1614,6 +1618,63 @@
         [
           "展会公司官方资讯（日期、场馆与入场规则交叉来源，2026-10-21 核查）",
           "https://www.samexpo.cn/newsinfo/11217855.html"
+        ]
+      ]
+    },
+    {
+      "id": "nuancun-farmers-market-20261023-25",
+      "checkedAt": "2026-10-22",
+      "kind": "市集",
+      "area": "余杭区",
+      "title": "好好生活·农夫市集",
+      "subtitle": "时令农产与生态食材",
+      "dateStart": "2026-10-23",
+      "dateEnd": "2026-10-25",
+      "schedule": "10/23–10/25 · 每日时段未知",
+      "venue": "暖村一区宽草坪",
+      "address": "暖村一区宽草坪；精确位置与入口待现场/主办方实时信息确认",
+      "price": "费用未知",
+      "booking": "普通逛集是否需预约未知；活动报名与日程以“暖村村民卡”小程序实时为准，未编造网页预约链接。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的活动图片。",
+      "summary": "杭州网转载每日商报报道列出日期、场地与市集主题；该来源为本地官方媒体报道，不是主办方独立购票页。",
+      "sources": [
+        [
+          "杭州网转载每日商报报道（杨伊琳，2026-10-14 06:58；2026-10-22 核查）",
+          "https://hznews.hangzhou.com.cn/wenti/content/2026-10/14/content_9337145.htm"
+        ],
+        [
+          "高德搜索：暖村一区宽草坪（精确 POI 待核）",
+          "https://www.amap.com/search?query=%E6%9A%96%E6%9D%91%E4%B8%80%E5%8C%BA%E5%AE%BD%E8%8D%89%E5%9D%AA"
+        ]
+      ]
+    },
+    {
+      "id": "zhejiang-photography-art-exhibition-20260918-1031",
+      "checkedAt": "2026-10-22",
+      "kind": "展览",
+      "exhibitionType": "摄影",
+      "area": "富阳区",
+      "title": "浙江省第二十一届摄影艺术展览暨第五届浙江摄影金像奖作品展",
+      "subtitle": "省展 200 件作品；同期展出 10 位摄影家金像奖作品",
+      "dateStart": "2026-09-18",
+      "dateEnd": "2026-10-31",
+      "schedule": "9/18–10/31 · 每日开放时间未知",
+      "venue": "公望美术馆",
+      "address": "富阳区江滨西大道159号；具体分厅以现场为准",
+      "price": "免费",
+      "booking": "免预约；部分报道提及富阳博物馆临展厅，主官方展讯仅明确公望美术馆，故未虚写具体楼层或分厅。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的展览图片。",
+      "summary": "影像中国网原创展讯确认展期、免费免预约与主场馆；涵盖纪录、艺术、商业、短视频四类作品。本周末及 10/31 仍在展期，11/1 不列为可看。",
+      "sources": [
+        [
+          "影像中国网原创展讯（中国摄影家协会主办，2026-09-23 19:07:21 发布；2026-10-22 核查）",
+          "https://www.cpanet.cn/detail_news_143831.html"
+        ],
+        [
+          "高德搜索：公望美术馆（精确 POI 待核）",
+          "https://www.amap.com/search?query=%E5%85%AC%E6%9C%9B%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%AF%8C%E9%98%B3%E5%8C%BA%E6%B1%9F%E6%BB%A8%E8%A5%BF%E5%A4%A7%E9%81%93159%E5%8F%B7"
         ]
       ]
     }
