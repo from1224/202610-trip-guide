@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-10-23",
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -88,9 +88,9 @@
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2908&type=1"
         ],
         [
-          "寻找方幹民",
+          "寻找方幹民：一位现代主义者的“失踪”与“潜行”（11、12号厅）",
           "10/01–10/25",
-          "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2910&type=1"
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2910&type=1"
         ],
         [
           "珍·墨—吴珍之",
@@ -133,6 +133,10 @@
         [
           "浙江美术馆官方展讯：林孝爽书法作品展（2026-10-16 发布，2026-10-21 核查）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2916&type=1"
+        ],
+        [
+          "浙江美术馆官方展讯：寻找方幹民（2026-09-30 发布，2026-10-23 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2910&type=1"
         ]
       ],
       "map": {"poiId":"B023B0BMJ6","url":"https://www.amap.com/place/B023B0BMJ6","location":[120.156894,30.231049],"checkedAt":"2026-10-18","note":"高德 Web Service POI：浙江美术馆（南山路138号）"}
@@ -1646,6 +1650,45 @@
         [
           "高德搜索：暖村一区宽草坪（精确 POI 待核）",
           "https://www.amap.com/search?query=%E6%9A%96%E6%9D%91%E4%B8%80%E5%8C%BA%E5%AE%BD%E8%8D%89%E5%9D%AA"
+        ]
+      ]
+    },
+    {
+      "id": "chunhuo-chushan-market-20261030-1101",
+      "checkedAt": "2026-10-23",
+      "kind": "市集",
+      "area": "上城区",
+      "title": "2026“淳货出山”供富市集",
+      "subtitle": "千岛湖山货、鱼头品鉴、非遗手作与鱼灯巡游",
+      "dateStart": "2026-10-30",
+      "dateEnd": "2026-11-01",
+      "schedule": "10/30 18:00–20:30；10/31 10:00–20:30；11/01 12:00–17:00（上午因杭州马拉松不开市）",
+      "venue": "杭州城市阳台",
+      "address": "上城区四季青街道之江路1078号",
+      "price": "市集整体门票、预约及非遗手作等体验费用均未见报道说明，待核；仅“免费品鉴千岛湖鱼头”有报道明确提及。",
+      "booking": "普通逛集是否需预约、预约入口及体验收费均待主办方后续公告核实。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的活动图片。",
+      "summary": "杭州日报报道列出日期、分段时段、城市阳台地点与活动内容；公开读取原文失败，已以注明“文章来源：杭州日报”的转载全文交叉读取。该证据为新闻报道，非主办方二次确认。",
+      "map": {
+        "poiId": "B023B1FB36",
+        "url": "https://www.amap.com/place/B023B1FB36",
+        "location": [120.216803, 30.241827],
+        "checkedAt": "2026-10-23",
+        "note": "高德 POI：城市阳台（上城区四季青街道之江路1078号）"
+      },
+      "sources": [
+        [
+          "杭州日报原文（2026-10-22 06:30；公开网页读取失败，保留原始链接）",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/22/content_9348629.htm"
+        ],
+        [
+          "新江南网转载全文（标注文章来源：杭州日报；2026-10-22 发布，2026-10-23 核查）",
+          "https://xjnnet.com/news/chengshi/hangzhou/2026-10-22/84988.html"
+        ],
+        [
+          "高德地图：城市阳台（精确 POI）",
+          "https://www.amap.com/place/B023B1FB36"
         ]
       ]
     },
