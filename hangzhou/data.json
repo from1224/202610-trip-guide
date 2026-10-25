@@ -6,12 +6,9 @@
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
-      "validThrough": "2026-10-25",
+      "validThrough": "2026-10-19",
       "source": "https://api.open-meteo.com/v1/forecast?latitude=30.2741&longitude=120.1551&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum&timezone=Asia%2FShanghai&start_date=2026-10-24&end_date=2026-10-25",
-      "days": [
-        {"date":"2026-10-24","label":"周六","condition":"阵雨","low":18.7,"high":24.7,"rainChance":86},
-        {"date":"2026-10-25","label":"周日","condition":"毛毛雨","low":23.7,"high":30.8,"rainChance":63}
-      ]
+      "days": []
     }
   },
   "items": [
@@ -49,7 +46,7 @@
     },
     {
       "id": "zjam-october-exhibitions",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-25",
       "kind": "展览",
       "exhibitionType": "艺术",
       "area": "西湖区",
@@ -57,13 +54,13 @@
       "subtitle": "同一馆可一次到访；每场结束日期见卡片内分项",
       "dateStart": "2026-10-01",
       "dateEnd": "2026-11-18",
-      "schedule": "蔡亮、张自薿 10/24 截止；方幹民 10/25 截止；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
+      "schedule": "蔡亮、张自薿已于 10/24 结束；方幹民 10/25 截止；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
       "venue": "浙江美术馆",
       "address": "南山路138号",
       "price": "免费",
       "booking": "无需预约，持有效身份证件入馆（浙江美术馆 2026 入馆说明）",
       "status": "active",
-      "summary": "六场日期不同：蔡亮、张自薿 10/24 最后一天；寻找方幹民 10/25 截止；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
+      "summary": "六场日期不同：蔡亮、张自薿已于 10/24 结束；寻找方幹民 10/25 截止；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
       "images": [
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20260930115310.jpg",
@@ -84,7 +81,7 @@
       "exhibitions": [
         [
           "西行长路 双轸同心——蔡亮、张自薿艺术展（4、5、6号厅）",
-          "09/22–10/24（本周六最后一天）",
+          "09/22–10/24（已结束）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2908&type=1"
         ],
         [
