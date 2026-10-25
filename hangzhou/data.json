@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-25",
     "weekLabel": "本周 · 10月24日–25日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -1389,7 +1389,7 @@
     },
     {
       "id": "pending-kaguya",
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-25",
       "kind": "待核活动",
       "area": "杭州",
       "title": "超辉夜姬快闪",
@@ -1401,8 +1401,8 @@
       "address": "场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
-      "summary": "尚未独立打开验证。",
+      "status": "archived",
+      "summary": "尚未独立打开验证；海报所列截止日为 10/24，已按日期归档。",
       "sources": [
         [
           "小红书原帖",
@@ -1520,7 +1520,7 @@
     },
     {
       "id": "1024-moli-ai-community-day-20261024",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-25",
       "kind": "市集",
       "area": "杭州",
       "title": "1024 模力工场 AI 社区日",
@@ -1532,7 +1532,7 @@
       "address": "两处名称按官方原文保留，具体会场与市集之间的路线未核",
       "price": "免费，限额先到先得",
       "booking": "官方 10月9日文章已开放报名，使用原文末尾“参会者报名”二维码；首次开放时刻、报名截止时间和当前剩余名额未知。",
-      "status": "active",
+      "status": "archived",
       "imageNote": "官方原文含报名二维码；未取得可用于本页的现场图。",
       "sources": [
         [
@@ -1594,6 +1594,70 @@
         [
           "希林娜依高官方认证工作室公告（2026-10-13 10:00 发布，2026-10-22 核查）",
           "https://www.sina.cn/news/detail/5353497954091672.html"
+        ]
+      ]
+    },
+    {
+      "id": "hangzhou-traditional-village-market-20261023-25",
+      "checkedAt": "2026-10-25",
+      "kind": "市集",
+      "area": "拱墅区",
+      "title": "杭州传统村落好物市集",
+      "subtitle": "传统村落风味食品、饮品与非遗手作集中亮相",
+      "dateStart": "2026-10-23",
+      "dateEnd": "2026-10-25",
+      "schedule": "10/23–10/25 · 每日开放时段未知",
+      "venue": "武林广场 · 浙江展览馆南广场",
+      "address": "武林广场（浙江展览馆南广场）；精确入口待核",
+      "price": "门票、商品及体验费用未知（报道未披露）。",
+      "booking": "普通逛集是否需预约未知（报道未披露）。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的活动图片。",
+      "summary": "杭州网现场报道与政府转载每日商报均确认市集持续至 10/25；可看风味食品、特色饮品与非遗手作，非“今日才官宣”的新活动。",
+      "sources": [
+        [
+          "杭州网现场报道（2026-10-24 10:38；2026-10-25 核查）",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-10/24/content_9351904.htm"
+        ],
+        [
+          "杭州政协网转载每日商报（2026-10-23；2026-10-25 核查）",
+          "https://www.hzzx.gov.cn/cshz/content/2026-10/23/content_9350275.htm"
+        ],
+        [
+          "高德搜索：浙江展览馆（南广场精确 POI 待核）",
+          "https://www.amap.com/search?query=%E6%B5%99%E6%B1%9F%E5%B1%95%E8%A7%88%E9%A6%86%20%E6%9D%AD%E5%B7%9E"
+        ]
+      ]
+    },
+    {
+      "id": "new-dragon-gate-inn-hangzhou-202611",
+      "checkedAt": "2026-10-25",
+      "kind": "演出",
+      "area": "西湖区",
+      "title": "环境式越剧《新龙门客栈》· 杭州 11 月场",
+      "subtitle": "一台好戏杭州运营方已公告 11 月排期与昨日开票",
+      "dateStart": null,
+      "dateEnd": null,
+      "schedule": "2026 年 11 月场次已公告；具体演出日时待官方配图或后续排期页核实，未臆写 11/1 有场。",
+      "venue": "百越蝴蝶剧场",
+      "address": "剧场精确地址与入口待核",
+      "price": "票价未知；当前余票未知，不沿用历史票价。",
+      "booking": "已于 10/24 开票：14:00–14:15 一台好戏黑金/白金会员及淘麦 VIP，15:00 全面开票；购票平台为猫眼与大麦。",
+      "status": "active",
+      "imageNote": "官方排期配图读取失败，未使用未经核实图片。",
+      "summary": "一台好戏杭州官方微博于 10/22 12:00 官宣，正文仅支持“2026 年 11 月”、开票时段、剧场与购票平台；具体演出日期、时段、票价、余票仍未知。",
+      "sources": [
+        [
+          "一台好戏杭州运营方开票公告（2026-10-22 12:00 发布，2026-10-25 核查）",
+          "https://weibo.com/2/detail/5356789484487348"
+        ],
+        [
+          "一台好戏杭州官方微博身份页（2026-10-25 核查）",
+          "https://www.sina.cn/media/7933572383"
+        ],
+        [
+          "高德搜索：百越蝴蝶剧场（精确 POI 待核）",
+          "https://www.amap.com/search?query=%E7%99%BE%E8%B6%8A%E8%9D%B4%E8%9D%B6%E5%89%A7%E5%9C%BA%20%E6%9D%AD%E5%B7%9E"
         ]
       ]
     },
