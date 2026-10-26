@@ -2,8 +2,8 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-25",
-    "weekLabel": "本周 · 10月24日–25日",
+    "checkedAt": "2026-10-26",
+    "weekLabel": "本周 · 10月26日–11月1日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
       "validThrough": "2026-10-19",
@@ -46,7 +46,7 @@
     },
     {
       "id": "zjam-october-exhibitions",
-      "checkedAt": "2026-10-25",
+      "checkedAt": "2026-10-26",
       "kind": "展览",
       "exhibitionType": "艺术",
       "area": "西湖区",
@@ -54,13 +54,13 @@
       "subtitle": "同一馆可一次到访；每场结束日期见卡片内分项",
       "dateStart": "2026-10-01",
       "dateEnd": "2026-11-18",
-      "schedule": "蔡亮、张自薿已于 10/24 结束；方幹民 10/25 截止；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
+      "schedule": "蔡亮、张自薿已于 10/24 结束；寻找方幹民已于 10/25 结束；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
       "venue": "浙江美术馆",
       "address": "南山路138号",
       "price": "免费",
       "booking": "无需预约，持有效身份证件入馆（浙江美术馆 2026 入馆说明）",
       "status": "active",
-      "summary": "六场日期不同：蔡亮、张自薿已于 10/24 结束；寻找方幹民 10/25 截止；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
+      "summary": "六场日期不同：蔡亮、张自薿已于 10/24 结束；寻找方幹民已于 10/25 结束；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
       "images": [
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20260930115310.jpg",
@@ -86,7 +86,7 @@
         ],
         [
           "寻找方幹民：一位现代主义者的“失踪”与“潜行”（11、12号厅）",
-          "10/01–10/25",
+          "10/01–10/25（已结束）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2910&type=1"
         ],
         [
@@ -1234,8 +1234,8 @@
       "address": "场地请以官方信息为准",
       "price": "票价待核",
       "booking": "入场方式待核",
-      "status": "pending",
-      "summary": "潮新闻 2026-10-10 报道确认日期、滨江天街北侧江南道与活动内容；每日时段和票价未写明。",
+      "status": "archived",
+      "summary": "潮新闻 2026-10-10 报道确认日期、滨江天街北侧江南道与活动内容；活动于 10/25 截止，现按真实日期归档。每日时段和票价未写明。",
       "sources": [
         [
           "小红书已读周末活动汇总（10/16–18；未独立核验）",
@@ -1424,8 +1424,8 @@
       "address": "场地请以官方信息为准",
       "price": "免费（海报标注，未官方核实）",
       "booking": "待核",
-      "status": "pending",
-      "summary": "尚未独立打开验证。",
+      "status": "archived",
+      "summary": "尚未独立打开验证；海报所列截止日为 10/25，现按日期归档。",
       "sources": [
         [
           "小红书原帖",
@@ -1437,8 +1437,8 @@
       "itemIndex": 18
     },
     {"id":"zju-art-museum-wumen","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"盛世修典：\"中国历代绘画大系\"成果展·吴门四家专题展","subtitle":"浙大艺博官网当前展讯；与梅花知己同馆不同展厅。","dateStart":"2026-07-15","dateEnd":null,"schedule":"周二至周日 09:00–17:00 · 16:30 停止入馆","venue":"浙江大学艺术与考古博物馆（紫金港）","address":"余杭塘路866号 · 展厅四","price":"免费","booking":"预约信息待官网进一步核验","status":"active","images":[{"src":"./images/zju-wumen-official.jpg","source":"https://zjumaa.zju.edu.cn/_s186/main.psp","caption":"吴门四家专题展海报 · 浙江大学艺术与考古博物馆官方"}],"sources":[["浙大艺博官方展讯","https://zjumaa.zju.edu.cn/_s186/main.psp"]],"map":{"poiId":"B0FFKZ2KRA","url":"https://www.amap.com/place/B0FFKZ2KRA","checkedAt":"2026-10-17"}},
-    {"id":"zhejiang-natural-seashells","checkedAt":"2026-10-19","kind":"展览","area":"拱墅区","title":"沧海遗贝","subtitle":"浙江自然博物院公告：展期原定至12月2日，调整为10月25日闭展；10月25日当天正常开放。","dateStart":"2026-09-03","dateEnd":"2026-10-25","schedule":"开放与停入以当日馆方公告为准","venue":"浙江自然博物院","address":"西湖文化广场6号 · 一楼临展B","price":"费用以馆方当日规则为准（未取得本特展明确收费说明）","booking":"杭州馆工作日免预约；周末及法定节假日须线上预约，提前3日开放预约（馆方 9/1 公告）","status":"active","images":[{"src":"./images/seashells-official-poster.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展览海报 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-1.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 1 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-2.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 2 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-3.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 3 · 浙江自然博物院官方"}],"sources":[["浙江自然博物院展期调整公告","https://www.zmnh.com/news/news_info.html?category=14&id=28864&infotype=9"],["浙江自然博物院预约公告","https://www.zmnh.com/news/news_info.html?category=14&id=28830&infotype=9"],["浙江自然博物院官方展图","https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20"],["iCity 展讯","https://art.icity.ly/events/e2wivc0"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}},
-    {"id":"zhejiang-museum-jinshi-shuhua-8","checkedAt":"2026-10-17","kind":"展览","area":"西湖区","title":"金石书画第八期","subtitle":"iCity 展讯：浙博之江书画厅限期展，10月25日前可看。","dateStart":"2026-08-15","dateEnd":"2026-10-25","schedule":"开放与停入以当日馆方公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画厅C","price":"免费（iCity 展讯）","booking":"需身份证（iCity 展讯；官方预约页待核）","status":"active","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/3sbal6m"]],"map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-17"}},
+    {"id":"zhejiang-natural-seashells","checkedAt":"2026-10-26","kind":"展览","area":"拱墅区","title":"沧海遗贝","subtitle":"浙江自然博物院公告：展期原定至12月2日，调整为10月25日闭展；10月25日当天正常开放。","dateStart":"2026-09-03","dateEnd":"2026-10-25","schedule":"展期已于 10/25 结束","venue":"浙江自然博物院","address":"西湖文化广场6号 · 一楼临展B","price":"费用以馆方当日规则为准（未取得本特展明确收费说明）","booking":"展期已结束；场馆当日规则以馆方公告为准","status":"archived","summary":"馆方公告明确调整为 10/25 闭展；归档的是本特展，不表示博物院日常闭馆。","images":[{"src":"./images/seashells-official-poster.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展览海报 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-1.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 1 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-2.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 2 · 浙江自然博物院官方"},{"src":"./images/seashells-official-hall-3.jpg","source":"https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20","caption":"沧海遗贝展厅现场 3 · 浙江自然博物院官方"}],"sources":[["浙江自然博物院展期调整公告","https://www.zmnh.com/news/news_info.html?category=14&id=28864&infotype=9"],["浙江自然博物院预约公告","https://www.zmnh.com/news/news_info.html?category=14&id=28830&infotype=9"],["浙江自然博物院官方展图","https://www.zmnh.com/web/findImgs?id=28834&page=1&limit=20"],["iCity 展讯","https://art.icity.ly/events/e2wivc0"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}},
+    {"id":"zhejiang-museum-jinshi-shuhua-8","checkedAt":"2026-10-26","kind":"展览","area":"西湖区","title":"金石书画第八期","subtitle":"iCity 展讯：浙博之江书画厅限期展，10月25日前可看。","dateStart":"2026-08-15","dateEnd":"2026-10-25","schedule":"展期已于 10/25 结束","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画厅C","price":"免费（iCity 展讯）","booking":"展期已结束；馆方入馆规则请以当日公告为准","status":"archived","summary":"归档的是 10 月 25 日截止的限期展，不表示浙江省博物馆日常闭馆。","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/3sbal6m"]],"map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-17"}},
     {"id":"china-tea-museum-fengwu-changxin","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"风物长新","subtitle":"iCity 展讯：中国茶博双峰馆临展，至11月30日。","dateStart":"2026-07-17","dateEnd":"2026-11-30","schedule":"开放时间以场馆当日公告为准","venue":"中国茶叶博物馆（双峰馆区）","address":"龙井路88号 · 临展厅","price":"免费（iCity 展讯）","booking":"预约信息待核","status":"active","images":[{"src":"./images/fengwu-changxin-official.jpg","source":"https://www.teamuseum.cn/mobile/information/tempDetail.htm?id=8436","caption":"风物长新展览海报 · 中国茶叶博物馆官方"}],"sources":[["中国茶叶博物馆官方展讯","https://www.teamuseum.cn/mobile/information/tempDetail.htm?id=8436"],["iCity 展讯","https://art.icity.ly/events/4rscg2x"]],"map":{"poiId":"B023B13PFT","url":"https://www.amap.com/place/B023B13PFT","location":[120.120532,30.232381],"checkedAt":"2026-10-18","note":"高德 Web Service POI：中国茶叶博物馆（双峰馆区，龙井路88号）"}},
     {"id":"design-museum-montage","checkedAt":"2026-10-22","kind":"展览","area":"西湖区","title":"蒙太奇","subtitle":"iCity 展讯：国际设计博物馆 0–4 厅，10月20日截止。","dateStart":"2026-04-10","dateEnd":"2026-10-20","schedule":"展期已于 10/20 结束","venue":"中国国际设计博物馆","address":"象山路352号 · 0–4厅","price":"免费，但需入馆门票（iCity 展讯）","booking":"展期已结束；入馆规则待场馆当日确认","status":"archived","summary":"展期至 10 月 20 日，现已结束；归档保留已核场馆与来源记录，不表示场馆日常闭馆。","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/xo5u03k"]],"map":{"poiId":"B0FFHG8EPA","url":"https://www.amap.com/place/B0FFHG8EPA","location":[120.080129,30.152022],"checkedAt":"2026-10-18","note":"高德 Web Service POI：中国美术学院象山校区中国国际设计博物馆（象山路352号）"}},
     {"id":"zhejiang-museum-gushan-timin","checkedAt":"2026-10-18","kind":"展览","area":"西湖区","title":"梯旻初志","subtitle":"iCity 展讯：浙博孤山主楼长期展。","dateStart":"2025-07-25","dateEnd":"2031-08-30","schedule":"开放与停入以当日馆方公告为准","venue":"浙江省博物馆（孤山馆区）","address":"孤山路25号 · 主楼一层","price":"免费（iCity 展讯）","booking":"需身份证（iCity 展讯；官方预约页待核）","status":"active","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 展讯","https://art.icity.ly/events/ipaflke"]],"map":{"poiId":"B023B06XVX","url":"https://www.amap.com/place/B023B06XVX","location":[120.143778,30.251243],"checkedAt":"2026-10-18","note":"高德 Web Service POI：浙江省博物馆（孤山馆区，孤山路25号）"}},
@@ -1459,8 +1459,8 @@
     {"id":"hangzhou-museum-heritage","checkedAt":"2026-10-17","kind":"展览","area":"上城区","title":"意匠生辉：杭州不可移动文物纵览","subtitle":"iCity 常设展。","schedule":"09:00–16:30，提前30分钟停止入馆，周一闭馆","venue":"杭州博物馆","address":"粮道山18号 · 北馆二楼","price":"免费（iCity 展讯）","booking":"需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/4rh84eq"]]},
     {"id":"hangzhou-museum-scholars-objects","checkedAt":"2026-10-17","kind":"展览","area":"上城区","title":"闲情雅致：馆藏文房雅玩陈列","subtitle":"iCity 常设展。","schedule":"09:00–16:30，提前30分钟停止入馆，周一闭馆","venue":"杭州博物馆","address":"粮道山18号 · 北馆三楼","price":"免费（iCity 展讯）","booking":"需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/bhs23ss"]]},
     {"id":"zhejiang-natural-permanent","checkedAt":"2026-10-17","kind":"展览","area":"拱墅区","title":"浙江自然博物院基本陈列展","subtitle":"iCity 常设展。","schedule":"09:00–17:00；11月至3月09:30开放，提前1小时停止入馆，周一闭馆","venue":"浙江自然博物院","address":"西湖文化广场6号","price":"免费（iCity 展讯）","booking":"双休日及法定节假日需预约（iCity 展讯）","status":"permanent","imageNote":"已读 iCity 详情；其图片不获授权嵌入，官方图待核。","sources":[["iCity 常设展","https://art.icity.ly/events/xern6rm"]],"map":{"poiId":"B023B15DKJ","url":"https://www.amap.com/place/B023B15DKJ","checkedAt":"2026-10-17"}}
-    ,{"id":"charlie-puth-whatevers-clever-hangzhou","checkedAt":"2026-10-19","kind":"演出","area":"西湖区","title":"Charlie Puth：Whatever's Clever! World Tour 杭州站","subtitle":"Live Nation 官方页列 10 月 25 日黄龙体育中心体育场；页面显示“全面开售”。","dateStart":"2026-10-25","dateEnd":"2026-10-25","schedule":"10/25（周日）· 具体开演时间待主办方进一步公告","venue":"黄龙体育中心体育场","address":"西湖区黄龙路1号","price":"票价未在官方页面公开；不代表实时余票","booking":"Live Nation 页面显示“全面开售”；购票页与实时余票、入场规则请以主办方/票务页为准","status":"active","summary":"可作为本周日大型演出备选；仅确认日期、场馆与官方页面的开售状态，未将其表述为有余票。","map":{"poiId":"B023B0283F","url":"https://www.amap.com/place/B023B0283F","location":[120.133622,30.266075],"checkedAt":"2026-10-19","note":"高德 Web Service POI：黄龙体育中心体育场（黄龙路1号）"},"sources":[["Live Nation 官方活动页（日期、场馆与开售状态）","https://www.livenation.cn/event/charlie-puth-whatever-s-clever-world-tour-hangzhou-tickets-edp1693517"]]}
-    ,{"id":"zhejiang-museum-liujiang-donation","checkedAt":"2026-10-19","kind":"展览","exhibitionType":"艺术","area":"西湖区","title":"金石永年：纪念刘江先生诞辰100周年捐赠展","subtitle":"96 件（组）书法、篆刻作品；与同馆“金石书画第八期”分在不同展厅。","dateStart":"2026-10-01","dateEnd":"2026-10-25","schedule":"10/1–10/25 · 开放与停入以馆方当日公告为准","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画馆 A","price":"免费（浙博入馆说明：全馆免费，特殊临展除外；本展未见另收费提示）","booking":"个人无需预约，凭有效身份证件入馆（浙江省博物馆官网）","status":"active","summary":"刘江先生诞辰百年捐赠展，和书画厅 C 的“金石书画第八期”可同次安排；10 月 25 日为明确截止日。","imageNote":"未取得可公开嵌入的官方图。","map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-19","note":"与之江馆区其他展览共用已核高德 POI"},"sources":[["浙江省博物馆官方微博（经新浪转载，展期、展厅与作品数量）","https://www.sina.cn/news/detail/5348933216765280.html"],["浙江省博物馆官网（入馆须持实体身份证）","https://www.zjmuseum.com.cn/cn/"]]},
+    ,{"id":"charlie-puth-whatevers-clever-hangzhou","checkedAt":"2026-10-26","kind":"演出","area":"西湖区","title":"Charlie Puth：Whatever's Clever! World Tour 杭州站","subtitle":"Live Nation 官方页列 10 月 25 日黄龙体育中心体育场；页面显示“全面开售”。","dateStart":"2026-10-25","dateEnd":"2026-10-25","schedule":"演出已于 10/25 结束","venue":"黄龙体育中心体育场","address":"西湖区黄龙路1号","price":"票价未在官方页面公开；不代表实时余票","booking":"演出已结束；原票务与入场规则以主办方为准","status":"archived","summary":"仅确认日期、场馆与官方页面的开售状态；演出已按 10 月 25 日真实日期归档。","map":{"poiId":"B023B0283F","url":"https://www.amap.com/place/B023B0283F","location":[120.133622,30.266075],"checkedAt":"2026-10-19","note":"高德 Web Service POI：黄龙体育中心体育场（黄龙路1号）"},"sources":[["Live Nation 官方活动页（日期、场馆与开售状态）","https://www.livenation.cn/event/charlie-puth-whatever-s-clever-world-tour-hangzhou-tickets-edp1693517"]]}
+    ,{"id":"zhejiang-museum-liujiang-donation","checkedAt":"2026-10-26","kind":"展览","exhibitionType":"艺术","area":"西湖区","title":"金石永年：纪念刘江先生诞辰100周年捐赠展","subtitle":"96 件（组）书法、篆刻作品；与同馆“金石书画第八期”分在不同展厅。","dateStart":"2026-10-01","dateEnd":"2026-10-25","schedule":"展期已于 10/25 结束","venue":"浙江省博物馆（之江馆区）","address":"之江文化中心 · 四楼书画馆 A","price":"免费（浙博入馆说明：全馆免费，特殊临展除外；本展未见另收费提示）","booking":"展期已结束；馆方入馆规则请以当日公告为准","status":"archived","summary":"刘江先生诞辰百年捐赠展于 10 月 25 日结束；归档不表示场馆日常闭馆。","imageNote":"未取得可公开嵌入的官方图。","map":{"poiId":"B0I15SU50Z","url":"https://www.amap.com/place/B0I15SU50Z","checkedAt":"2026-10-19","note":"与之江馆区其他展览共用已核高德 POI"},"sources":[["浙江省博物馆官方微博（经新浪转载，展期、展厅与作品数量）","https://www.sina.cn/news/detail/5348933216765280.html"],["浙江省博物馆官网（入馆须持实体身份证）","https://www.zjmuseum.com.cn/cn/"]] },
     {
       "id": "mengchuan-haobuhao-hangzhou-20261114",
       "checkedAt": "2026-10-20",
@@ -1595,22 +1595,78 @@
       ]
     },
     {
+      "id": "blood-plus-live-hangzhou-20261108",
+      "checkedAt": "2026-10-26",
+      "kind": "演出",
+      "area": "拱墅区",
+      "title": "《血迹+》血森林 / 灵迹 / 狗屠",
+      "subtitle": "迷笛LIVE 三组乐队联合演出",
+      "dateStart": "2026-11-08",
+      "dateEnd": "2026-11-08",
+      "schedule": "演出：2026-11-08 19:30–22:30（北京时间）",
+      "venue": "杭州迷笛LIVE",
+      "address": "小河路488号运河天地104–105；精确入场口待票务页/现场确认",
+      "price": "早鸟 ¥66／预售 ¥80／全价 ¥100／双人 ¥150；不代表早鸟仍可购买或实时余票",
+      "booking": "秀动官方票务页；实时余票、早鸟是否仍可购与入场规则待该页确认。",
+      "status": "active",
+      "imageNote": "未取得可用于本页的官方海报。",
+      "summary": "秀动官方页确认三组乐队、11 月 8 日演出时段、场地与四档标价；未将票档表述为当前余票。",
+      "sources": [
+        [
+          "秀动官方票务页（阵容、日期、时段、场地与票档；2026-10-26 核查）",
+          "https://www.showstart.com/event/311887"
+        ],
+        [
+          "高德搜索：杭州迷笛LIVE（精确 POI 待核）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E8%BF%B7%E7%AC%9BLIVE"
+        ]
+      ]
+    },
+    {
+      "id": "yuhang-haoshi-wuchang-market-20261024-1122",
+      "checkedAt": "2026-10-26",
+      "kind": "市集",
+      "area": "余杭区",
+      "title": "余杭好市·正在发生",
+      "subtitle": "五常落地的连续五周末市集",
+      "dateStart": "2026-10-24",
+      "dateEnd": "2026-11-22",
+      "schedule": "10/24–11/22 的连续五个周末；每日具体开放时段未知，不按日期范围臆写为工作日连续举办。",
+      "venue": "五常（具体场地待核）",
+      "address": "余杭区五常；精确场地、入口与 POI 待主办方/现场信息核实",
+      "price": "门票、商品与体验费用未知",
+      "booking": "是否需要预约及报名入口未知",
+      "status": "active",
+      "imageNote": "未取得可用于本页的活动图片。",
+      "summary": "杭州网/都市快报报道确认活动在五常落地、持续至 11 月 22 日的连续五个周末；未采用非官方转载的具体园区、日时或周主题。",
+      "sources": [
+        [
+          "杭州网·都市快报（2026-10-23；五常、连续五周末与截止日期，2026-10-26 核查）",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/23/content_9350072.htm"
+        ],
+        [
+          "高德搜索：五常街道 杭州（活动精确 POI 待核）",
+          "https://www.amap.com/search?query=%E4%BA%94%E5%B8%B8%E8%A1%97%E9%81%93%20%E6%9D%AD%E5%B7%9E"
+        ]
+      ]
+    },
+    {
       "id": "hangzhou-traditional-village-market-20261023-25",
-      "checkedAt": "2026-10-25",
+      "checkedAt": "2026-10-26",
       "kind": "市集",
       "area": "拱墅区",
       "title": "杭州传统村落好物市集",
       "subtitle": "传统村落风味食品、饮品与非遗手作集中亮相",
       "dateStart": "2026-10-23",
       "dateEnd": "2026-10-25",
-      "schedule": "10/23–10/25 · 每日开放时段未知",
+      "schedule": "活动已于 10/25 结束",
       "venue": "武林广场 · 浙江展览馆南广场",
       "address": "武林广场（浙江展览馆南广场）；精确入口待核",
       "price": "门票、商品及体验费用未知（报道未披露）。",
-      "booking": "普通逛集是否需预约未知（报道未披露）。",
-      "status": "active",
+      "booking": "活动已结束；普通逛集预约规则未披露。",
+      "status": "archived",
       "imageNote": "未取得可用于本页的活动图片。",
-      "summary": "杭州网现场报道与政府转载每日商报均确认市集持续至 10/25；可看风味食品、特色饮品与非遗手作，非“今日才官宣”的新活动。",
+      "summary": "杭州网现场报道与政府转载每日商报均确认市集至 10/25；现按真实日期归档，非“今日才官宣”的新活动。",
       "sources": [
         [
           "杭州网现场报道（2026-10-24 10:38；2026-10-25 核查）",
@@ -1660,7 +1716,7 @@
     },
     {
       "id": "watcha-ai-expo-hangzhou-20261024-25",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-26",
       "kind": "展览",
       "exhibitionType": "科技体验",
       "area": "西湖区",
@@ -1668,14 +1724,14 @@
       "subtitle": "100+ AI 体验展位、六大板块；同条含一场免费猹话会",
       "dateStart": "2026-10-24",
       "dateEnd": "2026-10-25",
-      "schedule": "AI 展区：10/24–10/25，每日开放时段未知（报名页顶部出现互相矛盾的时区/缓存时段，未采用）。特别场“产品，是商业的放大器”：10/24 13:00–15:05（北京时间）· 会议中心3号会议室。",
+      "schedule": "AI 展区已于 10/25 结束；特别场“产品，是商业的放大器”已于 10/24 结束。",
       "venue": "杭州茶叶博览会会议会展中心（龙坞展馆）",
       "address": "西湖区龙坞茶镇；精确展馆入口待核",
       "price": "官网标 AI 展区免费；特别场“产品，是商业的放大器”亦标免费。金猹奖盛典另付费，不代表整个观猹大会免费。",
-      "booking": "展区统一报名原页提示“登录后显示活动状态”；须以原页登录后报名，实时余位、报名截止与开票时间未知。本页不自动登录或预约。",
-      "status": "active",
+      "booking": "活动已结束；原报名页的实时余位、报名截止与开票时间未核。",
+      "status": "archived",
       "imageNote": "未取得可用于本页的活动图片。",
-      "summary": "官方展区报名页确认 100+ AI 趣味展位与百展堂、猹话会、猹工坊、观猹学社、创始人 AMA、猹乐园六板块；特别场将产品 Demo 与创始人 AMA 合并为一场 13:00 开始的对谈。",
+      "summary": "官方展区报名页确认 100+ AI 趣味展位与六大板块；活动已按 10/25 真实结束日期归档。",
       "sources": [
         [
           "观猹大会官网（大会日期与免费展区入口；页面未标发布日，2026-10-24 核查）",
@@ -1725,21 +1781,21 @@
     },
     {
       "id": "nuancun-farmers-market-20261023-25",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-26",
       "kind": "市集",
       "area": "余杭区",
       "title": "好好生活·农夫市集",
       "subtitle": "时令农产与生态食材",
       "dateStart": "2026-10-23",
       "dateEnd": "2026-10-25",
-      "schedule": "10/23–10/25 · 每日时段未知",
+      "schedule": "活动已于 10/25 结束",
       "venue": "暖村一区宽草坪",
       "address": "暖村一区宽草坪；精确位置与入口待现场/主办方实时信息确认",
       "price": "费用未知",
-      "booking": "普通逛集是否需预约未知；活动报名与日程以“暖村村民卡”小程序实时为准，未编造网页预约链接。",
-      "status": "active",
+      "booking": "活动已结束；普通逛集预约规则未知。",
+      "status": "archived",
       "imageNote": "未取得可用于本页的活动图片。",
-      "summary": "杭州网转载每日商报报道列出日期、场地与市集主题；该来源为本地官方媒体报道，不是主办方独立购票页。",
+      "summary": "杭州网转载每日商报报道列出日期、场地与市集主题；活动已按 10/25 真实日期归档。",
       "sources": [
         [
           "杭州网转载每日商报报道（杨伊琳，2026-10-14 06:58；2026-10-22 核查）",
