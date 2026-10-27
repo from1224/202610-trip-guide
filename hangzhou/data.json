@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "weekLabel": "本周 · 10月26日–11月1日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -1872,6 +1872,80 @@
         [
           "高德搜索：公望美术馆（精确 POI 待核）",
           "https://www.amap.com/search?query=%E5%85%AC%E6%9C%9B%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%AF%8C%E9%98%B3%E5%8C%BA%E6%B1%9F%E6%BB%A8%E8%A5%BF%E5%A4%A7%E9%81%93159%E5%8F%B7"
+        ]
+      ]
+    },
+    {
+      "id": "hushan-youci-library-salon-20261101",
+      "kind": "体验",
+      "area": "上城区",
+      "title": "湖山有词——宋词里的杭州山水 · 艺术共创沙龙 No.1",
+      "subtitle": "宋词解读与草木绘西湖手作；无需绘画技巧",
+      "dateStart": "2026-11-01",
+      "dateEnd": "2026-11-01",
+      "schedule": "11/01 14:00 开始；结束时间待核：官方图片上方写15:30，下方正文写16:00",
+      "venue": "杭州图书馆（市民中心）二楼研究室九",
+      "address": "解放东路18号市民中心J座",
+      "price": "费用未注明，待馆方确认",
+      "booking": "限12人；前往杭州图书馆官方原页扫描报名二维码，名额是否已满未知；未代报名。",
+      "status": "active",
+      "checkedAt": "2026-10-27",
+      "summary": "杭州图书馆10/26发布；授课团队为中国美术学院美育学社。活动日期、开始时间和地点已核，结束时间存在官方图片内部冲突，报名和收费细节待核。",
+      "images": [
+        {
+          "src": "./images/hushan-youci-library-20261101.png",
+          "alt": "杭州图书馆湖山有词活动官方招募长图（含报名二维码）",
+          "source": "https://www.zjhzlib.cn/hdygsl/8233.htm"
+        }
+      ],
+      "map": {
+        "poiId": "B023B0BN0M",
+        "url": "https://www.amap.com/place/B023B0BN0M",
+        "location": [
+          120.208202,
+          30.246364
+        ],
+        "checkedAt": "2026-10-27",
+        "note": "高德 Web Service POI：杭州图书馆，解放东路18号市民中心J座；入馆后前往二楼研究室九"
+      },
+      "sources": [
+        [
+          "杭州图书馆官方招募（2026-10-26发布；10/27核查，原页含报名二维码）",
+          "https://www.zjhzlib.cn/hdygsl/8233.htm"
+        ]
+      ]
+    },
+    {
+      "id": "jianlai-concert-hangzhou-20261211-12",
+      "kind": "演出",
+      "area": "上城区",
+      "title": "《剑来》动画国漫音乐会 · 杭州站",
+      "subtitle": "杭州爱乐乐团“交响乐+” · 一息春风",
+      "dateStart": "2026-12-11",
+      "dateEnd": "2026-12-12",
+      "schedule": "12/11–12 连演两场；各场具体开演时刻待核",
+      "venue": "杭州大剧院",
+      "address": "新业路39号",
+      "price": "杭州站票价与实时余票未知，不能据开票公告判断当前可购",
+      "booking": "公布开票时间：2026-10-26 11:00；可信直接购票页、实名规则及当前销售状态待核。来源原文可查看定档公告，非购票入口。",
+      "status": "active",
+      "checkedAt": "2026-10-27",
+      "summary": "都市快报采访报道确认杭州站日期、地点与开票公告；杭州爱乐乐团参与改编运营，结合交响乐、民乐、影像、舞者与原版配音演员表演。票务细节尚未独立核实。",
+      "imageNote": "原报道未附可核活动图片，未借用其他城市海报。",
+      "map": {
+        "poiId": "B023B03DMD",
+        "url": "https://www.amap.com/place/B023B03DMD",
+        "location": [
+          120.215108,
+          30.24404
+        ],
+        "checkedAt": "2026-10-27",
+        "note": "高德 Web Service POI：杭州大剧院，新业路39号"
+      },
+      "sources": [
+        [
+          "都市快报·高华荣采访报道（2026-10-26 08:08发布；10/27核查）",
+          "https://hznews.hangzhou.com.cn/wenti/content/2026-10/26/content_9354282.htm"
         ]
       ]
     }
