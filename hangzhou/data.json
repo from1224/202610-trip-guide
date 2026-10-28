@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "weekLabel": "本周 · 10月26日–11月1日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -1946,6 +1946,94 @@
         [
           "都市快报·高华荣采访报道（2026-10-26 08:08发布；10/27核查）",
           "https://hznews.hangzhou.com.cn/wenti/content/2026-10/26/content_9354282.htm"
+        ]
+      ]
+    },
+    {
+      "id": "guqin-xinsheng-library-20261031",
+      "kind": "演出",
+      "area": "上城区",
+      "title": "古琴新声 · 市民古琴艺术讲堂线下第五期",
+      "subtitle": "杭州图书馆 × 杭州太音琴社；讲座、演奏与现场教学",
+      "dateStart": "2026-10-31",
+      "dateEnd": "2026-10-31",
+      "schedule": "10/31（周六）14:00 开始；结束时间未知",
+      "venue": "杭州图书馆（市民中心）1号读者交流区",
+      "address": "解放东路18号市民中心J座",
+      "price": "费用未注明，待馆方确认",
+      "booking": "官方海报扫码进入小程序报名；余位与报名截止未知，未代报名。现场教学可携带古琴。",
+      "status": "active",
+      "checkedAt": "2026-10-28",
+      "summary": "杭图10/27官方预告及海报已核日期、开始时间、地点与主办方；包含PPT展示、演奏和现场教学。收费、结束时刻及当前报名状态仍待核。",
+      "map": {
+        "poiId": "B023B0BN0M",
+        "url": "https://www.amap.com/place/B023B0BN0M",
+        "location": [
+          120.208202,
+          30.246364
+        ],
+        "checkedAt": "2026-10-27",
+        "note": "高德 Web Service 已核杭州图书馆（市民中心）馆级 POI；入馆后前往1号读者交流区，非室内独立 POI"
+      },
+      "images": [
+        {
+          "src": "./images/guqin-library-20261031.png",
+          "source": "https://www.zjhzlib.cn/hdygyy/8240.htm",
+          "alt": "古琴新声官方活动海报，含报名二维码"
+        }
+      ],
+      "sources": [
+        [
+          "杭州图书馆官方预告（2026-10-27）",
+          "https://www.zjhzlib.cn/hdygyy/8240.htm"
+        ],
+        [
+          "杭州图书馆官方海报",
+          "https://www.zjhzlib.cn/u/cms/www/202610/27111012zk7m.png"
+        ]
+      ]
+    },
+    {
+      "id": "future-life-festival-hangzhou-20261106-08",
+      "kind": "展览",
+      "exhibitionType": "科技",
+      "area": "余杭区",
+      "title": "第十届杭州（国际）未来生活节",
+      "subtitle": "方寸未来 · 100家酷公司、机器人与脑机互动",
+      "dateStart": "2026-11-06",
+      "dateEnd": "2026-11-08",
+      "schedule": "11/06–08（周五至周日）每日13:30–20:30（都市快报同题新浪转载补充）",
+      "venue": "vivo全球AI研发中心",
+      "address": "余杭区仓前街道爱橙街，葛巷地铁站A口附近",
+      "price": "免费逛展（都市快报同题新浪转载）；论坛及专项体验是否另收费未知",
+      "booking": "预约要求与名额未知；免费逛展不等于无需预约。未代预约；地铁5号线葛巷站A口，入口以现场指引为准。",
+      "status": "active",
+      "checkedAt": "2026-10-28",
+      "summary": "都市快报10/27报道确认11/6–8及100家酷公司现场互动；包括机器狗、外骨骼、AI应用与脑机体验。杭州网原文未列逐日时刻及费用，同题新浪转载补充13:30–20:30与免费逛展；不推定每项体验可直接参加。",
+      "imageNote": "未取得可复用的官方活动海报，本轮不转载新闻配图。",
+      "map": {
+        "poiId": "B0FFM8OJQR",
+        "url": "https://www.amap.com/place/B0FFM8OJQR",
+        "location": [
+          120.003459,
+          30.269747
+        ],
+        "checkedAt": "2026-10-28",
+        "navigation_target_type": "venue",
+        "note": "高德 Web Service POI：vivo全球AI研发中心(建设中)，余杭区仓前街道爱橙街；地图仍标建设中，活动日期以主办媒体公告为据；此为场馆位置，非已核具体入场口。"
+      },
+      "sources": [
+        [
+          "都市快报·杭州网（2026-10-27原文）",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/27/content_9355887_0.htm"
+        ],
+        [
+          "都市快报同题新浪转载（2026-10-27；补充时刻、免费逛展）",
+          "https://finance.sina.com.cn/stock/t/2026-10-27/doc-iniwswni4263387.shtml"
+        ],
+        [
+          "都市快报·杭州网（10/26，地点名称交叉核对）",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/26/content_9354280_0.htm"
         ]
       ]
     }
