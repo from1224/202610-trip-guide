@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "weekLabel": "本周 · 10月26日–11月1日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -2034,6 +2034,79 @@
         [
           "都市快报·杭州网（10/26，地点名称交叉核对）",
           "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/26/content_9354280_0.htm"
+        ]
+      ]
+    },
+    {
+      "id": "career-persuasiveness-library-20261101",
+      "kind": "体验",
+      "area": "上城区",
+      "title": "职场宝典47：开口即认同，掌握职场说服力",
+      "subtitle": "文澜大讲堂 · 游戏式互动沙龙",
+      "dateStart": "2026-11-01",
+      "dateEnd": "2026-11-01",
+      "schedule": "11/01（周日）10:30–12:00（北京时间）",
+      "venue": "杭州图书馆（市民中心）交流区1",
+      "address": "解放东路18号市民中心J座",
+      "price": "费用未注明，待馆方确认",
+      "booking": "限20人；官方海报扫码进入“品质文化生活圈”小程序报名。报名开放时刻、截止与当前余位未知；未代报名。",
+      "status": "active",
+      "checkedAt": "2026-10-29",
+      "summary": "杭图10/28官方预告及海报确认主题、日期、时段、地点和20人规模；以脱口秀与游戏式互动提升职场沟通，报名和收费边界仍待核。",
+      "map": {
+        "poiId": "B023B0BN0M",
+        "url": "https://www.amap.com/place/B023B0BN0M",
+        "location": [
+          120.208202,
+          30.246364
+        ],
+        "checkedAt": "2026-10-27",
+        "note": "沿用2026-10-27已核杭州图书馆（市民中心）馆级 POI；入馆后前往交流区1，非室内独立 POI"
+      },
+      "images": [
+        {
+          "src": "./images/career-persuasiveness-library-20261101.webp",
+          "source": "https://www.zjhzlib.cn/hdygjz/8243.htm",
+          "alt": "杭州图书馆职场宝典47官方活动海报，含日期、时段、地点、20人名额及小程序报名码"
+        }
+      ],
+      "sources": [
+        [
+          "杭州图书馆官方预告（2026-10-28，阅读推广部）",
+          "https://www.zjhzlib.cn/hdygjz/8243.htm"
+        ],
+        [
+          "杭州图书馆官方海报",
+          "https://www.zjhzlib.cn/u/cms/www/202610/28104209wyo4.png"
+        ]
+      ]
+    },
+    {
+      "id": "hangzhou-museum-city-cases-20261111-20270614",
+      "kind": "展览",
+      "exhibitionType": "历史文物",
+      "area": "上城区",
+      "title": "博物馆之城 · 杭州的博物馆临时展览推介案例展",
+      "subtitle": "杭州博物馆站 · 看19个临展案例如何策划",
+      "dateStart": "2026-11-11",
+      "dateEnd": "2027-06-14",
+      "schedule": "展期：2026-11-11–2027-06-14；每日开放时刻与闭馆安排待馆方确认",
+      "venue": "杭州博物馆北馆",
+      "address": "粮道山18号 · 北馆二楼临展厅",
+      "price": "费用未知；报道未披露，不沿用常设展收费结论",
+      "booking": "预约要求未知；出发前查看杭州博物馆官方公告，本轮未取得本展具体入场规则。未代预约。",
+      "status": "active",
+      "checkedAt": "2026-10-29",
+      "summary": "杭州网10/28原创报道核实展期与展厅：由杭州市园林文物局策划，借19个近年临展案例介绍策展思路；杭州博物馆站更新内容、设计与展品，不是原巡展的简单复制。费用、预约和每日时刻待核。",
+      "imageNote": "未取得可复用的官方展览图片，本轮不转载新闻配图；可打开原报道查看。",
+      "sources": [
+        [
+          "杭州网、杭州通客户端原创（2026-10-28 19:01，见习记者单予晴）",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-10/28/content_9358292.htm"
+        ],
+        [
+          "高德搜索：杭州博物馆北馆（未核固定 POI 与具体入场口）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8C%97%E9%A6%86"
         ]
       ]
     }
