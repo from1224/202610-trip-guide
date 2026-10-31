@@ -2,7 +2,7 @@
   "meta": {
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "weekLabel": "本周 · 10月26日–11月1日",
     "weather": {
       "checkedAt": "2026-10-19（Asia/Shanghai）",
@@ -46,31 +46,31 @@
     },
     {
       "id": "zjam-october-exhibitions",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-31",
       "kind": "展览",
       "exhibitionType": "艺术",
       "area": "西湖区",
-      "title": "浙江美术馆 · 六展（分项截止不同）",
-      "subtitle": "同一馆可一次到访；每场结束日期见卡片内分项",
+      "title": "浙江美术馆 · 陈高杰在展（原六展中五项已结束）",
+      "subtitle": "原六展分项保留；本周末不要按六展同看安排行程",
       "dateStart": "2026-10-01",
       "dateEnd": "2026-11-18",
-      "schedule": "蔡亮、张自薿已于 10/24 结束；寻找方幹民已于 10/25 结束；其余三场 10/30、10/30、11/18 截止 · 常规 09:00–17:00 · 16:30 停止入馆",
+      "schedule": "原六展中五项已结束；陈高杰展至 11/18 · 常规周二至周日 09:00–17:00 · 16:30 停止入馆",
       "venue": "浙江美术馆",
       "address": "南山路138号",
       "price": "免费",
       "booking": "无需预约，持有效身份证件入馆（浙江美术馆 2026 入馆说明）",
       "status": "active",
-      "summary": "六场日期不同：蔡亮、张自薿已于 10/24 结束；寻找方幹民已于 10/25 结束；珍·墨、采真见素与林孝爽均 10/30 截止，陈高杰 11/18 截止；可一次到访。",
+      "summary": "原六展中：蔡亮、张自薿已于 10/24 结束；寻找方幹民已于 10/25 结束；珍·墨、采真见素与林孝爽已于 10/30 结束。陈高杰：世界的肚脐在10号厅，展至11/18。此状态按各官方展期核对，不将日常闭馆视作闭展。",
       "images": [
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20260930115310.jpg",
           "source": "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2910&type=1",
-          "caption": "寻找方幹民 · 浙江美术馆官方海报"
+          "caption": "寻找方幹民 · 浙江美术馆官方海报（已结束展览，保留历史图）"
         },
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20261013151006.jpg",
           "source": "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2914&type=2",
-          "caption": "采真见素—吴洪晖 · 浙江美术馆官方海报"
+          "caption": "采真见素—吴洪晖 · 浙江美术馆官方海报（已结束展览，保留历史图）"
         },
         {
           "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20261014175447.jpg",
@@ -91,12 +91,12 @@
         ],
         [
           "珍·墨—吴珍之",
-          "10/17–10/30",
+          "10/17–10/30（已结束）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2911&type=2"
         ],
         [
           "采真见素—吴洪晖",
-          "10/17–10/30",
+          "10/17–10/30（已结束）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2914&type=2"
         ],
         [
@@ -106,7 +106,7 @@
         ],
         [
           "素心万象——林孝爽书法作品展（7号厅）",
-          "10/17–10/30",
+          "10/17–10/30（已结束）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2916&type=1"
         ]
       ],
@@ -134,9 +134,30 @@
         [
           "浙江美术馆官方展讯：寻找方幹民（2026-09-30 发布，2026-10-23 核查）",
           "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2910&type=1"
+        ],
+        [
+          "浙江美术馆官方展讯：珍·墨—吴珍之（2026-10-13 发布，2026-10-31 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2911&type=2"
+        ],
+        [
+          "浙江美术馆官方展讯：采真见素—吴洪晖（2026-10-13 发布，2026-10-31 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2914&type=2"
+        ],
+        [
+          "浙江美术馆官方展讯：陈高杰：世界的肚脐（2026-10-13 发布，2026-10-31 核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2915&type=2"
         ]
       ],
-      "map": {"poiId":"B023B0BMJ6","url":"https://www.amap.com/place/B023B0BMJ6","location":[120.156894,30.231049],"checkedAt":"2026-10-18","note":"高德 Web Service POI：浙江美术馆（南山路138号）"}
+      "map": {
+        "poiId": "B023B0BMJ6",
+        "url": "https://www.amap.com/place/B023B0BMJ6",
+        "location": [
+          120.156894,
+          30.231049
+        ],
+        "checkedAt": "2026-10-18",
+        "note": "高德 Web Service POI：浙江美术馆（南山路138号）"
+      }
     },
     {
       "id": "zhejiang-museum-taipingnian",
@@ -2187,6 +2208,74 @@
           "https://www.zjhzlib.cn/hdyghz/8255.htm"
         ]
       ]
+    },
+    {
+      "id": "zjam-xuboqing-centenary-20261103",
+      "checkedAt": "2026-10-31",
+      "kind": "展览",
+      "exhibitionType": "艺术",
+      "area": "西湖区",
+      "title": "“雁荡之子”徐伯清百年诞辰艺术展",
+      "subtitle": "11月3日起 · 7、8、9号展厅；官网结束日期待复核",
+      "dateStart": "2026-11-03",
+      "dateEnd": null,
+      "schedule": "展览开始：2026-11-03；官网原列结束日期 2027-10-15，跨度异常，待馆方复核，不据此保证全年展出。常规周二至周日 09:00–17:00（北京时间）；周一闭馆，法定节假日以馆方公告为准。",
+      "venue": "浙江美术馆",
+      "address": "南山路138号 · 7、8、9号展厅",
+      "price": "本展费用未知（官方单展页未注明）",
+      "booking": "个体观众免预约、持有效身份证件的依据为馆方2023年参观须知；本展是否有特别规则待核，出发前复核。未公布独立开票时间，未代预约。",
+      "status": "active",
+      "summary": "馆方2026-10-28发布的新展预告，适合下周末书法/艺术看展候选。结束日期保留官网原文并明确待核，不擅自改写。",
+      "map": {
+        "poiId": "B023B0BMJ6",
+        "url": "https://www.amap.com/place/B023B0BMJ6",
+        "location": [
+          120.156894,
+          30.231049
+        ],
+        "checkedAt": "2026-10-18",
+        "note": "高德 Web Service POI：浙江美术馆（南山路138号）"
+      },
+      "sources": [
+        [
+          "浙江美术馆官方展讯（2026-10-28发布，2026-10-31核查）",
+          "https://www.zjam.org.cn/Site/Exbition/ExbitionDetail.aspx?etid=2917&type=2"
+        ],
+        [
+          "浙江美术馆2023年参观须知（历史政策，出发前复核）",
+          "https://www.zjam.org.cn/Site/news/2023/0015/001788.shtml"
+        ]
+      ],
+      "note": "图片：未取得可用于本页的本展官方作品图或海报。"
+    },
+    {
+      "id": "hangzhou-marathon-memory-exhibition-20261029",
+      "checkedAt": "2026-10-31",
+      "kind": "展览",
+      "exhibitionType": "文物",
+      "area": "西湖区",
+      "title": "杭马记忆展",
+      "subtitle": "百余件实物看杭州马拉松历史 · 原冠军楼",
+      "dateStart": "2026-10-29",
+      "dateEnd": null,
+      "schedule": "2026-10-29正式开展并向公众开放；每日开放时段、闭馆安排及结束日期未知（北京时间）。",
+      "venue": "浙江省黄龙体育中心（原冠军楼）",
+      "address": "原冠军楼；精确入场口待场馆确认，不以体育场入口代替",
+      "price": "费用未知（报道未披露；向公众开放不等于免费）",
+      "booking": "预约、购票要求及开票时间未知；到访前向场馆确认，未代预约或购票。",
+      "status": "active",
+      "summary": "约340平方米、100余件实物、三个单元，讲杭州马拉松与城市的共同记忆。可作体育文化展候选，时段与入场规则尚未核实。",
+      "sources": [
+        [
+          "杭州日报原始报道（2026-10-30 06:49发布，2026-10-31核查）",
+          "https://hznews.hangzhou.com.cn/wenti/content/2026-10/30/content_9360436.htm"
+        ],
+        [
+          "高德检索：黄龙体育中心 冠军楼（未核精确POI及入口）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%20%E9%BB%84%E9%BE%99%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83%20%E5%86%A0%E5%86%9B%E6%A5%BC"
+        ]
+      ],
+      "note": "图片：未取得可用于本页的展陈图片；精确冠军楼高德地点待核。"
     }
   ],
   "foodItems": [
