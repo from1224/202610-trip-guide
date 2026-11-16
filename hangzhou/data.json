@@ -1,5 +1,6 @@
 {
   "meta": {
+    "weekendSelection": ["festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
     "checkedAt": "2026-11-16",
@@ -12,6 +13,857 @@
     }
   },
   "items": [
+    {
+      "id": "tianmuli-fragrance-festival-20261119-22",
+      "title": "天目里香氛生活节",
+      "kind": "市集",
+      "area": "西湖区",
+      "dateStart": "2026-11-19",
+      "dateEnd": "2026-11-22",
+      "venue": "杭州天目里",
+      "address": "杭州天目里",
+      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "schedule": "11/19–22 每日11:00–21:00；舞蹈、中阮演出具体时段未知",
+      "price": "费用未知；不把市集或工坊默认当免费",
+      "booking": "工坊预约方式、名额及退改规则未知，请查主办原帖 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "100+国内外香氛品牌展陈／市集，二手香水交流、怪味香水小赏、香氛工作坊及肢体舞蹈／中阮演出；未见门票、预约和工坊收费公布，不能视为免费。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "小红书原帖（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6afacda800000000260245a2"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%A4%A9%E7%9B%AE%E9%87%8C"
+        ]
+      ]
+    },
+    {
+      "id": "tianmuli-afterwork-sports-20261120-29",
+      "title": "下班体校 · 趣味运动与市集",
+      "kind": "市集",
+      "area": "西湖区",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2026-11-29",
+      "venue": "天目里国际街区南岸公园",
+      "address": "天目里国际街区南岸公园",
+      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "schedule": "11/20–29 每日11:00–20:00；11/20–22市集仅见聚合帖说法，待主办确认",
+      "price": "价格未知",
+      "booking": "报名入口：“目里🍊-目里演出”；名额、报名条件和退改规则未知 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "趣味运动与市集，不把活动总日期等同于每天都有市集；具体项目可参加时段请查看报名入口。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "小红书原帖（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6af6e0590000000018029ab5"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%A4%A9%E7%9B%AE%E9%87%8C%E5%9B%BD%E9%99%85%E8%A1%97%E5%8C%BA%E5%8D%97%E5%B2%B8%E5%85%AC%E5%9B%AD"
+        ]
+      ]
+    },
+    {
+      "id": "liangzhu-nuancun-markets-20261120-22",
+      "title": "良渚暖村 · 古美术、农夫与自然和风三市集",
+      "kind": "市集",
+      "area": "余杭区",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2026-11-22",
+      "venue": "良渚暖村",
+      "address": "良渚暖村",
+      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "schedule": "11/20–22：古美术市集（渚上良仓）、好好生活·农夫市集（一区·宽草坪）；11/21–22：自然和风手工市集（二区·晒谷场）。主办未公布统一开放时刻。",
+      "price": "原帖称暖村村游免费；市集门票、器物特展及体验收费未知，商品另按摊位标价。",
+      "booking": "是否需要预约、体验报名及名额未知，请查原帖 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "古美术：古器物、茶器、非遗器物及“炉火暖流年·火钵古器物特展”；农夫：新米、米食发酵饮品与秋收；自然和风：手工、自然衣物、花草、餐饮与旧物。免费村游的预约和容量未核；聚合帖的10–18点只针对古美术线索，未当作主办确认。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "小红书原帖（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6afad0ae000000002b01b85e"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E8%89%AF%E6%B8%9A%E6%9A%96%E6%9D%91"
+        ]
+      ]
+    },
+    {
+      "id": "meiyuji-wetland-market-20261120-22",
+      "title": "美遇集21期 · 湿地洄游艺术市集",
+      "kind": "市集",
+      "area": "西湖区",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2026-11-22",
+      "venue": "中国湿地博物馆户外广场",
+      "address": "中国湿地博物馆户外广场",
+      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "schedule": "11/20–22 每日10:00–17:00",
+      "price": "入场费及分项体验收费未知；不能视为免费",
+      "booking": "观众是否预约未知；11/15截止是摊主招募，不是观众报名截止 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "中国美术学院社会美育学院、中国湿地博物馆主办。自然主题原创文创、可持续生活、儿童友好自然科普；服务台领集章卡，完成自然问答／互动、鸟类友好共创，集章换限量文创。发笔记及转发领取额外礼品是主办宣传条件，本站未代操作。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "小红书原帖（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E6%88%B7%E5%A4%96%E5%B9%BF%E5%9C%BA"
+        ]
+      ]
+    },
+    {
+      "id": "gongshu-burger-festival-20261119-22",
+      "title": "拱墅首届抱抱汉堡节",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-19",
+      "dateEnd": "2026-11-22",
+      "venue": "杭州大悦城户外广场",
+      "address": "杭州大悦城户外广场",
+      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "schedule": "11/19–22；每天开放时段未知",
+      "price": "入场费、摊位单价未知",
+      "booking": "预约要求未知；评论中的抽奖互动不属于已核入场条件 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "杭州大悦城11/16原帖确认日期与场地；汉堡美食与音乐。尚无具体节目时段，出发前看场方更新。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "小红书原帖（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6afabd92000000002b01b315"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%A4%A7%E6%82%A6%E5%9F%8E%E6%88%B7%E5%A4%96%E5%B9%BF%E5%9C%BA"
+        ]
+      ]
+    },
+    {
+      "id": "sanfu-zhiyi-hangzhou-20261121-22",
+      "title": "《三妇志异》",
+      "kind": "演出",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-22",
+      "venue": "杭州东坡大剧院",
+      "address": "杭州东坡大剧院",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 14:00（已显示无票）、19:30；11/22 14:00",
+      "price": "周日选中场：180／280元缺货登记；380／480／580元未标缺货，但未进选座，不能保证有余座。",
+      "booking": "不退不换；周六晚场库存未单独核实。请按日期选择后核对座位 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "已读取真实详情页和周日票档状态；票档显示不等于锁定座位。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1084517390531"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E4%B8%9C%E5%9D%A1%E5%A4%A7%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "baodao-yicun-hangzhou-20261121",
+      "title": "《宝岛一村》",
+      "kind": "演出",
+      "area": "拱墅区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "杭州剧院",
+      "address": "杭州剧院",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 19:30；约210分钟，含20分钟中场",
+      "price": "周六选中场：180／280元缺货登记；480等票档及544／704／756／896元早鸟列出，未进入座位图。",
+      "booking": "不退不换；早鸟适用条件及真实余座须提交前核对 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "已读取真实详情页并选择周六，不能将列表最低票价当作现在可买到的最低价。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1087759261510"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "chenxiaochun-hangzhou-20261121",
+      "title": "陈小春杭州演唱会",
+      "kind": "演出",
+      "area": "萧山区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "杭州奥体AT中心体育馆",
+      "address": "杭州奥体AT中心体育馆",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 19:00",
+      "price": "大麦列表价格范围：488–1288元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1091072478717"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%A5%A5%E4%BD%93AT%E4%B8%AD%E5%BF%83%E4%BD%93%E8%82%B2%E9%A6%86"
+        ]
+      ]
+    },
+    {
+      "id": "zhaolei-ray-hangzhou-20261122",
+      "title": "赵磊 Ray 杭州站",
+      "kind": "演出",
+      "area": "场馆所在区待核",
+      "dateStart": "2026-11-22",
+      "dateEnd": "2026-11-22",
+      "venue": "SoFun Live 杭州",
+      "address": "SoFun Live 杭州",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/22 17:00",
+      "price": "大麦列表价格范围：258–528元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1096235774725"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=SoFun%20Live%20%E6%9D%AD%E5%B7%9E"
+        ]
+      ]
+    },
+    {
+      "id": "lirunqi-hangzhou-20261121",
+      "title": "李润祺杭州站",
+      "kind": "演出",
+      "area": "场馆所在区待核",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "SoFun Live 杭州",
+      "address": "SoFun Live 杭州",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 19:00",
+      "price": "大麦列表价格范围：420–598元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1096151510435"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=SoFun%20Live%20%E6%9D%AD%E5%B7%9E"
+        ]
+      ]
+    },
+    {
+      "id": "5566-hangzhou-20261121",
+      "title": "5566 杭州站",
+      "kind": "演出",
+      "area": "钱塘区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "乐动力钱塘体育中心篮球赛馆",
+      "address": "乐动力钱塘体育中心篮球赛馆",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 19:00",
+      "price": "大麦列表价格范围：380–880元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1090032560352"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E4%B9%90%E5%8A%A8%E5%8A%9B%E9%92%B1%E5%A1%98%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83%E7%AF%AE%E7%90%83%E8%B5%9B%E9%A6%86"
+        ]
+      ]
+    },
+    {
+      "id": "chenjieli-hangzhou-20261121",
+      "title": "陈洁丽杭州站",
+      "kind": "演出",
+      "area": "场馆所在区待核",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "MAO Livehouse 杭州",
+      "address": "MAO Livehouse 杭州",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 20:00",
+      "price": "大麦列表价格范围：200–380元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1091192537053"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=MAO%20Livehouse%20%E6%9D%AD%E5%B7%9E"
+        ]
+      ]
+    },
+    {
+      "id": "tacangqiong-hangzhou-20261121",
+      "title": "国风舞剧《踏苍穹》",
+      "kind": "演出",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "杭州红星剧院",
+      "address": "杭州红星剧院",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/21 19:30",
+      "price": "大麦列表价格范围：180–1232元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1097920480052"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E7%BA%A2%E6%98%9F%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "kiana-lede-hangzhou-20261122",
+      "title": "Kiana Ledé 杭州站",
+      "kind": "演出",
+      "area": "拱墅区",
+      "dateStart": "2026-11-22",
+      "dateEnd": "2026-11-22",
+      "venue": "CH8-LIVEHOUSE（杭州小河店）",
+      "address": "CH8-LIVEHOUSE（杭州小河店）",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/22 20:00",
+      "price": "大麦列表价格范围：328–880元，可能包含套票；不代表可售单人最低价。",
+      "booking": "列表标“售票中”；未核单场库存、实名限购和退改条款 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1091182275873"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=CH8-LIVEHOUSE%EF%BC%88%E6%9D%AD%E5%B7%9E%E5%B0%8F%E6%B2%B3%E5%BA%97%EF%BC%89"
+        ]
+      ]
+    },
+    {
+      "id": "yintian-musical-hangzhou-20261120-21",
+      "title": "音乐剧《阴天》中文版",
+      "kind": "演出",
+      "area": "钱塘区",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2026-11-21",
+      "venue": "金沙湖大剧院",
+      "address": "金沙湖大剧院",
+      "subtitle": "11月21–22日周末候选 · 大麦票务核查",
+      "schedule": "11/20–21；周六具体时刻尚未核实",
+      "price": "大麦列表80–1044元，可能含套票，不代表可售单人最低价。",
+      "booking": "列表标“售票中”；周六具体场次、库存及退改规则未核 未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-16",
+      "summary": "仅核查列表；不可据此安排具体抵达时间，先打开票务详情核实。",
+      "images": [],
+      "imageNote": "未转载演出海报；以票务原页为准。",
+      "sources": [
+        [
+          "大麦票务页面（2026-11-16核查）",
+          "https://detail.damai.cn/item.htm?id=1085729308518"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E9%87%91%E6%B2%99%E6%B9%96%E5%A4%A7%E5%89%A7%E9%99%A2"
+        ]
+      ]
+    },
+    {
+      "id": "pending-jinshahu-tanwan-202611",
+      "title": "金沙湖滩玩集",
+      "kind": "市集",
+      "area": "钱塘区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-22",
+      "venue": "金沙湖公园",
+      "address": "金沙湖公园",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21–22；具体节目时段未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "地铁1号线下沙西站D口；戏剧周、奇幻巡游、儿童舞台剧、高跷木偶芭蕾、即兴戏剧工坊及湖边市集。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 1
+    },
+    {
+      "id": "pending-boz-burger-202611",
+      "title": "BOZ汉堡节",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-18",
+      "dateEnd": "2026-11-22",
+      "venue": "新天地购物中心南广场",
+      "address": "新天地购物中心南广场",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/18–22；每日小时未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "地铁3／4号线新天地街站A1口；聚合帖称40+汉堡／美食品牌。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%96%B0%E5%A4%A9%E5%9C%B0%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E5%8D%97%E5%B9%BF%E5%9C%BA"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 2
+    },
+    {
+      "id": "pending-guofeng-handcraft-202611",
+      "title": "有手就行 · 国风手艺集",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-10",
+      "dateEnd": "2026-12-10",
+      "venue": "大兜路·崇仁庙",
+      "address": "大兜路·崇仁庙",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/10–12/10；周五至日10:00–20:00（周三四11:00–19:00），其他日期未核",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "地铁3号线香积寺站B口；非遗手艺人、手作商品、体验区及故事微展。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%A4%A7%E5%85%9C%E8%B7%AF%C2%B7%E5%B4%87%E4%BB%81%E5%BA%99"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 3
+    },
+    {
+      "id": "pending-bairen-dinner-202611",
+      "title": "首届百人干饭大会",
+      "kind": "市集",
+      "area": "所在区待核",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "绿城吉祥里街区",
+      "address": "绿城吉祥里街区",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21 16:30",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "16道江南菜、户外餐会、音乐／游戏及喜气馒头；不可当作免费吃饭，报名价格名额未核。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E7%BB%BF%E5%9F%8E%E5%90%89%E7%A5%A5%E9%87%8C%E8%A1%97%E5%8C%BA"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 4
+    },
+    {
+      "id": "pending-fries-challenge-202611",
+      "title": "薯条免费吃挑战",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "天阳D32桥西里街",
+      "address": "天阳D32桥西里街",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21 17:30",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "铲薯条及比赛奖品；“免费吃”为活动名称，报名资格、份量及具体规则未核。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%A4%A9%E9%98%B3D32%E6%A1%A5%E8%A5%BF%E9%87%8C%E8%A1%97"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 5
+    },
+    {
+      "id": "pending-cake-giveaway-202611",
+      "title": "千份蛋糕派送",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "杭州新天地购物中心1F",
+      "address": "杭州新天地购物中心1F",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21 18:00",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "九周年福利；聚合帖写先到先得、送完即止，领取资格及是否需消费未核。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%96%B0%E5%A4%A9%E5%9C%B0%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%831F"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 6
+    },
+    {
+      "id": "pending-shenshende-fan-202611",
+      "title": "深深的 · 主题音乐会",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "杭州西湖银泰百货1F中庭",
+      "address": "杭州西湖银泰百货1F中庭",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21 15:30–18:30",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "周深100场演唱会纪念的粉丝自发公益歌友会，周深本人不到场；聚合图标免费，未获主办确认。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A71F%E4%B8%AD%E5%BA%AD"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 7
+    },
+    {
+      "id": "pending-crab-race-202611",
+      "title": "好螃友蟹蟹你 · 赶蟹大赛",
+      "kind": "市集",
+      "area": "滨江区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-21",
+      "venue": "中南乐游城1楼舞台",
+      "address": "中南乐游城1楼舞台",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21 13:00",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "充气螃蟹竞速，偏亲子；报名、年龄条件及收费未知。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E4%B8%AD%E5%8D%97%E4%B9%90%E6%B8%B8%E5%9F%8E1%E6%A5%BC%E8%88%9E%E5%8F%B0"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 8
+    },
+    {
+      "id": "pending-xiaoyi-birthday-202611",
+      "title": "萧逸生日快闪",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-23",
+      "venue": "湖滨88三楼",
+      "address": "湖滨88三楼",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21–23；每日小时未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "光与夜之恋IP；聚合图称领福利需预约，入口和剩余名额未知。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%B9%96%E6%BB%A888%E4%B8%89%E6%A5%BC"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 9
+    },
+    {
+      "id": "pending-crybaby-202611",
+      "title": "CRYBABY旋转的星光主题展",
+      "kind": "市集",
+      "area": "拱墅区",
+      "dateStart": "2026-11-20",
+      "dateEnd": null,
+      "venue": "杭州恒隆广场",
+      "address": "杭州恒隆广场",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/20起，结束日和每日时段未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "聚合帖称6个互动装置及限定周边；周末是否全部开放、费用和购货规则未核。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 10
+    },
+    {
+      "id": "pending-shanhun-ruyuan-202611",
+      "title": "闪魂×如鸢联动快闪",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-29",
+      "venue": "工联CC次元站3楼中庭",
+      "address": "工联CC次元站3楼中庭",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/21–29；每日小时未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "预约打卡赠品与消费赠品是不同条件；预约入口、商品价格及库存未知。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%E6%AC%A1%E5%85%83%E7%AB%993%E6%A5%BC%E4%B8%AD%E5%BA%AD"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 11
+    },
+    {
+      "id": "pending-racing-miku-202611",
+      "title": "RACING MIKU 2026 杭州快闪",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-06",
+      "dateEnd": "2026-12-06",
+      "venue": "工联CC B2下沉广场",
+      "address": "工联CC B2下沉广场",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/6–12/6 每日10:00–22:00（聚合帖）",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "IP周边与活动奖励；入场及领取奖励条件未核。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%20B2%E4%B8%8B%E6%B2%89%E5%B9%BF%E5%9C%BA"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 12
+    },
+    {
+      "id": "pending-baoluo-wanxiang-202611",
+      "title": "包罗万象 · 限时快闪艺术画展",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-15",
+      "dateEnd": "2026-11-30",
+      "venue": "工联CC 6F展区",
+      "address": "工联CC 6F展区",
+      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
+      "schedule": "11/15–30；每日小时未知",
+      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
+      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
+      "status": "pending",
+      "checkedAt": "2026-11-16",
+      "summary": "原创／二创动漫画展、明信片主题；图写10r／15r，票种对应未核，不能当作精确票价。",
+      "images": [],
+      "imageNote": "未转载原帖图片；活动图见来源原帖。",
+      "sources": [
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+        ],
+        [
+          "高德搜索场地（非精确POI）",
+          "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%206F%E5%B1%95%E5%8C%BA"
+        ]
+      ],
+      "sourceNoteId": "6afab8f4000000002b01ea69",
+      "imagePage": "8图合集已逐张阅读；单条页码未记录",
+      "itemIndex": 13
+    },
     {
       "id": "fanxiaoxuan-100-hangzhou-20270116",
       "title": "范晓萱 & 100%「Let’s Party」杭州站",
@@ -394,17 +1246,17 @@
       "kind": "演出",
       "area": "拱墅区",
       "title": "2026年德国电影展 · 杭州站",
-      "subtitle": "11/4中午开票；近两年德国电影佳作集中展映",
+      "subtitle": "杭州恒隆店周末排片已补 · 逐场核对后购票",
       "dateStart": "2026-11-14",
       "dateEnd": "2026-11-23",
-      "schedule": "展映：2026-11-14至2026-11-23（北京时间）；杭州具体片单、逐场放映时刻与时长待影院原页复核，不使用北京排片代替。",
+      "schedule": "11/21（周六）13:00《落叶球》、16:30《镜的第三乐章》、19:00《卡拉的审判》；11/22（周日）13:00《心隙》、15:40《我理解您的不满》。均北京时间；不是北京场排片。",
       "venue": "CINEMA CIRCLE（杭州恒隆店）",
-      "address": "拱墅区体育场路321号杭州恒隆广场内；具体楼层、影厅和影院入口待官方票务页核实，不是萧山恒隆电影大世界。",
-      "price": "杭州各场票价、票种与实时余票未知。",
+      "address": "拱墅区体育场路321号杭州恒隆广场 L3-38；CINEMA CIRCLE 杭州恒隆店，非萧山恒隆电影大世界。",
+      "price": "80元／场，另加电商服务费；实时余票未知。",
       "booking": "首次开票：2026-11-04 12:00（北京时间，杭州网11/4报道）。特别放映影票售出不退不换；请通过影展官方发布及影院售票平台核对具体场次后购票。直接购票链接、实名及限购条件未核，未代购票。",
       "status": "active",
-      "checkedAt": "2026-11-05",
-      "summary": "主办方官网确认2026年杭州展期；杭州网11/4报道补充恒隆店地点和开票时间。官网所附宣传册的排片表为北京场，不混作杭州场次。",
+      "checkedAt": "2026-11-16",
+      "summary": "影院小红书原帖补充11/21–22五场排片与票价；具体影厅、当前余票及临时调整请在影院售票平台再次核对。",
       "imageNote": "官方宣传页与媒体原页含影片图及排片图，本页未转载；请从来源原页查看，非现场照片。",
       "sources": [
         [
@@ -422,6 +1274,14 @@
         [
           "恒隆集团官网联系页：杭州恒隆广场地址（2026-11-05核查）",
           "https://www.hanglung.com/zh-cn/contact-us"
+        ],
+        [
+          "影院周末排片（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6ae9cfea000000001a024f60"
+        ],
+        [
+          "影院信息（2026-11-16核查）",
+          "https://www.xiaohongshu.com/explore/6ae9c0120000000010013429"
         ]
       ]
     },
