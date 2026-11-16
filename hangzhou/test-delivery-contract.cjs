@@ -23,3 +23,11 @@ assert(!page.includes('id="foodMap"'));
 assert(page.includes('按偏好筛选（可选）'));
 assert(!page.includes('用滑卡筛选本周活动'));
 console.log('PASS: public delivery contract, narrow-screen guardrails, hiking entry action, and tab-filter isolation');
+
+// Current-scope images cannot disappear silently behind a source link.
+const imageReview=JSON.parse(fs.readFileSync(path.join(__dirname,'image-review.json'),'utf8'));
+const imageAudit=require('../scripts/check-delivery.cjs').audit(require('./data.json'),imageReview,null,__dirname);
+// Online evidence is a separate receipt; displayed entries must be checked with it.
+const schemaErrors=imageAudit.errors.filter(x=>!x.includes('dated online browser evidence')&&!x.includes('browser checked image count'));
+assert.deepEqual(schemaErrors,[],`Invalid image handoff: ${schemaErrors.join('; ')}`);
+console.log(`IMAGE HANDOFF: ${JSON.stringify(imageAudit.counts)}; not a claim of full image delivery`);
