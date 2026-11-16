@@ -14,8 +14,8 @@
       "sources": []
     },
     "tianmuli-afterwork-sports-20261120-29": {
-      "status": "ready",
-      "reason": "已逐张查看2张主办官方插画海报并保存；非现场照，待线上加载与轮播验收。",
+      "status": "displayed",
+      "reason": "2张官方插画海报已在部署6a5d9307真实浏览器逐张加载、放大、关闭与轮播往返核验；非现场实拍。",
       "checkedAt": "2026-11-16",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af6e0590000000018029ab5"
