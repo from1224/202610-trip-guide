@@ -139,3 +139,12 @@ for(const id of ["archery-asia-cup-hangzhou-20261116-21","karate-world-cup-hangz
 assert(german.schedule.includes("16:30《镜的第三乐章》"));assert(german.address.includes("L3-38"));assert(page.includes("weekendPending"));console.log("PASS: 29 weekend cards, 13 clearly pending, German sessions and retained original archives");
 
 const sportsImages=data.items.find(x=>x.id==="tianmuli-afterwork-sports-20261120-29");assert.equal(sportsImages.images.length,2);assert(sportsImages.schedule.includes("11/27–29")&&sportsImages.schedule.includes("不代表"));for(const i of sportsImages.images){assert(i.caption.includes("非现场实拍"));assert(i.source.endsWith("6af6e0590000000018029ab5"));assert(fs.statSync(__dirname+"/"+i.src).size>100000);}console.log("PASS: two real official posters, bounded dates, source attribution; online validation remains separate");
+
+// Caption and source must follow the active slide, including a round trip.
+const updateMetaSource=page.match(/function updateGalleryMetadata\(track\)\{[\s\S]*?\}\nfunction bind/)[0].replace(/\nfunction bind$/,'');
+const updateMeta=require('node:vm').runInNewContext('('+updateMetaSource+')');
+const frames=[{dataset:{source:'https://example.org/first',caption:'主海报'}},{dataset:{source:'https://example.org/second',caption:'开学说明'}}],counter={},sourceLink={};
+const track={scrollLeft:0,clientWidth:400,querySelectorAll:()=>frames,parentElement:{querySelector:s=>s==='.gallery-count'?counter:sourceLink}};
+for(const [left,count,caption,href] of [[0,'1 / 2','主海报','first'],[400,'2 / 2','开学说明','second'],[0,'1 / 2','主海报','first']]){track.scrollLeft=left;updateMeta(track);assert.equal(counter.textContent,count);assert.equal(sourceLink.textContent,'图片来源：'+caption);assert.equal(sourceLink.href,'https://example.org/'+href)}
+assert(page.includes('data-source="${p.source'));
+console.log('PASS: carousel counter, per-image caption and source follow next/previous slides');
