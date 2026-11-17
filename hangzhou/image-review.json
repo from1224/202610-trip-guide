@@ -8,10 +8,12 @@
       "sources": []
     },
     "tianmuli-fragrance-festival-20261119-22": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：本轮已核原帖文字，相关原图尚未充分审阅及确认转载许可；来源链接不等于本页图片交付。",
+      "checkedAt": "2026-11-17",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afacda800000000260245a2"
+      ]
     },
     "tianmuli-afterwork-sports-20261120-29": {
       "status": "displayed",
@@ -22,10 +24,14 @@
       ]
     },
     "liangzhu-nuancun-markets-20261120-22": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：原帖文字已核，相关原图未充分审阅或确认转载许可；来源链接不等于配图交付。",
+      "checkedAt": "2026-11-17",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afc5dbf000000002a02c5dc",
+        "https://www.xiaohongshu.com/explore/6afaf799000000002a02fc54",
+        "https://www.xiaohongshu.com/explore/6afad0ae000000002b01b85e"
+      ]
     },
     "meiyuji-wetland-market-20261120-22": {
       "status": "unreviewed",
@@ -106,10 +112,12 @@
       "sources": []
     },
     "pending-boz-burger-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：本轮已核原帖文字，相关原图尚未充分审阅及确认转载许可；来源链接不等于本页图片交付。",
+      "checkedAt": "2026-11-17",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6af887fa00000000090225d5"
+      ]
     },
     "pending-guofeng-handcraft-202611": {
       "status": "unreviewed",
@@ -154,10 +162,12 @@
       "sources": []
     },
     "pending-crybaby-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：本轮已核原帖文字，相关原图尚未充分审阅及确认转载许可；来源链接不等于本页图片交付。",
+      "checkedAt": "2026-11-17",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6af7e65e000000001802c98e"
+      ]
     },
     "pending-shanhun-ruyuan-202611": {
       "status": "unreviewed",
@@ -176,6 +186,14 @@
       "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
       "checkedAt": "2026-11-16",
       "sources": []
+    },
+    "yuhang-haoshi-wuchang-market-20261024-1122": {
+      "status": "pending",
+      "checkedAt": "2026-11-17",
+      "reason": "已查到主办方供图链接；未完成目视审核及独立转载授权判断，未发布图片。",
+      "sources": [
+        "https://tidenews.com.cn/news.html?id=3599383"
+      ]
     }
   }
 }
