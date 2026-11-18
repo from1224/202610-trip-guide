@@ -11,7 +11,7 @@
     },
     "tianmuli-fragrance-festival-20261119-22": {
       "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
+      "reason": "11/18线上7c31671/v51已改公开海报持久副本，1080×1448实际加载并放大关闭通过，来源署名保留。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afd72dd000000002a00c5c4"
@@ -27,7 +27,7 @@
     },
     "liangzhu-nuancun-markets-20261120-22": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：自然和风账号首图名单海报及延期帖首图已审阅，其余图片未充分审阅；转载许可均未确认，未下载或上架新图，来源链接不等于配图交付。",
+      "reason": "11/18图片补核：官网对应图要求使用前联系；定点恢复自然和风原帖遇App扫码要求后停止。原有小红书图片地址未保存，本轮未找到独立公开替代图。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afc5dbf000000002a02c5dc",
@@ -43,7 +43,7 @@
     },
     "meiyuji-wetland-market-20261120-22": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：两账号公告图片链接已取得，但未逐图目视审阅或确认转载许可；未下载或上架新图，链接不等于配图交付。",
+      "reason": "11/18图片补核：公开检索未找到本期可核图片；同名生态剧及5月市集非本场，排除。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
@@ -53,13 +53,14 @@
     },
     "gongshu-burger-festival-20261119-22": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：大悦城第二波品牌阵容帖首图已目视确认日期地点；其余图片未充分审阅，转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：已找到杭州大悦城11/4微博原公告，原图正常访问返回403，未绕过；未交付图。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afabd92000000002b01b315",
         "https://www.xiaohongshu.com/explore/6af192f5000000003403747a",
         "https://www.xiaohongshu.com/explore/6af40956000000002303daa0",
-        "https://www.xiaohongshu.com/explore/6afc00c1000000001c0322b2"
+        "https://www.xiaohongshu.com/explore/6afc00c1000000001c0322b2",
+        "https://www.sina.cn/news/detail/5361568931643708.html"
       ]
     },
     "sanfu-zhiyi-hangzhou-20261121-22": {
@@ -144,31 +145,32 @@
     },
     "pending-jinshahu-tanwan-202611": {
       "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
+      "reason": "11/18图片补核：公开搜索仅找到9月中秋及2024旧场图片，不用于本周；本场图片仍缺。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": []
     },
     "pending-boz-burger-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：本轮已核原帖文字，相关原图尚未充分审阅及确认转载许可；来源链接不等于本页图片交付。",
-      "checkedAt": "2026-11-17",
+      "reason": "11/18图片补核：公开搜索找到11/1萧山活动，非新天地11/18–22，本场图片仍缺。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af887fa00000000090225d5"
       ]
     },
     "pending-guofeng-handcraft-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：拱墅发布同名空间配图访问循环跳转，且报道是11/12–15庙会，不标作本周现场。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afa689a000000001802ab4f",
         "https://www.xiaohongshu.com/explore/6af31378000000001802b164",
-        "https://www.xiaohongshu.com/explore/6af526a000000000230101ca"
+        "https://www.xiaohongshu.com/explore/6af526a000000000230101ca",
+        "https://www.gongshunews.com/content/2026-11/13/content_9943712.html"
       ]
     },
     "pending-bairen-dinner-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：公开搜索仅命中2024祥符长桌宴，非本场，未挪用。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f",
@@ -178,13 +180,13 @@
     },
     "pending-fries-challenge-202611": {
       "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
+      "reason": "11/18图片补核：本轮已公开检索，未找到匹配11/21场次可核图片；活动本身仍待核。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": []
     },
     "pending-cake-giveaway-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：未找到新天地11/21对应公开图；旧跨年银泰内容排除。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afa9a85000000002c00e2e2",
@@ -193,7 +195,7 @@
     },
     "pending-shenshende-fan-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：未找到银泰西湖11/21聚会对应公开图；演唱会及外地粉丝聚会图片排除。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6ada222f000000003101df03",
@@ -202,29 +204,30 @@
     },
     "pending-crab-race-202611": {
       "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
+      "reason": "11/18图片补核：本轮已公开检索，未找到中南乐游城本场对应公开海报；活动本身仍待核。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": []
     },
     "pending-xiaoyi-birthday-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：找到生贺组11/1原公告，三张原图正常访问均403，未绕过；未用另一X27痛楼图片代替湖滨88。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afb25d0000000002a01d6c0"
+        "https://www.xiaohongshu.com/explore/6afb25d0000000002a01d6c0",
+        "https://www.sina.cn/news/detail/5360554304604861.html"
       ]
     },
     "pending-crybaby-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：本轮已核原帖文字，相关原图尚未充分审阅及确认转载许可；来源链接不等于本页图片交付。",
-      "checkedAt": "2026-11-17",
+      "reason": "11/18图片补核：公开搜索仅找到9月湖滨及4月恒隆门店介绍，非11/20主题展，未挪用。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af7e65e000000001802c98e"
       ]
     },
     "pending-shanhun-ruyuan-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：公开搜索仅找到4月快闪及产品消息，非11/21杭州场，未挪用。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afa80960000000022038c94",
@@ -233,7 +236,7 @@
     },
     "pending-racing-miku-202611": {
       "status": "pending",
-      "reason": "尚未交付图片：旧研究仅存笔记ID，原图地址未持久化；11/18定点恢复在暖村原帖遇扫码限制后停止，未绕行。待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "reason": "11/18图片补核：公开搜索找到7月22Curry联动，非11月工联B2场，未挪用。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.xiaohongshu.com/explore/6aed82c70000000028021ee5",
@@ -242,13 +245,13 @@
     },
     "pending-baoluo-wanxiang-202611": {
       "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
+      "reason": "11/18图片补核：本轮已公开检索，未找到本次工联6F对应公开图片；活动本身仍待核。 可用配图仍待核，未配图。",
+      "checkedAt": "2026-11-18",
       "sources": []
     },
     "yuhang-haoshi-wuchang-market-20261024-1122": {
-      "status": "ready",
-      "reason": "2张主办方供图经潮新闻公开，逐张目视核对，署名并原链引用；尚待线上验收。",
+      "status": "displayed",
+      "reason": "11/18线上7c31671/v51两张主办方图554×312、553×320正常加载；逐张放大、关闭、下一张及图注核验通过。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://tidenews.com.cn/news.html?id=3599383"
@@ -256,7 +259,7 @@
     },
     "zjam-zhangshijian-centenary-20261101-21": {
       "status": "pending",
-      "reason": "待核：馆方完整展览海报已目视且原站加载成功；版权声明虽允许署名资料引用，但排除他人作品，海报内画作权利是否涵盖仍待确认，故不嵌入。未下载图片。",
+      "reason": "11/18图片补核：已目视馆方海报；馆方声明排除他人作品，图内画作权利范围待核。公开替代搜索命中浦江另一展，未挪用。 可用配图仍待核，未配图。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1",
