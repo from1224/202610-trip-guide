@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "items": {
     "festival-german-cinema-hangzhou-20261114-23": {
-      "status": "ready",
-      "reason": "官网宣传主视觉已目视，原站750×919加载成功；署名并直接原链引用，不下载、不托管副本，非现场实拍；待线上验证。",
+      "status": "displayed",
+      "reason": "11/18于线上207fd48/v47实测750×919加载并点开放大；官网宣传电影画面，非杭州现场；署名并直接原链引用，不下载、不托管副本，不代表官方授权本站。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://www.festivalofgermancinema.com/"
