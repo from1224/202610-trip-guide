@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "items": {
     "festival-german-cinema-hangzhou-20261114-23": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "ready",
+      "reason": "官网宣传主视觉已目视，原站750×919加载成功；署名并直接原链引用，不下载、不托管副本，非现场实拍；待线上验证。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.festivalofgermancinema.com/"
+      ]
     },
     "tianmuli-fragrance-festival-20261119-22": {
       "status": "pending",

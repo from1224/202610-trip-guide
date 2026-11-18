@@ -1434,7 +1434,7 @@
       "status": "active",
       "checkedAt": "2026-11-16",
       "summary": "影院小红书原帖补充11/21–22五场排片与票价；具体影厅、当前余票及临时调整请在影院售票平台再次核对。",
-      "imageNote": "未处理：本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图。",
+      "imageNote": "备妥待验：官网宣传主视觉已目视，原图750×919正常加载；直接引用原站，未下载，不代表官方授权本站。公开页面显示待验。",
       "sources": [
         [
           "德国电影展官方网站（2026年杭州展期；2026-11-05核查）",
@@ -1460,6 +1460,13 @@
           "影院信息（2026-11-16核查）",
           "https://www.xiaohongshu.com/explore/6ae9c0120000000010013429"
         ]
+      ],
+      "images": [
+        {
+          "src": "https://www.festivalofgermancinema.com/assets/image/2026/background-mb.jpg",
+          "source": "https://www.festivalofgermancinema.com/",
+          "caption": "2026德国电影展官网宣传主视觉（电影画面，非杭州活动现场）。图片来源：德国电影展官网；© Bombero International GmbH。直接引用原站图片，未下载或托管副本。"
+        }
       ]
     },
     {
