@@ -40,10 +40,14 @@
       ]
     },
     "meiyuji-wetland-market-20261120-22": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：两账号公告图片链接已取得，但未逐图目视审阅或确认转载许可；未下载或上架新图，链接不等于配图交付。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
+        "https://www.xiaohongshu.com/explore/6af56f48000000002203a574",
+        "https://www.xiaohongshu.com/explore/6af279d7000000002a02d49e"
+      ]
     },
     "gongshu-burger-festival-20261119-22": {
       "status": "unreviewed",
