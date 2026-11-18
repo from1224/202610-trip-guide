@@ -194,6 +194,14 @@
       "sources": [
         "https://tidenews.com.cn/news.html?id=3599383"
       ]
+    },
+    "zjam-zhangshijian-centenary-20261101-21": {
+      "status": "pending",
+      "reason": "待核：官方展览页含图片，尚未逐图审阅或确认转载许可，未新增图片资产。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1"
+      ]
     }
   }
 }

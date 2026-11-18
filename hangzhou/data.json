@@ -1,6 +1,6 @@
 {
   "meta": {
-    "weekendSelection": ["festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
+    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
     "checkedAt": "2026-11-16",
@@ -13,6 +13,36 @@
     }
   },
   "items": [
+    {
+      "id": "zjam-zhangshijian-centenary-20261101-21",
+      "title": "花影缤纷——张世简百年诞辰纪念展",
+      "kind": "展览",
+      "area": "西湖区",
+      "exhibitionType": "艺术展",
+      "dateStart": "2026-11-01",
+      "dateEnd": "2026-11-21",
+      "venue": "浙江美术馆11、12号展厅",
+      "address": "杭州市南山路138号；馆内11、12号展厅。",
+      "subtitle": "补录正在展出的纪念展 · 本周六11/21最后一天，周日不开放本展",
+      "schedule": "11/1–11/21；周二至周日09:00–17:00，16:30停止入馆；周一休馆（法定节假日除外）。本周末仅11/21仍在展期。",
+      "price": "馆方参观须知：常年免费，收费特展另行公告；本展页面未列收费，不代表已核定所有专项体验免费。",
+      "booking": "个人入馆预约要求未知；可能因客流限流，出发前查看馆方最新公告。未代预约。",
+      "status": "active",
+      "checkedAt": "2026-11-18",
+      "summary": "以张世简花鸟画与艺术历程为主题的百年纪念展；展期已于11月1日开始，本次为页面漏项补录，不是新开幕。",
+      "images": [],
+      "imageNote": "待核：官方展览页含图片，尚未逐图审阅或确认转载许可，未新增图片资产。",
+      "sources": [
+        [
+          "浙江美术馆展讯（展期及11、12号厅，11/18核查）",
+          "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1"
+        ],
+        [
+          "浙江美术馆参观须知（开放时段与免费规则，11/18核查）",
+          "https://www.zjam.org.cn/Site/news/intro/notice.shtml"
+        ]
+      ]
+    },
     {
       "id": "tianmuli-fragrance-festival-20261119-22",
       "title": "天目里香氛生活节4.0",

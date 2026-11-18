@@ -1,6 +1,6 @@
 const assert=require("node:assert/strict"),fs=require("node:fs"),data=require("./data.json");
 const by=s=>data.items.filter(x=>x.status===s);
-assert.equal(by("active").length,60);assert.equal(by("permanent").length,29);assert.equal(by("archived").length,43);assert.equal(by("pending").length,14);
+assert.equal(by("active").length,61);assert.equal(by("permanent").length,29);assert.equal(by("archived").length,43);assert.equal(by("pending").length,14);
 assert.equal(new Set(data.items.map(x=>x.id)).size,data.items.length);
 const iCityExpected={fl4ptxk:"zhejiang-museum-taipingnian",'0tr04g3':"liangzhu-museum-cong-spectrum",cxt8v0q:"yujia-museum-zhili",nvgi53u:"west-lake-museum-ten-scenes",erbi2jd:"zhejiang-natural-ammonite",dc7r0l8:"kuahuqiao-wenjing-liuguang",e2wivc0:"zhejiang-natural-seashells",'3sbal6m':"zhejiang-museum-jinshi-shuhua-8",'4rscg2x':"china-tea-museum-fengwu-changxin",xo5u03k:"design-museum-montage",ipaflke:"zhejiang-museum-gushan-timin",kdxnbhz:"zju-art-museum-zhizhi-shangxiang",'76blk2w':"yujia-museum-permanent",'3i4p0zl':"zhejiang-museum-gushan-huangbinhong",iqq50li:"wuyue-culture-museum-permanent",'7mk8h6d':"caa-shadow-puppetry",lbcq0kf:"zhejiang-museum-zhijiang-permanent",ffcytxo:"zhejiang-museum-gushan-lacquer",u9j01pb:"southern-song-kiln-permanent",'6rm4n3a':"china-silk-museum-permanent",q8jz0dg:"zhejiang-natural-wildlife-permanent",b1jgmmi:"hangzhou-museum-history",'9afymnl':"zhejiang-museum-gushan-leifeng",wln16mp:"hangzhou-museum-stamps",xov94g8:"hangzhou-museum-excavated-relics",'4rh84eq':"hangzhou-museum-heritage",bhs23ss:"hangzhou-museum-scholars-objects",xern6rm:"zhejiang-natural-permanent",dtdqbw5:"zjam-october-exhibitions"};
 const iCityTopLevel=data.items.filter(x=>x.sources?.some(s=>s[1]?.includes("art.icity.ly/events/")));assert.equal(iCityTopLevel.length,29);for(const [sourceId,stableId] of Object.entries(iCityExpected)){const x=data.items.find(x=>x.id===stableId);assert(x,`missing stable ID for iCity ${sourceId}`);assert(x.sources.some(s=>s[1].endsWith('/'+sourceId)),`missing iCity source ${sourceId}`)}assert.equal(Object.keys(iCityExpected).length,29);
@@ -49,7 +49,7 @@ const jinniuPoints=require("./banshan-jinniu-a-points.json");assert.equal(jinniu
 const whiteRoute=__dirname+"/images/banshan-white-route-extracted.svg",hanggangOverlay=__dirname+"/images/hanggang-south-route-overlay.svg";assert(fs.existsSync(whiteRoute));assert.equal(require("node:crypto").createHash("sha256").update(fs.readFileSync(whiteRoute)).digest("hex"),"6b549a6d339ec05dea3f4c80b003ed9c8f61264f8e484333c6d1ac7baab4e3c0");assert(page.includes("banshan-white-route-extracted.svg"));assert(page.includes("保留原图朝向"));assert(fs.existsSync(hanggangOverlay));const overlay=fs.readFileSync(hanggangOverlay,"utf8");assert(overlay.includes("viewBox=\"0 0 4723 2725\""));assert(page.includes("hanggang-south-route-overlay.svg"));assert(page.includes("width=\"4723\" height=\"2725\""));assert(page.includes("看游线"));assert(page.includes("看全园"));console.log("hangzhou activity data: ok");
 
 // October 20 official additions: opening time is distinct from performance time.
-assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261117-v38')"));
+assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261118-v39')"));
 const mengchuan=data.items.find(x=>x.id==="mengchuan-haobuhao-hangzhou-20261114");assert.equal(mengchuan.dateStart,"2026-11-14");assert(mengchuan.booking.includes("2026-10-20 14:00"));assert(mengchuan.price.includes("未知"));
 const luxiansen=data.items.find(x=>x.id==="luxiansen-outdoor-linping-20261031");assert.equal(luxiansen.dateStart,"2026-10-31");assert(luxiansen.price.includes("¥288")&&luxiansen.price.includes("¥388"));assert(!luxiansen.price.includes("¥188"));
 const moli=data.items.find(x=>x.id==="1024-moli-ai-community-day-20261024");assert.equal(moli.dateStart,"2026-10-24");assert.equal(moli.kind,"市集");assert(moli.venue.includes("云谷之芯"));assert(moli.booking.includes("二维码"));
@@ -92,7 +92,7 @@ assert(zjam.title.includes('五项已结束'));assert(zjam.summary.includes('10/
 const xu=data.items.find(x=>x.id==='zjam-xuboqing-centenary-20261103');assert.equal(xu.dateStart,'2026-11-03');assert.equal(xu.dateEnd,null);assert(xu.schedule.includes('2027-10-15')&&xu.schedule.includes('待馆方复核'));assert(xu.booking.includes('2023')&&xu.price.includes('未知'));assert.equal(xu.map.poiId,'B023B0BMJ6');assert(xu.address.includes('7、8、9'));
 const marathon=data.items.find(x=>x.id==='hangzhou-marathon-memory-exhibition-20261029');assert.equal(marathon.dateStart,'2026-10-29');assert.equal(marathon.dateEnd,null);assert(marathon.venue.includes('原冠军楼'));assert(marathon.price.includes('不等于免费'));assert(marathon.booking.includes('未知'));assert(!marathon.map);assert(marathon.sources[1][1].startsWith('https://www.amap.com/search?query='));
 for(const x of [xu,marathon]){assert.equal(x.checkedAt,'2026-10-31');assert.equal(x.status,'active');assert(!x.images?.length)}
-assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261117-v38'));
+assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261118-v39'));
 console.log('PASS: October 31 museum additions, dated policy, unknown end/admission, and composite archive boundaries');
 
 // November 1: archive only ended dated events, preserving IDs and original source check dates.
@@ -111,7 +111,7 @@ const songci=data.items.find(x=>x.id==="songyun-liusheng-songci-library-20261107
 // November 3: distinguish XR film, dated ticket availability and refund uncertainty.
 const xr=data.items.find(x=>x.id==='wangsulong-romance-city-xr-hangzhou-20261114-1213');assert.equal(xr.kind,'体验');assert.equal(xr.dateStart,'2026-11-14');assert.equal(xr.dateEnd,'2026-12-13');assert(xr.subtitle.includes('非艺人真人到场'));assert(xr.booking.includes('2026-11-02 18:00')&&xr.booking.includes('有冲突'));assert(xr.price.includes('¥138')&&xr.price.includes('其他日期可购状态'));assert.equal(xr.map.poiId,'B0FFHSMO63');assert.equal(xr.map.navigation_target_type,'building');assert(xr.images[0].caption.includes('非现场实拍'));assert(xr.sources.some(s=>s[1]==='https://www.showstart.com/event/314336'));
 
-const football=data.items.find(x=>x.id==='zhejiang-henan-csl-huanglong-20261108');assert.equal(football.kind,'体验');assert.equal(football.dateStart,'2026-11-08');assert(football.schedule.includes('15:30'));assert(football.booking.includes('2026-11-03 14:00')&&football.booking.includes('退改规则未核'));assert(football.price.includes('主场票价、票档与余票未知')&&football.price.includes('不作为本场通用价格'));assert.equal(football.map.poiId,'B023B0283F');assert.equal(data.items.length,146);
+const football=data.items.find(x=>x.id==='zhejiang-henan-csl-huanglong-20261108');assert.equal(football.kind,'体验');assert.equal(football.dateStart,'2026-11-08');assert(football.schedule.includes('15:30'));assert(football.booking.includes('2026-11-03 14:00')&&football.booking.includes('退改规则未核'));assert(football.price.includes('主场票价、票档与余票未知')&&football.price.includes('不作为本场通用价格'));assert.equal(football.map.poiId,'B023B0283F');assert.equal(data.items.length,147);
 console.log('PASS: November 3 new ticket announcements, XR/football distinctions, and ticket-rule boundaries');
 
 // November 4: concrete ADM opening hours and outdoor chrysanthemums; no invented ticket terms.
@@ -129,14 +129,14 @@ const hamburg=data.items.find(x=>x.id==='hamburg-neue-philharmonie-linping-20270
 console.log('PASS: January concert stays distinct from November ticket release and discount exclusions');
 
 // November 16 recovery preserves old items, sources and historical check dates.
-assert.equal(data.items.length,146);
+assert.equal(data.items.length,147);
 for(const id of ["fanxiaoxuan-100-hangzhou-20270116", "bwf-world-tour-finals-hangzhou-20261209-13", "aire-wangyitai-hangzhou-20261226", "langlang-hangzhou-20270116", "archery-asia-cup-hangzhou-20261116-21", "karate-world-cup-hangzhou-20261120-22", "heideng-xianshangche-hangzhou-20261128", "fuchun-shengshantu-20261110-1206", "youshihuijin-hangzhou-20261119", "jiamu-hangzhou-20261211-12", "zenless-live-fes-hangzhou-20261127-29", "chentianrun-re01-hangzhou-20261218", "liangchen-guofeng-hangzhou-20261226"]){const x=data.items.find(x=>x.id===id);assert(x);assert(x.sources.length>=2);assert(x.booking.includes("未代"));assert(x.dateEnd>="2026-11-16");}
 
 // November 16 weekend selection: no silent archive loss or pass recommendations.
-assert.equal(data.meta.weekendSelection.length,29);
+assert.equal(data.meta.weekendSelection.length,30);
 const picks=data.meta.weekendSelection.map(id=>data.items.find(x=>x.id===id));assert(picks.every(Boolean));assert.equal(picks.filter(x=>x.status==="pending").length,11);
 for(const id of ["archery-asia-cup-hangzhou-20261116-21","karate-world-cup-hangzhou-20261120-22","fuchun-shengshantu-20261110-1206","hangzhou-botanical-chrysanthemum-exhibition-20261103-30"]){assert(!data.meta.weekendSelection.includes(id));assert(data.items.some(x=>x.id===id));}
-assert(german.schedule.includes("16:30《镜的第三乐章》"));assert(german.address.includes("L3-38"));assert(page.includes("weekendPending"));console.log("PASS: 29 weekend cards, 11 clearly pending, German sessions and retained original archives");
+assert(german.schedule.includes("16:30《镜的第三乐章》"));assert(german.address.includes("L3-38"));assert(page.includes("weekendPending"));console.log("PASS: 30 weekend cards, 11 clearly pending, German sessions and retained original archives");
 
 const sportsImages=data.items.find(x=>x.id==="tianmuli-afterwork-sports-20261120-29");assert.equal(sportsImages.images.length,2);assert(sportsImages.schedule.includes("11/27–29")&&sportsImages.schedule.includes("不代表"));for(const i of sportsImages.images){assert(i.caption.includes("非现场实拍"));assert(i.source.endsWith("6af6e0590000000018029ab5"));assert(fs.statSync(__dirname+"/"+i.src).size>100000);}console.log("PASS: two real official posters, bounded dates, source attribution; online validation remains separate");
 
@@ -152,3 +152,5 @@ console.log('PASS: carousel counter, per-image caption and source follow next/pr
 // November 17 primary-source update keeps stable IDs and evidence boundaries.
 for(const id of ["pending-boz-burger-202611","pending-crybaby-202611"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,"active");assert.equal(x.checkedAt,"2026-11-17");assert(x.imageNote.includes("待核"));assert.equal(x.images.length,0)}
 const warm=data.items.find(x=>x.id==="liangzhu-nuancun-markets-20261120-22");assert(warm.schedule.includes("10:30–18:30"));assert(warm.summary.includes("尚未完成专项深研"));
+
+const zhang=data.items.find(x=>x.id==="zjam-zhangshijian-centenary-20261101-21");assert.equal(zhang.dateEnd,"2026-11-21");assert(zhang.schedule.includes("16:30"));assert(zhang.subtitle.includes("补录"));assert(zhang.price.includes("收费特展另行公告"));assert(zhang.booking.includes("预约要求未知"));assert.equal(zhang.images.length,0);
