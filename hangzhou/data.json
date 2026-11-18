@@ -30,8 +30,14 @@
       "status": "active",
       "checkedAt": "2026-11-18",
       "summary": "以张世简花鸟画与艺术历程为主题的百年纪念展；展期已于11月1日开始，本次为页面漏项补录，不是新开幕。",
-      "images": [],
-      "imageNote": "待核：官方展览页含图片，尚未逐图审阅或确认转载许可，未新增图片资产。",
+      "images": [
+        {
+          "src": "https://www.zjam.org.cn/SiteAdmin/Holding/Logo/20261102141548.jpg",
+          "source": "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1",
+          "caption": "花影缤纷展览宣传海报，非现场实拍。资料来源：浙江美术馆（www.zjam.org.cn）；按官网版权声明用于公共免费资料介绍，保留原貌。"
+        }
+      ],
+      "imageNote": "备妥待验：馆方展览宣传海报已在原页目视，采用原站图片嵌入、未下载；按官网版权声明署名引用，仍待本页线上加载核验。",
       "sources": [
         [
           "浙江美术馆展讯（展期及11、12号厅，11/18核查）",
@@ -48,6 +54,10 @@
         [
           "馆方2026元旦安排（2025/12/30发布，11/18复核免预约入馆方式）",
           "https://www.zjam.org.cn/Site/news/2025/0015/002108.shtml"
+        ],
+        [
+          "浙江美术馆版权保护声明（公共免费资料引用条件）",
+          "https://www.zjam.org.cn/Site/Auxiliary/copyright.shtml"
         ]
       ]
     },

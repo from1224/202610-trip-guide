@@ -233,11 +233,12 @@
       ]
     },
     "zjam-zhangshijian-centenary-20261101-21": {
-      "status": "pending",
-      "reason": "待核：官方展览页含图片，尚未逐图审阅或确认转载许可，未新增图片资产。",
+      "status": "ready",
+      "reason": "备妥待验：馆方展览宣传海报已在原页目视，采用原站图片嵌入、未下载；按官网版权声明署名引用，仍待本页线上加载核验。",
       "checkedAt": "2026-11-18",
       "sources": [
-        "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1"
+        "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1",
+        "https://www.zjam.org.cn/Site/Auxiliary/copyright.shtml"
       ]
     }
   }
