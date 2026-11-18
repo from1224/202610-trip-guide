@@ -71,8 +71,8 @@
       ]
     },
     "baodao-yicun-hangzhou-20261121": {
-      "status": "ready",
-      "reason": "微博原链线上加载失败；普通访问所得公开原海报副本存入仓库，待部署后再次验证；保留来源和署名。",
+      "status": "displayed",
+      "reason": "11/18线上10ce230/v50原链加载失败修复后，仓库公开海报副本960×1440实际加载、放大与关闭通过；来源和署名保留，非现场实拍。",
       "checkedAt": "2026-11-18",
       "sources": [
         "https://weibo.com/2/detail/5352135332201570"
@@ -247,9 +247,9 @@
       "sources": []
     },
     "yuhang-haoshi-wuchang-market-20261024-1122": {
-      "status": "pending",
-      "checkedAt": "2026-11-17",
-      "reason": "已查到主办方供图链接；未完成目视审核及独立转载授权判断，未发布图片。",
+      "status": "ready",
+      "reason": "2张主办方供图经潮新闻公开，逐张目视核对，署名并原链引用；尚待线上验收。",
+      "checkedAt": "2026-11-18",
       "sources": [
         "https://tidenews.com.cn/news.html?id=3599383"
       ]

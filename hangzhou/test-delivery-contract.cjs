@@ -31,3 +31,5 @@ const imageAudit=require('../scripts/check-delivery.cjs').audit(require('./data.
 const schemaErrors=imageAudit.errors.filter(x=>!x.includes('dated online browser evidence')&&!x.includes('browser checked image count'));
 assert.deepEqual(schemaErrors,[],`Invalid image handoff: ${schemaErrors.join('; ')}`);
 console.log(`IMAGE HANDOFF: ${JSON.stringify(imageAudit.counts)}; not a claim of full image delivery`);
+
+assert(page.includes(".gallery-meta>a{grid-column:1/-1"), "narrow gallery source needs its own row");
