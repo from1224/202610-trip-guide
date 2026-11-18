@@ -49,7 +49,7 @@ const jinniuPoints=require("./banshan-jinniu-a-points.json");assert.equal(jinniu
 const whiteRoute=__dirname+"/images/banshan-white-route-extracted.svg",hanggangOverlay=__dirname+"/images/hanggang-south-route-overlay.svg";assert(fs.existsSync(whiteRoute));assert.equal(require("node:crypto").createHash("sha256").update(fs.readFileSync(whiteRoute)).digest("hex"),"6b549a6d339ec05dea3f4c80b003ed9c8f61264f8e484333c6d1ac7baab4e3c0");assert(page.includes("banshan-white-route-extracted.svg"));assert(page.includes("保留原图朝向"));assert(fs.existsSync(hanggangOverlay));const overlay=fs.readFileSync(hanggangOverlay,"utf8");assert(overlay.includes("viewBox=\"0 0 4723 2725\""));assert(page.includes("hanggang-south-route-overlay.svg"));assert(page.includes("width=\"4723\" height=\"2725\""));assert(page.includes("看游线"));assert(page.includes("看全园"));console.log("hangzhou activity data: ok");
 
 // October 20 official additions: opening time is distinct from performance time.
-assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261118-v42')"));
+assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261118-v43')"));
 const mengchuan=data.items.find(x=>x.id==="mengchuan-haobuhao-hangzhou-20261114");assert.equal(mengchuan.dateStart,"2026-11-14");assert(mengchuan.booking.includes("2026-10-20 14:00"));assert(mengchuan.price.includes("未知"));
 const luxiansen=data.items.find(x=>x.id==="luxiansen-outdoor-linping-20261031");assert.equal(luxiansen.dateStart,"2026-10-31");assert(luxiansen.price.includes("¥288")&&luxiansen.price.includes("¥388"));assert(!luxiansen.price.includes("¥188"));
 const moli=data.items.find(x=>x.id==="1024-moli-ai-community-day-20261024");assert.equal(moli.dateStart,"2026-10-24");assert.equal(moli.kind,"市集");assert(moli.venue.includes("云谷之芯"));assert(moli.booking.includes("二维码"));
@@ -92,7 +92,7 @@ assert(zjam.title.includes('五项已结束'));assert(zjam.summary.includes('10/
 const xu=data.items.find(x=>x.id==='zjam-xuboqing-centenary-20261103');assert.equal(xu.dateStart,'2026-11-03');assert.equal(xu.dateEnd,null);assert(xu.schedule.includes('2027-10-15')&&xu.schedule.includes('待馆方复核'));assert(xu.booking.includes('2023')&&xu.price.includes('未知'));assert.equal(xu.map.poiId,'B023B0BMJ6');assert(xu.address.includes('7、8、9'));
 const marathon=data.items.find(x=>x.id==='hangzhou-marathon-memory-exhibition-20261029');assert.equal(marathon.dateStart,'2026-10-29');assert.equal(marathon.dateEnd,null);assert(marathon.venue.includes('原冠军楼'));assert(marathon.price.includes('不等于免费'));assert(marathon.booking.includes('未知'));assert(!marathon.map);assert(marathon.sources[1][1].startsWith('https://www.amap.com/search?query='));
 for(const x of [xu,marathon]){assert.equal(x.checkedAt,'2026-10-31');assert.equal(x.status,'active');assert(!x.images?.length)}
-assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261118-v42'));
+assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261118-v43'));
 console.log('PASS: October 31 museum additions, dated policy, unknown end/admission, and composite archive boundaries');
 
 // November 1: archive only ended dated events, preserving IDs and original source check dates.
@@ -156,3 +156,5 @@ const warm=data.items.find(x=>x.id==="liangzhu-nuancun-markets-20261120-22");ass
 const zhang=data.items.find(x=>x.id==="zjam-zhangshijian-centenary-20261101-21");assert.equal(zhang.dateEnd,"2026-11-21");assert(zhang.schedule.includes("16:30"));assert(zhang.subtitle.includes("补录"));assert(zhang.price.includes("收费特展另行公告"));assert(zhang.booking.includes("个人参观无需提前预约"));assert(zhang.booking.includes("2023/9/4")&&zhang.booking.includes("非11/21当日实时核验"));assert.equal(zhang.images.length,0);
 
 const wetland=data.items.find(x=>x.id==="meiyuji-wetland-market-20261120-22");assert.equal(wetland.checkedAt,"2026-11-18");assert(wetland.summary.includes("非两份完全独立证据"));assert(wetland.price.includes("未知"));assert(wetland.booking.includes("室内博物馆"));assert(wetland.sources.some(s=>s[1].endsWith("6af56f48000000002203a574")));assert.equal(wetland.images.length,0);
+
+const baobao=data.items.find(x=>x.id==="gongshu-burger-festival-20261119-22");assert.equal(baobao.dateStart,"2026-11-19");assert.equal(baobao.venue,"杭州大悦城户外广场");assert(baobao.summary.includes("起始日期冲突"));assert(baobao.schedule.includes("每天开放时段未知"));assert(baobao.subtitle.includes("非新天地BOZ"));assert.equal(baobao.images.length,0);

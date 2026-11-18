@@ -50,10 +50,15 @@
       ]
     },
     "gongshu-burger-festival-20261119-22": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：大悦城第二波品牌阵容帖首图已目视确认日期地点；其余图片未充分审阅，转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afabd92000000002b01b315",
+        "https://www.xiaohongshu.com/explore/6af192f5000000003403747a",
+        "https://www.xiaohongshu.com/explore/6af40956000000002303daa0",
+        "https://www.xiaohongshu.com/explore/6afc00c1000000001c0322b2"
+      ]
     },
     "sanfu-zhiyi-hangzhou-20261121-22": {
       "status": "unreviewed",
