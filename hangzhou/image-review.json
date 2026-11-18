@@ -135,16 +135,24 @@
       ]
     },
     "pending-guofeng-handcraft-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afa689a000000001802ab4f",
+        "https://www.xiaohongshu.com/explore/6af31378000000001802b164",
+        "https://www.xiaohongshu.com/explore/6af526a000000000230101ca"
+      ]
     },
     "pending-bairen-dinner-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f",
+        "https://www.xiaohongshu.com/explore/6af6f54800000000260115eb",
+        "https://www.xiaohongshu.com/explore/6af194be000000003401ac0e"
+      ]
     },
     "pending-fries-challenge-202611": {
       "status": "unreviewed",
@@ -153,16 +161,22 @@
       "sources": []
     },
     "pending-cake-giveaway-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afa9a85000000002c00e2e2",
+        "https://www.xiaohongshu.com/explore/6afad39a000000002b0134a2"
+      ]
     },
     "pending-shenshende-fan-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6ada222f000000003101df03",
+        "https://www.xiaohongshu.com/explore/6ada23a7000000002c036e16"
+      ]
     },
     "pending-crab-race-202611": {
       "status": "unreviewed",
@@ -171,10 +185,12 @@
       "sources": []
     },
     "pending-xiaoyi-birthday-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afb25d0000000002a01d6c0"
+      ]
     },
     "pending-crybaby-202611": {
       "status": "pending",
@@ -185,16 +201,22 @@
       ]
     },
     "pending-shanhun-ruyuan-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：部分原帖海报已目视核对，其他图片未充分审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6afa80960000000022038c94",
+        "https://www.xiaohongshu.com/explore/6afa9791000000002b018fbc"
+      ]
     },
     "pending-racing-miku-202611": {
-      "status": "unreviewed",
-      "reason": "本轮尚未完成图片获取、适用性与线上显示检查；原帖链接不等于配图交付。",
-      "checkedAt": "2026-11-16",
-      "sources": []
+      "status": "pending",
+      "reason": "待核：原帖文字已读，图片尚未目视审阅；转载许可未确认，未下载或上架新图。",
+      "checkedAt": "2026-11-18",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6aed82c70000000028021ee5",
+        "https://www.xiaohongshu.com/explore/6aec00ae000000001a015c18"
+      ]
     },
     "pending-baoluo-wanxiang-202611": {
       "status": "unreviewed",
