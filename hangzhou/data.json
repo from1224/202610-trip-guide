@@ -880,8 +880,14 @@
       "status": "active",
       "checkedAt": "2026-11-17",
       "summary": "主办原帖确认11/18–22在新天地购物中心南广场举办；与杭州大悦城抱抱汉堡节为不同活动。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索找到11/1萧山活动，非新天地11/18–22，本场图片仍缺。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/sunexit-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
+          "caption": "抵达参考：杭州地铁3/4号线新天地街站A口，靠近新天地购物中心南门；不是南广场汉堡节现场，活动仍待核。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "主办原帖（2026-11-17深核）",
@@ -894,6 +900,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%96%B0%E5%A4%A9%E5%9C%B0%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83%E5%8D%97%E5%B9%BF%E5%9C%BA"
+        ],
+        [
+          "图片作者及原来源：4084470 0.smil / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -916,8 +930,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "有手就行™账号店休通知及展讯确认日期、场地与营业表；20+国风品牌、手作体验，周末限定掐丝珐琅老师。入口服务台有“兜兜灶神”章；庙会其他项目是否本周末举行未逐项核实，不保证全部可参加。两次搜索实读5篇，门票、手作费用及预约仍未知。",
-      "images": [],
-      "imageNote": "11/18图片补核：拱墅发布同名空间配图访问循环跳转，且报道是11/12–15庙会，不标作本周现场。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/xiang-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_C_of_Xiangji_Temple_Station,_202608.jpg",
+          "caption": "抵达参考：杭州地铁3号线香积寺站C口，服务大兜路历史街区。崇仁庙遗址在大兜路188号，图中不是庙门，也不是本周手艺集。 摄影：Benteds / Wikimedia Commons；2026-08；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "有手就行™：店休与营业表（11/18页面实读）",
@@ -938,6 +958,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E5%A4%A7%E5%85%9C%E8%B7%AF%C2%B7%E5%B4%87%E4%BB%81%E5%BA%99"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_C_of_Xiangji_Temple_Station,_202608.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1036,8 +1064,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "杭州新天地活力Park账号确认11/21 18:00购物中心1F免费蛋糕，可与同地点南广场BOZ汉堡节顺路，不新增重复卡。开鱼秀、音乐街舞的具体时刻未核；Hello手帐为11/27–29及12/4–6，不属于本周。",
-      "images": [],
-      "imageNote": "11/18图片补核：未找到新天地11/21对应公开图；旧跨年银泰内容排除。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/sunexit-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
+          "caption": "抵达参考：新天地街站A口，靠近新天地购物中心。图中是地铁入口，不是商场1楼蛋糕派送现场，活动仍待核。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "杭州新天地活力Park：11/21蛋糕派送",
@@ -1054,6 +1088,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%96%B0%E5%A4%A9%E5%9C%B0%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%831F"
+        ],
+        [
+          "图片作者及原来源：4084470 0.smil / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1076,8 +1118,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "巴别塔文化-聆犀乐团与Y。🍳两篇同稿专帖确认11/21 14:30–18:30、银泰百货西湖店；粉丝自发聚会，周深本人不到场。两篇同稿不是两份独立证据；此前免费说法仅聚合帖，门票/消费仍未独立确认。11/13萧山开元场已排除，不混入本场。",
-      "images": [],
-      "imageNote": "11/18图片补核：未找到银泰西湖11/21聚会对应公开图；演唱会及外地粉丝聚会图片排除。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/ding-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_C_of_Ding'an_Road_Station,_202509.jpg",
+          "caption": "抵达参考：定安路地铁站C口，距延安路98号西湖银泰步行约290米。不代表商场中庭或歌友会，不是艺人演唱会图。 摄影：Benteds / Wikimedia Commons；2025-09-08；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "巴别塔文化-聆犀乐团：杭州生米集合",
@@ -1094,6 +1142,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A71F%E4%B8%AD%E5%BA%AD"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_C_of_Ding'an_Road_Station,_202509.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1116,8 +1172,14 @@
       "status": "pending",
       "checkedAt": "2026-11-16",
       "summary": "充气螃蟹竞速，偏亲子；报名、年龄条件及收费未知。",
-      "images": [],
-      "imageNote": "11/18图片补核：本轮已公开检索，未找到中南乐游城本场对应公开海报；活动本身仍待核。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/crab-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Zhongnan_Joy_City.jpg",
+          "caption": "场地参考：杭州滨江中南乐游城外立面，便于到场识别；不是赶蟹大赛现场，也没有确认比赛是否举行。 摄影：Huandy618 / Wikimedia Commons；2025-01-12；CC0 1.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -1126,6 +1188,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E4%B8%AD%E5%8D%97%E4%B9%90%E6%B8%B8%E5%9F%8E1%E6%A5%BC%E8%88%9E%E5%8F%B0"
+        ],
+        [
+          "图片作者及原来源：Huandy618 / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Zhongnan_Joy_City.jpg"
+        ],
+        [
+          "图片许可：CC0 1.0",
+          "https://creativecommons.org/publicdomain/zero/1.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1148,8 +1218,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "第1、2张转载海报已目视核对11/21–23及微店Park杭州湖滨88三楼。正文为互赞内容，未执行互动；海报不等于已独立取得主办原公告，保留待核。",
-      "images": [],
-      "imageNote": "11/18图片补核：找到生贺组11/1原公告，三张原图正常访问均403，未绕过；未用另一X27痛楼图片代替湖滨88。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/hustreet-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hangzhou_Street_View_in_2024.jpg",
+          "caption": "场馆参考：杭州湖滨88的街角入口，转角外立面有“湖滨88”字样；非萧逸生日快闪海报或现场。 摄影：Nishino Asuka / Wikimedia Commons；2024-01-18；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "顾汐汐🌙：萧逸生日快闪（11/18目视第1、2张转载海报）",
@@ -1162,6 +1238,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%B9%96%E6%BB%A888%E4%B8%89%E6%A5%BC"
+        ],
+        [
+          "图片作者及原来源：Nishino Asuka / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Hangzhou_Street_View_in_2024.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1234,8 +1318,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "闪魂ShiningSoul品牌原帖与海报已核领取规则和快闪日期；杭州工联CC次元站3楼中庭由杭州好办事二手帖提供，品牌该帖未独立确认杭州点位。扬州城市联动另至12/6，不能套用于杭州。预约打卡赠品与消费赠品条件不同，商品价格和库存未核。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索仅找到4月快闪及产品消息，非11/21杭州场，未挪用。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/longB-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+          "caption": "抵达参考：工联CC次元站下沉广场，可见“次元站”立柱。不是3楼中庭或闪魂×如鸢现场，卡片线索仍待核。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "闪魂ShiningSoul：明信片领取规则与11城快闪海报",
@@ -1252,6 +1342,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%E6%AC%A1%E5%85%83%E7%AB%993%E6%A5%BC%E4%B8%AD%E5%BA%AD"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1274,8 +1372,14 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "工联CC次元站账号确认2026/11/6–12/6每日10–22、工联CC B2下沉广场，龙翔桥A出口。两次搜索实读6篇，其中湖滨银泰A区良笑社地点混淆的一篇未作为同场证据；不据图片链接宣称已审图。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索找到7月22Curry联动，非11月工联B2场，未挪用。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/longB-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+          "caption": "场地定位参考：龙翔桥站A口所在下沉广场，实拍可见“工联”“次元站”标识与下行台阶；不代表11月快闪或精确摊位。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "工联CC次元站：赛车初音快闪原帖",
@@ -1292,6 +1396,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%20B2%E4%B8%8B%E6%B2%89%E5%B9%BF%E5%9C%BA"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1314,8 +1426,14 @@
       "status": "pending",
       "checkedAt": "2026-11-16",
       "summary": "原创／二创动漫画展、明信片主题；图写10r／15r，票种对应未核，不能当作精确票价。",
-      "images": [],
-      "imageNote": "11/18图片补核：本轮已公开检索，未找到本次工联6F对应公开图片；活动本身仍待核。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/longB-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+          "caption": "抵达参考：工联CC的地铁侧入口，可见“工联”“次元站”外部标识；不是六楼展区或展出作品。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -1324,6 +1442,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E5%B7%A5%E8%81%94CC%206F%E5%B1%95%E5%8C%BA"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg"
+        ],
+        [
+          "图片许可：CC BY 4.0",
+          "https://creativecommons.org/licenses/by/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",

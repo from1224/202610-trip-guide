@@ -26,16 +26,16 @@
       ]
     },
     "liangzhu-nuancun-markets-20261120-22": {
-      "status": "ready",
-      "reason": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。 已目视，待部署加载验收。",
+      "status": "displayed",
+      "reason": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。 已目视，待部署加载验收。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://www.lzmuseum.cn/LiangBoXinWen/2026245300244.html"
       ]
     },
     "meiyuji-wetland-market-20261120-22": {
-      "status": "ready",
-      "reason": "中国湿地博物馆入口广场的历史实景，展示馆前空间（2011年资料照，非本届市集现场；场地其后曾改造）。 摄影：江上清风1961 / Wikimedia Commons；2011-02-02；CC BY 3.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。",
+      "status": "displayed",
+      "reason": "中国湿地博物馆入口广场的历史实景，展示馆前空间（2011年资料照，非本届市集现场；场地其后曾改造）。 摄影：江上清风1961 / Wikimedia Commons；2011-02-02；CC BY 3.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%A5%E5%8F%A3%E5%B9%BF%E5%9C%BA_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg",
@@ -43,8 +43,8 @@
       ]
     },
     "gongshu-burger-festival-20261119-22": {
-      "status": "ready",
-      "reason": "杭州大悦城外立面与主入口（场馆资料照，非本届汉堡节现场或海报）。 摄影：Benteds / Wikimedia Commons；2025-04-17；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。",
+      "status": "displayed",
+      "reason": "杭州大悦城外立面与主入口（场馆资料照，非本届汉堡节现场或海报）。 摄影：Benteds / Wikimedia Commons；2025-04-17；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://commons.wikimedia.org/wiki/File:Main_entrance,_Hangzhou_Joy_City_mall,_202504.jpg",
@@ -132,8 +132,8 @@
       ]
     },
     "pending-jinshahu-tanwan-202611": {
-      "status": "ready",
-      "reason": "杭州钱塘金沙湖鸟瞰，可辨湖面、沿岸和大剧院（场地资料照，非滩玩集现场）。 摄影：Nat4Eben / Wikimedia Commons；2025-09-14；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。",
+      "status": "displayed",
+      "reason": "杭州钱塘金沙湖鸟瞰，可辨湖面、沿岸和大剧院（场地资料照，非滩玩集现场）。 摄影：Nat4Eben / Wikimedia Commons；2025-09-14；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jinsha_Lake_20250914.jpg",
@@ -141,22 +141,21 @@
       ]
     },
     "pending-boz-burger-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：公开搜索找到11/1萧山活动，非新天地11/18–22，本场图片仍缺。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "抵达参考：杭州地铁3/4号线新天地街站A口，靠近新天地购物中心南门；不是南广场汉堡节现场，活动仍待核。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6af887fa00000000090225d5"
+        "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
       ]
     },
     "pending-guofeng-handcraft-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：拱墅发布同名空间配图访问循环跳转，且报道是11/12–15庙会，不标作本周现场。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "抵达参考：杭州地铁3号线香积寺站C口，服务大兜路历史街区。崇仁庙遗址在大兜路188号，图中不是庙门，也不是本周手艺集。 摄影：Benteds / Wikimedia Commons；2026-08；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afa689a000000001802ab4f",
-        "https://www.xiaohongshu.com/explore/6af31378000000001802b164",
-        "https://www.xiaohongshu.com/explore/6af526a000000000230101ca",
-        "https://www.gongshunews.com/content/2026-11/13/content_9943712.html"
+        "https://commons.wikimedia.org/wiki/File:Exit_C_of_Xiangji_Temple_Station,_202608.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
       ]
     },
     "pending-bairen-dinner-202611": {
@@ -176,41 +175,44 @@
       "sources": []
     },
     "pending-cake-giveaway-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：未找到新天地11/21对应公开图；旧跨年银泰内容排除。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "抵达参考：新天地街站A口，靠近新天地购物中心。图中是地铁入口，不是商场1楼蛋糕派送现场，活动仍待核。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afa9a85000000002c00e2e2",
-        "https://www.xiaohongshu.com/explore/6afad39a000000002b0134a2"
+        "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
       ]
     },
     "pending-shenshende-fan-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：未找到银泰西湖11/21聚会对应公开图；演唱会及外地粉丝聚会图片排除。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "抵达参考：定安路地铁站C口，距延安路98号西湖银泰步行约290米。不代表商场中庭或歌友会，不是艺人演唱会图。 摄影：Benteds / Wikimedia Commons；2025-09-08；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6ada222f000000003101df03",
-        "https://www.xiaohongshu.com/explore/6ada23a7000000002c036e16"
+        "https://commons.wikimedia.org/wiki/File:Exit_C_of_Ding'an_Road_Station,_202509.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
       ]
     },
     "pending-crab-race-202611": {
-      "status": "unreviewed",
-      "reason": "11/18图片补核：本轮已公开检索，未找到中南乐游城本场对应公开海报；活动本身仍待核。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
-      "sources": []
+      "status": "ready",
+      "reason": "场地参考：杭州滨江中南乐游城外立面，便于到场识别；不是赶蟹大赛现场，也没有确认比赛是否举行。 摄影：Huandy618 / Wikimedia Commons；2025-01-12；CC0 1.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Zhongnan_Joy_City.jpg",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ]
     },
     "pending-xiaoyi-birthday-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：找到生贺组11/1原公告，三张原图正常访问均403，未绕过；未用另一X27痛楼图片代替湖滨88。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "场馆参考：杭州湖滨88的街角入口，转角外立面有“湖滨88”字样；非萧逸生日快闪海报或现场。 摄影：Nishino Asuka / Wikimedia Commons；2024-01-18；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afb25d0000000002a01d6c0",
-        "https://www.sina.cn/news/detail/5360554304604861.html"
+        "https://commons.wikimedia.org/wiki/File:Hangzhou_Street_View_in_2024.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
       ]
     },
     "pending-crybaby-202611": {
-      "status": "ready",
-      "reason": "从体育场路看杭州恒隆广场（商场外观资料照，非 CRYBABY 主题展现场）。 摄影：Benteds / Wikimedia Commons；2026-06；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。",
+      "status": "displayed",
+      "reason": "从体育场路看杭州恒隆广场（商场外观资料照，非 CRYBABY 主题展现场）。 摄影：Benteds / Wikimedia Commons；2026-06；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://commons.wikimedia.org/wiki/File:Westlake_66_from_Tiyuchang_Road,_202606.jpg",
@@ -218,28 +220,31 @@
       ]
     },
     "pending-shanhun-ruyuan-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：公开搜索仅找到4月快闪及产品消息，非11/21杭州场，未挪用。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "抵达参考：工联CC次元站下沉广场，可见“次元站”立柱。不是3楼中庭或闪魂×如鸢现场，卡片线索仍待核。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afa80960000000022038c94",
-        "https://www.xiaohongshu.com/explore/6afa9791000000002b018fbc"
+        "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
       ]
     },
     "pending-racing-miku-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：公开搜索找到7月22Curry联动，非11月工联B2场，未挪用。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "场地定位参考：龙翔桥站A口所在下沉广场，实拍可见“工联”“次元站”标识与下行台阶；不代表11月快闪或精确摊位。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6aed82c70000000028021ee5",
-        "https://www.xiaohongshu.com/explore/6aec00ae000000001a015c18"
+        "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
       ]
     },
     "pending-baoluo-wanxiang-202611": {
-      "status": "unreviewed",
-      "reason": "11/18图片补核：本轮已公开检索，未找到本次工联6F对应公开图片；活动本身仍待核。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
-      "sources": []
+      "status": "ready",
+      "reason": "抵达参考：工联CC的地铁侧入口，可见“工联”“次元站”外部标识；不是六楼展区或展出作品。 摄影：Benteds / Wikimedia Commons；2025-08-06；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
+      "checkedAt": "2026-11-19",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Exit_A_outer_of_Longxiangqiao_Station,_202508.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
     },
     "yuhang-haoshi-wuchang-market-20261024-1122": {
       "status": "displayed",
@@ -250,8 +255,8 @@
       ]
     },
     "zjam-zhangshijian-centenary-20261101-21": {
-      "status": "ready",
-      "reason": "浙江美术馆南山路馆舍外观，门面标有中英文馆名（场馆资料照，非本次展览现场或作品）。 摄影：Huandy618 / Wikimedia Commons；2015-04-29；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。",
+      "status": "displayed",
+      "reason": "浙江美术馆南山路馆舍外观，门面标有中英文馆名（场馆资料照，非本次展览现场或作品）。 摄影：Huandy618 / Wikimedia Commons；2015-04-29；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://commons.wikimedia.org/wiki/File:Zhejiang_Art_Museum_01.jpg",
@@ -259,16 +264,16 @@
       ]
     },
     "anfang-shanzeli-drama-parade-20261121": {
-      "status": "ready",
-      "reason": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。 已目视，待部署加载验收。",
+      "status": "displayed",
+      "reason": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。 已目视，待部署加载验收。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykefy8497542.shtml"
       ]
     },
     "nanfang-youjiamu-hangzhou-20261125-26": {
-      "status": "ready",
-      "reason": "《南方有嘉木》剧目开票宣传图，非演出现场；图中未列杭州日期。图片经第三方购票通杭州场页收录，不代表该站为已核指定售票方。 已目视，待部署加载验收。",
+      "status": "displayed",
+      "reason": "《南方有嘉木》剧目开票宣传图，非演出现场；图中未列杭州日期。图片经第三方购票通杭州场页收录，不代表该站为已核指定售票方。 已目视，待部署加载验收。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
       "checkedAt": "2026-11-19",
       "sources": [
         "https://www.goupiaotong.com.cn/Product/68706.shtml"
