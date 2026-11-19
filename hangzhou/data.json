@@ -129,8 +129,14 @@
       "status": "active",
       "checkedAt": "2026-11-18",
       "summary": "以张世简花鸟画与艺术历程为主题的百年纪念展；展期已于11月1日开始，本次为页面漏项补录，不是新开幕。",
-      "images": [],
-      "imageNote": "11/18图片补核：已目视馆方海报；馆方声明排除他人作品，图内画作权利范围待核。公开替代搜索命中浦江另一展，未挪用。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/art1-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Zhejiang_Art_Museum_01.jpg",
+          "caption": "浙江美术馆南山路馆舍外观，门面标有中英文馆名（场馆资料照，非本次展览现场或作品）。 摄影：Huandy618 / Wikimedia Commons；2015-04-29；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "浙江美术馆展讯（展期及11、12号厅，11/18核查）",
@@ -151,6 +157,14 @@
         [
           "浙江美术馆版权保护声明（公共免费资料引用条件）",
           "https://www.zjam.org.cn/Site/Auxiliary/copyright.shtml"
+        ],
+        [
+          "图片作者及原来源：Huandy618 / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Zhejiang_Art_Museum_01.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ]
     },
@@ -324,8 +338,14 @@
       "status": "active",
       "checkedAt": "2026-11-18",
       "summary": "公告署名中国美术学院社会美育学院、中国湿地博物馆主办；中国湿地博物馆与美遇集 CAA SSAE 两账号发布同稿，非两份完全独立证据，账号认证未另验。自然主题原创文创、可持续生活、儿童友好自然科普；服务台领集章卡，完成自然问答／互动、鸟类友好共创，集章换限量文创，先到先得。发原创笔记及转发领取额外礼品属于宣传条件，本站未代操作。11/18两次搜索核读5篇相关来源；摊主费用和招募截止不代表游客门票或入场规则。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开检索未找到本期可核图片；同名生态剧及5月市集非本场，排除。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/wet-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%A5%E5%8F%A3%E5%B9%BF%E5%9C%BA_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg",
+          "caption": "中国湿地博物馆入口广场的历史实景，展示馆前空间（2011年资料照，非本届市集现场；场地其后曾改造）。 摄影：江上清风1961 / Wikimedia Commons；2011-02-02；CC BY 3.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "美遇集 CAA SSAE账号公告（11/18复核；认证未另验）",
@@ -342,6 +362,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E6%88%B7%E5%A4%96%E5%B9%BF%E5%9C%BA"
+        ],
+        [
+          "图片作者及原来源：江上清风1961 / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%A5%E5%8F%A3%E5%B9%BF%E5%9C%BA_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg"
+        ],
+        [
+          "图片许可：CC BY 3.0",
+          "https://creativecommons.org/licenses/by/3.0/"
         ]
       ]
     },
@@ -361,8 +389,14 @@
       "status": "active",
       "checkedAt": "2026-11-18",
       "summary": "杭州大悦城账号两篇原帖与福堡匠参展帖确认11/19–22、杭州大悦城户外广场；不是新天地购物中心的BOZ汉堡节。11/18两次搜索实读5篇相关来源，其中一篇为此前已收来源。参展商昊乐堡写11/18–22、10:00–22:00，与场方起始日期冲突，按大悦城公告保留11/19起；每日时段未获场方确认，不采用摊主时段或平台AI摘要作为统一开闭时间。具体节目仍待确认。",
-      "images": [],
-      "imageNote": "11/18图片补核：已找到杭州大悦城11/4微博原公告，原图正常访问返回403，未绕过；未交付图。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/joy-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Main_entrance,_Hangzhou_Joy_City_mall,_202504.jpg",
+          "caption": "杭州大悦城外立面与主入口（场馆资料照，非本届汉堡节现场或海报）。 摄影：Benteds / Wikimedia Commons；2025-04-17；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "杭州大悦城账号倒计时公告（11/18复核）",
@@ -383,6 +417,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%A4%A7%E6%82%A6%E5%9F%8E%E6%88%B7%E5%A4%96%E5%B9%BF%E5%9C%BA"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Main_entrance,_Hangzhou_Joy_City_mall,_202504.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ]
     },
@@ -792,8 +834,14 @@
       "status": "pending",
       "checkedAt": "2026-11-16",
       "summary": "地铁1号线下沙西站D口；戏剧周、奇幻巡游、儿童舞台剧、高跷木偶芭蕾、即兴戏剧工坊及湖边市集。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索仅找到9月中秋及2024旧场图片，不用于本周；本场图片仍缺。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/sand-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jinsha_Lake_20250914.jpg",
+          "caption": "杭州钱塘金沙湖鸟瞰，可辨湖面、沿岸和大剧院（场地资料照，非滩玩集现场）。 摄影：Nat4Eben / Wikimedia Commons；2025-09-14；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -802,6 +850,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD"
+        ],
+        [
+          "图片作者及原来源：Nat4Eben / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jinsha_Lake_20250914.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1128,8 +1184,14 @@
       "status": "active",
       "checkedAt": "2026-11-17",
       "summary": "杭州恒隆广场11/20起设6个CRYBABY主题装置；结束日期、每日开放时段、预约及收费未确认。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索仅找到9月湖滨及4月恒隆门店介绍，非11/20主题展，未挪用。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/lo-venue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Westlake_66_from_Tiyuchang_Road,_202606.jpg",
+          "caption": "从体育场路看杭州恒隆广场（商场外观资料照，非 CRYBABY 主题展现场）。 摄影：Benteds / Wikimedia Commons；2026-06；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
+        }
+      ],
+      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
       "sources": [
         [
           "主办原帖（2026-11-17深核）",
@@ -1142,6 +1204,14 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA"
+        ],
+        [
+          "图片作者及原来源：Benteds / Wikimedia Commons",
+          "https://commons.wikimedia.org/wiki/File:Westlake_66_from_Tiyuchang_Road,_202606.jpg"
+        ],
+        [
+          "图片许可：CC BY-SA 4.0",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
