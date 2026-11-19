@@ -26,19 +26,11 @@
       ]
     },
     "liangzhu-nuancun-markets-20261120-22": {
-      "status": "pending",
-      "reason": "11/18图片补核：官网对应图要求使用前联系；定点恢复自然和风原帖遇App扫码要求后停止。原有小红书图片地址未保存，本轮未找到独立公开替代图。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。 已目视，待部署加载验收。",
+      "checkedAt": "2026-11-19",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afc5dbf000000002a02c5dc",
-        "https://www.xiaohongshu.com/explore/6afaf799000000002a02fc54",
-        "https://www.xiaohongshu.com/explore/6afad0ae000000002b01b85e",
-        "https://www.xiaohongshu.com/explore/6afab8d8000000001f015c90",
-        "https://www.xiaohongshu.com/explore/6afc3d28000000002b030c93",
-        "https://www.xiaohongshu.com/explore/6aeea3c10000000012009835",
-        "https://www.xiaohongshu.com/explore/6afad449000000002a03a9bf",
-        "https://www.xiaohongshu.com/explore/6afc4659000000002a00dd9d",
-        "https://www.xiaohongshu.com/explore/6afbd22d000000002b032825"
+        "https://www.lzmuseum.cn/LiangBoXinWen/2026245300244.html"
       ]
     },
     "meiyuji-wetland-market-20261120-22": {
@@ -264,6 +256,22 @@
       "sources": [
         "https://www.zjam.org.cn/site/exbition/ExbitionDetail.aspx?etid=2918&type=1",
         "https://www.zjam.org.cn/Site/Auxiliary/copyright.shtml"
+      ]
+    },
+    "anfang-shanzeli-drama-parade-20261121": {
+      "status": "ready",
+      "reason": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。 已目视，待部署加载验收。",
+      "checkedAt": "2026-11-19",
+      "sources": [
+        "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykefy8497542.shtml"
+      ]
+    },
+    "nanfang-youjiamu-hangzhou-20261125-26": {
+      "status": "ready",
+      "reason": "《南方有嘉木》剧目开票宣传图，非演出现场；图中未列杭州日期。图片经第三方购票通杭州场页收录，不代表该站为已核指定售票方。 已目视，待部署加载验收。",
+      "checkedAt": "2026-11-19",
+      "sources": [
+        "https://www.goupiaotong.com.cn/Product/68706.shtml"
       ]
     }
   }
