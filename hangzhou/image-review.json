@@ -1,6 +1,30 @@
 {
   "schemaVersion": 1,
   "items": {
+      "style-kaleidoscope-hangzhou-20261121-22": {
+        "status": "ready",
+        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。",
+        "checkedAt": "2026-11-20",
+        "sources": [
+          "https://tidenews.com.cn/news.html?id=3617153"
+        ]
+      },
+      "hangzhou-historic-industries-expo-20261120-22": {
+        "status": "ready",
+        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：指南按公开攻略制作的到场时间卡，非官方海报或现场照。",
+        "checkedAt": "2026-11-20",
+        "sources": [
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373390.htm"
+        ]
+      },
+      "zhejiang-museum-taipingnian-phase2-20261125": {
+        "status": "ready",
+        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
+        "checkedAt": "2026-11-20",
+        "sources": [
+          "https://tidenews.com.cn/news.html?id=3615267"
+        ]
+      },
     "festival-german-cinema-hangzhou-20261114-23": {
       "status": "displayed",
       "reason": "11/18于线上207fd48/v47实测750×919加载并点开放大；官网宣传电影画面，非杭州现场；署名并直接原链引用，不下载、不托管副本，不代表官方授权本站。",

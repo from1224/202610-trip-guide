@@ -1,18 +1,167 @@
 {
   "meta": {
-    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
+    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-16",
+    "checkedAt": "2026-11-20",
     "weekLabel": "本周 · 11月16日–11月22日",
     "weather": {
-      "checkedAt": "2026-10-19（Asia/Shanghai）",
-      "validThrough": "2026-10-19",
-      "source": "https://api.open-meteo.com/v1/forecast?latitude=30.2741&longitude=120.1551&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum&timezone=Asia%2FShanghai&start_date=2026-10-24&end_date=2026-10-25",
-      "days": []
+      "checkedAt": "2026-11-19 10:00（杭州市气象台）",
+      "validThrough": "2026-11-22",
+      "source": "https://tidenews.com.cn/tmh_news.html?id=6afe8d312897a0000198d0b2",
+      "days": [
+        {
+          "date": "2026-11-21",
+          "label": "周六 11/21",
+          "condition": "晴到多云",
+          "low": 6,
+          "high": 16
+        },
+        {
+          "date": "2026-11-22",
+          "label": "周日 11/22",
+          "condition": "晴到多云",
+          "low": 7,
+          "high": 17
+        }
+      ]
     }
   },
   "items": [
+    {
+      "id": "style-kaleidoscope-hangzhou-20261121-22",
+      "kind": "演出",
+      "area": "拱墅区",
+      "title": "风格万相·中外经典影片展｜两场4K修复",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-22",
+      "venue": "浙影时代影城·西湖文化广场店",
+      "address": "中山北路581号，西湖文化广场C区5楼10号激光厅，不在F区。",
+      "subtitle": "周六《小城之春》13:00 · 周日《野草莓》13:00",
+      "schedule": "11/21（周六）13:00《小城之春》4K，14:39散场；11/22（周日）13:00《野草莓》4K，14:31散场。均为北京时间、原版2D。",
+      "price": "公开排片未能核实票价、实时余座。",
+      "booking": "到猫眼选该影院及对应日期；价格、座位和退改以实际选座页为准。",
+      "status": "active",
+      "checkedAt": "2026-11-20",
+      "summary": "《小城之春》由馆藏35毫米硝酸底片修复并恢复配乐。周六13:00与恒隆德国影展撞时；若想连看，可改选恒隆16:30场，出发前复核座位。",
+      "map": {
+        "poiId": "B023B14BCH",
+        "url": "https://www.amap.com/place/B023B14BCH",
+        "checkedAt": "2026-11-20"
+      },
+      "images": [
+        {
+          "src": "https://meizi-chao-pub.8531.cn/2122598354880679936_1280px.jpg?height=720&width=1280",
+          "source": "https://tidenews.com.cn/news.html?id=3617153",
+          "caption": "全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。"
+        },
+        {
+          "src": "https://meizi-chao-pub.8531.cn/2122598354880679938_1280px.jpg?height=1920&width=1280",
+          "source": "https://tidenews.com.cn/news.html?id=3617153",
+          "caption": "全国艺联巡展影城名单，潮新闻刊载；杭州场含西湖文化广场店。"
+        }
+      ],
+      "imageNote": "全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。",
+      "sources": [
+        [
+          "猫眼影院排片／选座",
+          "https://www.maoyan.com/cinema/1350"
+        ],
+        [
+          "潮新闻杭州场报道（11/17）",
+          "https://tidenews.com.cn/news.html?id=3617153"
+        ],
+        [
+          "国家电影局转载中国电影报：修复与放映",
+          "https://www.chinafilm.gov.cn/xwzx/hyzx/202611/t20261102_1015397.html"
+        ]
+      ]
+    },
+    {
+      "id": "hangzhou-historic-industries-expo-20261120-22",
+      "kind": "展览",
+      "area": "萧山区",
+      "title": "首届历史经典产业博览会",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2026-11-22",
+      "venue": "杭州国际博览中心二期3层",
+      "address": "利二路与丹华路交叉口西北约140米；请认准二期。地铁6号线博览中心站。",
+      "subtitle": "周末9:00–17:00 · 免费预约 · 室内",
+      "schedule": "11/20公众开放12:00–17:00；11/21–22每日9:00–17:00，16:30停止检票。",
+      "price": "免费预约；展内商品或付费体验另计。",
+      "booking": "微信搜官方小程序「历史经典产业博览会」，凭预约码入场；余量未核。",
+      "status": "active",
+      "checkedAt": "2026-11-20",
+      "summary": "丝绸、茶、瓷、中药、酿造、工美六类展区，可看非遗技艺和文创。",
+      "map": {
+        "poiId": "B0HRZ5NQ31",
+        "url": "https://www.amap.com/place/B0HRZ5NQ31",
+        "checkedAt": "2026-11-20"
+      },
+      "images": [
+        {
+          "src": "images/classic-industries-expo-schedule-20261120.svg",
+          "source": "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373390.htm",
+          "caption": "指南按公开攻略制作的到场时间卡，非官方海报或现场照。"
+        }
+      ],
+      "imageNote": "指南按公开攻略制作的到场时间卡，非官方海报或现场照。",
+      "sources": [
+        [
+          "杭州网：完整观展攻略（11/18）",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373390.htm"
+        ],
+        [
+          "杭州网：二期3层展区（11/19）",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/19/content_9373979.htm"
+        ],
+        [
+          "浙江在线专题：查看原宣传主视觉",
+          "https://zjnews.zjol.com.cn/ztjj/zt/202611/t20261117_32032753.shtml"
+        ]
+      ]
+    },
+    {
+      "id": "zhejiang-museum-taipingnian-phase2-20261125",
+      "kind": "展览",
+      "area": "西湖区",
+      "title": "太平年·天下同宁 II｜吴越纳统",
+      "dateStart": "2026-11-25",
+      "dateEnd": "2027-02-25",
+      "venue": "浙江省博物馆（之江馆区）",
+      "address": "江涵路300号之江文化中心，二楼临展C厅（文物）、B厅（影视）。",
+      "subtitle": "11/25开幕 · 二期文物整体换展",
+      "schedule": "2026/11/25–2027/02/25；周一闭馆，法定节假日除外。不是11/21–22周末活动。",
+      "price": "成人常规 ¥88；限量早鸟 ¥49，余量未核。",
+      "booking": "11/15已宣布开售，可在携程旅行或浙里票务搜索展名。符合条件的展票当天核销后可去三楼现场约XR，每日上限500，不保证有名额。",
+      "status": "active",
+      "checkedAt": "2026-11-20",
+      "summary": "历史厅以吴越纳土归宋为主线，二期换展，包括钱俶墓志、秘色瓷皮囊式壶；与一期为不同展期。",
+      "map": {
+        "poiId": "B0I15SU50Z",
+        "url": "https://www.amap.com/place/B0I15SU50Z",
+        "checkedAt": "2026-11-20"
+      },
+      "images": [
+        {
+          "src": "https://meizi-chao-pub.8531.cn/2121834668121509888_1280px.jpg?height=722&width=1280",
+          "source": "https://tidenews.com.cn/news.html?id=3615267",
+          "caption": "潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。"
+        }
+      ],
+      "imageNote": "潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
+      "sources": [
+        [
+          "潮新闻：二期开售通知、票档与XR规则（11/15）",
+          "https://tidenews.com.cn/news.html?id=3615267"
+        ],
+        [
+          "共同主办方华策影视：分期与展览说明",
+          "https://www.huacemedia.com/mobile/index.php/news/info/1439.html"
+        ]
+      ],
+      "exhibitionType": "历史文物"
+    },
     {
       "id": "anfang-shanzeli-drama-parade-20261121",
       "title": "杭州当代戏剧季 · 安放山泽里戏剧大巡游",
@@ -52,18 +201,18 @@
       "id": "jiangyuchen-hangzhou-20261219",
       "title": "江语晨2026「有语转晴」杭州音乐会",
       "kind": "演出",
-      "area": "杭州",
+      "area": "富阳区",
       "dateStart": "2026-12-19",
       "dateEnd": "2026-12-19",
       "venue": "MOLI茉莉空间（杭州）",
-      "address": "具体地址及入场口待官方票务页确认。",
+      "address": "富阳区银湖街道银湖路379号华壹集团3层；本场入场口待核。",
       "subtitle": "12月演出预告 · 11/19中午12点开票公告",
       "schedule": "2026/12/19；具体开演时刻未从票务平台原公告确认，不采用二手19:00。不是11/21–22周末演出。",
       "price": "票价未从可读取的官方票务详情确认；不采用二手188元起或188–888元。",
       "booking": "票星球原公告：2026/11/19 12:00开抢（北京时间）。购票详情入口当前未能读取，实时售票状态、余票、实名及退改规则未知；未代预约或购票。",
       "status": "active",
       "checkedAt": "2026-11-19",
-      "summary": "本次补录票星球发布的杭州场开票公告；仅确认日期、场地名称及计划开票时间，不把公告等同于实时可购。",
+      "summary": "票星球确认杭州场日期、场馆和计划开票时刻。秀动场馆信息确认详细地址，不代表本场票价、开演时间或现有库存。",
       "images": [],
       "imageNote": "票务原帖有图片，但本轮未取得并目视核验可展示原图，暂未配图。",
       "sources": [
@@ -74,6 +223,10 @@
         [
           "票星球购票入口（由原帖解析；详情未读取）",
           "https://m.piaoxingqiu.com/?lssId=08cb8230f759bffe"
+        ],
+        [
+          "秀动场馆页：仅用于核实详细地址",
+          "https://www.showstart.com/venue/25786742"
         ]
       ]
     },
@@ -887,7 +1040,7 @@
           "caption": "抵达参考：杭州地铁3/4号线新天地街站A口，靠近新天地购物中心南门；不是南广场汉堡节现场。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "地铁出口仅供抵达参考，不是本场活动现场。",
       "sources": [
         [
           "主办原帖（2026-11-17深核）",
@@ -1071,7 +1224,7 @@
           "caption": "抵达参考：新天地街站A口，靠近新天地购物中心。图中是地铁入口，不是商场1楼蛋糕派送现场。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "地铁出口仅供抵达参考，不是本场活动现场。",
       "sources": [
         [
           "杭州新天地活力Park：11/21蛋糕派送",
