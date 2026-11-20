@@ -46,6 +46,7 @@
       "summary": "《小城之春》由馆藏35毫米硝酸底片修复并恢复配乐。周六13:00与恒隆德国影展撞时；若想连看，可改选恒隆16:30场，出发前复核座位。",
       "map": {
         "poiId": "B023B14BCH",
+        "location": [120.164647, 30.277497],
         "url": "https://www.amap.com/place/B023B14BCH",
         "checkedAt": "2026-11-20"
       },
@@ -95,6 +96,7 @@
       "summary": "丝绸、茶、瓷、中药、酿造、工美六类展区，可看非遗技艺和文创。",
       "map": {
         "poiId": "B0HRZ5NQ31",
+        "location": [120.23945, 30.233538],
         "url": "https://www.amap.com/place/B0HRZ5NQ31",
         "checkedAt": "2026-11-20"
       },
