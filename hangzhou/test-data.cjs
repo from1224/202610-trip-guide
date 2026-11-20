@@ -35,7 +35,7 @@ assert(page.includes("秋日中的连廊和转运站"));assert(page.includes("�
 for(const venue of ["浙江美术馆","跨湖桥遗址博物馆","杭州剧院","中国湿地博物馆","西溪湿地·周家村入口","良渚古城遗址公园","中国茶叶博物馆（双峰馆区）","中国国际设计博物馆","浙江省博物馆（孤山馆区）","中国丝绸博物馆","杭州博物馆"])assert(page.includes(`'${venue}'`));
 assert(page.indexOf('<section id="foodPanel"')<page.indexOf('id="foodCards"'));assert(page.indexOf('id="foodCards"')>page.indexOf('</section>\n<section id="foodPanel"'));
 const foodCardCode=page.slice(page.indexOf("function foodCard"),page.indexOf("function focusFood"));const foodCard=new Function("localStorage","navigator","document","location",foodCardCode+";return foodCard")({getItem:()=>null},{userAgent:"Mozilla/5.0 (Linux; Android 15) Chrome/130"},{querySelectorAll:()=>[]},{href:"https://example.test/"});const luyaoliu=foodCard(data.foodItems.find(x=>x.id==="food-luyaoliu-gudun"));assert(luyaoliu.includes('class="source-action"'));assert(luyaoliu.includes('查看原帖 · 桥桥瞧世界'));assert(luyaoliu.includes('href="https://www.xiaohongshu.com/explore/6a65d041000000000a0386d7?xsec_token=ABGIK2PayN28TURANkxOsqupjSmb2mw2QOywbgOa4OPAg=&xsec_source=pc_search&source=web_search_result_notes"'));assert(luyaoliu.includes('intent://poi/detail?poiname='));assert(luyaoliu.includes('lat=30.294116&lon=120.09931&poiid=B0LKYB434Y'));assert(luyaoliu.includes('package=com.autonavi.minimap'));assert(luyaoliu.includes('网页地点兜底'));assert(luyaoliu.includes('https://uri.amap.com/marker?poiid=B0LKYB434Y&src=HangzhouGuide&callnative=0'));assert(!luyaoliu.includes('intent://navi?'));for(const x of data.foodItems){const html=foodCard(x);assert(html.includes('map-action'));assert(html.includes(x.map?(['building','venue'].includes(x.map.navigation_target_type)?'高德查看':'高德查看地点'):'App 搜店（待确认）'));assert(html.indexOf('map-action')<html.indexOf('<details>'));assert(html.includes(`data-candidate-id="${x.id}"`));if(!x.map){assert(html.includes('intent://poi?sourceApplication=HangzhouGuide'));assert(html.includes('网页搜索兜底'))}}
-const cardCode=page.slice(page.indexOf("function card"),page.indexOf("function foodCard"));const card=new Function("localStorage","gallery","const type=()=>'',bucket=()=>'',dateLabel=()=>'';"+cardCode+";return card")({getItem:()=>null},()=>"");const yujia=data.items.find(x=>x.id==="yujia-museum-zhili"),yujiaCard=card(yujia);assert.equal(yujia.map.poiId,"B0JGVA5ULY");assert.equal(yujia.map.url,"https://www.amap.com/place/B0JGVA5ULY");assert(yujiaCard.includes("iCity 页面图不可转载"));assert(yujiaCard.includes('href="https://www.amap.com/place/B0JGVA5ULY"'));assert(yujiaCard.includes("打开高德地点"));assert(card(data.items.find(x=>x.id==="liangzhu-museum")).includes("高德搜索（未定点）"));assert(foodCard(data.foodItems.find(x=>x.id==="food-luyaoliu-gudun")).includes('https://uri.amap.com/marker?poiid=B0LKYB434Y'));assert(foodCard(data.foodItems.find(x=>x.id==="food-xiangyuandao-gudun")).includes("https://uri.amap.com/marker?poiid=B023B1DGVZ"));
+const cardCode=page.slice(page.indexOf("function card"),page.indexOf("function foodCard"));const card=new Function("localStorage","eventVisual","const type=()=>'',bucket=()=>'',dateLabel=()=>'';"+cardCode+";return card")({getItem:()=>null},x=>`<p class="research-status">图片：${x.imageNote||"未记录"}</p>`);const yujia=data.items.find(x=>x.id==="yujia-museum-zhili"),yujiaCard=card(yujia);assert.equal(yujia.map.poiId,"B0JGVA5ULY");assert.equal(yujia.map.url,"https://www.amap.com/place/B0JGVA5ULY");assert(yujiaCard.includes("iCity 页面图不可转载"));assert(yujiaCard.includes('href="https://www.amap.com/place/B0JGVA5ULY"'));assert(yujiaCard.includes("打开高德地点"));assert(card(data.items.find(x=>x.id==="liangzhu-museum")).includes("高德搜索（未定点）"));assert(foodCard(data.foodItems.find(x=>x.id==="food-luyaoliu-gudun")).includes('https://uri.amap.com/marker?poiid=B0LKYB434Y'));assert(foodCard(data.foodItems.find(x=>x.id==="food-xiangyuandao-gudun")).includes("https://uri.amap.com/marker?poiid=B023B1DGVZ"));
 for(const id of ["zhejiang-museum-taipingnian","liangzhu-museum-cong-spectrum","yujia-museum-zhili","west-lake-museum-ten-scenes","zhejiang-natural-ammonite","kuahuqiao-wenjing-liuguang"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,x.id==="zhejiang-museum-taipingnian"?"archived":"active");assert(x.exhibitionType);assert(x.sources[0][1].startsWith("https://art.icity.ly/events/"))}
 assert.equal(data.meta.weekLabel,"本周 · 11月16日–11月22日");assert.equal(data.meta.weather.validThrough,"2026-11-22");assert.equal(data.meta.weather.days.length,2);
 for(const id of ["zhejiang-natural-seashells","zhejiang-museum-jinshi-shuhua-8","charlie-puth-whatevers-clever-hangzhou","zhejiang-museum-liujiang-donation","hangzhou-traditional-village-market-20261023-25","nuancun-farmers-market-20261023-25","watcha-ai-expo-hangzhou-20261024-25","pending-bread","pending-feiren"]){const x=data.items.find(x=>x.id===id);assert.equal(x.status,"archived");assert.equal(x.dateEnd,"2026-10-25")}
@@ -49,7 +49,7 @@ const jinniuPoints=require("./banshan-jinniu-a-points.json");assert.equal(jinniu
 const whiteRoute=__dirname+"/images/banshan-white-route-extracted.svg",hanggangOverlay=__dirname+"/images/hanggang-south-route-overlay.svg";assert(fs.existsSync(whiteRoute));assert.equal(require("node:crypto").createHash("sha256").update(fs.readFileSync(whiteRoute)).digest("hex"),"6b549a6d339ec05dea3f4c80b003ed9c8f61264f8e484333c6d1ac7baab4e3c0");assert(page.includes("banshan-white-route-extracted.svg"));assert(page.includes("保留原图朝向"));assert(fs.existsSync(hanggangOverlay));const overlay=fs.readFileSync(hanggangOverlay,"utf8");assert(overlay.includes("viewBox=\"0 0 4723 2725\""));assert(page.includes("hanggang-south-route-overlay.svg"));assert(page.includes("width=\"4723\" height=\"2725\""));assert(page.includes("看游线"));assert(page.includes("看全园"));console.log("hangzhou activity data: ok");
 
 // October 20 official additions: opening time is distinct from performance time.
-assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261120-v59')"));
+assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261120-v60')"));
 const mengchuan=data.items.find(x=>x.id==="mengchuan-haobuhao-hangzhou-20261114");assert.equal(mengchuan.dateStart,"2026-11-14");assert(mengchuan.booking.includes("2026-10-20 14:00"));assert(mengchuan.price.includes("未知"));
 const luxiansen=data.items.find(x=>x.id==="luxiansen-outdoor-linping-20261031");assert.equal(luxiansen.dateStart,"2026-10-31");assert(luxiansen.price.includes("¥288")&&luxiansen.price.includes("¥388"));assert(!luxiansen.price.includes("¥188"));
 const moli=data.items.find(x=>x.id==="1024-moli-ai-community-day-20261024");assert.equal(moli.dateStart,"2026-10-24");assert.equal(moli.kind,"市集");assert(moli.venue.includes("云谷之芯"));assert(moli.booking.includes("二维码"));
@@ -92,7 +92,7 @@ assert(zjam.title.includes('五项已结束'));assert(zjam.summary.includes('10/
 const xu=data.items.find(x=>x.id==='zjam-xuboqing-centenary-20261103');assert.equal(xu.dateStart,'2026-11-03');assert.equal(xu.dateEnd,null);assert(xu.schedule.includes('2027-10-15')&&xu.schedule.includes('待馆方复核'));assert(xu.booking.includes('2023')&&xu.price.includes('未知'));assert.equal(xu.map.poiId,'B023B0BMJ6');assert(xu.address.includes('7、8、9'));
 const marathon=data.items.find(x=>x.id==='hangzhou-marathon-memory-exhibition-20261029');assert.equal(marathon.dateStart,'2026-10-29');assert.equal(marathon.dateEnd,null);assert(marathon.venue.includes('原冠军楼'));assert(marathon.price.includes('不等于免费'));assert(marathon.booking.includes('未知'));assert(!marathon.map);assert(marathon.sources[1][1].startsWith('https://www.amap.com/search?query='));
 for(const x of [xu,marathon]){assert.equal(x.checkedAt,'2026-10-31');assert.equal(x.status,'active');assert(!x.images?.length)}
-assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261120-v59'));
+assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261120-v60'));
 console.log('PASS: October 31 museum additions, dated policy, unknown end/admission, and composite archive boundaries');
 
 // November 1: archive only ended dated events, preserving IDs and original source check dates.
@@ -184,3 +184,45 @@ assert.equal(phase2.dateStart,'2026-11-25');assert.equal(phase2.dateEnd,'2027-02
 assert(phase2.booking.includes('不保证')&&!data.meta.weekendSelection.includes(phase2.id));
 assert.equal(jyc.area,'富阳区');assert(jyc.address.includes('银湖路379号')&&jyc.schedule.includes('未从'));
 console.log('PASS: Nov 20 film showtimes, Phase 2 expo access, museum ticket boundary, and venue address');
+
+
+// The current weekend galleries and swipe previews share the verified Xiaohongshu-only filter.
+const weekendVisualCode=page.slice(page.indexOf('const verifiedWeekendXhsImages'),page.indexOf('function card'));
+const fallbackPoster=['fallback.jpg','https://example.com/poster','fallback poster'];
+const fallbackId='test-fallback';
+const regularId='test-non-weekend';
+const weekendVisual=new Function('weekendIds','posters',weekendVisualCode+';return {eventImages,eventVisual}')(
+  [...data.meta.weekendSelection,fallbackId],{[fallbackId]:fallbackPoster,[regularId]:fallbackPoster});
+const selectedItems=data.meta.weekendSelection.map(id=>data.items.find(item=>item.id===id));
+const actualXhsImages=selectedItems.flatMap(x=>weekendVisual.eventImages(x));
+assert.equal(actualXhsImages.length,3);
+assert.equal(selectedItems.filter(x=>weekendVisual.eventImages(x).length).length,2);
+const reviews=require('./image-review.json').items;
+for(const item of selectedItems){
+  const images=weekendVisual.eventImages(item);
+  if(images.length){
+    assert.equal(reviews[item.id].status,'displayed');
+    for(const image of images){
+      assert.match(image.source,/^https:\/\/www\.xiaohongshu\.com\/explore\/[0-9a-f]{24}$/);
+      assert(reviews[item.id].sources.includes(image.source));
+      assert(fs.existsSync(require('node:path').resolve(__dirname,image.src)));
+    }
+    assert.match(weekendVisual.eventVisual(item), /class="event-gallery"/);
+    assert.equal((weekendVisual.eventVisual(item,true).match(/<img /g)||[]).length,1);
+  }else{
+    for(const firstOnly of [false,true]){
+      assert.match(weekendVisual.eventVisual(item,firstOnly),/暂无已核实的小红书配图/);
+      assert.doesNotMatch(weekendVisual.eventVisual(item,firstOnly),/<img|class="event-gallery"/);
+    }
+  }
+}
+const sports=selectedItems.find(x=>x.id==='tianmuli-afterwork-sports-20261120-29');
+const unverified={src:'another.jpg',source:sports.images[0].source};
+assert.equal(weekendVisual.eventImages({...sports,images:[unverified,...sports.images]}).length,2);
+assert.equal(weekendVisual.eventImages({...sports,images:[{...sports.images[0],source:'https://notxiaohongshu.com/explore/6af6e0590000000018029ab5'}]}).length,0);
+assert.deepEqual(weekendVisual.eventImages({id:fallbackId}),[]);
+assert.equal(weekendVisual.eventImages({id:regularId})[0].src,'fallback.jpg');
+assert.deepEqual(weekendVisual.eventImages({id:regularId,images:[unverified]}),[unverified]);
+assert(page.includes('visual=eventVisual(x)'));
+assert(page.includes('swipeCard.innerHTML=`\${eventVisual(x,true)}'));
+console.log('PASS: weekend list and swipe share 3 individually verified Xiaohongshu images; no other image fallback');
