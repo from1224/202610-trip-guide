@@ -101,12 +101,16 @@
       }
     },
     "baodao-yicun-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18线上10ce230/v50原链加载失败修复后，仓库公开海报副本960×1440实际加载、放大与关闭通过；来源和署名保留，非现场实拍。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，7 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://weibo.com/2/detail/5352135332201570"
-      ]
+        "https://www.xiaohongshu.com/explore/6afa722b000000002b003b67"
+      ],
+      "imageCount": 7,
+      "noteFrames": {
+        "原帖共7图": "逐张目视均选用；2–6为宣传剧照，非本周杭州实拍；另一个同场原帖为视频，不计静态图片"
+      }
     },
     "chenxiaochun-hangzhou-20261121": {
       "status": "ready",
@@ -168,12 +172,16 @@
       }
     },
     "tacangqiong-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，8 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://huodong.com/event/detail/yqtzhx"
-      ]
+        "https://www.xiaohongshu.com/explore/6afd457500000000180245ac"
+      ],
+      "imageCount": 8,
+      "noteFrames": {
+        "原帖共8图": "逐张目视均选用；以已核11/21 19:30红星剧院为准；另两个同场原帖为视频，不计静态图片"
+      }
     },
     "kiana-lede-hangzhou-20261122": {
       "status": "ready",
@@ -188,12 +196,16 @@
       }
     },
     "yintian-musical-hangzhou-20261120-21": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://huodong.com/event/detail/kebkpf"
-      ]
+        "https://www.xiaohongshu.com/explore/6afec04a000000001603f6a2"
+      ],
+      "imageCount": 2,
+      "noteFrames": {
+        "原帖共2图": "均逐张目视、解码并纳入，为杭州当期物料；另有卡司小红书帖图可见但没有稳定资产，未纳入"
+      }
     },
     "pending-jinshahu-tanwan-202611": {
       "status": "displayed",
@@ -240,12 +252,17 @@
     },
     "pending-cake-giveaway-202611": {
       "status": "ready",
-      "reason": "抵达参考：新天地街站A口，靠近新天地购物中心。图中是地铁入口，不是商场1楼蛋糕派送现场。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
-      "checkedAt": "2026-11-19",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
-        "https://creativecommons.org/licenses/by/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6afa9a85000000002c00e2e2",
+        "https://www.xiaohongshu.com/explore/6b014c90000000002b02bb2b"
+      ],
+      "imageCount": 4,
+      "noteFrames": {
+        "11/21主办帖": "3张均选用，均为实际制作过程，不能推为已发放或仍有余量",
+        "11/16主办帖": "选用第1张活动海报，另外使用11/21主办帖所发3张现场准备照片"
+      }
     },
     "pending-shenshende-fan-202611": {
       "status": "ready",
