@@ -62,10 +62,27 @@
         [
           "高德地点：杭州孔庙",
           "https://www.amap.com/place/B023B0BG4J"
+        ],
+        [
+          "小红书图片原帖：杏会金秋 府学书香——2026秋季孔庙书市",
+          "https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6"
         ]
       ],
       "status": "active",
-      "checkedAt": "2026-11-21"
+      "checkedAt": "2026-11-21",
+      "images": [
+        {
+          "src": "images/xhs-20261121-confucius-book-market-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6",
+          "caption": "秋季孔庙书市拓印及活动物料（现场笔记实拍）。来源：小红书原帖「杏会金秋 府学书香——2026秋季孔庙书市」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-confucius-book-market-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6",
+          "caption": "孔庙书市文创及11/21–22活动物料（现场笔记实拍）。来源：小红书原帖「杏会金秋 府学书香——2026秋季孔庙书市」第2图。"
+        }
+      ],
+      "imageNote": "已核小红书同场原帖图 2 张，待线上加载验收。"
     },
     {
       "id": "bjiff-tiantan-hangzhou-20261128-29",
@@ -559,12 +576,22 @@
       "summary": "古美术市集此前已核5篇，同期有火钵古器物特展。11/18续核后，农夫市集累计6篇相关来源，自然和风累计5篇（含两组共用综合帖，并非全部独立主办方）；两组各完成两次搜索。农夫周末约14:30音乐弹唱沿用此前来源，面包与茶摊主另有本周出摊信息。自然和风本周日期与地点由自身账号首图海报交叉确认，10:00–17:00仅据良渚5000+艺创原帖，其账号认证未独立核实，不称政府官方；11/7延期帖指延期至11/21–22，并非本周取消。费用、预约及临时调整仍需出发前确认。",
       "images": [
         {
+          "src": "images/xhs-20261121-liangzhu-nature-market-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04",
+          "caption": "自然和风手工市集当期摊主作品拼图（招募／预告素材，非市集现场）。来源：小红书原帖「良渚暖村」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-liangzhu-nature-market-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04",
+          "caption": "自然和风手工市集当期入选摊主名单海报（11/21–22，暖村晒谷场）。来源：小红书原帖「良渚暖村」第3图。"
+        },
+        {
           "src": "images/liangzhu-nuancun-market-schematic.webp",
           "source": "https://www.lzmuseum.cn/LiangBoXinWen/2026245300244.html",
           "caption": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。"
         }
       ],
-      "imageNote": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。",
+      "imageNote": "已核小红书同场原帖图 2 张，待线上加载验收。仅覆盖自然和风手工市集；良渚古美术市集和好好生活农夫市集的小红书配图仍缺。",
       "sources": [
         [
           "良渚博物院，2026-11-16（11/19复核古美术及农夫时段、自然和风日期地点；未新增活动）",
@@ -609,6 +636,10 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E8%89%AF%E6%B8%9A%E6%9A%96%E6%9D%91"
+        ],
+        [
+          "小红书图片原帖：良渚暖村",
+          "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04"
         ]
       ]
     },
@@ -630,17 +661,33 @@
       "summary": "公告署名中国美术学院社会美育学院、中国湿地博物馆主办；中国湿地博物馆与美遇集 CAA SSAE 两账号发布同稿，非两份完全独立证据，账号认证未另验。自然主题原创文创、可持续生活、儿童友好自然科普；服务台领集章卡，完成自然问答／互动、鸟类友好共创，集章换限量文创，先到先得。发原创笔记及转发领取额外礼品属于宣传条件，本站未代操作。11/18两次搜索核读5篇相关来源；摊主费用和招募截止不代表游客门票或入场规则。",
       "images": [
         {
+          "src": "images/xhs-20261121-meiyuji-wetland-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
+          "caption": "美遇集「湿地洄游」艺术市集主视觉（非现场照）。来源：小红书原帖「美遇集 CAA SSAE」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-meiyuji-wetland-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
+          "caption": "美遇集当期活动基本信息（11/20–22，中国湿地博物馆）。来源：小红书原帖「美遇集 CAA SSAE」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-meiyuji-wetland-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
+          "caption": "自然好物、鸟类共创与自然问答等互动预告（非现场照）。来源：小红书原帖「美遇集 CAA SSAE」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-meiyuji-wetland-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9",
+          "caption": "美遇集当期互动攻略（不是门票或预约证明）。来源：小红书原帖「美遇集 CAA SSAE」第5图。"
+        },
+        {
           "src": "images/wet-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%A5%E5%8F%A3%E5%B9%BF%E5%9C%BA_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg",
           "caption": "中国湿地博物馆入口广场的历史实景，展示馆前空间（2011年资料照，非本届市集现场；场地其后曾改造）。 摄影：江上清风1961 / Wikimedia Commons；2011-02-02；CC BY 3.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "已核小红书同场原帖图 4 张，待线上加载验收。",
       "sources": [
-        [
-          "美遇集 CAA SSAE账号公告（11/18复核；认证未另验）",
-          "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
-        ],
         [
           "中国湿地博物馆账号公告（11/18已读；与美遇集同稿，认证未另验）",
           "https://www.xiaohongshu.com/explore/6af56f48000000002203a574"
@@ -660,6 +707,10 @@
         [
           "图片许可：CC BY 3.0",
           "https://creativecommons.org/licenses/by/3.0/"
+        ],
+        [
+          "小红书图片原帖：美遇集 CAA SSAE",
+          "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
         ]
       ]
     },
@@ -681,12 +732,42 @@
       "summary": "杭州大悦城账号两篇原帖与福堡匠参展帖确认11/19–22、杭州大悦城户外广场；不是新天地购物中心的BOZ汉堡节。11/18两次搜索实读5篇相关来源，其中一篇为此前已收来源。参展商昊乐堡写11/18–22、10:00–22:00，与场方起始日期冲突，按大悦城公告保留11/19起；每日时段未获场方确认，不采用摊主时段或平台AI摘要作为统一开闭时间。具体节目仍待确认。",
       "images": [
         {
+          "src": "images/xhs-20261121-baobao-burger-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "汉堡成品切面（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-baobao-burger-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "HOT SAUCE 热酱摊位的汉堡菜单卡（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-baobao-burger-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "摊位煎台正在制作汉堡（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-baobao-burger-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "白白的汉堡小馆子菜单卡（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-baobao-burger-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "另一款汉堡成品切面（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第5图。"
+        },
+        {
+          "src": "images/xhs-20261121-baobao-burger-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6",
+          "caption": "大悦城活动的堡里堡气摊位（现场笔记实拍）。来源：小红书原帖「大悦城汉堡节实况！！」第6图。"
+        },
+        {
           "src": "images/joy-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Main_entrance,_Hangzhou_Joy_City_mall,_202504.jpg",
           "caption": "杭州大悦城外立面与主入口（场馆资料照，非本届汉堡节现场或海报）。 摄影：Benteds / Wikimedia Commons；2025-04-17；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "已核小红书同场原帖图 6 张，待线上加载验收。",
       "sources": [
         [
           "杭州大悦城账号倒计时公告（11/18复核）",
@@ -719,6 +800,10 @@
         [
           "抱抱豹豹（招募合作版）：杭州站全品牌阵容（小红书原帖，图片仅在原帖查看）",
           "https://www.xiaohongshu.com/explore/6af3de3600000000160335c7"
+        ],
+        [
+          "小红书图片原帖：大悦城汉堡节实况！！",
+          "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6"
         ]
       ]
     },
@@ -2141,14 +2226,17 @@
       "map": {
         "poiId": "B0FFM9CQ8J",
         "url": "https://ditu.amap.com/place/B0FFM9CQ8J",
-        "location": [120.165466, 30.268258]
+        "location": [
+          120.165466,
+          30.268258
+        ]
       },
       "price": "80元／场，另加电商服务费；实时余票未知。",
       "booking": "首次开票：2026-11-04 12:00（北京时间，杭州网11/4报道）。特别放映影票售出不退不换；请通过影展官方发布及影院售票平台核对具体场次后购票。直接购票链接、实名及限购条件未核，未代购票。",
       "status": "active",
       "checkedAt": "2026-11-16",
       "summary": "影院小红书原帖补充11/21–22五场排片与票价；具体影厅、当前余票及临时调整请在影院售票平台再次核对。11/20 当天拍摄可见北山街沿湖连片秋色。看电影前可从曲院风荷附近沿北山街走到断桥／少年宫，也可上白堤回看北山街，再转杭州恒隆。周六可接 16:30《镜的第三乐章》，周日可接 15:40《我理解您的不满》，出发前核余票，并预留转场时间。",
-      "imageNote": "已展示：1张官网宣传主视觉，非杭州活动现场；11/18已在公开页核验加载与放大。直接引用原站，未下载，不代表官方授权本站。",
+      "imageNote": "已核小红书同场原帖图 11 张，待线上加载验收。",
       "sources": [
         [
           "德国电影展官方网站（2026年杭州展期；2026-11-05核查）",
@@ -2187,15 +2275,70 @@
           "https://www.amap.com/place/B023B01EE6"
         ],
         [
-          "FrameNote：杭州恒隆站展讯（小红书原帖，图片仅在原帖查看）",
-          "https://www.xiaohongshu.com/explore/6adcd206000000003301395c"
-        ],
-        [
           "高德地点：杭州恒隆广场（影院在 L3-38，非影院独立 POI）",
           "https://ditu.amap.com/place/B0FFM9CQ8J"
+        ],
+        [
+          "小红书图片原帖：FrameNote《2026年德国电影展·杭州站》",
+          "https://www.xiaohongshu.com/explore/6adcd206000000003301395c"
         ]
       ],
       "images": [
+        {
+          "src": "images/xhs-20261121-german-film-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "德国电影展杭州站主视觉（11/14–23全展，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《阿姆鲁姆》影片海报（影展总片单，不属本周末已核排片）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《落叶球》影片海报（11/21 13:00排片，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《我理解您的不满》影片海报（11/22 15:40排片，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《卡拉的审判》影片海报（11/21 19:00排片，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第5图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《镜的第三乐章》影片海报（11/21 16:30排片，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第6图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-07.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《她们的狂想曲》影片海报（影展总片单，不属本周末已核排片）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第7图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-08.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《心隙》影片海报（11/22 13:00排片，非现场照）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第8图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-09.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《残存的感性》影片海报（影展总片单，不属本周末已核排片）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第9图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-10.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《当猪会飞》影片海报（影展总片单，不属本周末已核排片）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第10图。"
+        },
+        {
+          "src": "images/xhs-20261121-german-film-11.webp",
+          "source": "https://www.xiaohongshu.com/explore/6adcd206000000003301395c",
+          "caption": "《羞耻与金钱》影片海报（影展总片单，不属本周末已核排片）。来源：小红书原帖「FrameNote《2026年德国电影展·杭州站》」第11图。"
+        },
         {
           "src": "https://www.festivalofgermancinema.com/assets/image/2026/background-mb.jpg",
           "source": "https://www.festivalofgermancinema.com/",

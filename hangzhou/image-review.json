@@ -2,10 +2,13 @@
   "schemaVersion": 1,
   "items": {
     "hangzhou-confucius-temple-book-market-20261121-22": {
-      "status": "unreviewed",
-      "reason": "本轮补市集事实及定位，未另查小红书图片，未用替代图。",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
-      "sources": []
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6"
+      ],
+      "imageCount": 2
     },
       "style-kaleidoscope-hangzhou-20261121-22": {
         "status": "ready",
@@ -32,12 +35,13 @@
         ]
       },
     "festival-german-cinema-hangzhou-20261114-23": {
-      "status": "displayed",
-      "reason": "11/18于线上207fd48/v47实测750×919加载并点开放大；官网宣传电影画面，非杭州现场；署名并直接原链引用，不下载、不托管副本，不代表官方授权本站。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.festivalofgermancinema.com/"
-      ]
+        "https://www.xiaohongshu.com/explore/6adcd206000000003301395c"
+      ],
+      "imageCount": 11
     },
     "tianmuli-fragrance-festival-20261119-22": {
       "status": "displayed",
@@ -56,30 +60,31 @@
       ]
     },
     "liangzhu-nuancun-markets-20261120-22": {
-      "status": "displayed",
-      "reason": "指南自制地点示意，非现场照片、非地理地图；依据良渚博物院11/16公告整理三处场地与时段，不代表已取得市集原图。 已目视，待部署加载验收。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
-      "checkedAt": "2026-11-19",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。仅覆盖自然和风手工市集；良渚古美术市集和好好生活农夫市集的小红书配图仍缺。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.lzmuseum.cn/LiangBoXinWen/2026245300244.html"
-      ]
+        "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04"
+      ],
+      "imageCount": 2
     },
     "meiyuji-wetland-market-20261120-22": {
-      "status": "displayed",
-      "reason": "中国湿地博物馆入口广场的历史实景，展示馆前空间（2011年资料照，非本届市集现场；场地其后曾改造）。 摄影：江上清风1961 / Wikimedia Commons；2011-02-02；CC BY 3.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
-      "checkedAt": "2026-11-19",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E6%B9%BF%E5%9C%B0%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%A5%E5%8F%A3%E5%B9%BF%E5%9C%BA_-_panoramio_-_%E6%B1%9F%E4%B8%8A%E6%B8%85%E9%A3%8E1961.jpg",
-        "https://creativecommons.org/licenses/by/3.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
+      ],
+      "imageCount": 4
     },
     "gongshu-burger-festival-20261119-22": {
-      "status": "displayed",
-      "reason": "杭州大悦城外立面与主入口（场馆资料照，非本届汉堡节现场或海报）。 摄影：Benteds / Wikimedia Commons；2025-04-17；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
-      "checkedAt": "2026-11-19",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，6 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Main_entrance,_Hangzhou_Joy_City_mall,_202504.jpg",
-        "https://creativecommons.org/licenses/by-sa/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6affe959000000002b02afd6"
+      ],
+      "imageCount": 6
     },
     "sanfu-zhiyi-hangzhou-20261121-22": {
       "status": "displayed",
