@@ -1,6 +1,6 @@
 {
   "meta": {
-    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
+    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
     "checkedAt": "2026-11-21",
@@ -28,6 +28,80 @@
     }
   },
   "items": [
+    {
+      "id": "hangzhou-confucius-temple-book-market-20261121-22",
+      "title": "秋季孔庙书市",
+      "kind": "市集",
+      "area": "上城区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2026-11-22",
+      "venue": "杭州孔庙碑林",
+      "address": "上城区府学巷8号；高德定位孔庙，书市进场入口未核。",
+      "subtitle": "本周末上城顺路备选 · 新旧书、童书与文创",
+      "schedule": "11/21–22 举办；全场开闭市时间未核。已公布的 10:00–11:30、12:30–14:00、14:30–16:00 仅是童书摊主场次。",
+      "price": "普通游客门票和体验收费未核，不推定免费。",
+      "booking": "普通逛展是否预约未核，出发前看名城杭州当期通知；童书摊主报名截止 11/20 12:00。未代报名。",
+      "summary": "11/21 报道确认书市、新旧书与六艺互动，可结合碑廊看展。就近可顺路，跨区请先确认开放与入场。",
+      "map": {
+        "poiId": "B023B0BG4J",
+        "url": "https://www.amap.com/place/B023B0BG4J",
+        "location": [
+          120.161907,
+          30.241806
+        ]
+      },
+      "sources": [
+        [
+          "潮新闻：11/21 当日报道",
+          "https://tidenews.com.cn/news.html?id=3620843"
+        ],
+        [
+          "杭州日报：童书摊主时段与报名",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-11/11/content_9369912.htm"
+        ],
+        [
+          "高德地点：杭州孔庙",
+          "https://www.amap.com/place/B023B0BG4J"
+        ]
+      ],
+      "status": "active",
+      "checkedAt": "2026-11-21"
+    },
+    {
+      "id": "bjiff-tiantan-hangzhou-20261128-29",
+      "title": "北影节「天坛映像」全国巡展 · 杭州站",
+      "kind": "演出",
+      "area": "萧山区",
+      "dateStart": "2026-11-28",
+      "dateEnd": "2026-11-29",
+      "venue": "万象影城（亚奥万象天地店）",
+      "address": "萧山区亚奥万象天地 L5，琮琮路与拾久街交叉口西南侧；不是上城万象城店。",
+      "subtitle": "下周末 · 6 部电影，《夏日之书》映后祝新交流",
+      "schedule": "11/28–29；单片具体时刻、映后场安排以购票页为准，本轮未核。",
+      "price": "单片价格、余票未核。",
+      "booking": "主办宣布开票，渠道为猫眼、淘票票；实际库存未核。未代购票。",
+      "summary": "杭州站主题「寻常清欢」，片单含《两人一生一狗》《危情蜻蜓》《奇南客栈》《女孩们》《三声再见》《夏日之书》。",
+      "map": {
+        "poiId": "B0L2O5VV1C",
+        "url": "https://www.amap.com/place/B0L2O5VV1C",
+        "location": [
+          120.247876,
+          30.256632
+        ]
+      },
+      "sources": [
+        [
+          "北京国际电影节：开票、杭州片单及映后交流",
+          "https://m.weibo.cn/2/detail/5367312337339437"
+        ],
+        [
+          "高德地点：万象影城亚奥万象天地店",
+          "https://www.amap.com/place/B0L2O5VV1C"
+        ]
+      ],
+      "status": "active",
+      "checkedAt": "2026-11-21"
+    },
     {
       "id": "style-kaleidoscope-hangzhou-20261121-22",
       "kind": "演出",
@@ -641,6 +715,10 @@
         [
           "图片许可：CC BY-SA 4.0",
           "https://creativecommons.org/licenses/by-sa/4.0/"
+        ],
+        [
+          "抱抱豹豹（招募合作版）：杭州站全品牌阵容（小红书原帖，图片仅在原帖查看）",
+          "https://www.xiaohongshu.com/explore/6af3de3600000000160335c7"
         ]
       ]
     },
@@ -2059,7 +2137,12 @@
       "dateEnd": "2026-11-23",
       "schedule": "11/21（周六）13:00《落叶球》、16:30《镜的第三乐章》、19:00《卡拉的审判》；11/22（周日）13:00《心隙》、15:40《我理解您的不满》。均北京时间；不是北京场排片。",
       "venue": "CINEMA CIRCLE（杭州恒隆店）",
-      "address": "拱墅区体育场路321号杭州恒隆广场 L3-38；CINEMA CIRCLE 杭州恒隆店，非萧山恒隆电影大世界。",
+      "address": "拱墅区体育场路321号杭州恒隆广场 L3-38；高德定位为商场，非影院独立点，也不是萧山恒隆。",
+      "map": {
+        "poiId": "B0FFM9CQ8J",
+        "url": "https://ditu.amap.com/place/B0FFM9CQ8J",
+        "location": [120.165466, 30.268258]
+      },
       "price": "80元／场，另加电商服务费；实时余票未知。",
       "booking": "首次开票：2026-11-04 12:00（北京时间，杭州网11/4报道）。特别放映影票售出不退不换；请通过影展官方发布及影院售票平台核对具体场次后购票。直接购票链接、实名及限购条件未核，未代购票。",
       "status": "active",
@@ -2102,6 +2185,14 @@
         [
           "高德地点：北山街路线的断桥景点",
           "https://www.amap.com/place/B023B01EE6"
+        ],
+        [
+          "FrameNote：杭州恒隆站展讯（小红书原帖，图片仅在原帖查看）",
+          "https://www.xiaohongshu.com/explore/6adcd206000000003301395c"
+        ],
+        [
+          "高德地点：杭州恒隆广场（影院在 L3-38，非影院独立 POI）",
+          "https://ditu.amap.com/place/B0FFM9CQ8J"
         ]
       ],
       "images": [

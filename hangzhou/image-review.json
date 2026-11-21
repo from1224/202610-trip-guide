@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
   "items": {
+    "hangzhou-confucius-temple-book-market-20261121-22": {
+      "status": "unreviewed",
+      "reason": "本轮补市集事实及定位，未另查小红书图片，未用替代图。",
+      "checkedAt": "2026-11-21",
+      "sources": []
+    },
       "style-kaleidoscope-hangzhou-20261121-22": {
         "status": "ready",
         "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。",
