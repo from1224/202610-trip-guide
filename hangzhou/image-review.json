@@ -14,29 +14,29 @@
       }
     },
       "style-kaleidoscope-hangzhou-20261121-22": {
-        "status": "ready",
-        "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
-        "checkedAt": "2026-11-21",
-        "sources": [
-          "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
-        ],
-        "imageCount": 3,
-        "noteFrames": {
-          "AlienHao原帖共6图": "采用第2、3、6张；第1张总片单与第3张信息重复，第4张同人图未用；第5张此前未取得，本版尚未补齐。"
-        }
-      },
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
+      ],
+      "imageCount": 4,
+      "noteFrames": {
+        "AlienHao原帖共6图": "采用第2、3、5、6张；第5为恢复取得的主题票夹设计图；第1张总片单与第3张信息重复、第4张同人图未用。"
+      }
+    },
       "hangzhou-historic-industries-expo-20261120-22": {
-        "status": "ready",
-        "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
-        "checkedAt": "2026-11-21",
-        "sources": [
-          "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
-        ],
-        "imageCount": 11,
-        "noteFrames": {
-          "颗颗原帖已发布组": "采用第1–10、18张同场现场图。第11–17张此前未取得；本版尚未补齐。"
-        }
-      },
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，16 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
+      ],
+      "imageCount": 16,
+      "noteFrames": {
+        "颗颗原帖已发布组": "第1–10、13–18张为同场照片并已取得稳定文件；第11张戏剧服饰展位已目视但资产清单两次无项，仍无稳定文件；第12张可见个体健康评估详情，无法核实为匿名演示，未转载。"
+      }
+    },
       "zhejiang-museum-taipingnian-phase2-20261125": {
         "status": "ready",
         "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
@@ -88,14 +88,14 @@
     },
     "meiyuji-wetland-market-20261120-22": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，5 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
       ],
-      "imageCount": 4,
+      "imageCount": 5,
       "noteFrames": {
-        "美遇集原帖共7图": "采用第1、2、4、5张；第3张招商、第7张主要二维码，未纳入；第6张此前未取得，本版尚未补齐。"
+        "美遇集原帖共7图": "采用第1、2、4–6张，第6张已从原帖正常恢复并逐张核验；第3张为摊位招商、第7张为二维码信息，未用作游客配图。"
       }
     },
     "gongshu-burger-festival-20261119-22": {
@@ -249,19 +249,19 @@
       ],
       "imageCount": 6,
       "noteFrames": {
-        "小老虎大人原帖已发布组": "采用第1–4、6、11张。第5张因近景路人排除；第7–10张此前未取得，本版尚未补齐。"
+        "小老虎大人原帖已发布组": "采用第1–4、6、11张；第5张有近景路人，不用。第7–10张本轮两次站内检索未命中原帖，直开原帖提示仅 App 可读；未绕过，仍无稳定文件。"
       }
     },
     "pending-guofeng-handcraft-202611": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，7 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，10 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af2dab6000000002b0288d6"
       ],
-      "imageCount": 7,
+      "imageCount": 10,
       "noteFrames": {
-        "蓬松里原帖已发布组": "采用第1–6、10张，第7–9张此前未取得，本版尚未补齐。"
+        "蓬松里原帖已发布组": "此前缺第7–9张已恢复取得并逐张目视核入；本帖第1–10张均有准确原图。"
       }
     },
     "pending-bairen-dinner-202611": {
@@ -360,7 +360,7 @@
       ],
       "imageCount": 4,
       "noteFrames": {
-        "小女子不菜原帖已发布组": "采用第2、3、4、6张。第1张为编号卡不纳入；第5张此前未取得，本版尚未补齐。"
+        "小女子不菜原帖已发布组": "采用第2、3、4、6张；第1为编号卡，不纳入。第5张两轮关键词和作者站内检索未命中；直开原帖仅提示 App 扫码，不绕过，未取得稳定文件。"
       }
     },
     "pending-racing-miku-202611": {
