@@ -1,27 +1,27 @@
 {
   "meta": {
-    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
+    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-21",
     "weekLabel": "本周 · 11月16日–11月22日",
     "weather": {
-      "checkedAt": "2026-11-19 10:00（杭州市气象台）",
+      "checkedAt": "2026-11-21 08:00（中央气象台，北京时间）",
       "validThrough": "2026-11-22",
-      "source": "https://tidenews.com.cn/tmh_news.html?id=6afe8d312897a0000198d0b2",
+      "source": "https://www.nmc.cn/publish/forecast/AZJ/hangzhou.html",
       "days": [
         {
           "date": "2026-11-21",
           "label": "周六 11/21",
-          "condition": "晴到多云",
+          "condition": "晴 · 微风",
           "low": 6,
-          "high": 16
+          "high": 17
         },
         {
           "date": "2026-11-22",
           "label": "周日 11/22",
-          "condition": "晴到多云",
-          "low": 7,
+          "condition": "白天晴、夜间多云 · 微风",
+          "low": 8,
           "high": 17
         }
       ]
@@ -86,13 +86,13 @@
       "dateStart": "2026-11-20",
       "dateEnd": "2026-11-22",
       "venue": "杭州国际博览中心二期3层",
-      "address": "利二路与丹华路交叉口西北约140米；请认准二期。地铁6号线博览中心站。",
+      "address": "利二路与丹华路交叉口西北约140米；地铁6号线博览中心站，去二期可参考 A2 口，以现场指引至登录大厅。",
       "subtitle": "周末9:00–17:00 · 免费预约 · 室内",
       "schedule": "11/20公众开放12:00–17:00；11/21–22每日9:00–17:00，16:30停止检票。",
       "price": "免费预约；展内商品或付费体验另计。",
-      "booking": "微信搜官方小程序「历史经典产业博览会」，凭预约码入场；余量未核。",
+      "booking": "微信搜官方小程序「历史经典产业博览会」，凭预约码入场；余量未核。百工传韵非遗工坊需在同一小程序另查预约，展期共 10 场，每场 30–50 人；周末场次、余量及收费未核。",
       "status": "active",
-      "checkedAt": "2026-11-20",
+      "checkedAt": "2026-11-21",
       "summary": "丝绸、茶、瓷、中药、酿造、工美六类展区，可看非遗技艺和文创。",
       "map": {
         "poiId": "B0HRZ5NQ31",
@@ -120,6 +120,14 @@
         [
           "浙江在线专题：查看原宣传主视觉",
           "https://zjnews.zjol.com.cn/ztjj/zt/202611/t20261117_32032753.shtml"
+        ],
+        [
+          "浙江在线：开放当日实访及非遗工坊预约",
+          "https://zjnews.zjol.com.cn/yc/qmt/202611/t20261120_32039797.shtml"
+        ],
+        [
+          "杭州网：同一楼宇 A2 口参考（非本届指定闸口）",
+          "https://hznews.hangzhou.com.cn/chengshi/content/2026-11/10/content_9369258.htm"
         ]
       ]
     },
@@ -173,12 +181,12 @@
       "dateEnd": "2026-11-21",
       "venue": "安放山泽里",
       "address": "滨江区安放山泽里；集合点、巡游路线与入口未核。",
-      "subtitle": "周六11/21 · 白天与夜晚巡游场景",
-      "schedule": "11/21，报道说明全天分白天、夜晚两大场景；具体开始、结束及各轮时刻未公布，不解释为连续不停表演。",
+      "subtitle": "周六11/21 · 菲利普王子剧团有两轮巡游",
+      "schedule": "菲利普王子剧团巡游 14:00–15:00、17:30–18:30（仅该剧团）；同日市集时段、巡游集合点和路线未核。",
       "price": "入场及体验收费未核，未据公共区域推定免费。",
       "booking": "预约方式、名额及天气调整未核，请以主办方最新公布为准。未代报名。",
       "status": "active",
-      "checkedAt": "2026-11-19",
+      "checkedAt": "2026-11-21",
       "summary": "11/18戏剧季开幕报道确认本周六在安放山泽里安排戏剧快闪、高跷表演、人偶互动，同日还有文化演艺市集。并非剧院正式演出票。",
       "images": [
         {
@@ -196,6 +204,14 @@
         [
           "人民网浙江，2026-11-19戏剧季报道",
           "https://zj.people.com.cn/n2/2026/1119/c186327-41754937.html"
+        ],
+        [
+          "滨江文旅发布：菲利普王子剧团两轮巡游时段",
+          "https://tidenews.com.cn/tmh_news.html?id=6b0026842897a00001993b14"
+        ],
+        [
+          "杭州网：巡游日期和场地",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/19/content_9374023.htm"
         ]
       ]
     },
@@ -264,6 +280,34 @@
         [
           "潮新闻，2026-09-16发布会报道",
           "https://tidenews.com.cn/news.html?id=3560368"
+        ]
+      ]
+    },
+    {
+      "id": "agentic-data-stack-meetup-hangzhou-20261128",
+      "kind": "体验",
+      "area": "余杭区",
+      "title": "Agentic Data Stack Meetup · 杭州站",
+      "dateStart": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "venue": "余杭奥克斯写字楼 22 楼",
+      "address": "创景路地铁站 B2 口；可用瑞幸咖啡（奥克斯大堂店）作到达地标，勿按报名地图去附近酒店。",
+      "subtitle": "下周六 11/28 · AI 数据工程与智能体记忆",
+      "schedule": "13:00 签到，13:30–17:00 为主办方公布的议程（含交流）；Luma 日历预留到 17:30。",
+      "price": "免费报名。",
+      "booking": "主办方公告称报名需审核，余位未公开；以 Luma 报名确认页为准。",
+      "status": "active",
+      "checkedAt": "2026-11-21",
+      "summary": "14:20–14:50 何京珂分享 Datus 如何把业务定义用于数据查询，16:00–16:30 张晨（Zilliz）分享智能体记忆与 MemSearch。",
+      "imageNote": "暂无已核实的小红书配图。",
+      "sources": [
+        [
+          "Luma：议程与报名",
+          "https://luma.com/3g0i5hc6"
+        ],
+        [
+          "联合主办方 StarRocks：时间、地点与审核说明",
+          "https://xie.infoq.cn/article/7ee99e00ca82bf24be4902c60"
         ]
       ]
     },
@@ -2003,7 +2047,7 @@
       "booking": "首次开票：2026-11-04 12:00（北京时间，杭州网11/4报道）。特别放映影票售出不退不换；请通过影展官方发布及影院售票平台核对具体场次后购票。直接购票链接、实名及限购条件未核，未代购票。",
       "status": "active",
       "checkedAt": "2026-11-16",
-      "summary": "影院小红书原帖补充11/21–22五场排片与票价；具体影厅、当前余票及临时调整请在影院售票平台再次核对。",
+      "summary": "影院小红书原帖补充11/21–22五场排片与票价；具体影厅、当前余票及临时调整请在影院售票平台再次核对。11/20 当天拍摄可见北山街沿湖连片秋色。看电影前可从曲院风荷附近沿北山街走到断桥／少年宫，也可上白堤回看北山街，再转杭州恒隆。周六可接 16:30《镜的第三乐章》，周日可接 15:40《我理解您的不满》，出发前核余票，并预留转场时间。",
       "imageNote": "已展示：1张官网宣传主视觉，非杭州活动现场；11/18已在公开页核验加载与放大。直接引用原站，未下载，不代表官方授权本站。",
       "sources": [
         [
@@ -2029,6 +2073,18 @@
         [
           "影院信息（2026-11-16核查）",
           "https://www.xiaohongshu.com/explore/6ae9c0120000000010013429"
+        ],
+        [
+          "潮新闻：11/20 北山街秋色当日视频（仅作路线参考）",
+          "https://tidenews.com.cn/video.html?duration=61&fsize=29966439&height=720&id=3620312&isVertical=0&video_h5_mode=1&width=1280"
+        ],
+        [
+          "浙江在线：岳庙管理处谈北山街秋色",
+          "https://zjnews.zjol.com.cn/yc/qmt/202611/t20261116_32030439.shtml?mode=m2pc"
+        ],
+        [
+          "高德地点：北山街路线的断桥景点",
+          "https://www.amap.com/place/B023B01EE6"
         ]
       ],
       "images": [
@@ -2058,10 +2114,7 @@
       "map": {
         "poiId": "B0HRZ5NQ31",
         "url": "https://www.amap.com/place/B0HRZ5NQ31",
-        "location": [
-          120.23945,
-          30.233538
-        ]
+        "location": [120.23945, 30.233538]
       },
       "imageNote": "媒体配图为往届农博会现场，不用作2026年现场图；本页不转载。",
       "sources": [
@@ -2580,7 +2633,7 @@
     },
     {
       "id": "zhejiang-natural-ammonite",
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-21",
       "kind": "展览",
       "exhibitionType": "自然科学",
       "area": "拱墅区",
@@ -2588,22 +2641,63 @@
       "subtitle": "200余件展品与科学复原模型，讲述菊石演化",
       "dateStart": "2026-09-05",
       "dateEnd": "2026-12-06",
-      "schedule": "09:00–17:00 · 提前1小时停止入馆 · 周一闭馆（节假日顺延）",
+      "schedule": "冬令 09:30–17:00（16:00 停止入馆）；周一休馆（法定节假日顺延）。",
       "venue": "浙江自然博物院",
       "address": "拱墅区西湖文化广场6号 · 二楼油画展厅",
-      "price": "免费 · 需预约",
-      "booking": "预约规则请以场馆当日公告为准",
+      "price": "免费参观。",
+      "booking": "杭州馆散客周末及法定节假日需线上预约，参观日前 3 天开放，余量未核。工作日凭本人实体身份证等有效证件核验或实名登记，免预约。",
       "status": "active",
       "summary": "室内自然科学展；从传说、形态到演化历程讲菊石，适合雨天。",
-      "map": {"poiId": "B023B15DKJ", "url": "https://www.amap.com/place/B023B15DKJ", "checkedAt": "2026-10-17"},
+      "map": {
+        "poiId": "B023B15DKJ",
+        "url": "https://www.amap.com/place/B023B15DKJ",
+        "checkedAt": "2026-10-17"
+      },
       "images": [
-        {"src":"https://www.zmnh.com/uploadFiles/imgs/96000bf0-c72f-4637-aabe-90c49090ea04.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 1 · 浙江自然博物院官方"},
-        {"src":"https://www.zmnh.com/uploadFiles/imgs/6b569a3a-41b1-4002-a12b-02d2920e5599.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 2 · 浙江自然博物院官方"},
-        {"src":"https://www.zmnh.com/uploadFiles/imgs/a9cb0b18-b093-4cd6-92b9-c3c72789e95e.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 3 · 浙江自然博物院官方"},
-        {"src":"https://www.zmnh.com/uploadFiles/imgs/a17221f7-6d07-4322-a178-3a3461238a4a.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 4 · 浙江自然博物院官方"},
-        {"src":"https://www.zmnh.com/uploadFiles/imgs/6dec4aa2-3e94-4f91-a2a5-c5c8464f1adf.JPG","source":"https://www.zmnh.com/lintezhan/zhanxun.html","caption":"展厅现场 5 · 浙江自然博物院官方"}
+        {
+          "src": "https://www.zmnh.com/uploadFiles/imgs/96000bf0-c72f-4637-aabe-90c49090ea04.JPG",
+          "source": "https://www.zmnh.com/lintezhan/zhanxun.html",
+          "caption": "展厅现场 1 · 浙江自然博物院官方"
+        },
+        {
+          "src": "https://www.zmnh.com/uploadFiles/imgs/6b569a3a-41b1-4002-a12b-02d2920e5599.JPG",
+          "source": "https://www.zmnh.com/lintezhan/zhanxun.html",
+          "caption": "展厅现场 2 · 浙江自然博物院官方"
+        },
+        {
+          "src": "https://www.zmnh.com/uploadFiles/imgs/a9cb0b18-b093-4cd6-92b9-c3c72789e95e.JPG",
+          "source": "https://www.zmnh.com/lintezhan/zhanxun.html",
+          "caption": "展厅现场 3 · 浙江自然博物院官方"
+        },
+        {
+          "src": "https://www.zmnh.com/uploadFiles/imgs/a17221f7-6d07-4322-a178-3a3461238a4a.JPG",
+          "source": "https://www.zmnh.com/lintezhan/zhanxun.html",
+          "caption": "展厅现场 4 · 浙江自然博物院官方"
+        },
+        {
+          "src": "https://www.zmnh.com/uploadFiles/imgs/6dec4aa2-3e94-4f91-a2a5-c5c8464f1adf.JPG",
+          "source": "https://www.zmnh.com/lintezhan/zhanxun.html",
+          "caption": "展厅现场 5 · 浙江自然博物院官方"
+        }
       ],
-      "sources": [["iCity 展讯（日期、场馆、预约信息）","https://art.icity.ly/events/erbi2jd"]]
+      "sources": [
+        [
+          "iCity 展讯（日期、场馆、预约信息）",
+          "https://art.icity.ly/events/erbi2jd"
+        ],
+        [
+          "浙江自然博物院：杭州馆参观预约入口及冬令时间",
+          "https://h5-7gik1vi8c3296e4a-1302669853.tcloudbaseapp.com/"
+        ],
+        [
+          "浙江自然博物院：9月1日起散客预约规则",
+          "https://tidenews.com.cn/tmh_news.html?id=6aa110bfdecd49000199cc90"
+        ],
+        [
+          "浙江自然博物院：临展展讯",
+          "https://www.zmnh.cn/lintezhan/zhanlan.html"
+        ]
+      ]
     },
     {
       "id": "kuahuqiao-wenjing-liuguang",
