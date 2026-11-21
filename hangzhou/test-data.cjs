@@ -49,7 +49,7 @@ const jinniuPoints=require("./banshan-jinniu-a-points.json");assert.equal(jinniu
 const whiteRoute=__dirname+"/images/banshan-white-route-extracted.svg",hanggangOverlay=__dirname+"/images/hanggang-south-route-overlay.svg";assert(fs.existsSync(whiteRoute));assert.equal(require("node:crypto").createHash("sha256").update(fs.readFileSync(whiteRoute)).digest("hex"),"6b549a6d339ec05dea3f4c80b003ed9c8f61264f8e484333c6d1ac7baab4e3c0");assert(page.includes("banshan-white-route-extracted.svg"));assert(page.includes("保留原图朝向"));assert(fs.existsSync(hanggangOverlay));const overlay=fs.readFileSync(hanggangOverlay,"utf8");assert(overlay.includes("viewBox=\"0 0 4723 2725\""));assert(page.includes("hanggang-south-route-overlay.svg"));assert(page.includes("width=\"4723\" height=\"2725\""));assert(page.includes("看游线"));assert(page.includes("看全园"));console.log("hangzhou activity data: ok");
 
 // October 20 official additions: opening time is distinct from performance time.
-assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261121-v68')"));
+assert(page.includes("fetch('./data.json?v=hangzhou-weekend-20261121-v69')"));
 const mengchuan=data.items.find(x=>x.id==="mengchuan-haobuhao-hangzhou-20261114");assert.equal(mengchuan.dateStart,"2026-11-14");assert(mengchuan.booking.includes("2026-10-20 14:00"));assert(mengchuan.price.includes("未知"));
 const luxiansen=data.items.find(x=>x.id==="luxiansen-outdoor-linping-20261031");assert.equal(luxiansen.dateStart,"2026-10-31");assert(luxiansen.price.includes("¥288")&&luxiansen.price.includes("¥388"));assert(!luxiansen.price.includes("¥188"));
 const moli=data.items.find(x=>x.id==="1024-moli-ai-community-day-20261024");assert.equal(moli.dateStart,"2026-10-24");assert.equal(moli.kind,"市集");assert(moli.venue.includes("云谷之芯"));assert(moli.booking.includes("二维码"));
@@ -92,7 +92,7 @@ assert(zjam.title.includes('五项已结束'));assert(zjam.summary.includes('10/
 const xu=data.items.find(x=>x.id==='zjam-xuboqing-centenary-20261103');assert.equal(xu.dateStart,'2026-11-03');assert.equal(xu.dateEnd,null);assert(xu.schedule.includes('2027-10-15')&&xu.schedule.includes('待馆方复核'));assert(xu.booking.includes('2023')&&xu.price.includes('未知'));assert.equal(xu.map.poiId,'B023B0BMJ6');assert(xu.address.includes('7、8、9'));
 const marathon=data.items.find(x=>x.id==='hangzhou-marathon-memory-exhibition-20261029');assert.equal(marathon.dateStart,'2026-10-29');assert.equal(marathon.dateEnd,null);assert(marathon.venue.includes('原冠军楼'));assert(marathon.price.includes('不等于免费'));assert(marathon.booking.includes('未知'));assert(!marathon.map);assert(marathon.sources[1][1].startsWith('https://www.amap.com/search?query='));
 for(const x of [xu,marathon]){assert.equal(x.checkedAt,'2026-10-31');assert.equal(x.status,'active');assert(!x.images?.length)}
-assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261121-v68'));
+assert(fs.readFileSync(__dirname+'/index.html','utf8').includes('hangzhou-weekend-20261121-v69'));
 console.log('PASS: October 31 museum additions, dated policy, unknown end/admission, and composite archive boundaries');
 
 // November 1: archive only ended dated events, preserving IDs and original source check dates.
@@ -196,8 +196,8 @@ const weekendVisual=new Function('weekendIds','posters',weekendVisualCode+';retu
   [...data.meta.weekendSelection,fallbackId],{[fallbackId]:fallbackPoster,[regularId]:fallbackPoster});
 const selectedItems=data.meta.weekendSelection.map(id=>data.items.find(item=>item.id===id));
 const actualXhsImages=selectedItems.flatMap(x=>weekendVisual.eventImages(x));
-assert.equal(actualXhsImages.length,87);
-assert.equal(selectedItems.filter(x=>weekendVisual.eventImages(x).length).length,19);
+assert.equal(actualXhsImages.length,101);
+assert.equal(selectedItems.filter(x=>weekendVisual.eventImages(x).length).length,23);
 const reviews=require('./image-review.json').items;
 for(const item of selectedItems){
   const images=weekendVisual.eventImages(item);
@@ -227,7 +227,7 @@ assert.equal(weekendVisual.eventImages({id:regularId})[0].src,'fallback.jpg');
 assert.deepEqual(weekendVisual.eventImages({id:regularId,images:[unverified]}),[unverified]);
 assert(page.includes('visual=eventVisual(x)'));
 assert(page.includes('swipeCard.innerHTML=`\${eventVisual(x,true)}'));
-console.log('PASS: weekend list and swipe share 87 individually verified Xiaohongshu images; no other image fallback');
+console.log('PASS: weekend list and swipe share 101 individually verified Xiaohongshu images; no other image fallback');
 
 // November 21: timed visit corrections, weather, and future events remain separate from weekend picks.
 assert.equal(data.meta.checkedAt,'2026-11-21');

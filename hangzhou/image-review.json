@@ -89,12 +89,16 @@
       "imageCount": 6
     },
     "sanfu-zhiyi-hangzhou-20261121-22": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，8 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.showstart.com/event/311425"
-      ]
+        "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e"
+      ],
+      "imageCount": 8,
+      "noteFrames": {
+        "原帖共8图": "逐张目视均选用；第3–8张为场方发布剧目宣传剧照，非 11/21–22 当场实拍"
+      }
     },
     "baodao-yicun-hangzhou-20261121": {
       "status": "displayed",
@@ -126,28 +130,42 @@
       "imageCount": 1
     },
     "lirunqi-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.showstart.com/event/315834"
-      ]
+        "https://www.xiaohongshu.com/explore/6ae32a12000000001201f52f",
+        "https://www.xiaohongshu.com/explore/6af5a7210000000023010e4f"
+      ],
+      "imageCount": 2,
+      "noteFrames": {
+        "签售须知原图": "原帖第1图保留1080×8271、画面／文字／署名完整；WebP质量85压缩副本，不裁切，原文件保留",
+        "杭州演出海报": "资讯号原帖第1图原文件；其发布时场地仍待公布，不覆盖Guide现址"
+      }
     },
     "5566-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://huodong.com/event/detail/oajjll"
-      ]
+        "https://www.xiaohongshu.com/explore/6ad33118000000001203e725"
+      ],
+      "imageCount": 2,
+      "noteFrames": {
+        "原帖共3图": "选用含杭州站日期／场馆的1、2图；3为无场次标识的通用组合肖像，不采用"
+      }
     },
     "chenjieli-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://huodong.com/event/detail/ideoif"
-      ]
+        "https://www.xiaohongshu.com/explore/6ad85631000000002403ee4c"
+      ],
+      "imageCount": 2,
+      "noteFrames": {
+        "原帖共5图": "选用杭州独版3、包含杭州的四城总览1；未选外地独版2、4、5"
+      }
     },
     "tacangqiong-hangzhou-20261121": {
       "status": "displayed",

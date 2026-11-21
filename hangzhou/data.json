@@ -955,12 +955,52 @@
       "summary": "已读取真实详情页和周日票档状态；票档显示不等于锁定座位。",
       "images": [
         {
+          "src": "images/xhs-20261121-sanfu-zhiyi-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《三妇志异》主视觉插画（场方发布）。来源：小红书原帖「杭州湖滨银泰in77」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《三妇志异》杭州站剧目与三场排期（场方公告，非实时余票）。来源：小红书原帖「杭州湖滨银泰in77」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《木兰》剧目宣传剧照（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《飞光》剧目宣传剧照（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《踵火》剧目宣传剧照：蓝色舞台（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第5图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《蛇精之家》剧目宣传剧照（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第6图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-07.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《明堂夜雪》剧目宣传剧照（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第7图。"
+        },
+        {
+          "src": "images/xhs-20261121-sanfu-zhiyi-08.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e",
+          "caption": "《踵火》剧目宣传剧照：火光舞台（场方预告，非本周演出现场）。来源：小红书原帖「杭州湖滨银泰in77」第8图。"
+        },
+        {
           "src": "https://s2.showstart.com/img/2026/0924/13/30/d365d4ad4a9b48a78a80cb0e6d7b5e24_340_458_95257.0x0.jpg",
           "source": "https://www.showstart.com/event/311425",
           "caption": "话剧九人《三妇志异》杭州站宣传海报：11/21–22，杭州东坡大剧院。来源：秀动本场票务页；非现场实拍，具体场次以正文为准。"
         }
       ],
-      "imageNote": "备妥待验：1张对应宣传图已目视核对；保留原图署名与来源，原链显示待线上验证；非现场实拍。",
+      "imageNote": "已核小红书同场原帖图 8 张，待线上加载验收。",
       "sources": [
         [
           "大麦票务页面（2026-11-16核查）",
@@ -973,6 +1013,10 @@
         [
           "本次配图来源",
           "https://www.showstart.com/event/311425"
+        ],
+        [
+          "小红书图片原帖：杭州湖滨银泰in77",
+          "https://www.xiaohongshu.com/explore/6afd39ff000000001802625e"
         ]
       ]
     },
@@ -1129,12 +1173,22 @@
       "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
       "images": [
         {
+          "src": "images/xhs-20261121-lirunqi-show-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6ae32a12000000001201f52f",
+          "caption": "李润祺《发条鸟的幻想曲》杭州站早期宣传海报（11/21，海报发布时场地待公布，实际场地看卡片）。来源：小红书原帖「全国演出资讯社」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-lirunqi-signing-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af5a7210000000023010e4f",
+          "caption": "李润祺杭州站专辑预售及签售须知（11/21，杭州 SoFun Live；不是主演出时间。图为等尺寸压缩，保留全部内容；可点原帖查看）。来源：小红书原帖「岛屿赫兹」第1图。"
+        },
+        {
           "src": "https://s2.showstart.com/img/2026/1112/16/30/74eba53ee52df95ffa3c244ec00fe571_623_934_1049968.0x0.png",
           "source": "https://www.showstart.com/event/315834",
           "caption": "李润祺《发条鸟的幻想曲》杭州站海报：2026/11/21，SoFun Live杭州。来源：秀动本场票务页；宣传设计，非现场实拍。"
         }
       ],
-      "imageNote": "备妥待验：1张对应宣传图已目视核对；保留原图署名与来源，原链显示待线上验证；非现场实拍。",
+      "imageNote": "已核小红书同场原帖图 2 张，待线上加载验收。",
       "sources": [
         [
           "大麦票务页面（2026-11-16核查）",
@@ -1147,6 +1201,14 @@
         [
           "本次配图来源",
           "https://www.showstart.com/event/315834"
+        ],
+        [
+          "小红书图片原帖：岛屿赫兹",
+          "https://www.xiaohongshu.com/explore/6af5a7210000000023010e4f"
+        ],
+        [
+          "小红书图片原帖：全国演出资讯社",
+          "https://www.xiaohongshu.com/explore/6ae32a12000000001201f52f"
         ]
       ]
     },
@@ -1168,12 +1230,22 @@
       "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
       "images": [
         {
+          "src": "images/xhs-20261121-5566-hangzhou-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6ad33118000000001203e725",
+          "caption": "5566「永不落幕」杭州站演出主海报（11/21 19:00，乐动力钱塘体育中心篮球赛馆；资讯号转载）。来源：小红书原帖「全国巡演早知道」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-5566-hangzhou-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6ad33118000000001203e725",
+          "caption": "5566杭州站日期和场馆宣传图（资讯号添加资讯文字；非实时票务）。来源：小红书原帖「全国巡演早知道」第1图。"
+        },
+        {
           "src": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01FmBCzlygZyJ24HGt_!!2251059038.jpg",
           "source": "https://huodong.com/event/detail/oajjll",
           "caption": "5566永不落幕杭州站海报，11/21 19:00乐动力钱塘体育中心篮球馆。大麦票务海报，经活动网收录；非现场实拍。"
         }
       ],
-      "imageNote": "备妥待验：1张对应宣传图已目视核对；保留原图署名与来源，原链显示待线上验证；非现场实拍。",
+      "imageNote": "已核小红书同场原帖图 2 张，待线上加载验收。",
       "sources": [
         [
           "大麦票务页面（2026-11-16核查）",
@@ -1186,6 +1258,10 @@
         [
           "本次配图来源",
           "https://huodong.com/event/detail/oajjll"
+        ],
+        [
+          "小红书图片原帖：全国巡演早知道",
+          "https://www.xiaohongshu.com/explore/6ad33118000000001203e725"
         ]
       ]
     },
@@ -1207,12 +1283,22 @@
       "summary": "仅核查“杭州＋本周末”列表。购票前须打开详情选择具体场次；未核精确入口。",
       "images": [
         {
+          "src": "images/xhs-20261121-chenjieli-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6ad85631000000002403ee4c",
+          "caption": "陈洁丽杭州演唱会海报（11/21 20:00，MAO Livehouse 杭州；非现场照）。来源：小红书原帖「嘉里橙」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-chenjieli-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6ad85631000000002403ee4c",
+          "caption": "陈洁丽四城宣传总览（仅右上为杭州站，其他三格勿作本场参考）。来源：小红书原帖「嘉里橙」第1图。"
+        },
+        {
           "src": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01Im51CBVkoLJ24P4m_!!2251059038.png",
           "source": "https://huodong.com/event/detail/ideoif",
           "caption": "陈洁丽《你HAPPY我也HAPPY》杭州演唱会海报，11/21 20:00 MAO Livehouse杭州。大麦票务海报，经活动网收录；非现场实拍。"
         }
       ],
-      "imageNote": "备妥待验：1张对应宣传图已目视核对；保留原图署名与来源，原链显示待线上验证；非现场实拍。",
+      "imageNote": "已核小红书同场原帖图 2 张，待线上加载验收。",
       "sources": [
         [
           "大麦票务页面（2026-11-16核查）",
@@ -1225,6 +1311,10 @@
         [
           "本次配图来源",
           "https://huodong.com/event/detail/ideoif"
+        ],
+        [
+          "小红书图片原帖：嘉里橙",
+          "https://www.xiaohongshu.com/explore/6ad85631000000002403ee4c"
         ]
       ]
     },
