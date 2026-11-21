@@ -242,20 +242,29 @@
       "imageCount": 7
     },
     "pending-bairen-dinner-202611": {
-      "status": "pending",
-      "reason": "11/18图片补核：公开搜索仅命中2024祥符长桌宴，非本场，未挪用。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，1 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f",
-        "https://www.xiaohongshu.com/explore/6af6f54800000000260115eb",
-        "https://www.xiaohongshu.com/explore/6af194be000000003401ac0e"
-      ]
+        "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f"
+      ],
+      "imageCount": 1,
+      "noteFrames": {
+        "11/18主办原帖2图": "采用同场菜单第1图；第2图画面为10/20另一场秋日宋宴，排除",
+        "同主办同场另一帖": "链接尾号6af6f54800000000260115eb；两图未取得稳定文件，未纳入"
+      }
     },
     "pending-fries-challenge-202611": {
-      "status": "unreviewed",
-      "reason": "11/18图片补核：本轮已公开检索，未找到匹配11/21场次可核图片；活动本身仍待核。 可用配图仍待核，未配图。",
-      "checkedAt": "2026-11-18",
-      "sources": []
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6b001924000000002a02b2ec"
+      ],
+      "imageCount": 3,
+      "noteFrames": {
+        "11/20场方原帖共8图": "采用5（单项海报）、3（当日流程）、2（跨周总表）；1、4、6–8没有本项内容，未入库"
+      }
     },
     "pending-cake-giveaway-202611": {
       "status": "ready",
@@ -282,12 +291,15 @@
     },
     "pending-crab-race-202611": {
       "status": "ready",
-      "reason": "场地参考：杭州滨江中南乐游城外立面，便于到场识别；不是赶蟹大赛现场，也没有确认比赛是否举行。 摄影：Huandy618 / Wikimedia Commons；2025-01-12；CC0 1.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
-      "checkedAt": "2026-11-19",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Zhongnan_Joy_City.jpg",
-        "https://creativecommons.org/publicdomain/zero/1.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb"
+      ],
+      "imageCount": 3,
+      "noteFrames": {
+        "11/16主办帖共3图": "均为同场，海报日期与标题均11/21；正文一处旧稿写11/7，未采用。11/21同账号赛后视频不计静图。"
+      }
     },
     "pending-xiaoyi-birthday-202611": {
       "status": "ready",

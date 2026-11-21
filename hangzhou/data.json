@@ -1922,13 +1922,15 @@
       "status": "pending",
       "checkedAt": "2026-11-18",
       "summary": "绿城吉祥里账号三篇确认11/21 16:30在吉祥里街区，与游埠小馆举办户外百人长桌。两次搜索找到3篇主办来源，未凑满5篇专项；菜单首图已目视。需通过内容创作者招募条件，不作为普通免费餐安排。",
-      "images": [],
-      "imageNote": "11/18图片补核：公开搜索仅命中2024祥符长桌宴，非本场，未挪用。 可用配图仍待核，未配图。",
+      "images": [
+        {
+          "src": "images/xhs-20261121-bairen-dinner-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f",
+          "caption": "拱墅首届百人干饭大会活动菜单（绿城吉祥里与游埠小馆；非现场照，不代表未报名可入席）。来源：小红书原帖「绿城吉祥里」第1图。"
+        }
+      ],
+      "imageNote": "已核小红书同场原帖图 1 张，待线上加载验收。",
       "sources": [
-        [
-          "绿城吉祥里：最新招募及置顶作者评论",
-          "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f"
-        ],
         [
           "绿城吉祥里：百人长桌公告",
           "https://www.xiaohongshu.com/explore/6af6f54800000000260115eb"
@@ -1944,6 +1946,10 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E7%BB%BF%E5%9F%8E%E5%90%89%E7%A5%A5%E9%87%8C%E8%A1%97%E5%8C%BA"
+        ],
+        [
+          "小红书图片原帖：绿城吉祥里",
+          "https://www.xiaohongshu.com/explore/6afc37d50000000026024d6f"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -1952,22 +1958,38 @@
     },
     {
       "id": "pending-fries-challenge-202611",
-      "title": "薯条免费吃挑战",
+      "title": "薯条免费吃",
       "kind": "市集",
       "area": "拱墅区",
       "dateStart": "2026-11-21",
       "dateEnd": "2026-11-21",
       "venue": "天阳D32桥西里街",
-      "address": "天阳D32桥西里街",
-      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
-      "schedule": "11/21 17:30",
-      "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
-      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
-      "status": "pending",
-      "checkedAt": "2026-11-16",
-      "summary": "铲薯条及比赛奖品；“免费吃”为活动名称，报名资格、份量及具体规则未核。",
-      "images": [],
-      "imageNote": "11/18图片补核：本轮已公开检索，未找到匹配11/21场次可核图片；活动本身仍待核。 可用配图仍待核，未配图。",
+      "address": "天阳D32桥西里街一楼；具体派发点未核。",
+      "subtitle": "场方原帖确认 · 不是锤子大赛",
+      "schedule": "11/21 17:30，天阳D32桥西里街一楼",
+      "price": "场方标注薯条免费；其他消费、份量或限领规则未核。",
+      "booking": "未核是否预约及实时余量，请看场方现场提示。未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-21",
+      "summary": "场方11/20公告第3、5图均确认为11/21 17:30在商业街一楼免费吃薯条。当天的「玩个锤子大赛」是另一个项目，旧聚合标题把两者混写。未核领取条件和实时供应。",
+      "images": [
+        {
+          "src": "images/xhs-20261121-d32-fries-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b001924000000002a02b2ec",
+          "caption": "天阳D32「薯条免费吃」主海报（11/21 17:30，一楼；不保证余量）。来源：小红书原帖「天阳D32桥西里街」第5图。"
+        },
+        {
+          "src": "images/xhs-20261121-d32-fries-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b001924000000002a02b2ec",
+          "caption": "天阳D32 11/21动线时刻表（17:30一楼免费吃薯条；锤子大赛是另一项目）。来源：小红书原帖「天阳D32桥西里街」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-d32-fries-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b001924000000002a02b2ec",
+          "caption": "场方跨周总表（仅11/21部分关联本周；其余日期与项目不作本场指引）。来源：小红书原帖「天阳D32桥西里街」第2图。"
+        }
+      ],
+      "imageNote": "已核小红书同场原帖图 3 张，待线上加载验收。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -1976,6 +1998,10 @@
         [
           "高德搜索场地（非精确POI）",
           "https://www.amap.com/search?query=%E5%A4%A9%E9%98%B3D32%E6%A1%A5%E8%A5%BF%E9%87%8C%E8%A1%97"
+        ],
+        [
+          "小红书图片原帖：天阳D32桥西里街",
+          "https://www.xiaohongshu.com/explore/6b001924000000002a02b2ec"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -2122,22 +2148,37 @@
       "dateStart": "2026-11-21",
       "dateEnd": "2026-11-21",
       "venue": "中南乐游城1楼舞台",
-      "address": "中南乐游城1楼舞台",
-      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
-      "schedule": "11/21 13:00",
+      "address": "中南乐游城1F舞台",
+      "subtitle": "场方三张海报确认 · 11/21本场已结束",
+      "schedule": "11/21 13:00，中南乐游城1F舞台（本场已结束）",
       "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
-      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
-      "status": "pending",
-      "checkedAt": "2026-11-16",
-      "summary": "充气螃蟹竞速，偏亲子；报名、年龄条件及收费未知。",
+      "booking": "本场已结束；未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-21",
+      "summary": "场方11/16原帖标题及三张海报均写11/21 13:00中南乐游城1F舞台，正文一处旧稿写11/7，不采用。场方11/21赛后视频印证活动已举行。",
       "images": [
+        {
+          "src": "images/xhs-20261121-crab-race-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb",
+          "caption": "中南乐游城「好螃友蟹蟹你」赶蟹赛主办海报（2026/11/21 13:00，1F舞台；本场已结束）。来源：小红书原帖「中南乐游城」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-crab-race-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb",
+          "caption": "赶蟹赛的主办方规则图（本场资料，不是后续预约或入场指引）。来源：小红书原帖「中南乐游城」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-crab-race-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb",
+          "caption": "赶蟹赛的主办方奖品图（本场资料，已结束）。来源：小红书原帖「中南乐游城」第3图。"
+        },
         {
           "src": "images/crab-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Zhongnan_Joy_City.jpg",
           "caption": "场地参考：杭州滨江中南乐游城外立面，便于到场识别；不是赶蟹大赛现场，也没有确认比赛是否举行。 摄影：Huandy618 / Wikimedia Commons；2025-01-12；CC0 1.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "已核小红书同场原帖图 3 张，待线上加载验收。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -2154,6 +2195,14 @@
         [
           "图片许可：CC0 1.0",
           "https://creativecommons.org/publicdomain/zero/1.0/"
+        ],
+        [
+          "小红书图片原帖：中南乐游城",
+          "https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb"
+        ],
+        [
+          "中南乐游城11/21赛后视频（确认举行，不作静态配图）",
+          "https://www.xiaohongshu.com/explore/6b014129000000002a03af01"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
