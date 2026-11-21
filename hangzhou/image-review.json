@@ -105,20 +105,25 @@
       ]
     },
     "chenxiaochun-hangzhou-20261121": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，1 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://huodong.com/event/detail/qjazbk"
-      ]
+        "https://www.xiaohongshu.com/explore/6b004c84000000002a02ef0a"
+      ],
+      "imageCount": 1,
+      "noteFrames": {
+        "原帖共2图": "采用第1图同场座区示意；未采用另一张个人票据；同图其他帖子去重"
+      }
     },
     "zhaolei-ray-hangzhou-20261122": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，1 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.showstart.com/event/314863"
-      ]
+        "https://www.xiaohongshu.com/explore/6afec4900000000018025775"
+      ],
+      "imageCount": 1
     },
     "lirunqi-hangzhou-20261121": {
       "status": "displayed",
@@ -153,12 +158,16 @@
       ]
     },
     "kiana-lede-hangzhou-20261122": {
-      "status": "displayed",
-      "reason": "11/18于线上d54aac7/v49逐张点开放大，真实浏览器确认图片已加载；对应宣传海报，非现场实拍，保留来源署名。",
-      "checkedAt": "2026-11-18",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，6 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.showstart.com/event/312540"
-      ]
+        "https://www.xiaohongshu.com/explore/6b0005b2000000002a0243e1"
+      ],
+      "imageCount": 6,
+      "noteFrames": {
+        "原帖共6图": "逐张核对并选用；均是主办观演须知，不是现场照片"
+      }
     },
     "yintian-musical-hangzhou-20261120-21": {
       "status": "displayed",
