@@ -63,12 +63,19 @@
     },
     "liangzhu-nuancun-markets-20261120-22": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。仅覆盖自然和风手工市集；良渚古美术市集和好好生活农夫市集的小红书配图仍缺。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，23 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。三处子市集均已有同场配图；原帖未取或排除图序见核查记录，不等于每篇原帖全图齐备。",
       "checkedAt": "2026-11-21",
       "sources": [
+        "https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0",
+        "https://www.xiaohongshu.com/explore/6b003343000000002b01886d",
         "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04"
       ],
-      "imageCount": 2
+      "imageCount": 23,
+      "noteFrames": {
+        "古美术公告原帖共13图": "逐张目视；第7张和第2张同构图，保留第2张；采用其余12张",
+        "农夫市集原帖10图": "均解码目视，采用1、3–10；第2图人物近景未纳入。现场照片的拍摄日期未另核。",
+        "自然和风早前来源": "既有第1、3张当期海报保留；第2、6张未取得，第4、5张拍摄时间不明未采用。"
+      }
     },
     "meiyuji-wetland-market-20261120-22": {
       "status": "ready",
@@ -284,12 +291,15 @@
     },
     "pending-xiaoyi-birthday-202611": {
       "status": "ready",
-      "reason": "场馆参考：杭州湖滨88的街角入口，转角外立面有“湖滨88”字样；非萧逸生日快闪海报或现场。 摄影：Nishino Asuka / Wikimedia Commons；2024-01-18；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
-      "checkedAt": "2026-11-19",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Hangzhou_Street_View_in_2024.jpg",
-        "https://creativecommons.org/licenses/by-sa/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6afd35bf000000002b01e22c"
+      ],
+      "imageCount": 3,
+      "noteFrames": {
+        "原帖共3图": "全部目视核对使用；图1为含杭州的双城宣传，图2–3是无料和互动说明，非活动现场"
+      }
     },
     "pending-crybaby-202611": {
       "status": "ready",

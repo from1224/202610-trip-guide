@@ -183,6 +183,36 @@ const activityVenueMaps={
 };
 // Exact image/source pairs whose original notes and images have already been checked.
 const verifiedWeekendXhsImages={
+  'liangzhu-nuancun-markets-20261120-22':[
+    ['images/xhs-20261121-liangzhu-farmer-08.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-01.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-03.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-04.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-05.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-06.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-07.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-09.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-farmer-10.webp','https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0'],
+    ['images/xhs-20261121-liangzhu-antique-09.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-01.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-02.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-03.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-04.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-05.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-06.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-08.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-10.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-11.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-12.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-antique-13.webp','https://www.xiaohongshu.com/explore/6b003343000000002b01886d'],
+    ['images/xhs-20261121-liangzhu-nature-market-01.webp','https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04'],
+    ['images/xhs-20261121-liangzhu-nature-market-03.webp','https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04']
+  ],
+  'pending-xiaoyi-birthday-202611':[
+    ['images/xhs-20261121-xiaoyi-birthday-01.webp','https://www.xiaohongshu.com/explore/6afd35bf000000002b01e22c'],
+    ['images/xhs-20261121-xiaoyi-birthday-02.webp','https://www.xiaohongshu.com/explore/6afd35bf000000002b01e22c'],
+    ['images/xhs-20261121-xiaoyi-birthday-03.webp','https://www.xiaohongshu.com/explore/6afd35bf000000002b01e22c']
+  ],
   'pending-cake-giveaway-202611':[
     ['images/xhs-20261121-cake-giveaway-01.webp','https://www.xiaohongshu.com/explore/6afa9a85000000002c00e2e2'],
     ['images/xhs-20261121-cake-preparation-01.webp','https://www.xiaohongshu.com/explore/6b014c90000000002b02bb2b'],
@@ -323,10 +353,6 @@ const verifiedWeekendXhsImages={
     ['images/xhs-20261121-meiyuji-wetland-04.webp','https://www.xiaohongshu.com/explore/6af56bef00000000230101f9'],
     ['images/xhs-20261121-meiyuji-wetland-05.webp','https://www.xiaohongshu.com/explore/6af56bef00000000230101f9']
   ],
-  'liangzhu-nuancun-markets-20261120-22':[
-    ['images/xhs-20261121-liangzhu-nature-market-01.webp','https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04'],
-    ['images/xhs-20261121-liangzhu-nature-market-03.webp','https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04']
-  ],
   'hangzhou-confucius-temple-book-market-20261121-22':[
     ['images/xhs-20261121-confucius-book-market-01.webp','https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6'],
     ['images/xhs-20261121-confucius-book-market-02.webp','https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6']
@@ -414,7 +440,7 @@ document.addEventListener('click',e=>{let b=e.target.closest('[data-gallery-move
 function selectTop(tab){if(tab==='hiking'){tab='play';activeFilter='徒步';document.body.classList.add('hiking-active');document.querySelectorAll('[data-filter]').forEach(q=>q.setAttribute('aria-pressed',q.dataset.filter==='徒步'));applyFilters()}let food=tab==='food',after=tab==='after',hiking=tab==='hiking';$('#playPanel').hidden=food||after||hiking;$('#foodPanel').hidden=!food;$('#afterPanel').hidden=!after;$('#hikingPanel').hidden=!hiking;document.querySelectorAll('[data-top-tab]').forEach(q=>q.setAttribute('aria-selected',q.dataset.topTab===tab));localStorage.setItem('hz:ui:top',tab);if(food)setTimeout(()=>foodMap?.invalidateSize(),0)}
 function initHikingPanel(){}
 document.querySelectorAll('[data-top-tab]').forEach(b=>b.onclick=()=>selectTop(b.dataset.topTab));
-fetch('./data.json?v=hangzhou-weekend-20261121-v70').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
+fetch('./data.json?v=hangzhou-weekend-20261121-v71').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
 </script>
 
 <script>(()=>{
