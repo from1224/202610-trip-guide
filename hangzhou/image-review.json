@@ -8,26 +8,35 @@
       "sources": [
         "https://www.xiaohongshu.com/explore/6b0139ba000000002a01a7f6"
       ],
-      "imageCount": 2
+      "imageCount": 2,
+      "noteFrames": {
+        "当期原帖共4图": "采用第1、2张当期物料；第3、4张有可辨认访客或疑似未成年人，未采用。"
+      }
     },
       "style-kaleidoscope-hangzhou-20261121-22": {
-      "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
-      "checkedAt": "2026-11-21",
-      "sources": [
-        "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
-      ],
-      "imageCount": 3
-    },
+        "status": "ready",
+        "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+        "checkedAt": "2026-11-21",
+        "sources": [
+          "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
+        ],
+        "imageCount": 3,
+        "noteFrames": {
+          "AlienHao原帖共6图": "采用第2、3、6张；第1张总片单与第3张信息重复，第4张同人图未用；第5张此前未取得，本版尚未补齐。"
+        }
+      },
       "hangzhou-historic-industries-expo-20261120-22": {
-      "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
-      "checkedAt": "2026-11-21",
-      "sources": [
-        "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
-      ],
-      "imageCount": 11
-    },
+        "status": "ready",
+        "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+        "checkedAt": "2026-11-21",
+        "sources": [
+          "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
+        ],
+        "imageCount": 11,
+        "noteFrames": {
+          "颗颗原帖已发布组": "采用第1–10、18张同场现场图。第11–17张此前未取得；本版尚未补齐。"
+        }
+      },
       "zhejiang-museum-taipingnian-phase2-20261125": {
         "status": "ready",
         "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
@@ -63,18 +72,18 @@
     },
     "liangzhu-nuancun-markets-20261120-22": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，23 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。三处子市集均已有同场配图；原帖未取或排除图序见核查记录，不等于每篇原帖全图齐备。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，24 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。三处子市集均已有同场配图；不适用图序见核查记录。",
       "checkedAt": "2026-11-21",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afd43ef000000001802beb0",
         "https://www.xiaohongshu.com/explore/6b003343000000002b01886d",
         "https://www.xiaohongshu.com/explore/6afe944b000000002a00dd04"
       ],
-      "imageCount": 23,
+      "imageCount": 24,
       "noteFrames": {
         "古美术公告原帖共13图": "逐张目视；第7张和第2张同构图，保留第2张；采用其余12张",
         "农夫市集原帖10图": "均解码目视，采用1、3–10；第2图人物近景未纳入。现场照片的拍摄日期未另核。",
-        "自然和风早前来源": "既有第1、3张当期海报保留；第2、6张未取得，第4、5张拍摄时间不明未采用。"
+        "自然和风早前来源": "原帖共6图，均核对。保留1、2、3三张当期宣传图；4、5、6拍摄时间不明，不用作当期图片，其中6有近景人物。"
       }
     },
     "meiyuji-wetland-market-20261120-22": {
@@ -84,7 +93,10 @@
       "sources": [
         "https://www.xiaohongshu.com/explore/6af56bef00000000230101f9"
       ],
-      "imageCount": 4
+      "imageCount": 4,
+      "noteFrames": {
+        "美遇集原帖共7图": "采用第1、2、4、5张；第3张招商、第7张主要二维码，未纳入；第6张此前未取得，本版尚未补齐。"
+      }
     },
     "gongshu-burger-festival-20261119-22": {
       "status": "ready",
@@ -235,7 +247,10 @@
       "sources": [
         "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4"
       ],
-      "imageCount": 6
+      "imageCount": 6,
+      "noteFrames": {
+        "小老虎大人原帖已发布组": "采用第1–4、6、11张。第5张因近景路人排除；第7–10张此前未取得，本版尚未补齐。"
+      }
     },
     "pending-guofeng-handcraft-202611": {
       "status": "ready",
@@ -244,7 +259,10 @@
       "sources": [
         "https://www.xiaohongshu.com/explore/6af2dab6000000002b0288d6"
       ],
-      "imageCount": 7
+      "imageCount": 7,
+      "noteFrames": {
+        "蓬松里原帖已发布组": "采用第1–6、10张，第7–9张此前未取得，本版尚未补齐。"
+      }
     },
     "pending-bairen-dinner-202611": {
       "status": "ready",
@@ -323,14 +341,14 @@
     },
     "pending-crybaby-202611": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，8 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
       "sources": [
         "https://www.xiaohongshu.com/explore/6af7e65e000000001802c98e"
       ],
-      "imageCount": 4,
+      "imageCount": 8,
       "noteFrames": {
-        "原帖共8图": "已取并核对3–6；1、2、7、8正常保存超时，未纳入"
+        "原帖共8图": "第1、2、7、8张此前保存超时，11/21恢复取得并逐张核入；完整第1–8张为场方宣传图。"
       }
     },
     "pending-shanhun-ruyuan-202611": {
@@ -340,7 +358,10 @@
       "sources": [
         "https://www.xiaohongshu.com/explore/6b013af6000000002a013cb5"
       ],
-      "imageCount": 4
+      "imageCount": 4,
+      "noteFrames": {
+        "小女子不菜原帖已发布组": "采用第2、3、4、6张。第1张为编号卡不纳入；第5张此前未取得，本版尚未补齐。"
+      }
     },
     "pending-racing-miku-202611": {
       "status": "ready",
@@ -373,15 +394,15 @@
     },
     "zjam-zhangshijian-centenary-20261101-21": {
       "status": "ready",
-      "reason": "11/21 逐张目视核对与小红书原帖同场，7 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，14 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
       "sources": [
         "https://www.xiaohongshu.com/explore/6afefebf0000000009020320"
       ],
-      "imageCount": 7,
+      "imageCount": 14,
       "noteFrames": {
-        "已取得和目视": "1–10、18；4、5、7、9因有参观者入镜未选；选用其余7张",
-        "未取得": "11–17未纳入此批"
+        "已取得和目视": "原帖1–18全实解码、目视；采用1、2、3、6、8、10–18。第4、5、7、9张有现场访客入镜，不采用。",
+        "未取得": "无；仅排除4张人物画面。"
       }
     },
     "anfang-shanzeli-drama-parade-20261121": {
