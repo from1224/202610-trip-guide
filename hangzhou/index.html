@@ -183,6 +183,26 @@ const activityVenueMaps={
 };
 // Exact image/source pairs whose original notes and images have already been checked.
 const verifiedWeekendXhsImages={
+  'pending-jinshahu-tanwan-202611':[
+    ['images/xhs-20261121-jinshahu-tanwan-07.webp','https://www.xiaohongshu.com/explore/6afd885b000000002903e69c'],
+    ['images/xhs-20261121-jinshahu-tanwan-01.webp','https://www.xiaohongshu.com/explore/6afd885b000000002903e69c'],
+    ['images/xhs-20261121-jinshahu-market-stall-03.webp','https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b'],
+    ['images/xhs-20261121-jinshahu-market-stall-04.webp','https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b']
+  ],
+  'anfang-shanzeli-drama-parade-20261121':[
+    ['images/xhs-20261121-anfang-shanzeli-parade-12.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-16.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-06.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-07.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-08.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-09.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-10.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-14.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c'],
+    ['images/xhs-20261121-anfang-shanzeli-parade-15.webp','https://www.xiaohongshu.com/explore/6b0156050000000018029e5c']
+  ],
+  'pending-shenshende-fan-202611':[
+    ['images/xhs-20261121-shenshen-fan-meet-01.webp','https://www.xiaohongshu.com/explore/6b01488f000000002b01f4bd']
+  ],
   'pending-crab-race-202611':[
     ['images/xhs-20261121-crab-race-01.webp','https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb'],
     ['images/xhs-20261121-crab-race-02.webp','https://www.xiaohongshu.com/explore/6afa8b99000000002303cacb'],
@@ -453,7 +473,7 @@ document.addEventListener('click',e=>{let b=e.target.closest('[data-gallery-move
 function selectTop(tab){if(tab==='hiking'){tab='play';activeFilter='徒步';document.body.classList.add('hiking-active');document.querySelectorAll('[data-filter]').forEach(q=>q.setAttribute('aria-pressed',q.dataset.filter==='徒步'));applyFilters()}let food=tab==='food',after=tab==='after',hiking=tab==='hiking';$('#playPanel').hidden=food||after||hiking;$('#foodPanel').hidden=!food;$('#afterPanel').hidden=!after;$('#hikingPanel').hidden=!hiking;document.querySelectorAll('[data-top-tab]').forEach(q=>q.setAttribute('aria-selected',q.dataset.topTab===tab));localStorage.setItem('hz:ui:top',tab);if(food)setTimeout(()=>foodMap?.invalidateSize(),0)}
 function initHikingPanel(){}
 document.querySelectorAll('[data-top-tab]').forEach(b=>b.onclick=()=>selectTop(b.dataset.topTab));
-fetch('./data.json?v=hangzhou-weekend-20261121-v72').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
+fetch('./data.json?v=hangzhou-weekend-20261121-v73').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=d.meta.weekLabel+' · 已核活动与待核线索分开显示';$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>$('#active').innerHTML='<p class="empty">活动数据暂时无法读取，请稍后重试。</p>')
 </script>
 
 <script>(()=>{

@@ -215,13 +215,18 @@
       }
     },
     "pending-jinshahu-tanwan-202611": {
-      "status": "displayed",
-      "reason": "杭州钱塘金沙湖鸟瞰，可辨湖面、沿岸和大剧院（场地资料照，非滩玩集现场）。 摄影：Nat4Eben / Wikimedia Commons；2025-09-14；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图已目视，待线上加载验收；不代表活动原图已取得。 11/19 v55公开页点击大图实际加载通过；类型边界不变。",
-      "checkedAt": "2026-11-19",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，4 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jinsha_Lake_20250914.jpg",
-        "https://creativecommons.org/licenses/by-sa/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6afd885b000000002903e69c",
+        "https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b"
+      ],
+      "imageCount": 4,
+      "noteFrames": {
+        "11/20摊主帖共4图": "采用3、4两张摊主手工作品预告；1、2分别与主办母活动海报、剧目时刻重复，不重复上图。",
+        "11/19场方帖共7图": "采用7市集专海报与1母活动主视觉；2–6是戏剧节目说明、剧照或时刻，未当市集原图。"
+      }
     },
     "pending-boz-burger-202611": {
       "status": "ready",
@@ -282,12 +287,15 @@
     },
     "pending-shenshende-fan-202611": {
       "status": "ready",
-      "reason": "抵达参考：定安路地铁站C口，距延安路98号西湖银泰步行约290米。不代表商场中庭或歌友会，不是艺人演唱会图。 摄影：Benteds / Wikimedia Commons；2025-09-08；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
-      "checkedAt": "2026-11-19",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，1 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Exit_C_of_Ding'an_Road_Station,_202509.jpg",
-        "https://creativecommons.org/licenses/by/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6b01488f000000002b01f4bd"
+      ],
+      "imageCount": 1,
+      "noteFrames": {
+        "11/21观众原帖1图": "实解码、目视；灯旗与舞台标本场11/21粉丝歌友会。西湖店及14:30–18:30沿用已核主办原帖信息；此前原帖本轮显示单帖暂不可浏览，未绕行。"
+      }
     },
     "pending-crab-race-202611": {
       "status": "ready",
@@ -377,14 +385,17 @@
       }
     },
     "anfang-shanzeli-drama-parade-20261121": {
-      "status": "pending",
-      "reason": "小红书同日同场海报中巡游标15:00–16:30、18:00–19:30，与滨江文旅的菲利普王子剧团场次不一致，且未指明该剧团；未采用。活动现有官方场次未改。",
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，9 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
       "checkedAt": "2026-11-21",
       "sources": [
-        "https://www.xiaohongshu.com/explore/6afbd73b000000002a01aa6a",
-        "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykefy8497542.shtml",
-        "https://tidenews.com.cn/tmh_news.html?id=6b0026842897a00001993b14"
-      ]
+        "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c"
+      ],
+      "imageCount": 9,
+      "noteFrames": {
+        "11/21现场帖16图": "逐张解码目视；采用6–10、12、14–16。第1张为重复画面拼图；2–5为戏剧季横幅、对谈及配套场面，非巡游；11与13有不必公开的路人近景，未采用。",
+        "旧海报": "此前时段与剧团指代不同的二手预告未采用，本照片不据以改官方巡游时刻。"
+      }
     },
     "nanfang-youjiamu-hangzhou-20261125-26": {
       "status": "displayed",

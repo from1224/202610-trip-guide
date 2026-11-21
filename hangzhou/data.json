@@ -373,12 +373,57 @@
       "summary": "11/18戏剧季开幕报道确认本周六在安放山泽里安排戏剧快闪、高跷表演、人偶互动，同日还有文化演艺市集。并非剧院正式演出票。",
       "images": [
         {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-12.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：戏装高跷角色（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第12图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-16.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：老夫妻人偶巡游（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第16图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：戏剧季标志与巡游人群（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第6图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-07.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：街区现场外围人群（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第7图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-08.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：主广场巡游场景（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第8图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-09.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：巡游中的人偶与观众（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第9图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-10.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：街巷中围观巡游的人群（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第10图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-14.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：广场巡游与舞台周边全景（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第14图。"
+        },
+        {
+          "src": "images/xhs-20261121-anfang-shanzeli-parade-15.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c",
+          "caption": "11/21安放山泽里戏剧漫游实拍：高跷队沿街演出（不据画面区分具体时段或剧团）。来源：小红书原帖「蜂巢丨牛鼻在剧场」第15图。"
+        },
+        {
           "src": "https://n.sinaimg.cn/spider20261111/300/w1080h1620/20261111/5e45-aed9454b0ce926efa08503099b9a1662.jpg",
           "source": "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykefy8497542.shtml",
           "caption": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。"
         }
       ],
-      "imageNote": "已核到同日同场小红书海报，但海报巡游时间与滨江文旅所列剧团专场冲突；未用作配图。",
+      "imageNote": "已核小红书同场原帖图 9 张，待线上加载验收。",
       "sources": [
         [
           "浙江在线，2026-11-18开幕报道",
@@ -411,6 +456,10 @@
         [
           "小红书杭州城市活动new：同日同场海报，时间不作参照",
           "https://www.xiaohongshu.com/explore/6afbd73b000000002a01aa6a"
+        ],
+        [
+          "小红书图片原帖：蜂巢丨牛鼻在剧场",
+          "https://www.xiaohongshu.com/explore/6b0156050000000018029e5c"
         ]
       ]
     },
@@ -1688,21 +1737,41 @@
       "dateEnd": "2026-11-22",
       "venue": "金沙湖公园",
       "address": "金沙湖公园",
-      "subtitle": "聚合帖线索 · 未独立核实，不作为已确认安排",
-      "schedule": "11/21–22；具体节目时段未知",
+      "subtitle": "场方确认 · 金沙湖戏剧周同期沿湖市集",
+      "schedule": "11/21–22，与金沙湖戏剧周同期；市集每日具体开闭时段未核。",
       "price": "票价／消费及体验费用待主办核实；不从“多数免费”推定本项免费。",
-      "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
-      "status": "pending",
-      "checkedAt": "2026-11-16",
-      "summary": "地铁1号线下沙西站D口；戏剧周、奇幻巡游、儿童舞台剧、高跷木偶芭蕾、即兴戏剧工坊及湖边市集。",
+      "booking": "普通游客入场、是否预约及当天安排未核，请看场方提示。未代报名或购票。",
+      "status": "active",
+      "checkedAt": "2026-11-21",
+      "summary": "金沙湖休闲商业街11/19公告确认11/21–22在金沙湖公园举行戏剧周，滩玩集同步开市，市集有非遗、手作、美食及创意好物；戏剧节目场次不能当作市集营业时间。",
       "images": [
+        {
+          "src": "images/xhs-20261121-jinshahu-tanwan-07.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd885b000000002903e69c",
+          "caption": "金沙湖滩玩集主办海报：戏剧周同期沿湖市集（手作、非遗、美食、创意好物；非现场照）。来源：小红书原帖「金沙湖休闲商业街」第7图。"
+        },
+        {
+          "src": "images/xhs-20261121-jinshahu-tanwan-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd885b000000002903e69c",
+          "caption": "滩玩集所属2026金沙湖戏剧周主海报（11/21–22金沙湖公园；不是市集逐日营业表）。来源：小红书原帖「金沙湖休闲商业街」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-jinshahu-market-stall-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b",
+          "caption": "11/21–22金沙湖滩玩集参展摊主的手工作品预告（非现场照，非现场库存或全场阵容）。来源：小红书原帖「奇妙捏捏屋」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-jinshahu-market-stall-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b",
+          "caption": "11/21–22金沙湖滩玩集参展摊主的手工作品预告（非现场照，非现场库存或全场阵容）。来源：小红书原帖「奇妙捏捏屋」第4图。"
+        },
         {
           "src": "images/sand-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Jinsha_Lake_20250914.jpg",
           "caption": "杭州钱塘金沙湖鸟瞰，可辨湖面、沿岸和大剧院（场地资料照，非滩玩集现场）。 摄影：Nat4Eben / Wikimedia Commons；2025-09-14；CC BY-SA 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场馆资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "已核小红书同场原帖图 4 张，待线上加载验收。",
       "sources": [
         [
           "杭州周末去哪聚合帖（11/16；非主办确认）",
@@ -1719,6 +1788,14 @@
         [
           "图片许可：CC BY-SA 4.0",
           "https://creativecommons.org/licenses/by-sa/4.0/"
+        ],
+        [
+          "小红书图片原帖：奇妙捏捏屋",
+          "https://www.xiaohongshu.com/explore/6b004071000000002a02bd7b"
+        ],
+        [
+          "小红书图片原帖：金沙湖休闲商业街",
+          "https://www.xiaohongshu.com/explore/6afd885b000000002903e69c"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
@@ -2104,12 +2181,17 @@
       "summary": "巴别塔文化-聆犀乐团与Y。🍳两篇同稿专帖确认11/21 14:30–18:30、银泰百货西湖店；粉丝自发聚会，周深本人不到场。两篇同稿不是两份独立证据；此前免费说法仅聚合帖，门票/消费仍未独立确认。11/13萧山开元场已排除，不混入本场。",
       "images": [
         {
+          "src": "images/xhs-20261121-shenshen-fan-meet-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b01488f000000002b01f4bd",
+          "caption": "11/21「深深的」粉丝歌友会观众现场照（粉丝自发聚会，画面不证明周深本人到场；画面印活动与日期，地点另据主办公示互证）。来源：小红书原帖「萌真」第1图。"
+        },
+        {
           "src": "images/ding-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Exit_C_of_Ding'an_Road_Station,_202509.jpg",
           "caption": "抵达参考：定安路地铁站C口，距延安路98号西湖银泰步行约290米。不代表商场中庭或歌友会，不是艺人演唱会图。 摄影：Benteds / Wikimedia Commons；2025-09-08；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "仅场地或抵达资料照，不是本场活动图片；未确认活动仍待核，不因配图改变核实程度。",
+      "imageNote": "已核小红书同场原帖图 1 张，待线上加载验收。",
       "sources": [
         [
           "巴别塔文化-聆犀乐团：杭州生米集合",
@@ -2134,6 +2216,10 @@
         [
           "图片许可：CC BY 4.0",
           "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        [
+          "小红书图片原帖：萌真",
+          "https://www.xiaohongshu.com/explore/6b01488f000000002b01f4bd"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
