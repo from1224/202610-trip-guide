@@ -180,7 +180,12 @@
       "dateStart": "2026-11-21",
       "dateEnd": "2026-11-21",
       "venue": "安放山泽里",
-      "address": "滨江区安放山泽里；集合点、巡游路线与入口未核。",
+      "address": "滨江区聚才路239号，地铁5号线聚才路站南侧；高德定位为街区，非巡游集合点。具体入口和路线未核。",
+      "map": {
+        "poiId": "B0JDC5VDJB",
+        "url": "https://www.amap.com/place/B0JDC5VDJB",
+        "location": [120.198310, 30.180731]
+      },
       "subtitle": "周六11/21 · 菲利普王子剧团有两轮巡游",
       "schedule": "菲利普王子剧团巡游 14:00–15:00、17:30–18:30（仅该剧团）；同日市集时段、巡游集合点和路线未核。",
       "price": "入场及体验收费未核，未据公共区域推定免费。",
@@ -212,6 +217,18 @@
         [
           "杭州网：巡游日期和场地",
           "https://ori.hangzhou.com.cn/ornews/content/2026-11/19/content_9374023.htm"
+        ],
+        [
+          "项目参与方：街区门牌",
+          "https://www.supar.com.cn/?projects=%E4%BB%A5%E8%89%BA%E6%9C%AF%E6%80%9D%E7%BB%B4%E6%89%93%E9%80%A0%E5%95%86%E4%B8%9A%E5%9C%BA%E6%99%AF-supar%E5%AE%89%E6%94%BE%E5%B1%B1%E6%B3%BD%E9%87%8C"
+        ],
+        [
+          "潮新闻：街区在聚才路地铁站南侧",
+          "https://tidenews.com.cn/news.html?id=3338850"
+        ],
+        [
+          "高德：安放山泽里街区（非巡游集合点）",
+          "https://www.amap.com/place/B0JDC5VDJB"
         ]
       ]
     },
