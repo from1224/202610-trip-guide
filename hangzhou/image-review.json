@@ -11,21 +11,23 @@
       "imageCount": 2
     },
       "style-kaleidoscope-hangzhou-20261121-22": {
-        "status": "ready",
-        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。",
-        "checkedAt": "2026-11-20",
-        "sources": [
-          "https://tidenews.com.cn/news.html?id=3617153"
-        ]
-      },
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，3 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
+      ],
+      "imageCount": 3
+    },
       "hangzhou-historic-industries-expo-20261120-22": {
-        "status": "ready",
-        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：指南按公开攻略制作的到场时间卡，非官方海报或现场照。",
-        "checkedAt": "2026-11-20",
-        "sources": [
-          "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373390.htm"
-        ]
-      },
+      "status": "ready",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
+      "sources": [
+        "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
+      ],
+      "imageCount": 11
+    },
       "zhejiang-museum-taipingnian-phase2-20261125": {
         "status": "ready",
         "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
@@ -177,12 +179,12 @@
     },
     "pending-boz-burger-202611": {
       "status": "ready",
-      "reason": "抵达参考：杭州地铁3/4号线新天地街站A口，靠近新天地购物中心南门；不是南广场汉堡节现场。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。 原图经独立审查目视，待线上加载验收；不代表活动原图已取得。",
-      "checkedAt": "2026-11-19",
+      "reason": "11/21 逐张目视核对与小红书原帖同场，6 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
+      "checkedAt": "2026-11-21",
       "sources": [
-        "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
-        "https://creativecommons.org/licenses/by/4.0/"
-      ]
+        "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4"
+      ],
+      "imageCount": 6
     },
     "pending-guofeng-handcraft-202611": {
       "status": "ready",
@@ -300,9 +302,10 @@
     },
     "anfang-shanzeli-drama-parade-20261121": {
       "status": "pending",
-      "reason": "暂无可核的小红书配图。旧素材为第十五届杭州当代戏剧季宣传主视觉（电魂网络／新浪转载，11/19 v55 已核加载），非安放山泽里巡游现场或专属海报，本周精选不显示。",
+      "reason": "小红书同日同场海报中巡游标15:00–16:30、18:00–19:30，与滨江文旅的菲利普王子剧团场次不一致，且未指明该剧团；未采用。活动现有官方场次未改。",
       "checkedAt": "2026-11-21",
       "sources": [
+        "https://www.xiaohongshu.com/explore/6afbd73b000000002a01aa6a",
         "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykefy8497542.shtml",
         "https://tidenews.com.cn/tmh_news.html?id=6b0026842897a00001993b14"
       ]

@@ -137,11 +137,29 @@
       "summary": "《小城之春》由馆藏35毫米硝酸底片修复并恢复配乐。周六13:00与恒隆德国影展撞时；若想连看，可改选恒隆16:30场，出发前复核座位。",
       "map": {
         "poiId": "B023B14BCH",
-        "location": [120.164647, 30.277497],
+        "location": [
+          120.164647,
+          30.277497
+        ],
         "url": "https://www.amap.com/place/B023B14BCH",
         "checkedAt": "2026-11-20"
       },
       "images": [
+        {
+          "src": "images/xhs-20261121-style-kaleidoscope-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba",
+          "caption": "「风格万相」16部影片总海报（全国巡展资料，不是杭州周末排片表）。来源：小红书原帖「AlienHao」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-style-kaleidoscope-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba",
+          "caption": "「风格万相」本届影展主视觉（宣传插画，不是杭州影院实景）。来源：小红书原帖「AlienHao」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-style-kaleidoscope-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba",
+          "caption": "本届主题印章宣传图（不是杭州门店实时库存或领取保证）。来源：小红书原帖「AlienHao」第6图。"
+        },
         {
           "src": "https://meizi-chao-pub.8531.cn/2122598354880679936_1280px.jpg?height=720&width=1280",
           "source": "https://tidenews.com.cn/news.html?id=3617153",
@@ -153,7 +171,7 @@
           "caption": "全国艺联巡展影城名单，潮新闻刊载；杭州场含西湖文化广场店。"
         }
       ],
-      "imageNote": "全国艺联影展总片单海报，潮新闻刊载；不是本周场次表。",
+      "imageNote": "已核小红书同场原帖图 3 张，待线上加载验收。",
       "sources": [
         [
           "猫眼影院排片／选座",
@@ -166,6 +184,10 @@
         [
           "国家电影局转载中国电影报：修复与放映",
           "https://www.chinafilm.gov.cn/xwzx/hyzx/202611/t20261102_1015397.html"
+        ],
+        [
+          "小红书图片原帖：AlienHao",
+          "https://www.xiaohongshu.com/explore/6af3ab9a000000002b0134ba"
         ]
       ]
     },
@@ -187,18 +209,76 @@
       "summary": "丝绸、茶、瓷、中药、酿造、工美六类展区，可看非遗技艺和文创。",
       "map": {
         "poiId": "B0HRZ5NQ31",
-        "location": [120.23945, 30.233538],
+        "location": [
+          120.23945,
+          30.233538
+        ],
         "url": "https://www.amap.com/place/B0HRZ5NQ31",
         "checkedAt": "2026-11-20"
       },
       "images": [
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "首届历史经典产业博览会户外导视（当届实拍，非入场口核验）。来源：小红书原帖「颗颗」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "国脉传承、经典新生主题展区入口（当届实拍）。来源：小红书原帖「颗颗」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展区内陈列与影像布景（当届实拍）。来源：小红书原帖「颗颗」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展柜里的文创展品（当届实拍）。来源：小红书原帖「颗颗」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-05.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展台陈列展示（当届实拍；原发图已遮挡人脸）。来源：小红书原帖「颗颗」第5图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展厅内的环形陈列（当届实拍）。来源：小红书原帖「颗颗」第6图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-07.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展厅互动屏幕（当届实拍）。来源：小红书原帖「颗颗」第7图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-08.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "AI中医机器人展项介绍（当届实拍，不作服务或效果背书）。来源：小红书原帖「颗颗」第8图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-09.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "绍兴花雕酒制作演示展台（当届实拍；原发图已遮挡人脸）。来源：小红书原帖「颗颗」第9图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-10.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "黄酒主题展区（当届实拍）。来源：小红书原帖「颗颗」第10图。"
+        },
+        {
+          "src": "images/xhs-20261121-historic-industries-expo-18.webp",
+          "source": "https://www.xiaohongshu.com/explore/6b012c79000000001803b009",
+          "caption": "展区陈列的织造设备（当届实拍）。来源：小红书原帖「颗颗」第18图。"
+        },
         {
           "src": "images/classic-industries-expo-schedule-20261120.svg",
           "source": "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373390.htm",
           "caption": "指南按公开攻略制作的到场时间卡，非官方海报或现场照。"
         }
       ],
-      "imageNote": "指南按公开攻略制作的到场时间卡，非官方海报或现场照。",
+      "imageNote": "已核小红书同场原帖图 11 张，待线上加载验收。",
       "sources": [
         [
           "杭州网：完整观展攻略（11/18）",
@@ -219,6 +299,10 @@
         [
           "杭州网：同一楼宇 A2 口参考（非本届指定闸口）",
           "https://hznews.hangzhou.com.cn/chengshi/content/2026-11/10/content_9369258.htm"
+        ],
+        [
+          "小红书图片原帖：颗颗",
+          "https://www.xiaohongshu.com/explore/6b012c79000000001803b009"
         ]
       ]
     },
@@ -275,7 +359,10 @@
       "map": {
         "poiId": "B0JDC5VDJB",
         "url": "https://www.amap.com/place/B0JDC5VDJB",
-        "location": [120.198310, 30.180731]
+        "location": [
+          120.19831,
+          30.180731
+        ]
       },
       "subtitle": "周六11/21 · 菲利普王子剧团有两轮巡游",
       "schedule": "菲利普王子剧团巡游 14:00–15:00、17:30–18:30（仅该剧团）；同日市集时段、巡游集合点和路线未核。",
@@ -291,7 +378,7 @@
           "caption": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。"
         }
       ],
-      "imageNote": "所属第十五届杭州当代戏剧季主视觉，非巡游专属海报、非现场照片；来源：电魂网络／新浪转载，具体巡游信息见正文。",
+      "imageNote": "已核到同日同场小红书海报，但海报巡游时间与滨江文旅所列剧团专场冲突；未用作配图。",
       "sources": [
         [
           "浙江在线，2026-11-18开幕报道",
@@ -320,6 +407,10 @@
         [
           "高德：安放山泽里街区（非巡游集合点）",
           "https://www.amap.com/place/B0JDC5VDJB"
+        ],
+        [
+          "小红书杭州城市活动new：同日同场海报，时间不作参照",
+          "https://www.xiaohongshu.com/explore/6afbd73b000000002a01aa6a"
         ]
       ]
     },
@@ -1261,12 +1352,42 @@
       "summary": "主办原帖确认11/18–22在新天地购物中心南广场举办；与杭州大悦城抱抱汉堡节为不同活动。",
       "images": [
         {
+          "src": "images/xhs-20261121-boz-burger-01.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "新天地南广场 BOZ 汉堡节入口（当届实拍，非大悦城）。来源：小红书原帖「小老虎大人」第1图。"
+        },
+        {
+          "src": "images/xhs-20261121-boz-burger-02.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "怪兽汉堡摊位菜单（当届实拍；价格仅为拍摄时标示）。来源：小红书原帖「小老虎大人」第2图。"
+        },
+        {
+          "src": "images/xhs-20261121-boz-burger-03.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "顽皮兄弟摊位（当届实拍）。来源：小红书原帖「小老虎大人」第3图。"
+        },
+        {
+          "src": "images/xhs-20261121-boz-burger-04.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "汉堡成品（当届实拍）。来源：小红书原帖「小老虎大人」第4图。"
+        },
+        {
+          "src": "images/xhs-20261121-boz-burger-06.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "现场多家汉堡摊位（当届实拍）。来源：小红书原帖「小老虎大人」第6图。"
+        },
+        {
+          "src": "images/xhs-20261121-boz-burger-11.webp",
+          "source": "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4",
+          "caption": "煎台上的汉堡制作（当届实拍）。来源：小红书原帖「小老虎大人」第11图。"
+        },
+        {
           "src": "images/sunexit-venue.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Exit_A_of_Xintiandi_St._Station_of_Hangzhou_Metro_20241221.jpg",
           "caption": "抵达参考：杭州地铁3/4号线新天地街站A口，靠近新天地购物中心南门；不是南广场汉堡节现场。 摄影：4084470 0.smil / Wikimedia Commons；2024-12-21；CC BY 4.0，仅缩放压缩，内容未改；许可链接见来源与详情。"
         }
       ],
-      "imageNote": "地铁出口仅供抵达参考，不是本场活动现场。",
+      "imageNote": "已核小红书同场原帖图 6 张，待线上加载验收。",
       "sources": [
         [
           "主办原帖（2026-11-17深核）",
@@ -1287,6 +1408,10 @@
         [
           "图片许可：CC BY 4.0",
           "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        [
+          "小红书图片原帖：小老虎大人",
+          "https://www.xiaohongshu.com/explore/6afd23cf000000001b01fed4"
         ]
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
