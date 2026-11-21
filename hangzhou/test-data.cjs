@@ -324,3 +324,45 @@ console.log('PASS: v75 recovered source ordinals and defers missing or sensitive
 
 assert.deepEqual(ordinals(weekendVisual.eventImages(film)),[3,2,5,6]);
 assert.match(weekendVisual.eventImages(film)[2].caption,/票夹.*非私人票据/);
+
+// A frozen featured ID can move into archive on the next Shanghai date; it does not leave the selection.
+const rolloverCode=page.slice(page.indexOf('function bucket('),page.indexOf('function applyFilters('))+
+  page.slice(page.indexOf('function splitPlayItems('),page.indexOf('function updateGalleryMetadata('));
+const swipePoolSource=page.slice(page.indexOf('function weekendSwipePool('),page.indexOf("const key=x=>'hz:'+x.id+':swipe'"));
+const rollout=new Function('today','items','weekendIds','$','card','bind','applyFilters',
+  rolloverCode+swipePoolSource+';return {render,splitPlayItems,weekendSwipePool,bucket};');
+const fixedIds=data.meta.weekendSelection;
+const oneDay=item44('chenxiaochun-hangzhou-20261121');
+const saturdayPending=item44('pending-cake-giveaway-202611');
+const sundayStart=item44('kiana-lede-hangzhou-20261122');
+const fixedDate=(utc)=>new Date(utc).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'});
+for(const [utc,expectedDate,archiveCount] of [
+  ['2026-11-21T15:59:59Z','2026-11-21',0],
+  ['2026-11-21T16:00:00Z','2026-11-22',14],
+  ['2026-11-22T16:00:00Z','2026-11-23',26],
+]){
+  const today=fixedDate(utc), elements=new Map(), rendered=[];
+  assert.equal(today,expectedDate);
+  const jq=k=>elements.get(k)||elements.set(k,{innerHTML:'',hidden:false}).get(k);
+  const api=rollout(today,data.items,fixedIds,jq,item=>{rendered.push(item.id);return `<article data-fixture="${item.id}"></article>`;},()=>{},()=>{});
+  const groups=api.splitPlayItems(data.items,fixedIds);
+  assert.equal(groups.archive.filter(x=>fixedIds.includes(x.id)).length,archiveCount);
+  api.render();
+  assert.equal(rendered.length,data.items.length);
+  assert.equal(new Set(rendered).size,data.items.length);
+  const has=(group,item)=>jq('#'+group).innerHTML.includes(`data-fixture="${item.id}"`);
+  assert.equal(has('archive',oneDay),today!=='2026-11-21');
+  assert.equal(has('weekendPicks',oneDay),today==='2026-11-21');
+  assert.equal(has('archive',saturdayPending),today!=='2026-11-21');
+  assert.equal(has('weekendPending',saturdayPending),today==='2026-11-21');
+  assert.equal(has('archive',bookMarket),today==='2026-11-23');
+  assert.equal(has('weekendPicks',bookMarket),today!=='2026-11-23');
+  assert.equal(has('weekendPicks',sundayStart),today!=='2026-11-23');
+  assert.equal(fixedIds.includes(oneDay.id),true);
+  assert(weekendVisual.eventImages(oneDay).length>0);
+  const swipe=api.weekendSwipePool(data.items,fixedIds,today,true,false,api.bucket);
+  assert.equal(swipe.some(x=>x===oneDay),today==='2026-11-21');
+  assert.equal(swipe.some(x=>x===bookMarket),today!=='2026-11-23');
+  if(today==='2026-11-21')assert(swipe.some(x=>x===sundayStart),'Saturday planning includes Sunday without implying it is today');
+}
+console.log('PASS: Shanghai weekend rollover archives ended cards once and retains Sunday options/images');

@@ -611,7 +611,27 @@ function renderFoodImages(){foodItems.forEach(x=>{if(!x.images?.length)return;le
 const renderFoodBase=renderFood;renderFood=()=>{renderFoodBase();addDianpingButtons();renderFoodImages()};
 function bucket(x){if(x.status!=='permanent'&&x.dateEnd&&x.dateEnd<today)return'archive';return['active','pending','permanent','archived'].includes(x.status)?(x.status==='archived'?'archive':x.status):'pending'}
 function applyFilters(){document.querySelectorAll('.card').forEach(c=>{let typeOK=activeFilter==='all'||c.dataset.type===activeFilter,exOK=activeFilter!=='展览'||activeExhibitionFilter==='all'||c.dataset.exhibitionType===activeExhibitionFilter,statusOK=activeStatusFilter==='all'||c.dataset.status===activeStatusFilter,timeOK=activeTimeFilter==='all'||(activeTimeFilter==='current'&&['active','pending'].includes(c.dataset.time))||c.dataset.time===activeTimeFilter;c.hidden=!(typeOK&&exOK&&statusOK&&timeOK)});['active','pending','permanent','archive'].forEach(name=>{let target=$('#'+name),wrap=name==='active'?target:$('#'+name+'Wrap');if(wrap&&name!=='active')wrap.hidden=!target.querySelector('.card:not([hidden])')});}
-function render(){let groups={active:[],pending:[],permanent:[],archive:[]};let picks=weekendIds.map(id=>items.find(x=>x.id===id)).filter(Boolean);$('#weekendPicks').innerHTML=picks.filter(x=>x.status!=='pending').map(card).join('');$('#weekendPending').innerHTML=picks.filter(x=>x.status==='pending').map(card).join('');items.filter(x=>!weekendIds.includes(x.id)).forEach(x=>groups[bucket(x)].push(card(x)));for(const [name,html] of Object.entries(groups)){let wrap=$('#'+name+'Wrap'),target=$('#'+name);if(name==='active'){target.innerHTML=html.join('')||'<p class="empty">本周暂未有已核活动。</p>';continue}wrap.hidden=!html.length;target.innerHTML=html.join('')}bind();applyFilters()}
+function splitPlayItems(list,featuredIds){
+  const groups={weekendPicks:[],weekendPending:[],active:[],pending:[],permanent:[],archive:[]};
+  const byId=new Map(list.map(item=>[item.id,item])),featured=new Set(featuredIds);
+  for(const id of featured){
+    const item=byId.get(id);
+    if(!item)continue;
+    const when=bucket(item);
+    groups[when==='active'?'weekendPicks':when==='pending'?'weekendPending':when].push(item);
+  }
+  for(const item of list)if(!featured.has(item.id))groups[bucket(item)].push(item);
+  return groups;
+}
+function render(){
+  const groups=splitPlayItems(items,weekendIds);
+  for(const [name,group] of Object.entries(groups)){
+    const wrap=$('#'+name+'Wrap'),target=$('#'+name),html=group.map(card).join('');
+    if(wrap)wrap.hidden=!group.length;
+    target.innerHTML=html||(name==='active'?'<p class="empty">本周暂未有已核活动。</p>':'');
+  }
+  bind();applyFilters();
+}
 function updateGalleryMetadata(track){const frames=track.querySelectorAll('.gallery-frame'),n=frames.length;if(!n)return;const index=Math.min(n-1,Math.max(0,Math.round(track.scrollLeft/Math.max(1,track.clientWidth)))),frame=frames[index],host=track.parentElement,count=host.querySelector('.gallery-count'),source=host.querySelector('.gallery-meta a');if(count)count.textContent=(index+1)+' / '+n;if(source&&frame.dataset.source){source.href=frame.dataset.source;source.textContent='图片来源：'+(frame.dataset.caption||'查看原页')}}
 function bind(){document.querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>{let key='hz:'+b.dataset.id,active=localStorage.getItem(key)===b.dataset.save;if(active)localStorage.removeItem(key);else localStorage.setItem(key,b.dataset.save);let c=b.closest('.card');c.querySelectorAll('[data-save]').forEach(x=>{let on=localStorage.getItem('hz:'+x.dataset.id)===x.dataset.save;x.classList.toggle('saved',on);x.textContent=x.dataset.save==='want'?(on?'已想去':'想去'):(on?'已去过':'去过')})});document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{activeFilter=b.dataset.filter;document.body.classList.toggle('hiking-active',activeFilter==='徒步');document.querySelectorAll('[data-filter]').forEach(q=>q.setAttribute('aria-pressed',q===b));let show=activeFilter==='展览';$('#exhibitionFilters').hidden=!show;if(!show){activeExhibitionFilter='all';document.querySelectorAll('[data-exhibition-filter]').forEach((q,i)=>q.setAttribute('aria-pressed',i===0))}applyFilters()});document.querySelectorAll('[data-exhibition-filter]').forEach(b=>b.onclick=()=>{activeExhibitionFilter=b.dataset.exhibitionFilter;document.querySelectorAll('[data-exhibition-filter]').forEach(q=>q.setAttribute('aria-pressed',q===b));applyFilters()});document.querySelectorAll('[data-status-filter]').forEach(b=>b.onclick=()=>{activeStatusFilter=b.dataset.statusFilter;document.querySelectorAll('[data-status-filter]').forEach(q=>q.setAttribute('aria-pressed',q===b));applyFilters()});document.querySelectorAll('[data-time-filter]').forEach(b=>b.onclick=()=>{activeTimeFilter=b.dataset.timeFilter;document.querySelectorAll('[data-time-filter]').forEach(q=>q.setAttribute('aria-pressed',q===b));applyFilters()});document.querySelectorAll('.poster img:not(.gallery-frame img)').forEach(img=>img.addEventListener('error',()=>{img.closest('.poster')?.setAttribute('hidden','')},{once:true}))}
 function guideWeekendLabel(meta){
