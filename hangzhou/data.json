@@ -3,7 +3,7 @@
     "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-21",
+    "checkedAt": "2026-11-22",
     "weekLabel": "本周 · 11月16日–11月22日",
     "weather": {
       "checkedAt": "2026-11-21 08:00（中央气象台，北京时间）",
@@ -28,6 +28,80 @@
     }
   },
   "items": [
+    {
+      "id": "hzcac-mamianqun-20261120-20270321",
+      "title": "翩若惊鸿：马面裙的流变与新生",
+      "kind": "展览",
+      "exhibitionType": "文博",
+      "area": "拱墅区",
+      "dateStart": "2026-11-20",
+      "dateEnd": "2027-03-21",
+      "venue": "杭州工艺美术博物馆一楼临展厅",
+      "address": "小河路334号（主馆）",
+      "subtitle": "从宋代旋裙到当代穿搭，重点看孔府旧藏的明代织金裙",
+      "schedule": "2026/11/20–2027/03/21。常规 09:00–16:30，16:00 停止入馆，周二闭馆；临时调整以馆方公告为准。",
+      "price": "展览免费。",
+      "booking": "周末出发前查看「杭州工艺美术博物馆」公众号；当日预约余位、是否可现场进馆未核。",
+      "status": "active",
+      "checkedAt": "2026-11-22",
+      "summary": "全展 89 件（套），包括山东博物馆借展的明代织金妆花缎裙。开幕走秀不等于每日演出。看完可在同一侧沿桥西直街逛到拱宸桥。",
+      "imageNote": "暂无已核实的小红书配图。原报道可看现场图和展品。",
+      "map": {
+        "poiId": "B023B0I02U",
+        "url": "https://www.amap.com/place/B023B0I02U",
+        "location": [
+          120.13693,
+          30.315645
+        ]
+      },
+      "sources": [
+        [
+          "杭州网 11/20 开幕现场与展期",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374590.htm"
+        ],
+        [
+          "杭州网：主馆地址与常规参观时间",
+          "https://edu.hangzhou.com.cn/2024rdzt/zdagzyjd/content/content_8764516.html?k=1"
+        ],
+        [
+          "高德：杭州工艺美术博物馆主馆",
+          "https://www.amap.com/place/B023B0I02U"
+        ]
+      ]
+    },
+    {
+      "id": "cncf-kcd-hangzhou-20261128",
+      "title": "KCD Hangzhou 2026：当云原生遇见 Agent",
+      "kind": "体验",
+      "area": "西湖区",
+      "dateStart": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "venue": "云谷中心 · 云谷之芯",
+      "address": "灯彩街1009号；高德定位园区，具体会场入口待核。",
+      "subtitle": "开发者大会 · Agent 运行时、可观测性、推理服务",
+      "schedule": "2026/11/28（周六）09:00–18:00，北京时间；各场次见官方议程。",
+      "price": "未核实费用。",
+      "booking": "CNCF 官方活动页有参会报名二维码。报名开始时间、剩余名额未知。",
+      "status": "active",
+      "checkedAt": "2026-11-22",
+      "summary": "如果关注 Agent 工程化，可优先看 K8s 运行时、可观测性两轨；另有推理基础设施与 LLM Serving。",
+      "imageNote": "暂无已核实的小红书配图。参会二维码见官方页。",
+      "map": {
+        "poiId": "B0JGFUQ5DH",
+        "url": "https://www.amap.com/place/B0JGFUQ5DH",
+        "navigation_target_type": "building"
+      },
+      "sources": [
+        [
+          "CNCF 官方活动页：时间、议程及报名",
+          "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/"
+        ],
+        [
+          "高德：云谷中心园区",
+          "https://www.amap.com/place/B0JGFUQ5DH"
+        ]
+      ]
+    },
     {
       "id": "hangzhou-confucius-temple-book-market-20261121-22",
       "title": "秋季孔庙书市",
@@ -2460,16 +2534,16 @@
       "kind": "市集",
       "area": "拱墅区",
       "dateStart": "2026-11-20",
-      "dateEnd": null,
+      "dateEnd": "2027-02-28",
       "venue": "杭州恒隆广场",
-      "address": "杭州恒隆广场",
-      "subtitle": "11/20起 · 主办开幕与场地已核",
-      "schedule": "11/20起，结束日和每日时段未知",
+      "address": "体育场路321号；1楼南中庭、4楼北露台",
+      "subtitle": "展至 2027/02/28 · 室内许愿屏、露台巨型眠羊",
+      "schedule": "主题装置 2026/11/20–2027/02/28；南区室内市集另至 2027/01/03。每日时段未核。",
       "price": "入场及体验收费未知；不默认免费。",
       "booking": "预约入口、当前名额及具体参与条件未知，出发前请向场方核对 未代报名或购票。",
       "status": "active",
-      "checkedAt": "2026-11-17",
-      "summary": "杭州恒隆广场11/20起设6个CRYBABY主题装置；结束日期、每日开放时段、预约及收费未确认。",
+      "checkedAt": "2026-11-22",
+      "summary": "六个主题装置：1 楼南中庭有水晶球、LED 许愿屏及互动区，4 楼北露台有 8 米软软眠羊。不把室内市集、互动兑礼和装置展的时间混为一谈。",
       "images": [
         {
           "src": "images/xhs-20261121-crybaby-starlight-01.webp",
@@ -2520,12 +2594,20 @@
       "imageNote": "已核小红书同场原帖图 8 张，待线上加载验收。",
       "sources": [
         [
-          "杭州周末去哪聚合帖（11/16；非主办确认）",
-          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
+          "潮新闻 11/21：展期、楼层与独立市集日期",
+          "https://tidenews.com.cn/news.html?id=3620894"
         ],
         [
-          "高德搜索场地（非精确POI）",
-          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA"
+          "杭州网 11/21：六大主题装置与展期",
+          "https://ori.hangzhou.com.cn/ornews/content/2026-11/21/content_9375041.htm"
+        ],
+        [
+          "高德：杭州恒隆广场（商场，非楼层点位）",
+          "https://www.amap.com/place/B0FFM9CQ8J"
+        ],
+        [
+          "杭州周末去哪聚合帖（11/16；非主办确认）",
+          "https://www.xiaohongshu.com/explore/6afab8f4000000002b01ea69"
         ],
         [
           "图片作者及原来源：Benteds / Wikimedia Commons",
@@ -2542,7 +2624,15 @@
       ],
       "sourceNoteId": "6afab8f4000000002b01ea69",
       "imagePage": "8图合集已逐张阅读；单条页码未记录",
-      "itemIndex": 10
+      "itemIndex": 10,
+      "map": {
+        "poiId": "B0FFM9CQ8J",
+        "url": "https://www.amap.com/place/B0FFM9CQ8J",
+        "location": [
+          120.165466,
+          30.268258
+        ]
+      }
     },
     {
       "id": "pending-shanhun-ruyuan-202611",
