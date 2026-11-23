@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "items": {
+    "hzcac-mamianqun-20261120-20270321": {"status": "unreviewed", "reason": "事实来源已记录，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374590.htm"]},
+    "cncf-kcd-hangzhou-20261128": {"status": "unreviewed", "reason": "事实来源已记录，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/"]},
+    "zhejiang-museum-endless-pursuit-20261120": {"status": "unreviewed", "reason": "展讯可核，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374692.htm"]},
+    "guozhuang-huajian-moyun-20261119": {"status": "unreviewed", "reason": "展讯可核，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374673.htm"]},
+    "bjiff-tiantan-hangzhou-20261128-29": {"status": "unreviewed", "reason": "票务与展映可核，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://m.weibo.cn/2/detail/5367312337339437"]},
     "hangzhou-confucius-temple-book-market-20261121-22": {
       "status": "ready",
       "reason": "11/21 逐张目视核对与小红书原帖同场，2 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",

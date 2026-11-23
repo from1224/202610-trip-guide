@@ -259,7 +259,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const $=s=>document.querySelector(s),today=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'});
-let weekendIds=[],items=[],foodItems=[],activeFilter='all',activeExhibitionFilter='all',activeStatusFilter='all',activeTimeFilter='all',activeCuisine=localStorage.getItem('hz:ui:food:cuisine')||'all',foodMap;
+let weekendIds=[],priorWeekendXhsIds=[],items=[],foodItems=[],activeFilter='all',activeExhibitionFilter='all',activeStatusFilter='all',activeTimeFilter='all',activeCuisine=localStorage.getItem('hz:ui:food:cuisine')||'all',foodMap;
 const afterItems=[
   {id:'after-qingzhiwu',title:'青芝坞',area:'西湖区',subtitle:'更适合饭后慢走、找一段安静街巷。',address:'青芝坞街区',map:{poiId:'B0FFK1CI7G',url:'https://www.amap.com/place/B0FFK1CI7G',location:[120.121985,30.258080]},source:'高德公开地点搜索'},
   {id:'after-beishanjie',title:'北山街湖边',area:'西湖区',subtitle:'11/20 沿湖已见连片秋色。白天可从曲院风荷附近沿北山街走到断桥／少年宫，也可上白堤回看；晚间仍可沿湖看夜景。以现场人流和天气为准。',address:'北山街',map:{poiId:'B0FFHU2BPX',url:'https://www.amap.com/place/B0FFHU2BPX',location:[120.152264,30.259216]},source:'高德公开地点搜索'},
@@ -572,7 +572,7 @@ const verifiedWeekendXhsImages={
   ]
 };
 function eventImages(x){
-  if(weekendIds.includes(x.id)){
+  if(weekendIds.includes(x.id)||priorWeekendXhsIds.includes(x.id)){
     const verified=Object.hasOwn(verifiedWeekendXhsImages,x.id)?verifiedWeekendXhsImages[x.id]:[];
     return (x.images||[]).filter(p=>verified.some(([src,source])=>p.src===src&&p.source===source));
   }
@@ -581,7 +581,7 @@ function eventImages(x){
   return p?[{src:p[0],source:p[1],caption:p[2]}]:[];
 }
 function eventVisual(x,firstOnly=false){
-  return gallery(x,firstOnly)||(weekendIds.includes(x.id)
+  return gallery(x,firstOnly)||(weekendIds.includes(x.id)||priorWeekendXhsIds.includes(x.id)
     ?'<p class="research-status">暂无已核实的小红书配图</p>'
     :`<p class="research-status">图片：${x.imageNote||'未记录'}</p>`);
 }
@@ -751,7 +751,7 @@ function initHikingPanel(){}
 document.querySelectorAll('[data-top-tab]').forEach(b=>b.onclick=()=>selectTop(b.dataset.topTab));
 const requestedDinner=new URLSearchParams(location.search).get('tab')==='after'&&location.hash==='#beiruan-7017';
 if(requestedDinner){selectTop('after',false);$('#beiruan-7017-details').open=true;requestAnimationFrame(()=>$('#beiruan-7017').scrollIntoView({block:'start'}))}
-fetch('./data.json?v=hangzhou-weekend-20261122-v76').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=guideWeekendLabel(d.meta);$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();if(!requestedDinner)selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>{applyFilters();const fallback=$('#playEmpty');fallback.textContent='活动数据暂时无法读取，请稍后重试。';fallback.hidden=false})
+fetch('./data.json?v=hangzhou-weekend-20261123-v77').then(r=>{if(!r.ok)throw Error('活动数据读取失败');return r.json()}).then(d=>{weekendIds=d.meta.weekendSelection||[];priorWeekendXhsIds=d.meta.priorWeekendXhsIds||[];items=d.items;items.forEach(x=>{if(!x.map&&activityVenueMaps[x.venue])x.map=activityVenueMaps[x.venue];let poi=x.map?.poiId;if(x.map&&!x.map.location&&activityPoiLocations[poi])x.map.location=activityPoiLocations[poi]});foodItems=d.foodItems||[];foodItems.forEach(x=>{let poi=x.map?.poiId;if(!x.images?.length&&foodPoiPhotos[poi])x.images=[foodPoiPhotos[poi]];if(x.map&&!x.map.location&&foodPoiLocations[poi])x.map.location=foodPoiLocations[poi];if(x.images?.length)x.note=(x.note||'').replace('图片：未查；','')});$('#week').textContent=guideWeekendLabel(d.meta);$('#checked').textContent='核查 '+d.meta.checkedAt;weather(d.meta);render();renderFood();renderAfter();initHikingPanel();if(!requestedDinner)selectTop(localStorage.getItem('hz:ui:top')||'play');window.initHangzhouSwipe?.()}).catch(()=>{applyFilters();const fallback=$('#playEmpty');fallback.textContent='活动数据暂时无法读取，请稍后重试。';fallback.hidden=false})
 </script>
 
 <script>(()=>{

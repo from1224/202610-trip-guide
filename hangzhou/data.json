@@ -1,10 +1,11 @@
 {
   "meta": {
-    "weekendSelection": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
+    "weekendSelection": ["zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "tianmuli-afterwork-sports-20261120-29", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321"],
+    "priorWeekendXhsIds": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-22",
-    "weekLabel": "本周 · 11月16日–11月22日",
+    "checkedAt": "2026-11-23",
+    "weekLabel": "本周 · 11月23日–11月29日",
     "weather": {
       "checkedAt": "2026-11-21 08:00（中央气象台，北京时间）",
       "validThrough": "2026-11-22",
@@ -28,6 +29,8 @@
     }
   },
   "items": [
+    {"id": "zhejiang-museum-endless-pursuit-20261120", "title": "无尽的追寻：中国具象表现绘画三十三年", "kind": "展览", "exhibitionType": "美术", "area": "西湖区", "dateStart": "2026-11-20", "dateEnd": "2027-02-22", "venue": "浙江省博物馆（之江馆区）", "address": "之江文化中心", "subtitle": "塞尚、贾科梅蒂、德朗、莫兰迪等原作20余件", "schedule": "2026/11/20–2027/02/22。馆区常规周二至周日 09:00–17:00，16:30 停止入馆，节假日安排另看馆方。", "price": "本展是否单独收费未核实。", "booking": "馆方列之江馆个人进馆免预约；本展若有单独要求待确认。", "status": "active", "checkedAt": "2026-11-23", "summary": "360余件文献与展品梳理具象表现绘画；法国与意大利艺术家原作是其中一部分。", "map": {"poiId": "B0I15SU50Z", "url": "https://www.amap.com/place/B0I15SU50Z"}, "sources": [["开幕现场与展览内容", "https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374692.htm"], ["都快展讯：展期与原作", "https://hznews.hangzhou.com.cn/wenti/content/2026-11/22/content_9375185.htm"], ["浙博入馆公告", "https://zjpc.zjmuseum.com.cn/museum/"]]},
+    {"id": "guozhuang-huajian-moyun-20261119", "title": "花间墨韵：古代绘画中的花卉盆景题跋展", "kind": "展览", "exhibitionType": "美术", "area": "西湖区", "dateStart": "2026-11-19", "dateEnd": "2026-12-10", "venue": "郭庄", "address": "杨公堤28号 · 卧龙桥旁", "subtitle": "古画复制与浙大师生题跋，可顺逛西湖园林", "schedule": "展至 2026/12/10；郭庄 08:00–17:00，16:30 停止入园。", "price": "2026 公园年卡可用于日间入园；普通票现价及本展有无附加费用未核。", "booking": "本展单独预约要求未核。", "status": "active", "checkedAt": "2026-11-23", "summary": "看古画花卉盆景的复制作品与浙大师生题跋，不是古画真迹展。若已错过郭庄入园时间，可改走旁边的曲院风荷。", "map": {"poiId": "B023B0A6HW", "url": "https://www.amap.com/place/B023B0A6HW", "location": [120.132267, 30.243918]}, "sources": [["展览开幕与停止入园时间", "https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374673.htm"], ["市民卡：2026 年卡使用范围", "https://www.96225.com/smknet/service/show_allGet.action?chanageCrd=1"]]},
     {
       "id": "hzcac-mamianqun-20261120-20270321",
       "title": "翩若惊鸿：马面裙的流变与新生",
@@ -841,13 +844,13 @@
       "dateEnd": "2026-11-29",
       "venue": "天目里国际街区南岸公园",
       "address": "主海报写“天目里国际街区—南岸&北园”；正文称南岸公园。具体项目在哪一区及入口以报名信息为准。",
-      "subtitle": "11月21–22日周末候选 · 小红书主办方线索",
+      "subtitle": "11/27–29 第二段开放 · 天目里活动海报",
       "schedule": "官方开学说明海报：11/20–22、11/27–29 每日11:00–20:00；主海报总范围11/20–29，不代表中间周一至周四营业。分项课程时段未知。",
       "price": "课程及体验收费未知。",
       "booking": "既有资料的报名入口为“目里🍊-目里演出”；本轮尚未核实具体课程报名、名额及收费。未代报名或购票。",
       "status": "active",
       "checkedAt": "2026-11-17",
-      "summary": "本周11/20–22 11:00–20:00在南岸公园，另有11/27–29一段；不是连续十天营业。分项课程报名及收费仍需核实。",
+      "summary": "11/27–29 11:00–20:00 再开；11/23–26 不营业。分项课程报名及收费尚未核实。",
       "images": [
         {
           "src": "./images/afterwork-sports-official-poster.webp",
@@ -3830,7 +3833,7 @@
     },
     {
       "id": "liangzhu-museum-cong-spectrum",
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-23",
       "kind": "展览",
       "exhibitionType": "历史文物",
       "area": "余杭区",
@@ -3838,11 +3841,11 @@
       "subtitle": "124件（套）玉琮及琮式器物，梳理其发展脉络",
       "dateStart": "2026-09-12",
       "dateEnd": "2026-11-29",
-      "schedule": "09:00–17:00 · 提前30分钟停止入馆 · 周一闭馆（法定节假日除外）",
+      "schedule": "09:00–17:00，16:30 停止入馆；周一闭馆（法定节假日除外），11/29 闭展。",
       "venue": "良渚博物院",
       "address": "余杭区良渚街道美丽洲路1号 · 临展厅",
       "price": "免费 · 需持身份证件",
-      "booking": "预约规则请以场馆当日公告为准",
+      "booking": "个人免预约，持有效身份证件入馆；团队须通过「良渚古城」微信小程序预约。",
       "status": "active",
       "summary": "免费特展；以“起、合、承、转”四单元追溯玉琮从史前礼器到后世审美载体。",
       "map": {"poiId": "B023B0A45Y", "url": "https://www.amap.com/place/B023B0A45Y", "checkedAt": "2026-10-17"},
@@ -3853,7 +3856,7 @@
         {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621047245362236132611.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"“外方内圆”前言墙 · 良渚博物院官方导览"},
         {"src":"https://www.lzmuseum.cn/upload/image/20260928/6392621050117241491925994.jpg","source":"https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html","caption":"神徽投影展陈 · 良渚博物院官方导览"}
       ],
-      "sources": [["iCity 展讯（日期、场馆、免费信息）","https://art.icity.ly/events/0tr04g3"]]
+      "sources": [["iCity 展讯（日期、场馆、免费信息）","https://art.icity.ly/events/0tr04g3"], ["良渚博物院：展期与个人、团队入馆规则", "https://www.lzmuseum.cn/LiangBoXinWen/2026105243109.html"]]
     },
     {
       "id": "yujia-museum-zhili",
