@@ -1,13 +1,13 @@
 {
   "meta": {
-    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128"],
+    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128", "zhejiang-museum-taipingnian-phase2-20261125", "aiplay-72h-hangzhou-open-day-20261129", "seeconf-ant-hangzhou-20261128"],
     "priorWeekendXhsIds": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-24",
+    "checkedAt": "2026-11-25",
     "weekLabel": "本周 · 11月23日–11月29日",
     "weather": {
-      "checkedAt": "2026-11-24 核查（中央气象台，北京时间）",
+      "checkedAt": "2026-11-25 核查（中央气象台，北京时间）",
       "validThrough": "2026-11-29",
       "source": "https://m.nmc.cn/publish/forecast/AZJ/hangzhou.html",
       "days": [
@@ -15,20 +15,22 @@
           "date": "2026-11-28",
           "label": "周六 11/28",
           "condition": "晴 · 微风",
-          "low": 7,
-          "high": 18
+          "low": 6,
+          "high": 17
         },
         {
           "date": "2026-11-29",
           "label": "周日 11/29",
           "condition": "晴 · 微风",
-          "low": 7,
-          "high": 17
+          "low": 8,
+          "high": 20
         }
       ]
     }
   },
   "items": [
+    {"id":"aiplay-72h-hangzhou-open-day-20261129","kind":"体验","area":"西湖区","dateStart":"2026-11-29","dateEnd":"2026-11-29","status":"active","checkedAt":"2026-11-25","imageNote":"暂无已核实的小红书配图。","title":"AI PLAY 72H｜游戏与互动剧开放日","venue":"西投·云城犀谷","address":"三墩镇西园七路、八路一带；高德定位园区，具体入口以观众招募页为准。","subtitle":"周日 · 免费试玩 · 需报名","schedule":"2026/11/29（周日）为观众开放日；公开议程汇总列下午路演。普通观众签到时间未核。11/27–28为专业观众日。","price":"观众试玩免费，余位未知。","booking":"走 LinkLike 的活动行观众招募页；入场条件以报名页为准。参赛报名不是这个入口。","summary":"周日看游戏原型、带分支的互动剧和项目路演。","map":{"poiId":"B0IAGS4PQZ","url":"https://www.amap.com/place/B0IAGS4PQZ","navigation_target_type":"building"},"sources":[["LinkLike 活动行：免费试玩观众招募","https://www.huodongxing.com/event/9887549891000"],["LinkLike 原文转载：赛事日期与创作方向","https://www.enjoy.link/detail/news/20261113AIGaming"],["公开议程汇总：周日开放日","https://antonailog.com/more/ai-events/e/580910637c/"],["高德：西投·云城犀谷","https://www.amap.com/place/B0IAGS4PQZ"]]},
+    {"id":"seeconf-ant-hangzhou-20261128","kind":"体验","area":"西湖区","dateStart":"2026-11-28","dateEnd":"2026-11-28","status":"active","checkedAt":"2026-11-25","imageNote":"暂无已核实的小红书配图。","title":"SEE Conf 2026｜蚂蚁终端体验科技大会","venue":"蚂蚁 A 空间 4 号楼 5 楼","address":"西溪路569号；高德定位4号楼，不是签到入口。","subtitle":"周六 · QoderCLI、Agent 工程实践","schedule":"2026/11/28（周六）上午主会场，下午专题；公开工程议程列14:00 QoderCLI、16:05 Agent 组织协作（北京时间）。","price":"主办方票页列晚鸟 ¥169、普通 ¥199；非实时余票。","booking":"实名购票，官方票页列不支持退票。首次开票日与实时库存未核；本届回放未核。","summary":"与同日偏基础设施的 KCD 不同，这场更偏研发工作流、终端和交互。","map":{"poiId":"B0HRVDTU28","url":"https://www.amap.com/place/B0HRVDTU28","navigation_target_type":"building"},"sources":[["大会官网","https://seeconf.antgroup.com/"],["主办方百格活动：票档、票规与地点","https://www.bagevent.com/event/SEEConf2026"],["联谱：工程议程","https://lianpu.com/event/see-conf-2026-ma-yi-zhong-duan-ti-yan-ke-ji-da-hui"],["高德：蚂蚁 A 空间4号楼","https://www.amap.com/place/B0HRVDTU28"]]},
     {"id": "hangzhou-low-carbon-west-lake-art-20261118-1202", "kind": "展览", "area": "滨江区", "title": "画说西湖·美丽杭州", "dateStart": "2026-11-18", "dateEnd": "2026-12-02", "venue": "中国杭州低碳科技馆", "address": "江汉路1888号。地铁6号线江汉路站 B/C 口，馆方估计步行约13分钟。", "subtitle": "免费 · 11国艺术家的西湖题材作品", "schedule": "2026/11/18–12/02；周三至周日 09:15–16:30，周一、周二闭馆。", "price": "展览免费。", "booking": "馆方个人入口说明：持实体身份证、市民卡等有效证件安检入馆；团队需预约。", "status": "active", "checkedAt": "2026-11-24", "summary": "馆方11/23发布展讯：展出国画、书法、油画、版画和水彩等130件作品。适合滨江江边散步时顺路安排。", "exhibitionType": "艺术", "imageNote": "暂无已核实的小红书配图。", "map": {"poiId": "B023B1944R", "url": "https://www.amap.com/place/B023B1944R"}, "sources": [["馆方11/23展讯：展期、内容及免费开放", "https://www.dtkjg.org.cn/en/bgdt/6757.html"], ["馆方开放与交通", "https://www.dtkjg.org.cn/kfsj.html"], ["馆方个人入馆说明", "https://www.dtkjg.org.cn/index"], ["高德准确点位", "https://www.amap.com/place/B023B1944R"]]},
     {"id": "qiantang-bay-mural-exchange-20261020-1128", "kind": "展览", "area": "滨江区", "title": "东西和鸣·壁绘万象｜传统壁画艺术交流展", "dateStart": "2026-10-20", "dateEnd": "2026-11-28", "venue": "钱塘湾艺术馆", "address": "闻涛路银杏汇9号楼1–2层。", "subtitle": "11/28 周六收官 · 周日不再展出", "schedule": "2026/10/20–11/28；周二至周日 09:00–18:00，最后一天是11/28周六。", "price": "展讯未公布费用。", "booking": "展讯未注明预约或最后进场时间，特地去可先看馆方当日通知。", "status": "active", "checkedAt": "2026-11-24", "summary": "在闻涛路边看传统壁画艺术交流展；适合周六白天顺路去，周日安排其他点。", "exhibitionType": "艺术", "imageNote": "暂无已核实的小红书配图。", "map": {"poiId": "B0JB3HFDE2", "url": "https://www.amap.com/place/B0JB3HFDE2"}, "sources": [["滨江文旅11/20展讯：展期、时段及楼层", "https://tidenews.com.cn/tmh_news.html?id=6b0026842897a00001993b14"], ["高德准确点位", "https://ditu.amap.com/place/B0JB3HFDE2"]]},
     {"id": "zhejiang-museum-endless-pursuit-20261120", "title": "无尽的追寻：中国具象表现绘画三十三年", "kind": "展览", "exhibitionType": "艺术", "area": "西湖区", "dateStart": "2026-11-20", "dateEnd": "2027-02-22", "venue": "浙江省博物馆（之江馆区）", "address": "之江文化中心", "subtitle": "塞尚、贾科梅蒂、德朗、莫兰迪等原作20余件", "schedule": "2026/11/20–2027/02/22。馆区常规周二至周日 09:00–17:00，16:30 停止入馆，节假日安排另看馆方。", "price": "本展是否单独收费未核实。", "booking": "馆方列之江馆个人进馆免预约；本展若有单独要求待确认。", "status": "active", "checkedAt": "2026-11-23", "summary": "360余件文献与展品梳理具象表现绘画；法国与意大利艺术家原作是其中一部分。", "map": {"poiId": "B0I15SU50Z", "url": "https://www.amap.com/place/B0I15SU50Z"}, "sources": [["开幕现场与展览内容", "https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374692.htm"], ["都快展讯：展期与原作", "https://hznews.hangzhou.com.cn/wenti/content/2026-11/22/content_9375185.htm"], ["浙博入馆公告", "https://zjpc.zjmuseum.com.cn/museum/"]]},
@@ -415,13 +417,13 @@
       "dateEnd": "2027-02-25",
       "venue": "浙江省博物馆（之江馆区）",
       "address": "江涵路300号之江文化中心，二楼临展C厅（文物）、B厅（影视）。",
-      "subtitle": "11/25开幕 · 二期文物整体换展",
-      "schedule": "2026/11/25–2027/02/25；周一闭馆，法定节假日除外。不是11/21–22周末活动。",
-      "price": "成人常规 ¥88；限量早鸟 ¥49，余量未核。",
+      "subtitle": "11/25起 · 吴越文物整体换展",
+      "schedule": "2026/11/25–2027/02/25；周一闭馆（法定节假日除外）。",
+      "price": "成人 ¥88，优待 ¥45；早鸟 ¥49 是11/15限量开售档，当前余量未知。",
       "booking": "11/15已宣布开售，可在携程旅行或浙里票务搜索展名。符合条件的展票当天核销后可去三楼现场约XR，每日上限500，不保证有名额。",
       "status": "active",
-      "checkedAt": "2026-11-20",
-      "summary": "历史厅以吴越纳土归宋为主线，二期换展，包括钱俶墓志、秘色瓷皮囊式壶；与一期为不同展期。",
+      "checkedAt": "2026-11-25",
+      "summary": "优先看钱俶墓志、秘色瓷皮囊式壶。可与同馆《无尽的追寻》或四层《剩山图》原作排成半天；普通入馆与二期特展分开。",
       "map": {
         "poiId": "B0I15SU50Z",
         "url": "https://www.amap.com/place/B0I15SU50Z",
@@ -434,7 +436,7 @@
           "caption": "潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。"
         }
       ],
-      "imageNote": "潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
+      "imageNote": "暂无已核实的小红书配图。原有早鸟宣传图只作为历史资料。",
       "sources": [
         [
           "潮新闻：二期开售通知、票档与XR规则（11/15）",

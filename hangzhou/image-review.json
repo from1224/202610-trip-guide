@@ -44,14 +44,9 @@
         "颗颗原帖已发布组": "第1–10、13–18张为同场照片并已取得稳定文件；第11张戏剧服饰展位已目视但资产清单两次无项，仍无稳定文件；第12张可见个体健康评估详情，无法核实为匿名演示，未转载。"
       }
     },
-      "zhejiang-museum-taipingnian-phase2-20261125": {
-        "status": "ready",
-        "reason": "已目视核图或按公开攻略制作示意，待浏览器验收：潮新闻二期开售稿刊载的宣传图；图面日期为全展，二期实际日期见卡片。",
-        "checkedAt": "2026-11-20",
-        "sources": [
-          "https://tidenews.com.cn/news.html?id=3615267"
-        ]
-      },
+      "zhejiang-museum-taipingnian-phase2-20261125": {"status":"ready","reason":"留存的潮新闻宣传图是历史参考，不能作为本周小红书配图；公开搜索没有找到可核对的同一二期原图。","checkedAt":"2026-11-25","sources":["https://tidenews.com.cn/news.html?id=3615267"]},
+    "aiplay-72h-hangzhou-open-day-20261129": {"status":"unusable","reason":"LinkLike 小红书原帖未能打开核图；不以报名页海报替代。","checkedAt":"2026-11-25","sources":["https://www.xiaohongshu.com/explore/6af2ef7b000000002a024881","https://www.huodongxing.com/event/9887549891000"]},
+    "seeconf-ant-hangzhou-20261128": {"status":"not_found","reason":"公开搜索未找到能核对的本届小红书原图，不使用会务站图片替代。","checkedAt":"2026-11-25","sources":["https://seeconf.antgroup.com/"]},
     "festival-german-cinema-hangzhou-20261114-23": {
       "status": "ready",
       "reason": "11/21 逐张目视核对与小红书原帖同场，11 张原图已获本 Guide 用途确认并备妥；未独立核实开放许可；待线上核验。",
