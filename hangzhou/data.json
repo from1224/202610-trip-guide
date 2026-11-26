@@ -1,10 +1,10 @@
 {
   "meta": {
-    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128", "zhejiang-museum-taipingnian-phase2-20261125", "aiplay-72h-hangzhou-open-day-20261129", "seeconf-ant-hangzhou-20261128"],
+    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128", "zhejiang-museum-taipingnian-phase2-20261125", "aiplay-72h-hangzhou-open-day-20261129", "seeconf-ant-hangzhou-20261128", "haichuang-book-fair-story-ai-20261128", "danube-hungarian-heritage-20260930-1129"],
     "priorWeekendXhsIds": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-25",
+    "checkedAt": "2026-11-26",
     "weekLabel": "本周 · 11月23日–11月29日",
     "weather": {
       "checkedAt": "2026-11-25 核查（中央气象台，北京时间）",
@@ -29,6 +29,78 @@
     }
   },
   "items": [
+    {
+      "id": "haichuang-book-fair-story-ai-20261128",
+      "title": "海创书巢雅集｜故事力：AI时代的成长探索",
+      "kind": "体验",
+      "area": "余杭区",
+      "dateStart": "2026-11-28",
+      "dateEnd": "2026-11-28",
+      "status": "active",
+      "checkedAt": "2026-11-26",
+      "venue": "赛银国际广场 8 幢 1 楼主会场",
+      "address": "余杭区五常街道赛银国际广场 8 幢 1 楼主会场",
+      "subtitle": "周六下午 · 45 分钟作者分享",
+      "schedule": "2026/11/28（周六）14:30–15:15（北京时间）。",
+      "price": "费用未核",
+      "booking": "扫码报名：主办方原文「作家分享会二」；余位未知。",
+      "summary": "赵唯宏聊 AI 时代的故事表达。现场有作者问答，雅集另有旧书漂流。",
+      "images": [],
+      "imageNote": "暂无已核实的小红书配图。",
+      "sources": [
+        [
+          "主办方：日程与报名二维码",
+          "https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&id=3623044&top_id=3623053"
+        ],
+        [
+          "高德搜索 8 幢（非精确 POI）",
+          "https://www.amap.com/search?query=%E6%9D%AD%E5%B7%9E%E5%B8%82%E4%BD%99%E6%9D%AD%E5%8C%BA%E8%B5%9B%E9%93%B6%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA8%E5%B9%A2"
+        ]
+      ]
+    },
+    {
+      "id": "danube-hungarian-heritage-20260930-1129",
+      "title": "多瑙河畔的生活之歌｜匈牙利非遗展",
+      "kind": "展览",
+      "exhibitionType": "文化",
+      "area": "西湖区",
+      "dateStart": "2026-09-30",
+      "dateEnd": "2026-11-29",
+      "status": "active",
+      "checkedAt": "2026-11-26",
+      "venue": "浙江省非物质文化遗产馆 B1 临展厅",
+      "address": "江涵路 300 号，之江文化中心",
+      "subtitle": "周日收官 · 蕾丝、风笛与节庆面具",
+      "schedule": "2026/09/30–11/29；最后一天临展具体入场时刻未核。",
+      "price": "展项费用未核",
+      "booking": "展项预约规则未核；入馆见场馆公告。",
+      "summary": "看匈牙利的蕾丝、陶器和莫哈奇节庆面具；与浙博之江馆同在之江文化中心，可择一或顺路看。",
+      "images": [],
+      "imageNote": "暂无已核实的小红书配图。",
+      "map": {
+        "poiId": "B0J6PH0V4H",
+        "url": "https://www.amap.com/place/B0J6PH0V4H",
+        "location": [
+          120.104021,
+          30.159928
+        ],
+        "checkedAt": "2026-11-26"
+      },
+      "sources": [
+        [
+          "浙江在线：展期、展厅与策展内容",
+          "https://zjnews.zjol.com.cn/yc/qmt/202610/t20261001_31945748.shtml"
+        ],
+        [
+          "场馆机构",
+          "https://www.zjich.cn/baohujigou/zhongxin.html"
+        ],
+        [
+          "高德：浙江省非遗馆",
+          "https://www.amap.com/place/B0J6PH0V4H"
+        ]
+      ]
+    },
     {"id":"aiplay-72h-hangzhou-open-day-20261129","kind":"体验","area":"西湖区","dateStart":"2026-11-29","dateEnd":"2026-11-29","status":"active","checkedAt":"2026-11-25","imageNote":"暂无已核实的小红书配图。","title":"AI PLAY 72H｜游戏与互动剧开放日","venue":"西投·云城犀谷","address":"三墩镇西园七路、八路一带；高德定位园区，具体入口以观众招募页为准。","subtitle":"周日 · 免费试玩 · 需报名","schedule":"2026/11/29（周日）为观众开放日；公开议程汇总列下午路演。普通观众签到时间未核。11/27–28为专业观众日。","price":"观众试玩免费，余位未知。","booking":"走 LinkLike 的活动行观众招募页；入场条件以报名页为准。参赛报名不是这个入口。","summary":"周日看游戏原型、带分支的互动剧和项目路演。","map":{"poiId":"B0IAGS4PQZ","url":"https://www.amap.com/place/B0IAGS4PQZ","navigation_target_type":"building"},"sources":[["LinkLike 活动行：免费试玩观众招募","https://www.huodongxing.com/event/9887549891000"],["LinkLike 原文转载：赛事日期与创作方向","https://www.enjoy.link/detail/news/20261113AIGaming"],["公开议程汇总：周日开放日","https://antonailog.com/more/ai-events/e/580910637c/"],["高德：西投·云城犀谷","https://www.amap.com/place/B0IAGS4PQZ"]]},
     {"id":"seeconf-ant-hangzhou-20261128","kind":"体验","area":"西湖区","dateStart":"2026-11-28","dateEnd":"2026-11-28","status":"active","checkedAt":"2026-11-25","imageNote":"暂无已核实的小红书配图。","title":"SEE Conf 2026｜蚂蚁终端体验科技大会","venue":"蚂蚁 A 空间 4 号楼 5 楼","address":"西溪路569号；高德定位4号楼，不是签到入口。","subtitle":"周六 · QoderCLI、Agent 工程实践","schedule":"2026/11/28（周六）上午主会场，下午专题；公开工程议程列14:00 QoderCLI、16:05 Agent 组织协作（北京时间）。","price":"主办方票页列晚鸟 ¥169、普通 ¥199；非实时余票。","booking":"实名购票，官方票页列不支持退票。首次开票日与实时库存未核；本届回放未核。","summary":"与同日偏基础设施的 KCD 不同，这场更偏研发工作流、终端和交互。","map":{"poiId":"B0HRVDTU28","url":"https://www.amap.com/place/B0HRVDTU28","navigation_target_type":"building"},"sources":[["大会官网","https://seeconf.antgroup.com/"],["主办方百格活动：票档、票规与地点","https://www.bagevent.com/event/SEEConf2026"],["联谱：工程议程","https://lianpu.com/event/see-conf-2026-ma-yi-zhong-duan-ti-yan-ke-ji-da-hui"],["高德：蚂蚁 A 空间4号楼","https://www.amap.com/place/B0HRVDTU28"]]},
     {"id": "hangzhou-low-carbon-west-lake-art-20261118-1202", "kind": "展览", "area": "滨江区", "title": "画说西湖·美丽杭州", "dateStart": "2026-11-18", "dateEnd": "2026-12-02", "venue": "中国杭州低碳科技馆", "address": "江汉路1888号。地铁6号线江汉路站 B/C 口，馆方估计步行约13分钟。", "subtitle": "免费 · 11国艺术家的西湖题材作品", "schedule": "2026/11/18–12/02；周三至周日 09:15–16:30，周一、周二闭馆。", "price": "展览免费。", "booking": "馆方个人入口说明：持实体身份证、市民卡等有效证件安检入馆；团队需预约。", "status": "active", "checkedAt": "2026-11-24", "summary": "馆方11/23发布展讯：展出国画、书法、油画、版画和水彩等130件作品。适合滨江江边散步时顺路安排。", "exhibitionType": "艺术", "imageNote": "暂无已核实的小红书配图。", "map": {"poiId": "B023B1944R", "url": "https://www.amap.com/place/B023B1944R"}, "sources": [["馆方11/23展讯：展期、内容及免费开放", "https://www.dtkjg.org.cn/en/bgdt/6757.html"], ["馆方开放与交通", "https://www.dtkjg.org.cn/kfsj.html"], ["馆方个人入馆说明", "https://www.dtkjg.org.cn/index"], ["高德准确点位", "https://www.amap.com/place/B023B1944R"]]},
@@ -3071,25 +3143,38 @@
       "dateEnd": "2026-12-06",
       "venue": "浙江省博物馆之江馆区四层富春山居馆",
       "address": "浙江省博物馆之江馆区四层富春山居馆",
-      "subtitle": "已报活动恢复入库；非购票或预约结果",
-      "schedule": "11月10日至12月6日；当日开放与闭馆安排请查馆方",
+      "subtitle": "之江四层 · 黄公望真迹卷首",
+      "schedule": "2026/11/10–12/06，之江馆区四层富春山居馆。",
       "price": "展览费用未知",
-      "booking": "报道确认真迹展期；具体入馆要求和开放时刻待馆方确认，不由免预约推定免费。 未代购票或预约。",
+      "booking": "普通个人入馆免预约，持实体身份证件刷卡。展项费用未单独确认。未代购票或预约。",
       "status": "active",
-      "checkedAt": "2026-11-16",
-      "summary": "本次重新读取公开来源核对。具体信息及临时变动以主办方为准。",
+      "checkedAt": "2026-11-26",
+      "summary": "展柜里是真迹卷首；后段《无用师卷》藏于台北。同标题的《子明卷》是历史仿本，保留可与卷首对照的构图。",
       "images": [],
       "imageNote": "尚未补充可展示图片；不使用无关示意图。",
       "sources": [
         [
-          "活动公开来源（核查 2026-11-16）",
-          "https://jrsh.hangzhou.com.cn/content/2026-11/08/content_9368589.html"
+          "浙江在线：真迹展期与位置",
+          "https://zjnews.zjol.com.cn/yc/qmt/202611/t20261110_32019042.shtml?mode=m2pc"
         ],
         [
-          "高德搜索场馆（非精确POI）",
-          "https://www.amap.com/search?query=%E6%B5%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E4%B9%8B%E6%B1%9F%E9%A6%86%E5%8C%BA%E5%9B%9B%E5%B1%82%E5%AF%8C%E6%98%A5%E5%B1%B1%E5%B1%85%E9%A6%86"
+          "浙博官网：个人入馆",
+          "https://www.zjmuseum.com.cn/cn/"
+        ],
+        [
+          "真迹后段｜台北《无用师卷》",
+          "https://digitalarchive.npm.gov.tw/Collection/Detail?dep=P&id=1194"
+        ],
+        [
+          "历史仿本｜台北《子明卷》",
+          "https://digitalarchive.npm.gov.tw/Collection/Detail/1193?dep=P"
         ]
-      ]
+      ],
+      "map": {
+        "poiId": "B0I15SU50Z",
+        "url": "https://www.amap.com/place/B0I15SU50Z",
+        "note": "高德为之江馆区，展厅在四层"
+      }
     },
     {
       "id": "youshihuijin-hangzhou-20261119",

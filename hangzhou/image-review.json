@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
   "items": {
+    "haichuang-book-fair-story-ai-20261128": {"status": "unreviewed", "reason": "公开展讯或节目已核，尚未逐张核对同场小红书图片。", "checkedAt": "2026-11-26", "sources": ["https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&id=3623044&top_id=3623053"]},
+    "danube-hungarian-heritage-20260930-1129": {"status": "unreviewed", "reason": "公开展讯或节目已核，尚未逐张核对同场小红书图片。", "checkedAt": "2026-11-26", "sources": ["https://zjnews.zjol.com.cn/yc/qmt/202610/t20261001_31945748.shtml"]},
     "hangzhou-low-carbon-west-lake-art-20261118-1202": {"status": "unreviewed", "reason": "活动事实已核，尚未独立寻找或核对同场小红书图片。", "checkedAt": "2026-11-24", "sources": ["https://www.dtkjg.org.cn/en/bgdt/6757.html"]},
     "qiantang-bay-mural-exchange-20261020-1128": {"status": "unreviewed", "reason": "活动事实已核，尚未独立寻找或核对同场小红书图片。", "checkedAt": "2026-11-24", "sources": ["https://tidenews.com.cn/tmh_news.html?id=6b0026842897a00001993b14"]},
     "hzcac-mamianqun-20261120-20270321": {"status": "unreviewed", "reason": "事实来源已记录，尚无已核定小红书原图", "checkedAt": "2026-11-23", "sources": ["https://ori.hangzhou.com.cn/ornews/content/2026-11/20/content_9374590.htm"]},
