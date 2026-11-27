@@ -1,10 +1,10 @@
 {
   "meta": {
-    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128", "zhejiang-museum-taipingnian-phase2-20261125", "aiplay-72h-hangzhou-open-day-20261129", "seeconf-ant-hangzhou-20261128", "haichuang-book-fair-story-ai-20261128", "danube-hungarian-heritage-20260930-1129"],
+    "weekendSelection": ["tianmuli-afterwork-sports-20261120-29", "zhejiang-museum-endless-pursuit-20261120", "guozhuang-huajian-moyun-20261119", "cncf-kcd-hangzhou-20261128", "bjiff-tiantan-hangzhou-20261128-29", "hzcac-mamianqun-20261120-20270321", "hangzhou-low-carbon-west-lake-art-20261118-1202", "qiantang-bay-mural-exchange-20261020-1128", "zhejiang-museum-taipingnian-phase2-20261125", "aiplay-72h-hangzhou-open-day-20261129", "seeconf-ant-hangzhou-20261128", "haichuang-book-fair-story-ai-20261128", "danube-hungarian-heritage-20260930-1129", "silk-textile-conservation-20261121"],
     "priorWeekendXhsIds": ["zjam-zhangshijian-centenary-20261101-21", "anfang-shanzeli-drama-parade-20261121", "style-kaleidoscope-hangzhou-20261121-22", "hangzhou-historic-industries-expo-20261120-22", "festival-german-cinema-hangzhou-20261114-23", "hangzhou-confucius-temple-book-market-20261121-22", "tianmuli-fragrance-festival-20261119-22", "tianmuli-afterwork-sports-20261120-29", "liangzhu-nuancun-markets-20261120-22", "meiyuji-wetland-market-20261120-22", "gongshu-burger-festival-20261119-22", "sanfu-zhiyi-hangzhou-20261121-22", "baodao-yicun-hangzhou-20261121", "chenxiaochun-hangzhou-20261121", "zhaolei-ray-hangzhou-20261122", "lirunqi-hangzhou-20261121", "5566-hangzhou-20261121", "chenjieli-hangzhou-20261121", "tacangqiong-hangzhou-20261121", "kiana-lede-hangzhou-20261122", "yintian-musical-hangzhou-20261120-21", "pending-jinshahu-tanwan-202611", "pending-boz-burger-202611", "pending-guofeng-handcraft-202611", "pending-bairen-dinner-202611", "pending-fries-challenge-202611", "pending-cake-giveaway-202611", "pending-shenshende-fan-202611", "pending-crab-race-202611", "pending-xiaoyi-birthday-202611", "pending-crybaby-202611", "pending-shanhun-ruyuan-202611", "pending-racing-miku-202611", "pending-baoluo-wanxiang-202611"],
     "city": "杭州",
     "timezone": "Asia/Shanghai",
-    "checkedAt": "2026-11-26",
+    "checkedAt": "2026-11-27",
     "weekLabel": "本周 · 11月23日–11月29日",
     "weather": {
       "checkedAt": "2026-11-25 核查（中央气象台，北京时间）",
@@ -29,6 +29,118 @@
     }
   },
   "items": [
+    {
+      "status": "active",
+      "checkedAt": "2026-11-27",
+      "images": [],
+      "imageNote": "暂无已核实的小红书配图。",
+      "id": "silk-textile-conservation-20261121",
+      "title": "修古·焕新｜馆藏纺织品文物修复展",
+      "kind": "展览",
+      "exhibitionType": "历史文物",
+      "area": "西湖区",
+      "dateStart": "2026-11-21",
+      "dateEnd": "2027-02-28",
+      "venue": "中国丝绸博物馆修复馆二楼",
+      "address": "西湖区玉皇山路 73-1 号",
+      "subtitle": "免费 · 个人免预约",
+      "schedule": "展期据 iMuseum：2026/11/21–2027/02/28，馆方当期闭展日未独立核实。周二至周日 09:00–17:00，16:30 停止入馆；法定节假日除外。",
+      "price": "免费（iMuseum 展讯）",
+      "booking": "个人免预约，刷身份证、市民卡或实名登记入馆。",
+      "summary": "先看一楼修复展示，再上二楼找隋代绫袍、宋代暗花罗衫。留意展签如何区分原存织物与后加支撑。",
+      "map": {
+        "poiId": "B023B09JLL",
+        "url": "https://www.amap.com/place/B023B09JLL",
+        "location": [
+          120.151292,
+          30.22287
+        ],
+        "checkedAt": "2026-11-27"
+      },
+      "sources": [
+        [
+          "iMuseum：展期与展品",
+          "https://art.icity.ly/events/8oo3mlm"
+        ],
+        [
+          "馆方：个人参观免预约",
+          "https://www.chinasilkmuseum.com/cgjyy/index_6.aspx"
+        ],
+        [
+          "馆方：修复展示馆",
+          "https://www.chinasilkmuseum.com/zz/info_17.aspx?itemid=26331"
+        ]
+      ]
+    },
+    {
+      "status": "active",
+      "checkedAt": "2026-11-27",
+      "images": [],
+      "imageNote": "暂无已核实的小红书配图。",
+      "id": "cloud-valley-ai-game-workshop-20261205",
+      "title": "云谷 AI 游戏创作者训练营",
+      "kind": "体验",
+      "area": "西湖区",
+      "dateStart": "2026-12-05",
+      "dateEnd": "2026-12-05",
+      "venue": "云谷中心 B1 栋二楼魔搭开发者中心",
+      "address": "西湖区灯彩街 1009 号",
+      "subtitle": "下周六 · 建议 11/29 前申请",
+      "schedule": "2026/12/05（周六）09:30–18:30，北京时间；10:00 正式开始。",
+      "price": "费用未核",
+      "booking": "主办方称 11/30 前申请，建议 11/29 前提交。筛选 30 人，12/02 短信通知；实时名额未知。",
+      "summary": "自带电脑，用 Lightning 做可试玩的游戏或互动课本，下午动手与展示。",
+      "map": {
+        "poiId": "B0JGFUQ5DH",
+        "url": "https://www.amap.com/place/B0JGFUQ5DH",
+        "checkedAt": "2026-11-27",
+        "navigation_target_type": "building"
+      },
+      "sources": [
+        [
+          "联合主办方魔搭：活动与报名",
+          "https://modelscope.cn/events/440/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list"
+        ],
+        [
+          "魔搭报名入口",
+          "https://www.modelscope.cn/events/440/?wx"
+        ]
+      ]
+    },
+    {
+      "status": "active",
+      "checkedAt": "2026-11-27",
+      "images": [],
+      "imageNote": "暂无已核实的小红书配图。",
+      "id": "hangzhou-library-hamilton-20261205",
+      "title": "杭图｜音乐剧《汉密尔顿》欣赏",
+      "kind": "体验",
+      "area": "上城区",
+      "dateStart": "2026-12-05",
+      "dateEnd": "2026-12-05",
+      "venue": "杭州图书馆（市民中心）二楼 HIFI 室二",
+      "address": "上城区市民中心 J 座二楼",
+      "subtitle": "下周六 · 无需报名 · 非现场演出",
+      "schedule": "2026/12/05（周六）14:00 开始（北京时间）；结束时间未公布。",
+      "price": "费用未公布",
+      "booking": "无需报名，现场席位未知。",
+      "summary": "杭图音影中心的音乐剧欣赏活动，不是巡演或现场演出。",
+      "map": {
+        "poiId": "B023B0BN0M",
+        "url": "https://www.amap.com/place/B023B0BN0M",
+        "location": [
+          120.208202,
+          30.246364
+        ],
+        "checkedAt": "2026-11-27"
+      },
+      "sources": [
+        [
+          "杭州图书馆官方 12 月排期",
+          "https://www.zjhzlib.cn/hdyghz/8286.htm"
+        ]
+      ]
+    },
     {
       "id": "haichuang-book-fair-story-ai-20261128",
       "title": "海创书巢雅集｜故事力：AI时代的成长探索",
@@ -160,17 +272,38 @@
       "subtitle": "开发者大会 · Agent 运行时、可观测性、推理服务",
       "schedule": "2026/11/28（周六）09:00 签到，09:30–17:30 正会（北京时间）；CNCF 日历 09:00–18:00 为活动时间范围。",
       "price": "未核实费用。",
-      "booking": "参会指南公布报名入口 meet.agicamp.com；现场费用未核实，剩余名额未知。指南另列全天视频号直播，未公布回放。",
+      "booking": "现场出示报名二维码；现场费用未核实，剩余名额未知。上午提供视频号直播；下午分论坛直播、回放未确认。",
       "status": "active",
-      "checkedAt": "2026-11-24",
-      "summary": "Agent 工程方向可看 K8s 运行时、可观测性两轨；不去现场可在模力工场、蚂蚁开源、开源社、DaoCloud 等视频号找直播。",
+      "checkedAt": "2026-11-27",
+      "summary": "Agent 工程方向可看 K8s 运行时、可观测性两轨。上午可在模力工场、蚂蚁开源、开源社、DaoCloud 等视频号找直播。",
       "imageNote": "暂无已核实的小红书配图。参会二维码见官方页。",
       "map": {
         "poiId": "B0JGFUQ5DH",
         "url": "https://www.amap.com/place/B0JGFUQ5DH",
         "navigation_target_type": "building"
       },
-      "sources": [["CNCF 官方活动页：时间、议程及报名", "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/"], ["高德：云谷中心园区", "https://www.amap.com/place/B0JGFUQ5DH"], ["阿里巴巴中间件：签到、正会、A6 与报名", "https://weibo.com/2/detail/5368481069665854"], ["阿里云云原生参会指南转载：直播入口", "https://jishuzhan.net/article/2124816786940755969"]]
+      "sources": [
+        [
+          "CNCF 官方活动页：时间、议程及报名",
+          "https://community2.cncf.io/events/details/cncf-kcd-hangzhou-presents-kcd-hangzhou-2026/"
+        ],
+        [
+          "高德：云谷中心园区",
+          "https://www.amap.com/place/B0JGFUQ5DH"
+        ],
+        [
+          "阿里巴巴中间件：签到、正会、A6 与报名",
+          "https://weibo.com/2/detail/5368481069665854"
+        ],
+        [
+          "KCD 参会指南：上午直播",
+          "https://ollama.modelscope.cn/events/441/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list"
+        ],
+        [
+          "现场报名入口",
+          "https://meet.agicamp.com/meet/hangzhou0019"
+        ]
+      ]
     },
     {
       "id": "hangzhou-confucius-temple-book-market-20261121-22",

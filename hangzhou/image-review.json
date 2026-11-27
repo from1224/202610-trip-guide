@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "items": {
+    "silk-textile-conservation-20261121": {"status":"not_found","reason":"公开索引按展名查找未找到同场小红书原图；不以 iMuseum 图替代。","checkedAt":"2026-11-27","sources":["https://art.icity.ly/events/8oo3mlm"]},
+    "cloud-valley-ai-game-workshop-20261205": {"status":"unreviewed","reason":"官方活动信息已核，尚未逐张核对小红书原图。","checkedAt":"2026-11-27","sources":["https://modelscope.cn/events/440/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list"]},
+    "hangzhou-library-hamilton-20261205": {"status":"unreviewed","reason":"官方活动信息已核，尚未逐张核对小红书原图。","checkedAt":"2026-11-27","sources":["https://www.zjhzlib.cn/hdyghz/8286.htm"]},
     "haichuang-book-fair-story-ai-20261128": {"status": "unreviewed", "reason": "公开展讯或节目已核，尚未逐张核对同场小红书图片。", "checkedAt": "2026-11-26", "sources": ["https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&id=3623044&top_id=3623053"]},
     "danube-hungarian-heritage-20260930-1129": {"status": "unreviewed", "reason": "公开展讯或节目已核，尚未逐张核对同场小红书图片。", "checkedAt": "2026-11-26", "sources": ["https://zjnews.zjol.com.cn/yc/qmt/202610/t20261001_31945748.shtml"]},
     "hangzhou-low-carbon-west-lake-art-20261118-1202": {"status": "unreviewed", "reason": "活动事实已核，尚未独立寻找或核对同场小红书图片。", "checkedAt": "2026-11-24", "sources": ["https://www.dtkjg.org.cn/en/bgdt/6757.html"]},
