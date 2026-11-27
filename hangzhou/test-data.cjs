@@ -407,7 +407,8 @@ assert.equal(week77[0].id,'tianmuli-afterwork-sports-20261120-29');
 for(const x of [lowCarbon,mural,week77.find(x=>x.id.startsWith('guozhuang-')),week77.find(x=>x.id.startsWith('zhejiang-museum-endless'))])assert.equal(x.exhibitionType,'艺术');
 console.log('PASS: verified photo card first and all four art picks match exact art filter');
 
-for(const [id,poi,day] of [['aiplay-72h-hangzhou-open-day-20261129','B0IAGS4PQZ','2026-11-29'],['seeconf-ant-hangzhou-20261128','B0HRVDTU28','2026-11-28']]){const x=sundayLookup(id);assert.equal(x.dateStart,day);assert.equal(x.dateEnd,day);assert.equal(x.map.poiId,poi);assert.equal(x.kind,'体验');assert.equal(x.checkedAt,'2026-11-25');assert.equal(wk77Visual.eventImages(x).length,0);}
+for(const [id,poi,day] of [['aiplay-72h-hangzhou-open-day-20261129','B0IAGS4PQZ','2026-11-29'],['seeconf-ant-hangzhou-20261128','B0HRVDTU28','2026-11-28']]){const x=sundayLookup(id);assert.equal(x.dateStart,day);assert.equal(x.dateEnd,day);assert.equal(x.map.poiId,poi);assert.equal(x.kind,'体验');assert.equal(x.checkedAt,id.startsWith('seeconf-')?'2026-11-27':'2026-11-25');assert.equal(wk77Visual.eventImages(x).length,0);}
+{const x=sundayLookup('seeconf-ant-hangzhou-20261128');assert.match(x.schedule,/3-515.*QoderCLI 14:25–14:50/);assert.doesNotMatch(x.schedule,/14:00 QoderCLI/);assert.match(x.schedule,/3-516.*WeaveFox.*16:55–17:20/);}
 assert(phase2.price.includes('当前余量未知'));assert.equal(wk77Visual.eventImages(phase2).length,0);assert.equal(week77.filter(x=>wk77Visual.eventImages(x).length>0).length,1);
 console.log('PASS: Nov 25 open day, SEE Conf, museum ticket caveat, forecast, and matching-photo-only selection');
 
