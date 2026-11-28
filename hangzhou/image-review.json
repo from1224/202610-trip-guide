@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "items": {
+    "fenghuangshan-ci-hangzhou-20261128-29": {"status":"unreviewed","reason":"公开活动来源已核，尚未核对可用的小红书原图。","checkedAt":"2026-11-28","sources":["https://www.maoyan.com/cinema/16309"]},
+    "southern-song-kiln-two-exhibitions-20261126": {"status":"unreviewed","reason":"公开活动来源已核，尚未核对可用的小红书原图。","checkedAt":"2026-11-28","sources":["https://hznews.hangzhou.com.cn/wenti/content/2026-11/27/content_9377268.htm"]},
+    "zheli-youxi-rare-opera-hangzhou-20261201": {"status":"unreviewed","reason":"公开活动来源已核，尚未核对可用的小红书原图。","checkedAt":"2026-11-28","sources":["https://tidenews.com.cn/news.html?id=3624544"]},
     "silk-textile-conservation-20261121": {"status":"not_found","reason":"公开索引按展名查找未找到同场小红书原图；不以 iMuseum 图替代。","checkedAt":"2026-11-27","sources":["https://art.icity.ly/events/8oo3mlm"]},
     "cloud-valley-ai-game-workshop-20261205": {"status":"unreviewed","reason":"官方活动信息已核，尚未逐张核对小红书原图。","checkedAt":"2026-11-27","sources":["https://modelscope.cn/events/440/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list"]},
     "hangzhou-library-hamilton-20261205": {"status":"unreviewed","reason":"官方活动信息已核，尚未逐张核对小红书原图。","checkedAt":"2026-11-27","sources":["https://www.zjhzlib.cn/hdyghz/8286.htm"]},
